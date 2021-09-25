@@ -639,7 +639,3 @@ metafile = true
 file = "mods/yungs-better-strongholds-fabric.toml"
 hash = "2fc49599ebf4f4541dc8e72a6e1bd1cca4c11f5ee9e6eba4c9a583876be3401c"
 metafile = true
-
-[[files]]
-file = "config/yosbr/options.txt"
-metafile = false
