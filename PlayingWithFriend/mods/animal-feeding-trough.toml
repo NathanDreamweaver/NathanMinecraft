@@ -1,0 +1,14 @@
+name = "Animal Feeding Trough"
+filename = "animal_feeding_trough-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3343/793/animal_feeding_trough-1.0.2.jar"
+hash-format = "murmur2"
+hash = "2859154623"
+
+[update]
+[update.curseforge]
+file-id = 3343793
+project-id = 445838
+release-channel = "beta"

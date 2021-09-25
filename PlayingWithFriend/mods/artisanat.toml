@@ -1,0 +1,14 @@
+name = "Artisanat"
+filename = "artisanat-2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3341/163/artisanat-2.1.jar"
+hash-format = "murmur2"
+hash = "2562988291"
+
+[update]
+[update.curseforge]
+file-id = 3341163
+project-id = 399443
+release-channel = "beta"

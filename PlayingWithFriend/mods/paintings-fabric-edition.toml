@@ -1,0 +1,14 @@
+name = "Paintings++ (Fabric Edition)"
+filename = "paintings-fabric-1.17.1-1.0.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3461/842/paintings-fabric-1.17.1-1.0.0.2.jar"
+hash-format = "murmur2"
+hash = "2446817744"
+
+[update]
+[update.curseforge]
+file-id = 3461842
+project-id = 517702
+release-channel = "beta"

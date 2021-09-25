@@ -1,0 +1,10 @@
+name = "PLayingWithFabric17"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "11754659b1ca475fd98f4938f3d39cc65e10b61754364d7a451b2d005aae3797"
+
+[versions]
+fabric = "0.11.6"
+minecraft = "1.17.1"

@@ -1,0 +1,14 @@
+name = "Consistency+"
+filename = "consistency_plus-1.17.1-0.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3405/983/consistency_plus-1.17.1-0.4.0.jar"
+hash-format = "murmur2"
+hash = "4011307278"
+
+[update]
+[update.curseforge]
+file-id = 3405983
+project-id = 430445
+release-channel = "beta"
