@@ -106,6 +106,11 @@ hash = "590d4f2b95cf6fd94239b19552a32fb1a3eb48aae698d912ea21202d36a7a4e6"
 metafile = true
 
 [[files]]
+file = "mods/borderless-mining-reworked.toml"
+hash = "f2ba242d4557d09c8e200b6d35b3d51aff903b50983bfe3548c1c9cc22595fbf"
+metafile = true
+
+[[files]]
 file = "mods/bountiful-fabric.toml"
 hash = "80c8f1bcea3358b4776e77929c9ff89b4244f9fb59f81644939e42124769fa0f"
 metafile = true
@@ -133,6 +138,11 @@ metafile = true
 [[files]]
 file = "mods/chipped.toml"
 hash = "492d12ea0342f0a3dcc96ff623148d1155092c81022a951e908286326a5994c3"
+metafile = true
+
+[[files]]
+file = "mods/clickthrough.toml"
+hash = "e8bb70f4ff7eda25e731a5e9ae0ff51fad040722757248dd1aa838f37a39a788"
 metafile = true
 
 [[files]]
@@ -216,6 +226,11 @@ hash = "7e52a2705568174fbb5bdf107c0cceef1a0e13aa0ce0a5116b45c72d5c11b568"
 metafile = true
 
 [[files]]
+file = "mods/ebe.toml"
+hash = "72a4338b738c76967bd08f1aedb2f7760afa0de1dcdad352c9604363abe1a840"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.toml"
 hash = "34b87043ba97a947b65d2dc4ee936fed0a56c6e3add7ddc906d14482def99932"
 metafile = true
@@ -271,11 +286,6 @@ hash = "9131713b5dd19789c6d25cf7e10a787e4454f1b9b958b1854746f9d3a72782a8"
 metafile = true
 
 [[files]]
-file = "mods/fastchest.toml"
-hash = "3bdbc76a5d70f75f76065b1e6148285bde757e7b2b3daf11b635028825bb9e89"
-metafile = true
-
-[[files]]
 file = "mods/ferritecore-fabric.toml"
 hash = "ef41380ef2612b9d2b0c2aa81e10d13a8116a956f8e67de96c3115619562520c"
 metafile = true
@@ -306,13 +316,18 @@ hash = "0fc266c4c45ee6bfdf5646610393f95e46e29c0f909c50342b0898d20fa102c3"
 metafile = true
 
 [[files]]
-file = "mods/icarus-fabric.toml"
-hash = "e2bd63456b06f4397ad85091a58d826f913514e5138c7a64c946f5e8d0210d40"
+file = "mods/image2map.toml"
+hash = "7c287d6e362712a352c52700e5bbe057058712f8871ff4c1562999ea254f6c9b"
 metafile = true
 
 [[files]]
-file = "mods/image2map.toml"
-hash = "7c287d6e362712a352c52700e5bbe057058712f8871ff4c1562999ea254f6c9b"
+file = "mods/infinity-water-bucket.toml"
+hash = "d63b91e1bb84d2d2b0db6b16ef5886fabbeb9bc23434549ae33b08a015e0d0a4"
+metafile = true
+
+[[files]]
+file = "mods/iris.toml"
+hash = "bb3a66d784d73efbbe91963f577ef3a517500053cdc0df3aac94ea1d3b9f995f"
 metafile = true
 
 [[files]]
@@ -386,6 +401,11 @@ hash = "3149846569746a77f9954aa6610ec639d9ed825c774def43d7743f96b8fd67bf"
 metafile = true
 
 [[files]]
+file = "mods/mo-structures.toml"
+hash = "76ce4cf02133a8247d97786c7e2168d34d9880acee1816707c356b833047f680"
+metafile = true
+
+[[files]]
 file = "mods/mob-origins.toml"
 hash = "28ee5111c392cd0450d21a9e336477b56f6fc709bd96e5389263410543698d50"
 metafile = true
@@ -393,6 +413,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.toml"
 hash = "e6eb8b696e6bb5e111273531b211c14bc0baf6352f1240a7504be339dd65c9f0"
+metafile = true
+
+[[files]]
+file = "mods/mooblooms.toml"
+hash = "1659bee24bfd3b6874cbd9244ce39e3d5025ab25bbac3e8b1d119f722695c254"
 metafile = true
 
 [[files]]
@@ -441,6 +466,11 @@ hash = "535750efa01f1ff2baff03b0c98e99682e4838d2b86609ef965136558ccf2947"
 metafile = true
 
 [[files]]
+file = "mods/pigless-portals.toml"
+hash = "92e80b38cc6f927bd3ee195ff0eb00ddec802320a6fab5db077ec799761a8d8d"
+metafile = true
+
+[[files]]
 file = "mods/plant-in-a-jar.toml"
 hash = "0053356ce1b2658165828b02f45b95d858050bc58fff6fa666a43aa2834ab05f"
 metafile = true
@@ -458,6 +488,11 @@ metafile = true
 [[files]]
 file = "mods/quartz-elevator.toml"
 hash = "41ed4b6542a97cf8da6eaa7e92f385fc1c031043460c8f46c741588f3a604c47"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.toml"
+hash = "f1b7fb57203e856aa6a6a773e79f1e83d0aa917eb18acce60616f09c1665a90a"
 metafile = true
 
 [[files]]
@@ -496,8 +531,18 @@ hash = "d02b56170076cc508fe31ff0e4d36b4576cb0ae7cf2c008b273cd64c34787408"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.toml"
+hash = "994eda116254db865384ca9ebb0c4e9f459edbac67483b2f1582955618a5c6dd"
+metafile = true
+
+[[files]]
 file = "mods/third-person-maps.toml"
 hash = "f131b0c20a862316b5a9a6cc1e5f548291819876cbb514d1f425ea25eba26774"
+metafile = true
+
+[[files]]
+file = "mods/tiny-trash-can.toml"
+hash = "3247923a45136e9332f8bdeaa35d40a7e6b8958609a53cb321f67394099c9a81"
 metafile = true
 
 [[files]]
@@ -512,7 +557,7 @@ metafile = true
 
 [[files]]
 file = "mods/traverse.toml"
-hash = "b2573bba1ba3347cd2aaadfecc919422a3d10e8dd452a37ba0823982ea864438"
+hash = "08ee21f97247c2001e182dbcf2ec5339393af011d2ce4085b84d333df9df9bf6"
 metafile = true
 
 [[files]]

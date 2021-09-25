@@ -1,0 +1,13 @@
+name = "Borderless Mining Reworked"
+filename = "BorderlessMiningReworked-1.17.X.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/z1ozGOqh/versions/1.0.0/BorderlessMiningReworked-1.17.X.jar"
+hash-format = "sha512"
+hash = "ec0c8b489fb7c7e3c5ede6594f1eab3c68f5e031887557637a06f549c71bf91a844179a1b06243952af1d7b8a20da55c44aae66d46788d4b19222d83b6515d6d"
+
+[update]
+[update.modrinth]
+mod-id = "z1ozGOqh"
+version = "Fr6Ye4b3"

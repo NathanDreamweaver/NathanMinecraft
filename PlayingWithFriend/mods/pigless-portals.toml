@@ -1,0 +1,13 @@
+name = "Pigless Portals"
+filename = "piglessportals-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gwafw3jL/versions/1.1.0/piglessportals-1.1.0.jar"
+hash-format = "sha512"
+hash = "eb5b7a61e6b8b75fe76d83d6a0930e7a7b274a9fe2966081dd5fa50063230ff832159646c3cbdfc8b5bcd82cb80b8f1028bf5be6a71f8c307c5bc926f488c753"
+
+[update]
+[update.modrinth]
+mod-id = "Gwafw3jL"
+version = "6vgnhyhv"
