@@ -3,7 +3,7 @@ name = "PLayingWithFabric17"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f344318e613d80888f287f36f17853b4c7288366ce24e9001bea11825a692b84"
+hash = "c3200f95d48d46d27dd7ef6aef4e9c5ab97917f337623f329a2991e917d4f4d8"
 
 [versions]
 fabric = "0.11.7"

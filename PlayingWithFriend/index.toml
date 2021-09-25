@@ -201,6 +201,11 @@ hash = "75cdfbb1cfaa8bac7beb597532c62b37564276cfae88d3798abadf170685263f"
 metafile = true
 
 [[files]]
+file = "mods/dark-loading-screen.toml"
+hash = "dde71f88d311d419ad9bde82132351bba283c26bd04f6c4b567642880edf8367"
+metafile = true
+
+[[files]]
 file = "mods/dark-paintings.toml"
 hash = "df88735416331ad74448869394ef922b629075db0b0e8f3aeaf9c9b5f6f46965"
 metafile = true
