@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/yosbr/options.txt"
+hash = "a82522851afa5baead8ea9af17cb3dec2bfa3b01fb6a220e89bdb57fa90114bb"
+
+[[files]]
 file = "mods/additional-additions.toml"
 hash = "fccc345fd7ff7ac67d74713cdc0ba6b69eb68823d8c629ec5a6c27bf451faf1a"
 metafile = true
