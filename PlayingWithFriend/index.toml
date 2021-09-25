@@ -616,11 +616,6 @@ hash = "27da60332e0abd46b05cc077befee9edaef345930e49476afd61f163a6bdc100"
 metafile = true
 
 [[files]]
-file = "mods/yosbr.toml"
-hash = "218b2b38862091f96e1db0ee7580c6f9cd5e8f008f88e4fe00016c6dea1065b3"
-metafile = true
-
-[[files]]
 file = "mods/yungs-api-fabric.toml"
 hash = "c2c6578e86d01e1caa3ab10612f1120fdf3ec99a178ab0f9c6ef0a629b88885a"
 metafile = true
