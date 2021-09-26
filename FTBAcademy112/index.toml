@@ -4418,11 +4418,6 @@ hash = "52435fe963476b68456801103ac73a53d31de8af03df7d3c1fc069c88dda9627"
 metafile = true
 
 [[files]]
-file = "mods/chisels-bits.toml"
-hash = "06ee2f50b7b843d3b8c069396633f1ffa32ff6be524b6091e4244feb222d5294"
-metafile = true
-
-[[files]]
 file = "mods/clumps.toml"
 hash = "3f524e92f6681e549c2fe1d5f5d085c774eed10f3fe0ab3f6e5c69afc7b53f3c"
 metafile = true
@@ -5457,11 +5452,6 @@ metafile = true
 [[files]]
 file = "mods/mantle.toml"
 hash = "750e15bc8a8092318669fda0b179892a1be2ac65dc37e888d6586543e31c5471"
-metafile = true
-
-[[files]]
-file = "mods/mcmultipart.toml"
-hash = "3447132c422c01185b4983c1fe88bc18e3033af33dec313ee227407ba036954c"
 metafile = true
 
 [[files]]
