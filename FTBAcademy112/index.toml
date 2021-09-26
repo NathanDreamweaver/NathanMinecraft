@@ -5485,6 +5485,11 @@ hash = "636b9ba90d3f0b7d739586d0660ce9c8c5ff7d032aabb855a73bd4c1258ae2e2"
 metafile = true
 
 [[files]]
+file = "mods/mrcrayfish-furniture-mod.toml"
+hash = "3452cb3743b648507259123ba0fc11d4bf6ce15df93f24c08391ad69e0190cc7"
+metafile = true
+
+[[files]]
 file = "mods/mtlib.toml"
 hash = "a9f01e8fbc719c77af8046e10e02a129a1a16008f53c2598109991409d0cfefd"
 metafile = true

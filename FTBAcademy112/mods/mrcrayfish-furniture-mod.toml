@@ -1,0 +1,14 @@
+name = "MrCrayfish's Furniture Mod"
+filename = "furniture-6.3.1-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2749/993/furniture-6.3.1-1.12.2.jar"
+hash-format = "murmur2"
+hash = "1566871439"
+
+[update]
+[update.curseforge]
+file-id = 2749993
+project-id = 55438
+release-channel = "beta"
