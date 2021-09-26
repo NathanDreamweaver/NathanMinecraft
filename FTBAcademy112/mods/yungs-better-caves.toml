@@ -1,0 +1,14 @@
+name = "YUNG's Better Caves (Forge)"
+filename = "bettercaves-1.12.2-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3003/242/bettercaves-1.12.2-2.0.4.jar"
+hash-format = "murmur2"
+hash = "3147221039"
+
+[update]
+[update.curseforge]
+file-id = 3003242
+project-id = 340583
+release-channel = "beta"

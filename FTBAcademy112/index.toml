@@ -5720,6 +5720,16 @@ hash = "eadba3014fc501420cc8e03f6e1d9e50faa1d4c4ec93581176543b0025c1cdd9"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-caves.toml"
+hash = "a069f56b52056ab749888aeace2cb33a03c1dd01076c78330282ab27464640a2"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts-forge.toml"
+hash = "2859c2c2361539c91553242514d159bd35dd7e8a7109ee01752690fcf52bbb8b"
+metafile = true
+
+[[files]]
 file = "resources/assets/fml/textures/gui/ftb.gif"
 hash = "12801faae90d100f089481b4ff5a9e2b2405304fa7b84f032337ec53bd6abdc9"
 
