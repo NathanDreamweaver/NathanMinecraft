@@ -1,0 +1,14 @@
+name = "Harvestables"
+filename = "harvestables-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2482/225/harvestables-1.2.1.jar"
+hash-format = "murmur2"
+hash = "4065488129"
+
+[update]
+[update.curseforge]
+file-id = 2482225
+project-id = 267959
+release-channel = "beta"

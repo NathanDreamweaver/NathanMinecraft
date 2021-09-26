@@ -1,0 +1,14 @@
+name = "TOP Addons"
+filename = "topaddons-1.12.2-1.13.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2887/479/topaddons-1.12.2-1.13.0.jar"
+hash-format = "murmur2"
+hash = "594617711"
+
+[update]
+[update.curseforge]
+file-id = 2887479
+project-id = 247111
+release-channel = "beta"

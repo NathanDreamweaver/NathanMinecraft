@@ -1,0 +1,14 @@
+name = "Tinkers' Tool Leveling"
+filename = "TinkerToolLeveling-1.12.2-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2630/860/TinkerToolLeveling-1.12.2-1.1.0.jar"
+hash-format = "murmur2"
+hash = "1563429384"
+
+[update]
+[update.curseforge]
+file-id = 2630860
+project-id = 250957
+release-channel = "beta"

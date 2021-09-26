@@ -1,0 +1,14 @@
+name = "FTB Utilities (Forge)"
+filename = "FTBUtilities-5.4.1.130.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3010/492/FTBUtilities-5.4.1.130.jar"
+hash-format = "murmur2"
+hash = "1194221997"
+
+[update]
+[update.curseforge]
+file-id = 3010492
+project-id = 237102
+release-channel = "beta"

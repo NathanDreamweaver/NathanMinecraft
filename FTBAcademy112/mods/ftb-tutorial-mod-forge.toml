@@ -1,0 +1,14 @@
+name = "FTB Tutorial Mod (Forge)"
+filename = "FTBTutorialMod-1.0.0.11.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2790/144/FTBTutorialMod-1.0.0.11.jar"
+hash-format = "murmur2"
+hash = "4086982520"
+
+[update]
+[update.curseforge]
+file-id = 2790144
+project-id = 326062
+release-channel = "beta"

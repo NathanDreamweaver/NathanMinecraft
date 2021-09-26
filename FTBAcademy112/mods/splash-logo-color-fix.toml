@@ -1,0 +1,14 @@
+name = "Splash Logo Color Fix"
+filename = "splashlogofix-1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2754/640/splashlogofix-1.0.jar"
+hash-format = "murmur2"
+hash = "1250775149"
+
+[update]
+[update.curseforge]
+file-id = 2754640
+project-id = 333760
+release-channel = "beta"

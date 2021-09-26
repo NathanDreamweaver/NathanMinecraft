@@ -1,0 +1,14 @@
+name = "Additional Structures"
+filename = "Rex's-Additional-Structures-1.12.x-(v.2.3.1).jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2810/589/Rex's-Additional-Structures-1.12.x-(v.2.3.1).jar"
+hash-format = "murmur2"
+hash = "1774001832"
+
+[update]
+[update.curseforge]
+file-id = 2810589
+project-id = 297680
+release-channel = "beta"
