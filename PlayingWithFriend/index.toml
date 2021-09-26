@@ -336,6 +336,11 @@ hash = "bb3a66d784d73efbbe91963f577ef3a517500053cdc0df3aac94ea1d3b9f995f"
 metafile = true
 
 [[files]]
+file = "mods/irisshaders.toml"
+hash = "2e964d2fbfe404b4e49147392c84106f0c49ad35fc7032bed186d0ee7737138e"
+metafile = true
+
+[[files]]
 file = "mods/iron-coated-trapdoor.toml"
 hash = "b067e3812bf318badc92d6dae489dddb75dd40e30a1ea0e25dd6805872ff697e"
 metafile = true
@@ -538,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/sodium-extra.toml"
 hash = "994eda116254db865384ca9ebb0c4e9f459edbac67483b2f1582955618a5c6dd"
+metafile = true
+
+[[files]]
+file = "mods/sodium.toml"
+hash = "d815ffd6112df95b8448fb22732937595d2df99bbde9160a31e58944640686ca"
 metafile = true
 
 [[files]]
