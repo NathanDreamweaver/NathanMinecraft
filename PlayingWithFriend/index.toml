@@ -326,11 +326,6 @@ hash = "d63b91e1bb84d2d2b0db6b16ef5886fabbeb9bc23434549ae33b08a015e0d0a4"
 metafile = true
 
 [[files]]
-file = "mods/iris.toml"
-hash = "bb3a66d784d73efbbe91963f577ef3a517500053cdc0df3aac94ea1d3b9f995f"
-metafile = true
-
-[[files]]
 file = "mods/irisshaders.toml"
 hash = "2e964d2fbfe404b4e49147392c84106f0c49ad35fc7032bed186d0ee7737138e"
 metafile = true
