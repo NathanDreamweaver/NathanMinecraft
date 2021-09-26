@@ -1,0 +1,14 @@
+name = "TRansliterationLib"
+filename = "TRansliterationLib-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3346/137/TRansliterationLib-1.1.0.jar"
+hash-format = "murmur2"
+hash = "976929031"
+
+[update]
+[update.curseforge]
+file-id = 3346137
+project-id = 441024
+release-channel = "beta"

@@ -1,0 +1,13 @@
+name = "Tiny Trash Can"
+filename = "ttc-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com//data/nGy7n4bj/versions/1.3.0/ttc-1.3.0.jar"
+hash-format = "sha512"
+hash = "21698380124e142658aca3d2e6f41c1d0dbbe32e3589e5c7c05edbfe0e1965d5e60c8f630240ccd01683831025f364ebcd0f3101fb0a06ae8f4c147af9e740b9"
+
+[update]
+[update.modrinth]
+mod-id = "nGy7n4bj"
+version = "2iG2szBu"

@@ -1,0 +1,14 @@
+name = "XPTeleporters 2"
+filename = "XPTeleporters-1.12.2-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2827/714/XPTeleporters-1.12.2-2.0.2.jar"
+hash-format = "murmur2"
+hash = "769974682"
+
+[update]
+[update.curseforge]
+file-id = 2827714
+project-id = 318540
+release-channel = "beta"

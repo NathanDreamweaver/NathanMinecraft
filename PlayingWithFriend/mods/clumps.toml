@@ -1,0 +1,14 @@
+name = "Clumps"
+filename = "Clumps-fabric-1.17.1-7.0.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3458/989/Clumps-fabric-1.17.1-7.0.7.jar"
+hash-format = "murmur2"
+hash = "1417968024"
+
+[update]
+[update.curseforge]
+file-id = 3458989
+project-id = 256717
+release-channel = "beta"

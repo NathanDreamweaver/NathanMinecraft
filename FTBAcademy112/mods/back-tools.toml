@@ -1,0 +1,14 @@
+name = "Back Tools"
+filename = "BackTools-1.12.2-7.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2729/94/BackTools-1.12.2-7.0.1.jar"
+hash-format = "murmur2"
+hash = "372831748"
+
+[update]
+[update.curseforge]
+file-id = 2729094
+project-id = 229061
+release-channel = "beta"

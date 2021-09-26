@@ -1,0 +1,14 @@
+name = "ModTweaker"
+filename = "modtweaker-4.0.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2881/277/modtweaker-4.0.18.jar"
+hash-format = "murmur2"
+hash = "1377705812"
+
+[update]
+[update.curseforge]
+file-id = 2881277
+project-id = 220954
+release-channel = "beta"

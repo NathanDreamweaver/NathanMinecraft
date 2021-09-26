@@ -1,0 +1,14 @@
+name = "MoreFlowerPots (FABRIC)"
+filename = "MoreFlowerPots-2.0-SNAPSHOT.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3393/396/MoreFlowerPots-2.0-SNAPSHOT.jar"
+hash-format = "murmur2"
+hash = "3972761327"
+
+[update]
+[update.curseforge]
+file-id = 3393396
+project-id = 406421
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Lapis Reserve"
+filename = "lapisreserve-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3345/208/lapisreserve-1.0.8.jar"
+hash-format = "murmur2"
+hash = "3044790641"
+
+[update]
+[update.curseforge]
+file-id = 3345208
+project-id = 399679
+release-channel = "beta"

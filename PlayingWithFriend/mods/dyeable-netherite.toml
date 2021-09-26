@@ -1,0 +1,14 @@
+name = "Dyeable Netherite"
+filename = "dyeable-netherite-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3438/914/dyeable-netherite-1.1.1.jar"
+hash-format = "murmur2"
+hash = "2276715676"
+
+[update]
+[update.curseforge]
+file-id = 3438914
+project-id = 520530
+release-channel = "beta"
