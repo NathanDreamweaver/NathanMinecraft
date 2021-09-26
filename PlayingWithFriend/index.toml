@@ -480,6 +480,11 @@ hash = "54b2449e4173e73208b38d4f7d75495826e1fdb60bf5865d4821174549e8d7ab"
 metafile = true
 
 [[files]]
+file = "mods/prefab.toml"
+hash = "edd2521abfd4fa7a2e72f54335d30434e4ae8208df9a51eec616eddfb380b8a2"
+metafile = true
+
+[[files]]
 file = "mods/promenade.toml"
 hash = "0ec3877c14a3572cf7e30e54f0ffa1ca26ab63ba2fc1d1e4b0682f6a5c81a239"
 metafile = true

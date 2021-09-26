@@ -1,0 +1,13 @@
+name = "Prefab"
+filename = "prefab-fabric-2.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pTJ1ZloG/versions/2.1.5/prefab-fabric-2.1.5.jar"
+hash-format = "sha512"
+hash = "525bc6b0e726349c8a46927866012e0fea4a46a07e4b71cec05c8e86edade9afcc1f8e4df3921a7f3cd02b5d0427dd2eb9633beef9359df80ce4461d525dcd21"
+
+[update]
+[update.modrinth]
+mod-id = "pTJ1ZloG"
+version = "nzZZFde3"
