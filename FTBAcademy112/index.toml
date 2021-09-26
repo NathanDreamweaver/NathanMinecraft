@@ -5540,6 +5540,11 @@ hash = "d922cb34f5cdfab26ad314521f2c0dda694bddf9b640e19492d363e9979d69ef"
 metafile = true
 
 [[files]]
+file = "mods/prefab.toml"
+hash = "9c55aabfcf5239a70794b4b1ea6deec04a33237771d117d3b5c3344ea0dbe494"
+metafile = true
+
+[[files]]
 file = "mods/project-intelligence.toml"
 hash = "9d117184cf2a6e9cc2bb5d613917b6d39c9e27f8cd80751f7966d41b8b128d9c"
 metafile = true
