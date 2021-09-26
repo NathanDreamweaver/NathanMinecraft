@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/illuminations.properties"
+hash = "4c788c97f87e479a755d51265564ed75cdf4f45351de4df3a77389f6fc6834ca"
+
+[[files]]
 file = "mods/additional-additions.toml"
 hash = "d845113e3aaf604c48d3e8b0ce74027ffbe8a93e82666884ce9eb574f68ac5d8"
 metafile = true
