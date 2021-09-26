@@ -296,11 +296,6 @@ hash = "ef41380ef2612b9d2b0c2aa81e10d13a8116a956f8e67de96c3115619562520c"
 metafile = true
 
 [[files]]
-file = "mods/gildedarmor.toml"
-hash = "150edda09ec83dc930f4cc623e78d4be1420c40de674eb61527076615a9d16c4"
-metafile = true
-
-[[files]]
 file = "mods/glassential-fabric.toml"
 hash = "02fc700e08c9a2496f6a70c3c2eca206284c87f1d3b64ffa9c5a4cb74482d1b5"
 metafile = true
