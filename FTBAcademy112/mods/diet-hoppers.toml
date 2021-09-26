@@ -1,0 +1,14 @@
+name = "Diet Hoppers"
+filename = "diethopper-1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2482/543/diethopper-1.1.jar"
+hash-format = "murmur2"
+hash = "973247290"
+
+[update]
+[update.curseforge]
+file-id = 2482543
+project-id = 278385
+release-channel = "beta"

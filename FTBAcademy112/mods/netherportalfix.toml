@@ -1,0 +1,14 @@
+name = "NetherPortalFix"
+filename = "NetherPortalFix_1.12.1-5.3.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2612/52/NetherPortalFix_1.12.1-5.3.17.jar"
+hash-format = "murmur2"
+hash = "2800467167"
+
+[update]
+[update.curseforge]
+file-id = 2612052
+project-id = 241160
+release-channel = "beta"

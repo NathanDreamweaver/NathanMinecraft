@@ -1,0 +1,11 @@
+name = "FTB Academy 112"
+version = "1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7c9899cfaf5bda6659ddb1ae6a25e795d736971de0335c5c70e2649fcd83baf0"
+
+[versions]
+forge = "14.23.5.2847"
+minecraft = "1.12.2"

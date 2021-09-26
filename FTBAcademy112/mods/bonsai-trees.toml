@@ -1,0 +1,14 @@
+name = "Bonsai Trees 2"
+filename = "bonsaitrees-1.1.4-b170.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2846/217/bonsaitrees-1.1.4-b170.jar"
+hash-format = "murmur2"
+hash = "566696433"
+
+[update]
+[update.curseforge]
+file-id = 2846217
+project-id = 278993
+release-channel = "beta"
