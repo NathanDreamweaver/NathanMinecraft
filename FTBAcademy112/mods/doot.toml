@@ -1,0 +1,14 @@
+name = "Trumpet Skeleton"
+filename = "trumpetskeleton-1.12-1.0.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2549/462/trumpetskeleton-1.12-1.0.2.1.jar"
+hash-format = "murmur2"
+hash = "892723166"
+
+[update]
+[update.curseforge]
+file-id = 2549462
+project-id = 279311
+release-channel = "beta"

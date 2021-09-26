@@ -1,0 +1,14 @@
+name = "FTB Ultimine (Forge)"
+filename = "ftb-ultimine-1202.3.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3078/750/ftb-ultimine-1202.3.5.jar"
+hash-format = "murmur2"
+hash = "634389787"
+
+[update]
+[update.curseforge]
+file-id = 3078750
+project-id = 386134
+release-channel = "beta"

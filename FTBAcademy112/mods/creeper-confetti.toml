@@ -1,0 +1,14 @@
+name = "Creeper Confetti"
+filename = "creeperconfetti-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2506/542/creeperconfetti-1.4.2.jar"
+hash-format = "murmur2"
+hash = "858361417"
+
+[update]
+[update.curseforge]
+file-id = 2506542
+project-id = 222548
+release-channel = "beta"

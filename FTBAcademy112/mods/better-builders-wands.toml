@@ -1,0 +1,14 @@
+name = "Better Builder's Wands"
+filename = "BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2691/84/BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar"
+hash-format = "murmur2"
+hash = "2031588189"
+
+[update]
+[update.curseforge]
+file-id = 2691084
+project-id = 238403
+release-channel = "beta"

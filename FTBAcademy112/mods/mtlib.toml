@@ -1,0 +1,14 @@
+name = "MTLib"
+filename = "MTLib-3.0.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2684/561/MTLib-3.0.6.jar"
+hash-format = "murmur2"
+hash = "396445966"
+
+[update]
+[update.curseforge]
+file-id = 2684561
+project-id = 253211
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Tesslocator"
+filename = "Tesslocator-1.1.0.15.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2754/227/Tesslocator-1.1.0.15.jar"
+hash-format = "murmur2"
+hash = "2500399010"
+
+[update]
+[update.curseforge]
+file-id = 2754227
+project-id = 314814
+release-channel = "beta"

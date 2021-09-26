@@ -1,0 +1,14 @@
+name = "Patchouli"
+filename = "Patchouli-1.0-21.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2992/184/Patchouli-1.0-21.jar"
+hash-format = "murmur2"
+hash = "3376354138"
+
+[update]
+[update.curseforge]
+file-id = 2992184
+project-id = 306770
+release-channel = "beta"
