@@ -1,0 +1,14 @@
+name = "TipTheScales"
+filename = "TipTheScales-1.12.2-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2689/835/TipTheScales-1.12.2-1.0.4.jar"
+hash-format = "murmur2"
+hash = "3931414915"
+
+[update]
+[update.curseforge]
+file-id = 2689835
+project-id = 282313
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Instrumental Mobs"
+filename = "Instrumental-Mobs-1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2767/795/Instrumental-Mobs-1.2.jar"
+hash-format = "murmur2"
+hash = "2967994270"
+
+[update]
+[update.curseforge]
+file-id = 2767795
+project-id = 299602
+release-channel = "beta"

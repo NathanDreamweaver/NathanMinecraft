@@ -1,0 +1,14 @@
+name = "FTB Guides (Forge)"
+filename = "FTBGuides-2.0.0.52.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2827/161/FTBGuides-2.0.0.52.jar"
+hash-format = "murmur2"
+hash = "2232798769"
+
+[update]
+[update.curseforge]
+file-id = 2827161
+project-id = 317586
+release-channel = "beta"

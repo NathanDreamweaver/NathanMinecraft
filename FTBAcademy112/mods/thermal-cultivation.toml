@@ -1,0 +1,14 @@
+name = "Thermal Cultivation"
+filename = "ThermalCultivation-1.12.2-0.3.6.1-universal.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2920/437/ThermalCultivation-1.12.2-0.3.6.1-universal.jar"
+hash-format = "murmur2"
+hash = "737202088"
+
+[update]
+[update.curseforge]
+file-id = 2920437
+project-id = 271835
+release-channel = "beta"
