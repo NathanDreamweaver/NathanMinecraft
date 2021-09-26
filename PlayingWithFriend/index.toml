@@ -391,11 +391,6 @@ hash = "05b33dcd2c62155cf394593ef08c8adaa2cd45bd7ca43b3113b81f030945b1ae"
 metafile = true
 
 [[files]]
-file = "mods/mo-colors.toml"
-hash = "0e74f1241fdc816f54765d0ab1d6e418d5b59cd5d645a9c18ed9fc7cad6a14ef"
-metafile = true
-
-[[files]]
 file = "mods/mo-glass.toml"
 hash = "3149846569746a77f9954aa6610ec639d9ed825c774def43d7743f96b8fd67bf"
 metafile = true
@@ -473,11 +468,6 @@ metafile = true
 [[files]]
 file = "mods/plant-in-a-jar.toml"
 hash = "0053356ce1b2658165828b02f45b95d858050bc58fff6fa666a43aa2834ab05f"
-metafile = true
-
-[[files]]
-file = "mods/presence-footsteps.toml"
-hash = "6a30b52d4235878421d7f1ea2a622f6aa86c7495b4ce3c620ac33810851377c9"
 metafile = true
 
 [[files]]
