@@ -491,11 +491,6 @@ hash = "41ed4b6542a97cf8da6eaa7e92f385fc1c031043460c8f46c741588f3a604c47"
 metafile = true
 
 [[files]]
-file = "mods/reeses-sodium-options.toml"
-hash = "f1b7fb57203e856aa6a6a773e79f1e83d0aa917eb18acce60616f09c1665a90a"
-metafile = true
-
-[[files]]
 file = "mods/repurposed-structures-fabric.toml"
 hash = "6c7a848708a6252ceb3c8e3fcdde226117cb80758947d17846970bbb6387ad37"
 metafile = true
@@ -528,11 +523,6 @@ metafile = true
 [[files]]
 file = "mods/smooth-boot.toml"
 hash = "d02b56170076cc508fe31ff0e4d36b4576cb0ae7cf2c008b273cd64c34787408"
-metafile = true
-
-[[files]]
-file = "mods/sodium-extra.toml"
-hash = "994eda116254db865384ca9ebb0c4e9f459edbac67483b2f1582955618a5c6dd"
 metafile = true
 
 [[files]]
