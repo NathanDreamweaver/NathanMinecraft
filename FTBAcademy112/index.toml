@@ -4329,6 +4329,10 @@ file = "mods/FTBAcademyMod-1.1.0.65.jar"
 hash = "c2adb56535ab2aad89525bd9070dcdfa859f3ff829291f3c0d1bae002c7c9ce9"
 
 [[files]]
+file = "mods/OptiFine_1.12.2_HD_U_G5.jar"
+hash = "3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e"
+
+[[files]]
 file = "mods/actually-additions.toml"
 hash = "93ae689c922329e679854659f8385a90e425ff9fadf09b13a3b96d2ea9cd7402"
 metafile = true
@@ -4381,6 +4385,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.toml"
 hash = "7c7d4da458ab082669f11975bad5fda167877dbabf8775eef22a8e230424831a"
+metafile = true
+
+[[files]]
+file = "mods/born-in-a-barn.toml"
+hash = "1588ea3089287cd23d34cd73c49d39e4e172b9f6925a93fea28d59b5182415aa"
 metafile = true
 
 [[files]]
@@ -5506,6 +5515,11 @@ hash = "22160984caf8367cef55213fd84891ed1345f85a67b1cc3996bddaca09c4ccab"
 metafile = true
 
 [[files]]
+file = "mods/particle-culling.toml"
+hash = "2456ab152b953aa1771f4dd7eef7ef176b68edc197bf7c1b5d40820515de9e21"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.toml"
 hash = "8d0e189d0d87a03138e043e99d2a27b8c8f333db35814f0d9ff231d9ab6abfd4"
 metafile = true
@@ -5613,6 +5627,11 @@ metafile = true
 [[files]]
 file = "mods/structureutils.toml"
 hash = "70a7bbb4d3b54205cc1b8bfc1045accd8011061b090aefa6ff015396837272ae"
+metafile = true
+
+[[files]]
+file = "mods/surge.toml"
+hash = "d40ec79ab0569afb20bfd5c130da789cb4cfd8a94f3bd26c3691423ab8844f4f"
 metafile = true
 
 [[files]]
