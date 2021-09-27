@@ -4373,6 +4373,11 @@ hash = "15c406534ef41cf22d1446b4a87c6156284c033dc9e2d1774129cb511eeb9395"
 metafile = true
 
 [[files]]
+file = "mods/better-records.toml"
+hash = "be5bba223ca100fbf96d2bda732a95929eab7282152f0db55e6baf61339743e9"
+metafile = true
+
+[[files]]
 file = "mods/betterfps.toml"
 hash = "ad54cddb921f8cb3d737cee7eb078a64afc3d32e71e762c65c60660fd72bc69d"
 metafile = true

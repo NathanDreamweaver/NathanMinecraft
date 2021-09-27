@@ -1,0 +1,14 @@
+name = "Better Records"
+filename = "BetterRecords-1.12.2-1.6.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2930/159/BetterRecords-1.12.2-1.6.2.jar"
+hash-format = "murmur2"
+hash = "4022999282"
+
+[update]
+[update.curseforge]
+file-id = 2930159
+project-id = 222722
+release-channel = "beta"
