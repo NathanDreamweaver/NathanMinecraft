@@ -5525,11 +5525,6 @@ hash = "22160984caf8367cef55213fd84891ed1345f85a67b1cc3996bddaca09c4ccab"
 metafile = true
 
 [[files]]
-file = "mods/particle-culling.toml"
-hash = "2456ab152b953aa1771f4dd7eef7ef176b68edc197bf7c1b5d40820515de9e21"
-metafile = true
-
-[[files]]
 file = "mods/patchouli.toml"
 hash = "8d0e189d0d87a03138e043e99d2a27b8c8f333db35814f0d9ff231d9ab6abfd4"
 metafile = true
