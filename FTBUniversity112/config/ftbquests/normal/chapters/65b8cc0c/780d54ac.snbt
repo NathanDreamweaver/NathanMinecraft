@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.ftbultimine.title}",
+	icon: "minecraft:iron_ore",
+	x: -1.0d,
+	y: 5.0d,
+	description: "{ftbuniversity.ftbultimine.subtitle}",
+	text: [
+		"{ftbuniversity.ftbultimine.desc1}",
+		"",
+		"{ftbuniversity.ftbultimine.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	tasks: [{
+		uid: "d6764d6b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "001785f1",
+		type: "item",
+		item: "thermalfoundation:tool.hammer_gold"
+	}]
+}

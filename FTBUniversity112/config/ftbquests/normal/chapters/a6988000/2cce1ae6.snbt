@@ -1,0 +1,61 @@
+{
+	title: "{ftbuniversity.infusionaltar.title}",
+	icon: "thaumcraft:infusion_matrix",
+	x: -2.288095238095252d,
+	y: -1.449262244897966d,
+	description: "{ftbuniversity.infusionaltar.subtitle}",
+	text: [
+		"{ftbuniversity.infusionaltar.desc1}",
+		"",
+		"{ftbuniversity.infusionaltar.desc2}",
+		"",
+		"{ftbuniversity.infusionaltar.desc3}",
+		"",
+		"{ftbuniversity.infusionaltar.desc4}",
+		"",
+		"{ftbuniversity.infusionaltar.desc5}",
+		"",
+		"{ftbuniversity.infusionaltar.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"46159d30"
+	],
+	hide: true,
+	size: 0.625d,
+	min_width: 300,
+	tasks: [{
+		uid: "df01de18",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	},
+	{
+		uid: "79eb273e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}]
+	},
+	{
+		uid: "bdb419f5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}],
+	rewards: [{
+		uid: "fdd73fe7",
+		type: "item",
+		item: "minecraft:skull",
+		count: 6
+	},
+	{
+		uid: "d74504ad",
+		type: "item",
+		item: "thaumcraft:candle_magenta",
+		count: 4
+	}]
+}

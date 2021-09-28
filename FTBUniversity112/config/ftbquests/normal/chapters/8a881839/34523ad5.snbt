@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.itwhitelist.title}",
+	x: 5.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.itwhitelist.subtitle}",
+	text: [
+		"{ftbuniversity.itwhitelist.desc1}",
+		"",
+		"{ftbuniversity.itwhitelist.desc2}",
+		"",
+		"{ftbuniversity.itwhitelist.desc3}",
+		"",
+		"{ftbuniversity.itwhitelist.desc4}",
+		"",
+		"{ftbuniversity.itwhitelist.desc5}"
+	],
+	dependencies: [
+		"73342d2c"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "60ac5a31",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,14 @@
+name = "YABBA"
+filename = "YABBA-1.1.2.54.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2819/161/YABBA-1.1.2.54.jar"
+hash-format = "murmur2"
+hash = "1453113073"
+
+[update]
+[update.curseforge]
+file-id = 2819161
+project-id = 255177
+release-channel = "beta"

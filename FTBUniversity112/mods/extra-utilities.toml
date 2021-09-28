@@ -1,0 +1,14 @@
+name = "Extra Utilities"
+filename = "extrautils2-1.12-1.9.9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2678/374/extrautils2-1.12-1.9.9.jar"
+hash-format = "murmur2"
+hash = "2050253455"
+
+[update]
+[update.curseforge]
+file-id = 2678374
+project-id = 225561
+release-channel = "beta"

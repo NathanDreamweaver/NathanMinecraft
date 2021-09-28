@@ -1,0 +1,37 @@
+{
+	title: "{ftbuniversity.mekic2.title}",
+	icon: {
+		id: "ic2:re_battery",
+		tag: {
+			charge: 10000.0d
+		}
+	},
+	x: -1.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.mekic2.subtitle}",
+	text: [
+		"{ftbuniversity.mekic2.desc1}",
+		"",
+		"{ftbuniversity.mekic2.desc2}",
+		"",
+		"{ftbuniversity.mekic2.desc3}"
+	],
+	size: 1.125d,
+	tasks: [{
+		uid: "82472e80",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0656fb2c",
+		type: "item",
+		item: {
+			id: "minecraft:cookie",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Consolation Cookie"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.bloodpure.subtitle}",
+	text: [
+		"{ftbuniversity.bloodpure.desc}"
+	],
+	dependencies: [
+		"7b405571"
+	],
+	tasks: [{
+		uid: "802c2164",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:bloodpurifier"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+name = "BeeBetterAtBees"
+filename = "beebetteratbees-1.12.2-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2627/215/beebetteratbees-1.12.2-2.0.3.jar"
+hash-format = "murmur2"
+hash = "1947786579"
+
+[update]
+[update.curseforge]
+file-id = 2627215
+project-id = 244516
+release-channel = "beta"

@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.avabow.title}",
+	x: 1.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.avabow.subtitle}",
+	text: [
+		"{ftbuniversity.avabow.desc1}",
+		"",
+		"{ftbuniversity.avabow.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "6a94a65a",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

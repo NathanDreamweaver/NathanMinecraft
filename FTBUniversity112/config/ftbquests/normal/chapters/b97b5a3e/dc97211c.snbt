@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.rftporter2.title}",
+	x: -2.75d,
+	y: 2.75d,
+	description: "{ftbuniversity.rftporter2.subtitle}",
+	text: [
+		"{ftbuniversity.rftporter2.desc}"
+	],
+	dependencies: [
+		"eb9a667d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "0e476f3d",
+		type: "item",
+		items: [{
+			item: "rftools:advanced_charged_porter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

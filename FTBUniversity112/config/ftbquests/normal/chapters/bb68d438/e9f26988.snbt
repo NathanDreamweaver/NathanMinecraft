@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: -5.0d,
+	description: "{ftbuniversity.mearcane.subtitle}",
+	text: [
+		"{ftbuniversity.mearcane.desc1}",
+		"",
+		"{ftbuniversity.mearcane.desc2}"
+	],
+	dependencies: [
+		"97ccc078",
+		"ca7a42ec"
+	],
+	tasks: [{
+		uid: "4c8f3bd1",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_terminal"
+		}]
+	}]
+}

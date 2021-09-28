@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.mekx3.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/x3.png"
+		}
+	},
+	x: 5.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.mekx3.subtitle}",
+	text: [
+		"{ftbuniversity.mekx3.desc}"
+	],
+	dependencies: [
+		"835935b5"
+	],
+	tasks: [{
+		uid: "4e685775",
+		type: "checkmark"
+	}]
+}

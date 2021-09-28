@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.forestrystill.title}",
+	x: -1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.forestrystill.subtitle}",
+	text: [
+		"{ftbuniversity.forestrystill.desc}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "c8f5a5e7",
+		type: "item",
+		items: [{
+			item: "forestry:still"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "09e43275",
+		type: "item",
+		item: {
+			id: "forestry:capsule",
+			tag: {
+				Fluid: {
+					FluidName: "hootch",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

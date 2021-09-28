@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.rftlogicgate.title}",
+	x: -3.25d,
+	y: 5.25d,
+	description: "{ftbuniversity.rftlogicgate.subtitle}",
+	text: [
+		"{ftbuniversity.rftlogicgate.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "1ae927e7",
+		type: "item",
+		items: [{
+			item: "rftools:logic_block"
+		}],
+		ignore_nbt: 1b
+	}]
+}

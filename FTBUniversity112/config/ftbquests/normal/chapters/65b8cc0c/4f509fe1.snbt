@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.antibarrel.title}",
+	x: 1.75d,
+	y: 3.25d,
+	shape: "square",
+	description: "{ftbuniversity.antibarrel.subtitle}",
+	text: [
+		"{ftbuniversity.antibarrel.desc1}",
+		"",
+		"{ftbuniversity.antibarrel.desc2}",
+		"",
+		"{ftbuniversity.antibarrel.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4ea94e32"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "d13eee6f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:antibarrel"
+		}]
+	}]
+}

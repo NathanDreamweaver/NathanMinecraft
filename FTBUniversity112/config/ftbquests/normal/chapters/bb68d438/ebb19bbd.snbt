@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.storagebus.title}",
+	x: 8.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.storagebus.subtitle}",
+	text: [
+		"{ftbuniversity.storagebus.desc1}",
+		"",
+		"{ftbuniversity.storagebus.desc2}",
+		"",
+		"{ftbuniversity.storagebus.desc3}",
+		"",
+		"{ftbuniversity.storagebus.desc4}",
+		"",
+		"{ftbuniversity.storagebus.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fadf0198"
+	],
+	tasks: [{
+		uid: "202e9c30",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}]
+}

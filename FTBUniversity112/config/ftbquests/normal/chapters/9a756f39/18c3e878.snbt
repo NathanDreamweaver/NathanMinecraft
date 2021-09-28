@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.contract.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "mahoutsukai:textures/block/mahoujin.png"
+		}
+	},
+	x: -2.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.contract.subtitle}",
+	text: [
+		"{ftbuniversity.contract.desc1}",
+		"",
+		"{ftbuniversity.contract.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "3f8bee57",
+		type: "observation",
+		title: "{ftbuniversity.contract.task}",
+		match_type: "block_id",
+		match: "mahoutsukai:mahoujin_contract",
+		timer: 0L
+	}]
+}

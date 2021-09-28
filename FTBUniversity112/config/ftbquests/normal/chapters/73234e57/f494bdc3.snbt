@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.compressediron.title}",
+	x: 1.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.compressediron.subtitle}",
+	text: [
+		"{ftbuniversity.compressediron.desc1}",
+		"",
+		"{ftbuniversity.compressediron.desc2}"
+	],
+	dependencies: [
+		"f1f02eb4"
+	],
+	tasks: [{
+		uid: "9f499d6f",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:ingot_iron_compressed"
+		}]
+	}],
+	rewards: [{
+		uid: "d6cae4df",
+		type: "item",
+		item: "appliedenergistics2:tiny_tnt",
+		count: 8
+	}]
+}

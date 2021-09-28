@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.ic2seeds.title}",
+	x: 1.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.ic2seeds.subtitle}",
+	text: [
+		"{ftbuniversity.ic2seeds.desc1}",
+		"",
+		"{ftbuniversity.ic2seeds.desc2}",
+		"",
+		"{ftbuniversity.ic2seeds.desc3}",
+		"",
+		"{ftbuniversity.ic2seeds.desc4}"
+	],
+	dependencies: [
+		"a0da8607"
+	],
+	tasks: [{
+		uid: "4ce8ece4",
+		type: "item",
+		title: "{ftbuniversity.ic2seeds.task}",
+		items: [{
+			id: "ic2:crop_seed_bag",
+			tag: {
+				owner: "ic2",
+				scan: 4,
+				growth: 1,
+				id: "carrots",
+				resistance: 1,
+				gain: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a389a0c8",
+		type: "item",
+		item: {
+			id: "ic2:crop_seed_bag",
+			tag: {
+				owner: "ic2",
+				scan: 4,
+				growth: 10,
+				id: "weed",
+				resistance: 10,
+				gain: 10
+			}
+		}
+	}]
+}

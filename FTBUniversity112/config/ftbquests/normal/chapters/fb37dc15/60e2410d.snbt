@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.rannlink.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftblib:textures/icons/art.png"
+		}
+	},
+	x: 2.25d,
+	y: 4.5d,
+	description: "{ftbuniversity.rannlink.subtitle}",
+	custom_click: "https://www.reddit.com/r/feedthebeast/comments/74fp9i/botania_early_game_pure_daisy_automation_5x8_area/",
+	hide_dependency_lines: true,
+	dependencies: [
+		"66fb8bf6"
+	],
+	hide: true,
+	size: 0.5d,
+	optional: true
+}

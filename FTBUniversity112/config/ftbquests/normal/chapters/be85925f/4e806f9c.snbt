@@ -1,0 +1,70 @@
+{
+	disable_toast: true,
+	x: 1.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.mobmovers.subtitle}",
+	text: [
+		"{ftbuniversity.mobmovers.desc}"
+	],
+	tasks: [{
+		uid: "b7b25a6c",
+		type: "item",
+		title: "{ftbuniversity.mobmovers.title}",
+		disable_toast: true,
+		items: [{
+			item: "darkutils:trap_move"
+		},
+		{
+			item: "darkutils:trap_move_fast"
+		},
+		{
+			item: "darkutils:trap_move_hyper"
+		},
+		{
+			item: "botania:lightlauncher"
+		},
+		{
+			item: "botania:lightrelay"
+		},
+		{
+			item: "thaumcraft:levitator"
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		},
+		{
+			item: "pneumaticcraft:air_grate_module"
+		},
+		{
+			id: "pneumaticcraft:drone",
+			tag: {
+				volume: 12000.0f,
+				currentAir: 0.0f
+			}
+		},
+		{
+			item: "advancedrocketry:gravitymachine"
+		},
+		{
+			item: "randomthings:plate_redirector"
+		},
+		{
+			item: "randomthings:plate_filteredredirector"
+		},
+		{
+			item: "randomthings:plate_redstone"
+		},
+		{
+			item: "randomthings:plate_corrector"
+		},
+		{
+			item: "randomthings:plate_accelerator_directional"
+		},
+		{
+			item: "randomthings:plate_bouncy"
+		}]
+	}]
+}

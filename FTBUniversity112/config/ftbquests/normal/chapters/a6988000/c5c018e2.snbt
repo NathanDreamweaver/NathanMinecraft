@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.tallow.title}",
+	x: -0.1064625850340164d,
+	y: -2.2734693877550995d,
+	description: "{ftbuniversity.tallow.subtitle}",
+	text: [
+		"{ftbuniversity.tallow.desc1}",
+		"",
+		"{ftbuniversity.tallow.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e21dcaa9"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "707b7648",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tallow"
+		}]
+	}]
+}

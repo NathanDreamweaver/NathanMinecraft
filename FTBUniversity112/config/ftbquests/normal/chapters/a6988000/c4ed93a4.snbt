@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.magicmirror.title}",
+	x: -5.108503401360537d,
+	y: -0.8139455782312908d,
+	description: "{ftbuniversity.magicmirror.subtitle}",
+	text: [
+		"{ftbuniversity.magicmirror.desc1}",
+		"",
+		"{ftbuniversity.magicmirror.desc2}",
+		"",
+		"{ftbuniversity.magicmirror.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"892e15aa",
+		"2cce1ae6"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "5c3fc4c7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror"
+		}]
+	}],
+	rewards: [{
+		uid: "168476ad",
+		type: "item",
+		item: "thaumcraft:mirror"
+	}]
+}

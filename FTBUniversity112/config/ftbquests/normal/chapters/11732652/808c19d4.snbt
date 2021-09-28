@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.cardboard.title}",
+	x: 6.25d,
+	y: -1.0d,
+	description: "{ftbuniversity.cardboard.subtitle}",
+	text: [
+		"{ftbuniversity.cardboard.desc1}",
+		"",
+		"{ftbuniversity.cardboard.desc2}"
+	],
+	dependencies: [
+		"a6e29b2c"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "d25ae921",
+		type: "item",
+		items: [{
+			item: "mekanism:cardboardbox"
+		}]
+	}]
+}

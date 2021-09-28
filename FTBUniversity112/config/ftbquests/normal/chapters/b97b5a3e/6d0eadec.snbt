@@ -1,0 +1,21 @@
+{
+	x: -2.75d,
+	y: 5.25d,
+	description: "{ftbuniversity.rfttimer.subtitle}",
+	text: [
+		"{ftbuniversity.rfttimer.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "b5313b8e",
+		type: "item",
+		items: [{
+			item: "rftools:timer_block"
+		}],
+		ignore_nbt: 1b
+	}]
+}

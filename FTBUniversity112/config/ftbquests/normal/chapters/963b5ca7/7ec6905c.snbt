@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.creativedrum.subtitle}",
+	text: [
+		"{ftbuniversity.creativedrum.desc1}",
+		"",
+		"{ftbuniversity.creativedrum.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "e918a598",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.verdantcharm.title}",
+	x: -3.1555272108843155d,
+	y: -3.7689901360544233d,
+	description: "{ftbuniversity.verdantcharm.subtitle}",
+	text: [
+		"{ftbuniversity.verdantcharm.desc1}",
+		"",
+		"{ftbuniversity.verdantcharm.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fa8540c9"
+	],
+	hide: true,
+	size: 0.375d,
+	tasks: [{
+		uid: "6c357076",
+		type: "item",
+		title: "{ftbuniversity.verdantcharm.task}",
+		items: [{
+			item: "thaumcraft:verdant_charm"
+		},
+		{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 1b
+			}
+		},
+		{
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

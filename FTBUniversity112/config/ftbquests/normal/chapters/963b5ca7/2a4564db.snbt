@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.avasword2.title}",
+	x: 2.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.avasword2.subtitle}",
+	text: [
+		"{ftbuniversity.avasword2.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "dbeec3c5",
+		type: "item",
+		items: [{
+			item: "avaritia:skullfire_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

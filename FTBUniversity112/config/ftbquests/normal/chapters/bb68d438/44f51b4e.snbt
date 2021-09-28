@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.levmain.subtitle}",
+	text: [
+		"{ftbuniversity.levmain.desc1}",
+		"",
+		"{ftbuniversity.levmain.desc2}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"766a6e75"
+	],
+	tasks: [{
+		uid: "ede885e9",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 4"
+		}]
+	}]
+}

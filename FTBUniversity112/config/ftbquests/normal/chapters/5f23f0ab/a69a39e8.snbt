@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.manualfarms.title}",
+	icon: "forestry:arboretum 1 1",
+	x: -3.0d,
+	y: 5.0d,
+	description: "{ftbuniversity.manualfarms.subtitle}",
+	text: [
+		"{ftbuniversity.manualfarms.desc}",
+		"",
+		"{ftbuniversity.singleblockfarms.desc}"
+	],
+	hide_dependency_lines: true,
+	optional: true,
+	tasks: [{
+		uid: "4ad9e3b0",
+		type: "item",
+		title: "{ftbuniversity.manualfarms.task}",
+		items: [{
+			item: "forestry:arboretum 1 1"
+		},
+		{
+			item: "forestry:farm_crops 1 1"
+		},
+		{
+			item: "forestry:farm_mushroom 1 1"
+		},
+		{
+			item: "forestry:farm_gourd 1 1"
+		},
+		{
+			item: "forestry:farm_nether 1 1"
+		},
+		{
+			item: "forestry:farm_ender 1 1"
+		},
+		{
+			item: "forestry:peat_bog 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

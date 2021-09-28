@@ -1,0 +1,80 @@
+{
+	icon: "rats:rat_upgrade_warrior",
+	x: -1.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.ratcombat.subtitle}",
+	text: [
+		"{ftbuniversity.ratcombat.desc}",
+		"",
+		"{ftbuniversity.ratuptips}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "918ff728",
+		type: "item",
+		title: "{ftbuniversity.ratcombat.title}",
+		items: [{
+			item: "rats:rat_upgrade_health"
+		},
+		{
+			item: "rats:rat_upgrade_armor"
+		},
+		{
+			item: "rats:rat_upgrade_strength"
+		},
+		{
+			item: "rats:rat_upgrade_warrior"
+		},
+		{
+			item: "rats:rat_upgrade_god"
+		},
+		{
+			item: "rats:rat_upgrade_dragon"
+		},
+		{
+			item: "rats:rat_upgrade_asbestos"
+		},
+		{
+			item: "rats:rat_upgrade_underwater"
+		},
+		{
+			item: "rats:rat_upgrade_poison"
+		},
+		{
+			item: "rats:rat_upgrade_damage_protection"
+		},
+		{
+			item: "rats:rat_upgrade_aristocrat"
+		},
+		{
+			item: "rats:rat_upgrade_tnt"
+		},
+		{
+			item: "rats:rat_upgrade_tnt_survivor"
+		},
+		{
+			item: "rats:rat_upgrade_voodoo"
+		},
+		{
+			item: "rats:rat_upgrade_no_flute"
+		},
+		{
+			item: "rats:rat_upgrade_feral_bite"
+		},
+		{
+			item: "rats:rat_upgrade_buccaneer"
+		},
+		{
+			item: "rats:rat_upgrade_ratinator"
+		},
+		{
+			item: "rats:rat_upgrade_psychic"
+		},
+		{
+			item: "rats:rat_upgrade_nonbeliever"
+		}]
+	}]
+}

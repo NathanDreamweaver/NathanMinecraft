@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.noticon.title}",
+	x: 1.0d,
+	y: 5.0d,
+	description: "{ftbuniversity.noticon.subtitle}",
+	text: [
+		"{ftbuniversity.noticon.desc1}",
+		"",
+		"{ftbuniversity.noticon.desc2}",
+		"",
+		"{ftbuniversity.noticon.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	min_width: 225,
+	tasks: [{
+		uid: "7d50df3a",
+		type: "item",
+		items: [{
+			item: "craftingstation:crafting_station"
+		}]
+	}]
+}

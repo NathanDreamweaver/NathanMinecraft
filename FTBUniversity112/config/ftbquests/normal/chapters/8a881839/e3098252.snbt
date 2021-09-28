@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.variablecard.subtitle}",
+	text: [
+		"{ftbuniversity.variablecard.desc1}",
+		"",
+		"{ftbuniversity.variablecard.desc2}",
+		"",
+		"{ftbuniversity.variablecard.desc3}",
+		"",
+		"{ftbuniversity.variablecard.desc4}",
+		"",
+		"{ftbuniversity.variablecard.desc5}"
+	],
+	dependencies: [
+		"95a14575"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "12dca9d5",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variable"
+		}]
+	}]
+}

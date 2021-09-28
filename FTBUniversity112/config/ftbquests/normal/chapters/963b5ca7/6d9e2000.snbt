@@ -1,0 +1,38 @@
+{
+	icon: "extrautils2:creativeenergy",
+	x: 0.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.creativeenergy.subtitle}",
+	text: [
+		"{ftbuniversity.creativeenergy.desc1}",
+		"",
+		"{ftbuniversity.creativeenergy.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "de7475fa",
+		type: "item",
+		items: [{
+			item: "extrautils2:creativeenergy"
+		}]
+	},
+	{
+		uid: "7ee63b2c",
+		type: "item",
+		title: "{ftbuniversity.creativeenergy.task}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "creative_energy",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

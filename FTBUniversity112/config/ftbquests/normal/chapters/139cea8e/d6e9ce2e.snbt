@@ -1,0 +1,47 @@
+{
+	title: "Environmental Tech",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "environmentaltech:void_ore_miner_cont_5",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Environmentalist",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487460L
+		}
+	},
+	x: 1.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.ettrophy.subtitle}",
+	dependencies: [
+		"006a098a"
+	],
+	rewards: [{
+		uid: "c5791917",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "environmentaltech:void_ore_miner_cont_5",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Environmentalist",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

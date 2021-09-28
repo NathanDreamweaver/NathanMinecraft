@@ -1,0 +1,27 @@
+{
+	x: 0.75d,
+	y: -0.5d,
+	description: "{ftbuniversity.firstsorcery.subtitle}",
+	text: [
+		"{ftbuniversity.firstsorcery.desc1}",
+		"",
+		"{ftbuniversity.firstsorcery.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"30f2a3aa"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "98a6d2fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "mahoutsukai:mystic_code_first_sorcery"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

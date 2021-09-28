@@ -1,0 +1,102 @@
+{
+	title: "{ftbuniversity.prefab2.title}",
+	icon: {
+		ForgeCaps: {
+			"prefab:structuresconfiguration": {
+				configuration: {
+					wareHouseFacing: "north",
+					structureEnumName: "AdvancedCoop"
+				}
+			}
+		},
+		id: "prefab:item_basic_structure",
+		tag: {
+			id: "prefab:item_basic_structure",
+			Count: 1,
+			Damage: 0
+		}
+	},
+	x: 0.0d,
+	y: -1.75d,
+	description: "{ftbuniversity.prefab2.subtitle}",
+	text: [
+		"{ftbuniversity.prefab2.desc1}",
+		"",
+		"{ftbuniversity.prefab2.desc2}"
+	],
+	dependencies: [
+		"fd9c00a7"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "2dfdc138",
+		type: "item",
+		title: "{ftbuniversity.prefab2.task}",
+		items: [{
+			item: "prefab:item_warehouse"
+		},
+		{
+			item: "prefab:item_chicken_coop"
+		},
+		{
+			item: "prefab:item_produce_farm"
+		},
+		{
+			item: "prefab:item_tree_farm"
+		},
+		{
+			item: "prefab:item_fish_pond"
+		},
+		{
+			item: "prefab:item_advanced_warehouse"
+		},
+		{
+			item: "prefab:item_monster_masher"
+		},
+		{
+			item: "prefab:item_horse_stable"
+		},
+		{
+			item: "prefab:item_nether_gate"
+		},
+		{
+			item: "prefab:item_instant_bridge"
+		},
+		{
+			id: "prefab:item_bulldozer",
+			tag: {
+				id: "prefab:item_bulldozer",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		{
+			item: "prefab:item_structure_part"
+		},
+		{
+			ForgeCaps: {
+				"prefab:structuresconfiguration": {
+					configuration: {
+						wareHouseFacing: "north",
+						structureEnumName: "AdvancedCoop"
+					}
+				}
+			},
+			id: "prefab:item_basic_structure",
+			tag: {
+				id: "prefab:item_basic_structure",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		{
+			item: "prefab:item_villager_houses"
+		}]
+	}],
+	rewards: [{
+		uid: "7c364590",
+		type: "item",
+		item: "prefab:block_boundary",
+		count: 8
+	}]
+}

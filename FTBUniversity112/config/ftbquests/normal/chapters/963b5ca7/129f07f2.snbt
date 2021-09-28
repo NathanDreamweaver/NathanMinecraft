@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	description: "{ftbuniversity.creativetablet.subtitle}",
+	text: [
+		"{ftbuniversity.creativetablet.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "44e5d556",
+		type: "item",
+		items: [{
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000,
+				creative: 1
+			}
+		}],
+		ignore_damage: true
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.essentiasmelting2.title}",
+	x: 0.6948979591836988d,
+	y: -3.1571428571428726d,
+	description: "{ftbuniversity.essentiasmelting2.subtitle}",
+	text: [
+		"{ftbuniversity.essentiasmelting2.desc1}",
+		"",
+		"{ftbuniversity.essentiasmelting2.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"877e4761",
+		"e2e72fc0"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "e725f057",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "6d9238c7",
+		type: "item",
+		item: "thaumcraft:phial",
+		count: 64
+	}]
+}

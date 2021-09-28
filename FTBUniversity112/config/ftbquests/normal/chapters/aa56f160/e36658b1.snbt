@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.simplefurnace.title}",
+	x: 1.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.simplefurnace.subtitle}",
+	text: [
+		"{ftbuniversity.simplefurnace.desc}"
+	],
+	dependencies: [
+		"4b9e4c96"
+	],
+	tasks: [{
+		uid: "7308974c",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c41f4495",
+		type: "item",
+		item: "enderio:item_material 1 77",
+		count: 10
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.manacircuit.subtitle}",
+	text: [
+		"{ftbuniversity.manacircuit.desc1}",
+		"",
+		"{ftbuniversity.manacircuit.desc2}",
+		"",
+		"{ftbuniversity.manacircuit.desc3}",
+		"",
+		"{ftbuniversity.manacircuit.desc4}"
+	],
+	dependencies: [
+		"30f2a3aa"
+	],
+	tasks: [{
+		uid: "22cab37e",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:mana_circuit"
+		}]
+	}]
+}

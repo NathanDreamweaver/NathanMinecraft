@@ -1,0 +1,38 @@
+{
+	icon: "rats:rat_upgrade_chef",
+	x: 1.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.ratspecial.subtitle}",
+	text: [
+		"{ftbuniversity.ratspecial.desc}",
+		"",
+		"{ftbuniversity.ratuptips}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "6fd42098",
+		type: "item",
+		title: "{ftbuniversity.ratspecial.title}",
+		items: [{
+			item: "rats:rat_upgrade_gemcutter"
+		},
+		{
+			item: "rats:rat_upgrade_ore_doubling"
+		},
+		{
+			item: "rats:rat_upgrade_chef"
+		},
+		{
+			item: "rats:rat_upgrade_archeologist"
+		},
+		{
+			item: "rats:rat_upgrade_enchanter"
+		},
+		{
+			item: "rats:rat_upgrade_disenchanter"
+		}]
+	}]
+}

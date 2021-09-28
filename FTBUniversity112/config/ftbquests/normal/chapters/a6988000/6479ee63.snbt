@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.runicshielding.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/r_runicupg.png"
+		}
+	},
+	x: -2.4085884353741136d,
+	y: -2.6220513605442157d,
+	description: "{ftbuniversity.runicshielding.subtitle}",
+	text: [
+		"{ftbuniversity.runicshielding.desc1}",
+		"",
+		"{ftbuniversity.runicshielding.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f2ad509a"
+	],
+	hide: true,
+	size: 0.25d,
+	tasks: [{
+		uid: "5f4faefd",
+		type: "checkmark"
+	}]
+}

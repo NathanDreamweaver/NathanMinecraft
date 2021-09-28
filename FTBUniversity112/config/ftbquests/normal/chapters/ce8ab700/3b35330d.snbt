@@ -1,0 +1,54 @@
+{
+	title: "{ftbuniversity.shadyvillager.title}",
+	icon: "minecraft:emerald",
+	x: -2.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.shadyvillager.subtitle}",
+	text: [
+		"{ftbuniversity.shadyvillager.desc}"
+	],
+	tasks: [{
+		uid: "f4335fdf",
+		type: "item",
+		title: "{ftbuniversity.shadyvillager.task}",
+		items: [{
+			item: "extrautils2:fakecopy 1 7"
+		},
+		{
+			item: "extrautils2:fakecopy 1 1"
+		},
+		{
+			item: "extrautils2:fakecopy 1 2"
+		},
+		{
+			item: "extrautils2:fakecopy 1 3"
+		},
+		{
+			item: "extrautils2:fakecopy 1 4"
+		},
+		{
+			item: "extrautils2:fakecopy 1 5"
+		},
+		{
+			item: "extrautils2:fakecopy 1 6"
+		},
+		{
+			item: "extrautils2:fakecopy 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "2b6c2dcc",
+		type: "item",
+		team_reward: false,
+		auto: "invisible",
+		item: {
+			id: "minecraft:emerald_block",
+			tag: {
+				RepairCost: 1,
+				display: {
+					Name: "One-time refund"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.moon.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/moon.png"
+		}
+	},
+	x: -0.75d,
+	y: -5.75d,
+	description: "{ftbuniversity.moon.subtitle}",
+	text: [
+		"{ftbuniversity.moon.desc1}",
+		"",
+		"{ftbuniversity.moon.desc2}",
+		"",
+		"{ftbuniversity.moon.desc3}",
+		"",
+		"{ftbuniversity.moon.desc4}"
+	],
+	dependencies: [
+		"bee53bfa"
+	],
+	size: 0.5d,
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "af424e08",
+		type: "dimension",
+		title: "{ftbuniversity.moon.task}",
+		dim: 3
+	}]
+}

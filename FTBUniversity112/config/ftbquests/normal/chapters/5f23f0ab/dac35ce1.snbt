@@ -1,0 +1,88 @@
+{
+	title: "{ftbuniversity.genups.title}",
+	icon: "gendustry:apiary.upgrade",
+	x: 5.85d,
+	y: 4.0d,
+	description: "{ftbuniversity.genups.subtitle}",
+	text: [
+		"{ftbuniversity.genups.desc1}",
+		"",
+		"{ftbuniversity.genups.desc2}"
+	],
+	dependencies: [
+		"a36607f5"
+	],
+	hide: true,
+	size: 0.75d,
+	optional: true,
+	tasks: [{
+		uid: "560d8431",
+		type: "item",
+		title: "{ftbuniversity.genups.task}",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 17"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 20"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 13"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 16"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 18"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 21"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 5"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 4"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 7"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 6"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 2"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 1"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 10"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 19"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 3"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 12"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 15"
+		},
+		{
+			item: "gendustry:apiary.upgrade"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 11"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "d603bb43",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

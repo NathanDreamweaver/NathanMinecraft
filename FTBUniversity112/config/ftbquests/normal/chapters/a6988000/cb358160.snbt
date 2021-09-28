@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.arcaneear.title}",
+	x: -4.0d,
+	y: -2.3061224489795933d,
+	description: "{ftbuniversity.arcaneear.subtitle}",
+	text: [
+		"{ftbuniversity.arcaneear.desc1}",
+		"",
+		"{ftbuniversity.arcaneear.desc2}",
+		"",
+		"{ftbuniversity.arcaneear.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8999a397"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "1beb75f4",
+		type: "item",
+		title: "{ftbuniversity.arcaneear.task}",
+		items: [{
+			item: "thaumcraft:arcane_ear"
+		},
+		{
+			item: "thaumcraft:arcane_ear_toggle"
+		}]
+	}]
+}

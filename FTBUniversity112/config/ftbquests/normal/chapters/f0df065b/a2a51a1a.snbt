@@ -1,0 +1,28 @@
+{
+	icon: "extrautils2:filter",
+	x: 0.65d,
+	y: -0.5d,
+	description: "{ftbuniversity.exu2filters.subtitle}",
+	text: [
+		"{ftbuniversity.exu2filters.desc1}",
+		"",
+		"{ftbuniversity.exu2filters.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8b7459c0"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "6993cfe1",
+		type: "item",
+		title: "{ftbuniversity.exu2filters.task}",
+		items: [{
+			item: "extrautils2:filter"
+		},
+		{
+			item: "extrautils2:filterfluids"
+		}]
+	}]
+}

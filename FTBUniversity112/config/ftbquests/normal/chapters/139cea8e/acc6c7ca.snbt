@@ -1,0 +1,61 @@
+{
+	title: "Mahou Tsukai",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 205,
+			TrophyVariant: "neon",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+						MAHOUTSUKAI_CASTER_NAME: "",
+						MAHOUTSUKAI_CASTER_UUIDMost: 0L
+					}
+				},
+				id: "mahoutsukai:scroll_projection",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Weeaboo",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487575L
+		}
+	},
+	x: 2.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.mttrophy.subtitle}",
+	dependencies: [
+		"9a756f39"
+	],
+	rewards: [{
+		uid: "efd7071d",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "neon",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+							MAHOUTSUKAI_CASTER_NAME: "",
+							MAHOUTSUKAI_CASTER_UUIDMost: 0L
+						}
+					},
+					id: "mahoutsukai:scroll_projection",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Weeaboo",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.progrft.title}",
+	icon: "rftools:machine_frame",
+	x: 2.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.progrft.subtitle}",
+	text: [
+		"{ftbuniversity.progrft.desc1}",
+		"",
+		"{ftbuniversity.progrft.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "706a0211",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "76dc799c",
+		type: "item",
+		item: "rftools:rftools_manual"
+	}]
+}

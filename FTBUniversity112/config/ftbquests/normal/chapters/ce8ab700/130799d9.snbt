@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.neato.title}",
+	x: -2.0d,
+	y: -3.5d,
+	description: "{ftbuniversity.neato.subtitle}",
+	text: [
+		"{ftbuniversity.neato.desc1}",
+		"",
+		"{ftbuniversity.neato.desc2}",
+		"",
+		"{ftbuniversity.neato.desc3}"
+	],
+	can_repeat: true,
+	size: 1.05d,
+	optional: true,
+	tasks: [{
+		uid: "323514c7",
+		type: "xp",
+		value: 10L,
+		points: false
+	}],
+	rewards: [{
+		uid: "63dd26e9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ftbuniversity_neato_rewards"
+			}
+		}
+	}]
+}

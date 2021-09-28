@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.petalapoth.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.petalapoth.subtitle}",
+	text: [
+		"{ftbuniversity.petalapoth.desc1}",
+		"",
+		"{ftbuniversity.petalapoth.desc2}"
+	],
+	dependencies: [
+		"a6896bc7"
+	],
+	tasks: [{
+		uid: "02981358",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "c44eaf95",
+		type: "item",
+		item: "botania:petal 1 6",
+		count: 16
+	},
+	{
+		uid: "4474f6cb",
+		type: "item",
+		item: "minecraft:wheat_seeds"
+	}]
+}

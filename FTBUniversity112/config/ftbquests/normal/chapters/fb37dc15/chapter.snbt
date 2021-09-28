@@ -1,0 +1,10 @@
+{
+	title: "{ftbuniversity.botchap.title}",
+	icon: {
+		id: "botania:lexicon",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 1447470455,
+	default_quest_shape: "circle"
+}

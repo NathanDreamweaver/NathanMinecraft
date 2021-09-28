@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.rftrfmon.subtitle}",
+	text: [
+		"{ftbuniversity.rftrfmon.desc1}",
+		"",
+		"{ftbuniversity.rftrfmon.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "e9f5c9e5",
+		type: "item",
+		items: [{
+			item: "rftools:rf_monitor"
+		}],
+		ignore_nbt: 1b
+	}]
+}

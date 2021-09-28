@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.teachic2heat.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/aspects/ignis.png"
+		}
+	},
+	x: 8.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.teachic2heat.subtitle}",
+	text: [
+		"{ftbuniversity.teachic2heat.desc1}",
+		"",
+		"{ftbuniversity.teachic2heat.desc2}",
+		"",
+		"{ftbuniversity.teachic2heat.desc3}",
+		"",
+		"{ftbuniversity.teachic2heat.desc4}",
+		"",
+		"{ftbuniversity.teachic2heat.desc5}"
+	],
+	tasks: [{
+		uid: "6745826e",
+		type: "checkmark"
+	}]
+}

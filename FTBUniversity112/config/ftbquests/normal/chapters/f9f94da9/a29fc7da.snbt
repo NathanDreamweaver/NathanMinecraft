@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.rataut.title}",
+	icon: "rats:marbled_cheese_rat_head",
+	x: 5.0d,
+	y: -5.5d,
+	description: "{ftbuniversity.rataut.subtitle}",
+	text: [
+		"{ftbuniversity.rataut.desc1}",
+		"",
+		"{ftbuniversity.rataut.desc2}",
+		"",
+		"{ftbuniversity.rataut.desc3}"
+	],
+	dependencies: [
+		"68317c6f"
+	],
+	tasks: [{
+		uid: "ffba5420",
+		type: "item",
+		items: [{
+			item: "rats:marbled_cheese_rat_head"
+		}]
+	},
+	{
+		uid: "9fbdab8a",
+		type: "item",
+		items: [{
+			item: "rats:marbled_cheese_golem_core"
+		}]
+	},
+	{
+		uid: "8e56197c",
+		type: "item",
+		items: [{
+			item: "rats:marbled_cheese"
+		}],
+		count: 3L
+	}]
+}

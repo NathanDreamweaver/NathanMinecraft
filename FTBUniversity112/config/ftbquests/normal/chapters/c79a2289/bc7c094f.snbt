@@ -1,0 +1,28 @@
+{
+	x: 3.75d,
+	y: 8.75d,
+	description: "{ftbuniversity.obscurator.subtitle}",
+	text: [
+		"{ftbuniversity.obscurator.desc1}",
+		"",
+		"{ftbuniversity.obscurator.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9b9618c3"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "fdcd2406",
+		type: "item",
+		items: [{
+			id: "ic2:obscurator",
+			tag: {
+				charge: 100000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.buildgadget.subtitle}",
+	text: [
+		"{ftbuniversity.buildgadget.desc}",
+		"",
+		"{ftbuniversity.gengadget.desc1}",
+		"",
+		"{ftbuniversity.gengadget.desc2}"
+	],
+	tasks: [{
+		uid: "6a9a60ae",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

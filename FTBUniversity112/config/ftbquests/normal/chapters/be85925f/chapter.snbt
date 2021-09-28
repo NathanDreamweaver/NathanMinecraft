@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.usefulthings.title}",
+	icon: "minecraft:emerald_ore",
+	always_invisible: false,
+	group: -1158736179,
+	default_quest_shape: "square"
+}

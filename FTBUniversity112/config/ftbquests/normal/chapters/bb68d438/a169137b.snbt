@@ -1,0 +1,27 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.networktool.subtitle}",
+	text: [
+		"{ftbuniversity.networktool.desc1}",
+		"",
+		"{ftbuniversity.networktool.desc2}",
+		"",
+		"{ftbuniversity.networktool.desc3}",
+		"",
+		"{ftbuniversity.networktool.desc4}"
+	],
+	dependencies: [
+		"f276b26c"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "cd261755",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:network_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

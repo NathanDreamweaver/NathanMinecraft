@@ -1,0 +1,107 @@
+{
+	title: "{ftbuniversity.sagmill.title}",
+	icon: "enderio:block_sag_mill",
+	x: 3.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.sagmill.subtitle}",
+	text: [
+		"{ftbuniversity.sagmill.desc1}",
+		"",
+		"{ftbuniversity.sagmill.desc2}"
+	],
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "263e75b7",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef093e0b",
+		type: "item",
+		title: "{ftbuniversity.sagmill.task}",
+		items: [{
+			item: "minecraft:flint"
+		},
+		{
+			item: "enderio:item_alloy_ball"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 1"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 2"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 3"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 4"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 5"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 6"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 7"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 8"
+		},
+		{
+			item: "enderio:item_alloy_ball 1 9"
+		},
+		{
+			item: "enderio:item_material 1 57"
+		},
+		{
+			item: "enderio:item_material 1 58"
+		},
+		{
+			item: "enderio:item_material 1 59"
+		},
+		{
+			item: "enderio:item_alloy_endergy_ball"
+		},
+		{
+			item: "enderio:item_alloy_endergy_ball 1 1"
+		},
+		{
+			item: "enderio:item_alloy_endergy_ball 1 2"
+		},
+		{
+			item: "enderio:item_alloy_endergy_ball 1 3"
+		},
+		{
+			item: "enderio:item_alloy_endergy_ball 1 5"
+		},
+		{
+			item: "enderio:item_alloy_endergy_ball 1 6"
+		},
+		{
+			item: "avaritiaio:grindingballneutronium"
+		},
+		{
+			item: "avaritiaio:grindingballinfinity"
+		}]
+	}],
+	rewards: [{
+		uid: "d91410ce",
+		type: "command",
+		title: "{ftbuniversity.sagmill.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team 09300d9f"
+	},
+	{
+		uid: "0c01d99d",
+		type: "item",
+		item: "enderio:item_alloy_ball 1 8",
+		count: 16
+	}]
+}

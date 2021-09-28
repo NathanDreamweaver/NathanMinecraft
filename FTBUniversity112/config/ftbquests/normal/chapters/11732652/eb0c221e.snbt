@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.gastank.title}",
+	icon: {
+		id: "mekanism:gastank",
+		tag: {
+			tier: 0
+		}
+	},
+	x: 1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.gastank.subtitle}",
+	text: [
+		"{ftbuniversity.gastank.desc1}",
+		"",
+		"{ftbuniversity.gastank.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "1e8ecf9b",
+		type: "item",
+		title: "{ftbuniversity.gastank.title}",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		},
+		{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 1
+			}
+		},
+		{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 2
+			}
+		},
+		{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

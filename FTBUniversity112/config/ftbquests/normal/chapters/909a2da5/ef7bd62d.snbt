@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.logsneakcomb.title}",
+	x: 0.5d,
+	y: 14.0d,
+	description: "{ftbuniversity.logsneakcomb.subtitle}",
+	text: [
+		"{ftbuniversity.logsneakcomb.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "9a2c8ea0",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_sneaky_combination"
+		}]
+	}]
+}

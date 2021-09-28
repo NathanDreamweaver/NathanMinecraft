@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.alloysmelter.title}",
+	x: 2.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.alloysmelter.subtitle}",
+	text: [
+		"{ftbuniversity.alloysmelter.desc1}",
+		"",
+		"{ftbuniversity.alloysmelter.desc2}"
+	],
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "5d7b057c",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9a3c83e",
+		type: "command",
+		title: "{ftbuniversity.alloysmelter.reward1}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team e36658b1"
+	},
+	{
+		uid: "065e1009",
+		type: "command",
+		title: "{ftbuniversity.alloysmelter.reward2}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team c0d58a95"
+	},
+	{
+		uid: "3998305e",
+		type: "item",
+		item: "enderio:block_detector_block_silent"
+	}]
+}

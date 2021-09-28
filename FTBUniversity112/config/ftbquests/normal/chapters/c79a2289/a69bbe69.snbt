@@ -1,0 +1,52 @@
+{
+	title: "{ftbuniversity.ic2moveups.title}",
+	icon: {
+		id: "ic2:upgrade",
+		tag: {},
+		Damage: 4s
+	},
+	x: 6.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.ic2moveups.subtitle}",
+	text: [
+		"{ftbuniversity.ic2moveups.desc1}",
+		"",
+		"{ftbuniversity.ic2moveups.desc2}",
+		"",
+		"{ftbuniversity.ic2moveups.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "37eea467",
+		type: "item",
+		title: "{ftbuniversity.ic2moveups.task1}",
+		items: [{
+			id: "ic2:upgrade",
+			tag: {},
+			Damage: 4s
+		},
+		{
+			id: "ic2:upgrade",
+			tag: {},
+			Damage: 8s
+		}]
+	},
+	{
+		uid: "5dd58931",
+		type: "item",
+		title: "{ftbuniversity.ic2moveups.task2}",
+		items: [{
+			id: "ic2:upgrade",
+			tag: {},
+			Damage: 6s
+		},
+		{
+			id: "ic2:upgrade",
+			tag: {},
+			Damage: 9s
+		}]
+	}]
+}

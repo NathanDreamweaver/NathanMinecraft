@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.ardiscover.title}",
+	x: 0.0d,
+	y: -8.875d,
+	description: "{ftbuniversity.ardiscover.subtitle}",
+	text: [
+		"{ftbuniversity.ardiscover.desc1}",
+		"",
+		"{ftbuniversity.ardiscover.desc2}",
+		"",
+		"{ftbuniversity.ardiscover.desc3}",
+		"",
+		"{ftbuniversity.ardiscover.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d123d137",
+		"4647eca4"
+	],
+	size: 0.325d,
+	min_width: 300,
+	tasks: [{
+		uid: "7ebd50a8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}],
+		ignore_nbt: 1b
+	}]
+}

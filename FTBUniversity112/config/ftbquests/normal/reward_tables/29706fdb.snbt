@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.proteindna.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "forestry:refractory",
+			tag: {
+				Fluid: {
+					FluidName: "liquiddna",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "forestry:refractory",
+			tag: {
+				Fluid: {
+					FluidName: "protein",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 5
+	}]
+}

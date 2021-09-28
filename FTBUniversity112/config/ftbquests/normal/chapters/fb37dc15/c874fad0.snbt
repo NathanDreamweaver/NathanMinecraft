@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: -1.25d,
+	description: "{ftbuniversity.kekimurus.subtitle}",
+	text: [
+		"{ftbuniversity.kekimurus.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "252d9b0f",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "kekimurus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "85f6211e",
+		type: "item",
+		item: "minecraft:cake"
+	}]
+}

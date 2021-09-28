@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.storagescanner.title}",
+	x: 2.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.storagescanner.subtitle}",
+	text: [
+		"{ftbuniversity.storagescanner.desc1}",
+		"",
+		"{ftbuniversity.storagescanner.desc2}",
+		"",
+		"{ftbuniversity.storagescanner.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "0a74eaa6",
+		type: "item",
+		items: [{
+			item: "rftools:storage_scanner"
+		}]
+	}]
+}

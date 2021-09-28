@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.darkanvil.subtitle}",
+	text: [
+		"{ftbuniversity.darkanvil.desc1}",
+		"",
+		"{ftbuniversity.darkanvil.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "9a970f38",
+		type: "item",
+		items: [{
+			item: "enderio:block_dark_steel_anvil"
+		}]
+	}]
+}

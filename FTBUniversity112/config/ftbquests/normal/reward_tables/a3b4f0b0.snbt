@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.progthaum.reward}",
+	loot_size: 5,
+	rewards: [{
+		item: "thaumcraft:crystal_aer"
+	},
+	{
+		item: "thaumcraft:crystal_ignis"
+	},
+	{
+		item: "thaumcraft:crystal_aqua"
+	},
+	{
+		item: "thaumcraft:crystal_terra"
+	},
+	{
+		item: "thaumcraft:crystal_ordo"
+	},
+	{
+		item: "thaumcraft:crystal_perditio"
+	},
+	{
+		item: "thaumcraft:crystal_vitium"
+	}]
+}

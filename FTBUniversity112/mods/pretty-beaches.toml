@@ -1,0 +1,14 @@
+name = "Pretty Beaches"
+filename = "PrettyBeaches_1.12.2-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3067/807/PrettyBeaches_1.12.2-1.1.0.jar"
+hash-format = "murmur2"
+hash = "919757452"
+
+[update]
+[update.curseforge]
+file-id = 3067807
+project-id = 290659
+release-channel = "beta"

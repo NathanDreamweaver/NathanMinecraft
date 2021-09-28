@@ -1,0 +1,73 @@
+{
+	title: "{ftbuniversity.celestnotes.title}",
+	icon: "thaumcraft:celestial_notes 1 10",
+	x: 2.13537414965986d,
+	y: -0.41836734693878697d,
+	description: "{ftbuniversity.celestnotes.subtitle}",
+	text: [
+		"{ftbuniversity.celestnotes.desc1}",
+		"",
+		"{ftbuniversity.celestnotes.desc2}",
+		"",
+		"{ftbuniversity.celestnotes.desc3}",
+		"",
+		"{ftbuniversity.celestnotes.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"18cbdb1a",
+		"5814606f"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "29b244d7",
+		type: "item",
+		title: "{ftbuniversity.celestnotes.task}",
+		items: [{
+			item: "thaumcraft:celestial_notes"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 1"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 2"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 3"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 4"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 5"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 6"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 7"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 8"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 9"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 10"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 11"
+		},
+		{
+			item: "thaumcraft:celestial_notes 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "907edca5",
+		type: "loot",
+		table: 15
+	}]
+}

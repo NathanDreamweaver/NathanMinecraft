@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.meterminal.title}",
+	x: 7.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.meterminal.subtitle}",
+	text: [
+		"{ftbuniversity.meterminal.desc1}",
+		"",
+		"{ftbuniversity.meterminal.desc2}",
+		"",
+		"{ftbuniversity.meterminal.desc3}"
+	],
+	dependencies: [
+		"bc228c29"
+	],
+	tasks: [{
+		uid: "476676cc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	}]
+}

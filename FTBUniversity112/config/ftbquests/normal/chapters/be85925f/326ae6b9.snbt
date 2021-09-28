@@ -1,0 +1,56 @@
+{
+	disable_toast: true,
+	x: 1.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.playerteleporters.subtitle}",
+	text: [
+		"{ftbuniversity.playerteleporters.desc}"
+	],
+	tasks: [{
+		uid: "b8d10d37",
+		type: "item",
+		title: "{ftbuniversity.playerteleporters.title}",
+		items: [{
+			item: "ic2:te 1 39"
+		},
+		{
+			item: "mekanism:machineblock 1 11"
+		},
+		{
+			item: "mekanism:basicblock 1 7"
+		},
+		{
+			item: "mekanism:portableteleporter"
+		},
+		{
+			item: "rftools:matter_transmitter"
+		},
+		{
+			item: "rftools:matter_receiver"
+		},
+		{
+			item: "rftools:charged_porter"
+		},
+		{
+			item: "rftools:advanced_charged_porter"
+		},
+		{
+			item: "bloodmagic:teleposer"
+		},
+		{
+			item: "enderio:block_travel_anchor"
+		},
+		{
+			item: "enderio:block_tele_pad"
+		},
+		{
+			item: "randomthings:floosign"
+		}]
+	}],
+	rewards: [{
+		uid: "262364fa",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	}]
+}

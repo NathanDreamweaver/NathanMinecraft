@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.ierailgun.title}",
+	x: 5.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.ierailgun.subtitle}",
+	text: [
+		"{ftbuniversity.ierailgun.desc1}",
+		"",
+		"{ftbuniversity.ierailgun.desc2}",
+		"",
+		"{ftbuniversity.ierailgun.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"29d63033"
+	],
+	tasks: [{
+		uid: "f116f7f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:railgun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92cbe6d7",
+		type: "item",
+		item: "immersiveengineering:material 1 2",
+		count: 32
+	}]
+}

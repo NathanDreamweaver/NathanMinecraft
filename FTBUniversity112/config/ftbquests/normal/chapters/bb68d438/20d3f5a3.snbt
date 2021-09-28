@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.growthaccelerator.title}",
+	x: 3.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.growthaccelerator.subtitle}",
+	text: [
+		"{ftbuniversity.growthaccelerator.desc1}",
+		"",
+		"{ftbuniversity.growthaccelerator.desc2}",
+		"",
+		"{ftbuniversity.growthaccelerator.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"81d76c19",
+		"f276b26c"
+	],
+	tasks: [{
+		uid: "af5cdc85",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "94956e60",
+		type: "item",
+		item: "appliedenergistics2:quartz_growth_accelerator",
+		count: 3
+	}]
+}

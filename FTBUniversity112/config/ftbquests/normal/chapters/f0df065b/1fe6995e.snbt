@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.exu2netherstar.subtitle}",
+	text: [
+		"{ftbuniversity.exu2netherstar.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "3289822a",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}]
+	}]
+}

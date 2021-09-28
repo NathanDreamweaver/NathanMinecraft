@@ -1,0 +1,14 @@
+name = "Just Enough Throwing In Fluids (JETIF)"
+filename = "jetif-1.12.2-1.5.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2919/936/jetif-1.12.2-1.5.2.jar"
+hash-format = "murmur2"
+hash = "1033756645"
+
+[update]
+[update.curseforge]
+file-id = 2919936
+project-id = 303122
+release-channel = "beta"

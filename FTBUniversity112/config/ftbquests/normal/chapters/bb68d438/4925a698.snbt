@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.ae2silk.title}",
+	x: 11.0d,
+	y: -1.375d,
+	description: "{ftbuniversity.ae2silk.subtitle}",
+	text: [
+		"{ftbuniversity.ae2silk.desc}"
+	],
+	dependencies: [
+		"5184e09a"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "d255c8d7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 301"
+		}]
+	}]
+}

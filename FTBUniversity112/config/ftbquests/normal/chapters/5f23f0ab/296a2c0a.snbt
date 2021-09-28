@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.alveary1.title}",
+	icon: "forestry:alveary.plain",
+	x: 2.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.alveary1.subtitle}",
+	text: [
+		"{ftbuniversity.alveary1.desc1}",
+		"",
+		"{ftbuniversity.alveary1.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"d818d27c",
+		"e9ae08ed"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6fa21bbb",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.plain"
+		}],
+		count: 27L
+	},
+	{
+		uid: "bbe9af46",
+		type: "item",
+		title: "{ftbuniversity.alveary1.task}",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "slabWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 9L
+	}]
+}

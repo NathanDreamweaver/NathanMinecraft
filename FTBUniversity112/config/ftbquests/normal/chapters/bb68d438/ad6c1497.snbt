@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.mecircetch.title}",
+	x: 1.5d,
+	y: -5.0d,
+	description: "{ftbuniversity.mecircetch.subtitle}",
+	text: [
+		"{ftbuniversity.mecircetch.desc}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc1}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"21ef680e"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "230f6bf5",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}]
+	}]
+}

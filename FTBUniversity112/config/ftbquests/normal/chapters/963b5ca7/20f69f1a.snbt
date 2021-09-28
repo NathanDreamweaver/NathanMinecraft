@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.avapick.title}",
+	x: -2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.avapick.subtitle}",
+	text: [
+		"{ftbuniversity.avapick.desc1}",
+		"",
+		"{ftbuniversity.avapick.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "7f631738",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

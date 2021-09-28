@@ -1,0 +1,14 @@
+name = "Engineer's Doors"
+filename = "engineers_doors-1.12.2-0.9.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3023/901/engineers_doors-1.12.2-0.9.1.jar"
+hash-format = "murmur2"
+hash = "3484625461"
+
+[update]
+[update.curseforge]
+file-id = 3023901
+project-id = 291126
+release-channel = "beta"

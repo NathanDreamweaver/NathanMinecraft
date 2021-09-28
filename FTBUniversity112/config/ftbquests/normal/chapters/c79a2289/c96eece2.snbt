@@ -1,0 +1,37 @@
+{
+	title: "{ftbuniversity.ic2mininglaser.title}",
+	x: 9.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.ic2mininglaser.subtitle}",
+	text: [
+		"{ftbuniversity.ic2mininglaser.desc1}",
+		"",
+		"{ftbuniversity.ic2mininglaser.desc2}",
+		"",
+		"{ftbuniversity.ic2mininglaser.desc3}",
+		"{ftbuniversity.ic2mininglaser.desc4}",
+		"{ftbuniversity.ic2mininglaser.desc5}",
+		"{ftbuniversity.ic2mininglaser.desc6}",
+		"{ftbuniversity.ic2mininglaser.desc7}",
+		"{ftbuniversity.ic2mininglaser.desc8}",
+		"{ftbuniversity.ic2mininglaser.desc9}",
+		"{ftbuniversity.ic2mininglaser.desc10}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"31a34ec1"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a87c5ed9",
+		type: "item",
+		items: [{
+			id: "ic2:mining_laser",
+			tag: {
+				charge: 300000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

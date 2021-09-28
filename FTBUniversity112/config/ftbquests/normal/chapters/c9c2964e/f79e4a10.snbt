@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.ipdisttower.title}",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "diesel",
+			Amount: 1000
+		}
+	},
+	x: 13.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.ipdisttower.subtitle}",
+	text: [
+		"{ftbuniversity.ipdisttower.desc1}",
+		"",
+		"{ftbuniversity.ipdisttower.desc2}"
+	],
+	dependencies: [
+		"6c9f36ef"
+	],
+	tasks: [{
+		uid: "c18c8c11",
+		type: "observation",
+		title: "{ftbuniversity.ipdisttower.task}",
+		match_type: "block_entity_id",
+		match: "immersivepetroleum:distillationtower",
+		timer: 0L
+	}]
+}

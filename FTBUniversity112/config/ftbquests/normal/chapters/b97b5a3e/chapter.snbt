@@ -1,0 +1,84 @@
+{
+	title: "{ftbuniversity.rftchap.title}",
+	icon: "rftools:crafter3",
+	always_invisible: false,
+	group: 2109457760,
+	default_quest_shape: "square",
+	images: [{
+		x: 0.0d,
+		y: 6.0d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/rftools_bg_horizontal.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: 5.0d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/rftools_bg_horizontal.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: 4.0d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/rftools_bg_horizontal.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: 3.0d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/rftools_bg_horizontal.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: 2.0d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/rftools_bg_horizontal.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: 4.6d,
+		width: 1.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/rftools_bg_vertical.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: 8.0d,
+		width: 3.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/rftools_bg_horizontal.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: 2.5d,
+	y: -6.5d,
+	description: "{ftbuniversity.pirat.subtitle}",
+	text: [
+		"{ftbuniversity.pirat.desc1}",
+		"",
+		"{ftbuniversity.pirat.desc2}",
+		"",
+		"{ftbuniversity.pirat.desc3}"
+	],
+	dependencies: [
+		"68317c6f"
+	],
+	tasks: [{
+		uid: "1058afb3",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "rats:pirat"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "afd5606f",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "rats:pirat"
+				}
+			}
+		},
+		count: 4
+	}]
+}

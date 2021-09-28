@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.ic2weed.title}",
+	icon: "ic2:crop_res 1 5",
+	x: 0.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.ic2weed.subtitle}",
+	text: [
+		"{ftbuniversity.ic2weed.desc1}",
+		"",
+		"{ftbuniversity.ic2weed.desc2}",
+		"",
+		"{ftbuniversity.ic2weed.desc3}",
+		"",
+		"{ftbuniversity.ic2weed.desc4}"
+	],
+	dependencies: [
+		"a0da8607"
+	],
+	tasks: [{
+		uid: "c9283434",
+		type: "item",
+		items: [{
+			item: "ic2:weeding_trowel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83732a57",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2weed_ex",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

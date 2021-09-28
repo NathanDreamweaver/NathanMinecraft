@@ -1,0 +1,37 @@
+{
+	title: "{ftbuniversity.pneucompat.title}",
+	icon: "pneumaticcraft:pneumatic_dynamo",
+	x: 5.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.pneucompat.subtitle}",
+	text: [
+		"{ftbuniversity.pneucompat.desc1}",
+		"",
+		"{ftbuniversity.pneucompat.desc2}"
+	],
+	dependencies: [
+		"2bf2d4fd"
+	],
+	tasks: [{
+		uid: "415f0e27",
+		type: "item",
+		title: "{ftbuniversity.pneucompat.task1}",
+		items: [{
+			item: "pneumaticcraft:pneumatic_dynamo"
+		},
+		{
+			item: "pneumaticcraft:pneumatic_generator"
+		}]
+	},
+	{
+		uid: "308b2321",
+		type: "item",
+		title: "{ftbuniversity.pneucompat.task2}",
+		items: [{
+			item: "pneumaticcraft:flux_compressor"
+		},
+		{
+			item: "pneumaticcraft:electric_compressor"
+		}]
+	}]
+}

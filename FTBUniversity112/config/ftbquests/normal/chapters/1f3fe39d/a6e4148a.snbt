@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.progblood.title}",
+	icon: "bloodmagic:altar",
+	x: 1.75d,
+	y: -2.25d,
+	description: "{ftbuniversity.progblood.subtitle}",
+	text: [
+		"{ftbuniversity.progblood.desc1}",
+		"",
+		"{ftbuniversity.progblood.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "9398c1b5",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "679e22a4",
+		type: "item",
+		item: {
+			id: "guideapi:bloodmagic-guide",
+			tag: {
+				G-API_Category_Page: 0
+			}
+		}
+	}]
+}

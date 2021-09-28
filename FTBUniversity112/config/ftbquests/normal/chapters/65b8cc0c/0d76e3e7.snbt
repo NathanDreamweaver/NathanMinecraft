@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.punchwood.title}",
+	icon: "minecraft:log",
+	x: 0.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.punchwood.subtitle}",
+	text: [
+		"{ftbuniversity.punchwood.desc1}",
+		"",
+		"{ftbuniversity.punchwood.desc2}"
+	],
+	dependencies: [
+		"10009e54"
+	],
+	tasks: [{
+		uid: "1e9c173f",
+		type: "item",
+		title: "{ftbuniversity.punchwood.task}",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "f0e189df",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.axe_platinum",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Apology Axe of Friendship and Learning"
+				}
+			}
+		}
+	}]
+}

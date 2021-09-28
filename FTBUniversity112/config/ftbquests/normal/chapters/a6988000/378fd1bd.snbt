@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.golempress.title}",
+	icon: "thaumcraft:golem_builder",
+	x: -3.5615646258503446d,
+	y: 0.392435374149656d,
+	description: "{ftbuniversity.golempress.subtitle}",
+	text: [
+		"{ftbuniversity.golempress.desc1}",
+		"",
+		"{ftbuniversity.golempress.desc2}",
+		"",
+		"{ftbuniversity.golempress.desc3}",
+		"",
+		"{ftbuniversity.golempress.desc4}",
+		"",
+		"{ftbuniversity.golempress.desc5}",
+		"",
+		"{ftbuniversity.golempress.desc6}",
+		"",
+		"{ftbuniversity.golempress.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f8439115"
+	],
+	hide: true,
+	size: 0.625d,
+	min_width: 275,
+	tasks: [{
+		uid: "8887da85",
+		type: "observation",
+		match_type: "block_id",
+		match: "thaumcraft:golem_builder",
+		timer: 0L
+	}]
+}

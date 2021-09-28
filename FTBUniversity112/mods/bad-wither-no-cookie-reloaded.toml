@@ -1,0 +1,14 @@
+name = "Bad Wither No Cookie - Reloaded"
+filename = "badwithernocookiereloaded-1.12.2-3.4.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3045/651/badwithernocookiereloaded-1.12.2-3.4.18.jar"
+hash-format = "murmur2"
+hash = "4093488300"
+
+[update]
+[update.curseforge]
+file-id = 3045651
+project-id = 261251
+release-channel = "beta"

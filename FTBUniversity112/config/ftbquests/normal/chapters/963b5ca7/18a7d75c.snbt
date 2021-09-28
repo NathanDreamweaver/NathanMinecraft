@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.creativevending.title}",
+	icon: "storagedrawers:upgrade_creative 1 1",
+	x: 0.0d,
+	y: 9.5d,
+	description: "{ftbuniversity.creativevending.subtitle}",
+	text: [
+		"{ftbuniversity.creativevending.desc1}",
+		"",
+		"{ftbuniversity.creativevending.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "5ce12507",
+		type: "item",
+		title: "{ftbuniversity.creativevending.task}",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_creative"
+		}]
+	}]
+}

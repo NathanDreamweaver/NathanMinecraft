@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.xnlogic.title}",
+	x: 5.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.xnlogic.subtitle}",
+	text: [
+		"{ftbuniversity.xnlogic.desc1}",
+		"",
+		"{ftbuniversity.xnlogic.desc2}",
+		"",
+		"{ftbuniversity.xnlogic.desc3}",
+		"",
+		"{ftbuniversity.xnlogic.desc4}",
+		"",
+		"{ftbuniversity.xnlogic.desc5}",
+		"",
+		"{ftbuniversity.xnlogic.desc6}"
+	],
+	dependencies: [
+		"d9c01312"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "ba3eb629",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.freerunners.title}",
+	x: 12.0d,
+	y: -3.5d,
+	description: "{ftbuniversity.freerunners.subtitle}",
+	text: [
+		"{ftbuniversity.freerunners.desc1}",
+		"",
+		"{ftbuniversity.freerunners.desc2}",
+		"",
+		"{ftbuniversity.freerunners.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "d287414e",
+		type: "item",
+		items: [{
+			item: "mekanism:freerunners"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

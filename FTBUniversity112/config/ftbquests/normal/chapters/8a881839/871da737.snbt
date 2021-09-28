@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 3.5d,
+	description: "{ftbuniversity.craftwriter.subtitle}",
+	text: [
+		"{ftbuniversity.craftwriter.desc1}",
+		"{ftbuniversity.craftwriter.desc2}",
+		"{ftbuniversity.craftwriter.desc3}",
+		"{ftbuniversity.craftwriter.desc4}",
+		"{ftbuniversity.craftwriter.desc5}",
+		"",
+		"{ftbuniversity.craftwriter.desc6}"
+	],
+	dependencies: [
+		"cabe9056"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "da1c49cc",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_crafting_writer_item"
+		}]
+	}]
+}

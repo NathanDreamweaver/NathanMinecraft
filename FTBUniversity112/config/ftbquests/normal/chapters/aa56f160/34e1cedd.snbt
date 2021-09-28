@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.combustiongenerator.title}",
+	x: 1.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.combustiongenerator.subtitle}",
+	text: [
+		"{ftbuniversity.combustiongenerator.desc1}",
+		"",
+		"{ftbuniversity.combustiongenerator.desc2}"
+	],
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "d5894acb",
+		type: "item",
+		items: [{
+			item: "enderio:block_combustion_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c99265b",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "hootch",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

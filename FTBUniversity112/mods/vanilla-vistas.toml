@@ -1,0 +1,14 @@
+name = "Vanilla Vistas"
+filename = "Vanilla_Vistas 1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2766/324/Vanilla_Vistas 1.1.jar"
+hash-format = "murmur2"
+hash = "423271096"
+
+[update]
+[update.curseforge]
+file-id = 2766324
+project-id = 335689
+release-channel = "beta"

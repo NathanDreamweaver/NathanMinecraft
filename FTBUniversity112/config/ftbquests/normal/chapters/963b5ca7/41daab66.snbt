@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.creativewct.subtitle}",
+	text: [
+		"{ftbuniversity.creativewct.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "b6f2531e",
+		type: "item",
+		items: [{
+			id: "wct:wct_creative",
+			tag: {
+				IsInRange: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

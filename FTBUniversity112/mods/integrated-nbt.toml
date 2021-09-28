@@ -1,0 +1,14 @@
+name = "Integrated NBT"
+filename = "integratednbt-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3132/891/integratednbt-1.2.2.jar"
+hash-format = "murmur2"
+hash = "2134134003"
+
+[update]
+[update.curseforge]
+file-id = 3132891
+project-id = 380998
+release-channel = "beta"

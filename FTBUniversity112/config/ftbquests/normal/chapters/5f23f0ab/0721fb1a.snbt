@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.gencovers.title}",
+	icon: "gendustry:eject_cover",
+	x: 4.15d,
+	y: 4.0d,
+	description: "{ftbuniversity.gencovers.subtitle}",
+	text: [
+		"{ftbuniversity.gencovers.desc1}",
+		"",
+		"{ftbuniversity.gencovers.desc2}"
+	],
+	dependencies: [
+		"a36607f5"
+	],
+	hide: true,
+	size: 0.75d,
+	optional: true,
+	tasks: [{
+		uid: "b2b18848",
+		type: "item",
+		items: [{
+			item: "gendustry:eject_cover"
+		},
+		{
+			item: "gendustry:import_cover"
+		},
+		{
+			item: "gendustry:error_sensor_cover"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	description: "{ftbuniversity.etranged5.subtitle}",
+	text: [
+		"{ftbuniversity.etranged5.desc}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d4ea1a3",
+		"c37a18e9"
+	],
+	tasks: [{
+		uid: "d8f12a33",
+		type: "item",
+		items: [{
+			item: "environmentaltech:nano_cont_ranged_5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

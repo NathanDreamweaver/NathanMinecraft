@@ -1,0 +1,52 @@
+{
+	title: "{ftbuniversity.grabbags.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "COMMON"
+			}
+		}
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "UNCOMMON"
+			}
+		}
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RARE"
+			}
+		}
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "EPIC"
+			}
+		}
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RELIC"
+			}
+		}
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "IE:MASTERWORK"
+			}
+		}
+	}]
+}

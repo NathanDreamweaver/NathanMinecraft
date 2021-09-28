@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.exu2manual.subtitle}",
+	text: [
+		"{ftbuniversity.exu2manual.desc1}",
+		"",
+		"{ftbuniversity.exu2manual.desc2}"
+	],
+	optional: true,
+	tasks: [{
+		uid: "05dbda06",
+		type: "item",
+		items: [{
+			item: "extrautils2:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

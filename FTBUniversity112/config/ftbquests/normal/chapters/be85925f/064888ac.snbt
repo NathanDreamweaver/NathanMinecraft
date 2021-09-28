@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.usefulthingsquest.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 1.5d,
+	y: -4.5d,
+	description: "{ftbuniversity.usefulthingsquest.subtitle}",
+	text: [
+		"{ftbuniversity.usefulthingsquest.desc1}",
+		"",
+		"{ftbuniversity.usefulthingsquest.desc2}",
+		"",
+		"{ftbuniversity.usefulthingsquest.desc3}"
+	],
+	size: 1.5d,
+	min_width: 275,
+	tasks: [{
+		uid: "316da1de",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 10000
+	}],
+	rewards: [{
+		uid: "a3ca3389",
+		type: "item",
+		item: "minecraft:cookie"
+	}]
+}

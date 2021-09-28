@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.compactmachines2.title}",
+	icon: "compactmachines3:machine 1 4",
+	x: 1.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.compactmachines2.subtitle}",
+	text: [
+		"{ftbuniversity.compactmachines2.desc1}",
+		"",
+		"{ftbuniversity.compactmachines2.desc2}"
+	],
+	dependencies: [
+		"03be9f27"
+	],
+	tasks: [{
+		uid: "b933d6ac",
+		type: "dimension",
+		dim: 144
+	}]
+}

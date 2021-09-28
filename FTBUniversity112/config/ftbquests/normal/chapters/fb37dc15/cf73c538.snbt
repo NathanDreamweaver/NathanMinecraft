@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.botalccat.title}",
+	x: 2.75d,
+	y: -0.7d,
+	description: "{ftbuniversity.botalccat.subtitle}",
+	text: [
+		"{ftbuniversity.botalccat.desc1}",
+		"",
+		"{ftbuniversity.botalccat.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0e4036fa"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "c8ce9bce",
+		type: "item",
+		items: [{
+			item: "botania:alchemycatalyst"
+		}],
+		consume_items: false
+	}]
+}

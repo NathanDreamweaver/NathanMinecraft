@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.batbox.title}",
+	x: 5.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.batbox.subtitle}",
+	text: [
+		"{ftbuniversity.batbox.desc1}",
+		"",
+		"{ftbuniversity.batbox.desc2}",
+		"",
+		"{ftbuniversity.batbox.desc3}",
+		"",
+		"{ftbuniversity.batbox.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "8702cdd3",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 72s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a9287d6d",
+		type: "item",
+		item: {
+			id: "ic2:re_battery",
+			tag: {
+				charge: 10000.0d
+			}
+		}
+	}]
+}

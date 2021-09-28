@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.ratlantis.title}",
+	x: 3.0d,
+	y: -5.5d,
+	description: "{ftbuniversity.ratlantis.subtitle}",
+	text: [
+		"{ftbuniversity.ratlantis.desc1}",
+		"",
+		"{ftbuniversity.ratlantis.desc2}",
+		"",
+		"{ftbuniversity.ratlantis.desc3}",
+		"",
+		"{ftbuniversity.ratlantis.desc4}"
+	],
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "8906a499",
+		type: "item",
+		items: [{
+			item: "rats:chunky_cheese_token"
+		}]
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.unlockinfusion.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/cat_infusion.png"
+		}
+	},
+	x: -1.7353741496598118d,
+	y: -1.0653061224489804d,
+	description: "{ftbuniversity.unlockinfusion.subtitle}",
+	text: [
+		"{ftbuniversity.unlockinfusion.desc1}",
+		"",
+		"{ftbuniversity.unlockinfusion.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"63a500b0"
+	],
+	tasks: [{
+		uid: "bcc08a48",
+		type: "item",
+		title: "{ftbuniversity.unlockinfusion.task}",
+		items: [{
+			item: "thaumcraft:cloth_chest"
+		},
+		{
+			item: "thaumcraft:cloth_legs"
+		},
+		{
+			item: "thaumcraft:cloth_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "058410bd",
+		type: "item",
+		item: "thaumcraft:fabric",
+		count: 9
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "{ftbuniversity.meessentia.title}",
+	icon: "thaumicenergistics:essentia_component_1k",
+	x: 4.5d,
+	y: -5.0d,
+	description: "{ftbuniversity.meessentia.subtitle}",
+	text: [
+		"{ftbuniversity.meessentia.desc1}",
+		"",
+		"{ftbuniversity.meessentia.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"850c4167",
+		"fadf0198"
+	],
+	tasks: [{
+		uid: "ce18943c",
+		type: "item",
+		title: "{ftbuniversity.meessentia.task}",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_1k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_4k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_16k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_64k",
+			tag: {
+				filter: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a85d96f",
+		type: "item",
+		item: "thaumicenergistics:essentia_component_4k",
+		count: 4
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.smartdense.title}",
+	x: 6.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.smartdense.subtitle}",
+	text: [
+		"{ftbuniversity.smartdense.desc}"
+	],
+	dependencies: [
+		"b1bf328d"
+	],
+	tasks: [{
+		uid: "63ad8bf2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}]
+	}],
+	rewards: [{
+		uid: "ae99eb47",
+		type: "item",
+		item: "appliedenergistics2:part 1 76",
+		count: 16
+	}]
+}

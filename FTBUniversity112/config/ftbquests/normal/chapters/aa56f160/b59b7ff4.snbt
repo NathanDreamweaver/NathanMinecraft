@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.stirlinggen.title}",
+	x: 0.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.stirlinggen.subtitle}",
+	text: [
+		"{ftbuniversity.stirlinggen.desc1}",
+		"",
+		"{ftbuniversity.stirlinggen.desc2}"
+	],
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "2167ccb6",
+		type: "item",
+		items: [{
+			item: "enderio:block_stirling_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "090d3a75",
+		type: "item",
+		item: "immersiveengineering:stone_decoration 1 3"
+	},
+	{
+		uid: "12c3f92d",
+		type: "command",
+		title: "{ftbuniversity.stirlinggen.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team 1b050859"
+	}]
+}

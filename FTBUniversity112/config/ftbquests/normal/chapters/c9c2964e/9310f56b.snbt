@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.ietransformers.title}",
+	icon: "immersiveengineering:connector 1 7",
+	x: 4.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.ietransformers.subtitle}",
+	text: [
+		"{ftbuniversity.ietransformers.desc1}",
+		"",
+		"{ftbuniversity.ietransformers.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ee314aed"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "30c5c119",
+		type: "item",
+		title: "{ftbuniversity.ietransformers.task}",
+		items: [{
+			item: "immersiveengineering:connector 1 7"
+		},
+		{
+			item: "immersiveengineering:connector 1 8"
+		}]
+	}]
+}

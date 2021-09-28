@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.rftquarryupgrades.title}",
+	icon: "rftools:shape_card 1 6",
+	x: -3.25d,
+	y: 8.75d,
+	description: "{ftbuniversity.rftquarryupgrades.subtitle}",
+	text: [
+		"{ftbuniversity.rftquarryupgrades.desc1}",
+		"",
+		"{ftbuniversity.rftquarryupgrades.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a4596eb8"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "2de1625f",
+		type: "item",
+		title: "{ftbuniversity.rftquarryupgrades.task1}",
+		items: [{
+			item: "rftools:shape_card 1 4"
+		},
+		{
+			item: "rftools:shape_card 1 7"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23fd5584",
+		type: "item",
+		title: "{ftbuniversity.rftquarryupgrades.task2}",
+		items: [{
+			item: "rftools:shape_card 1 3"
+		},
+		{
+			item: "rftools:shape_card 1 6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

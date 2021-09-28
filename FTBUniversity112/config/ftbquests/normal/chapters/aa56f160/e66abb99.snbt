@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.yetawrench.title}",
+	x: -1.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.yetawrench.subtitle}",
+	text: [
+		"{ftbuniversity.yetawrench.desc1}",
+		"",
+		"{ftbuniversity.yetawrench.desc2}",
+		"",
+		"{ftbuniversity.yetawrench.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "c0143a31",
+		type: "item",
+		items: [{
+			item: "enderio:item_yeta_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

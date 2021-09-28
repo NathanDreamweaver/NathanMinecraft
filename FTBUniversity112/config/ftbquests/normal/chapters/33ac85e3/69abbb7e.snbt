@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.rockmonsta.subtitle}",
+	text: [
+		"{ftbuniversity.rockmonsta.desc1}",
+		"",
+		"{ftbuniversity.rockmonsta.desc2}",
+		"",
+		"{ftbuniversity.rockmonsta.desc3}",
+		"",
+		"{ftbuniversity.rockmonsta.desc4}"
+	],
+	dependencies: [
+		"bee53bfa"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "74d8819e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:monitoringstation"
+		}]
+	}]
+}

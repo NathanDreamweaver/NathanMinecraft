@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.ecg.subtitle}",
+	text: [
+		"{ftbuniversity.ecg.desc1}",
+		"",
+		"{ftbuniversity.ecg.desc2}",
+		"",
+		"{ftbuniversity.ecg.desc3}"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "15297594",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

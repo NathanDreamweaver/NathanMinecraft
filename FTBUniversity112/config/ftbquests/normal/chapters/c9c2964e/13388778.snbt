@@ -1,0 +1,75 @@
+{
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 5,
+				Items: []
+			}
+		},
+		id: "immersiveengineering:drill",
+		tag: {
+			head: {
+				id: "immersiveengineering:drillhead",
+				Count: 1,
+				Damage: 0
+			}
+		}
+	},
+	x: 2.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.ieminingdrill.subtitle}",
+	text: [
+		"{ftbuniversity.ieminingdrill.desc1}",
+		"",
+		"{ftbuniversity.ieminingdrill.desc2}",
+		"",
+		"{ftbuniversity.ieminingdrill.desc3}",
+		"",
+		"{ftbuniversity.ieminingdrill.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b",
+		"61aadde9"
+	],
+	tasks: [{
+		uid: "23a766c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 5,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:drill"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c99e827",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:drillhead 1 1"
+		},
+		{
+			item: "immersiveengineering:drillhead"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5f90485",
+		type: "item",
+		item: {
+			id: "forestry:refractory",
+			tag: {
+				Fluid: {
+					FluidName: "biodiesel",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 2
+	}]
+}

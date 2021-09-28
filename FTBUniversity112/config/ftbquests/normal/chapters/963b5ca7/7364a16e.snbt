@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.neutronium.title}",
+	icon: "avaritia:neutron_collector",
+	x: 1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.neutronium.subtitle}",
+	text: [
+		"{ftbuniversity.neutronium.desc1}",
+		"",
+		"{ftbuniversity.neutronium.desc2}",
+		"",
+		"{ftbuniversity.neutronium.desc3}"
+	],
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "4e2920bb",
+		type: "item",
+		title: "{ftbuniversity.neutronium.task}",
+		items: [{
+			item: "avaritia:neutron_collector"
+		},
+		{
+			item: "denseneutroncollectors:compressed_neutron_collector"
+		},
+		{
+			item: "denseneutroncollectors:double_compressed_neutron_collector"
+		},
+		{
+			item: "denseneutroncollectors:triple_compressed_neutron_collector"
+		}]
+	}]
+}

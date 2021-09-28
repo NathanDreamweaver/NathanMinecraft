@@ -1,0 +1,14 @@
+name = "Charm"
+filename = "Charm-1.12.2-1.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3067/134/Charm-1.12.2-1.4.jar"
+hash-format = "murmur2"
+hash = "3585111486"
+
+[update]
+[update.curseforge]
+file-id = 3067134
+project-id = 318872
+release-channel = "beta"

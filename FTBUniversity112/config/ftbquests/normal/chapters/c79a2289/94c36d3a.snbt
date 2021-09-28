@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.extractor.subtitle}",
+	text: [
+		"{ftbuniversity.extractor.desc1}",
+		"",
+		"{ftbuniversity.extractor.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7fc62c1a",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 45"
+		}]
+	}],
+	rewards: [{
+		uid: "f2874b9d",
+		type: "item",
+		item: "ic2:rubber_wood",
+		count: 64
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.iepump.subtitle}",
+	text: [
+		"{ftbuniversity.iepump.desc1}",
+		"",
+		"{ftbuniversity.iepump.desc2}",
+		"",
+		"{ftbuniversity.iepump.desc3}"
+	],
+	dependencies: [
+		"1e550da9"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "664c7c7d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 5"
+		}]
+	}]
+}

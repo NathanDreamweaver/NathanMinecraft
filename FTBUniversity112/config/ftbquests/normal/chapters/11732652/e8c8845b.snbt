@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.mekcrusher.subtitle}",
+	text: [
+		"{ftbuniversity.mekcrusher.desc1}",
+		"",
+		"{ftbuniversity.mekcrusher.desc2}"
+	],
+	dependencies: [
+		"04e9e710"
+	],
+	tasks: [{
+		uid: "b3a2ca94",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

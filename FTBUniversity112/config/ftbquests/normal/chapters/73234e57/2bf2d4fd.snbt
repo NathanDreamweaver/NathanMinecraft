@@ -1,0 +1,61 @@
+{
+	title: "{ftbuniversity.pcb.title}",
+	icon: "pneumaticcraft:printed_circuit_board",
+	x: 5.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.pcb.subtitle}",
+	text: [
+		"{ftbuniversity.pcb.desc1}",
+		"",
+		"{ftbuniversity.pcb.desc2}",
+		"",
+		"{ftbuniversity.pcb.desc3}",
+		"",
+		"{ftbuniversity.pcb.desc4}"
+	],
+	dependencies: [
+		"089b57d0",
+		"1045585a"
+	],
+	tasks: [{
+		uid: "6c3692d1",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:empty_pcb 1 100"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2629667",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:uv_light_box"
+		}]
+	},
+	{
+		uid: "e231253f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "etchacid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "bc699da5",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:unassembled_pcb"
+		}]
+	},
+	{
+		uid: "e6043fe0",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:printed_circuit_board"
+		}]
+	}]
+}

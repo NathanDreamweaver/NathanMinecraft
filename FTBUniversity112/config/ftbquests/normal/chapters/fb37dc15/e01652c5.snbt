@@ -1,0 +1,26 @@
+{
+	x: 3.25d,
+	y: 7.1d,
+	description: "{ftbuniversity.luminlauncher.subtitle}",
+	text: [
+		"{ftbuniversity.luminlauncher.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e76b6ad2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "b1e7e0e9",
+		type: "item",
+		items: [{
+			item: "botania:lightlauncher"
+		}]
+	}],
+	rewards: [{
+		uid: "abd4555c",
+		type: "item",
+		item: "botania:hourglass"
+	}]
+}

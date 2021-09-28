@@ -1,0 +1,46 @@
+{
+	icon: "thaumcraft:condenser",
+	x: 0.10408163265304893d,
+	y: 1.3088435374149725d,
+	description: "{ftbuniversity.fluxcondenser.subtitle}",
+	text: [
+		"{ftbuniversity.fluxcondenser.desc1}",
+		"",
+		"{ftbuniversity.fluxcondenser.desc2}",
+		"",
+		"{ftbuniversity.fluxcondenser.desc3}",
+		"",
+		"{ftbuniversity.fluxcondenser.desc4}",
+		"",
+		"{ftbuniversity.fluxcondenser.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5914d93d",
+		"1b433e4d",
+		"8490f57a"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "b9258b3c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser"
+		}]
+	},
+	{
+		uid: "a5e647ee",
+		type: "item",
+		items: [{
+			item: "thaumcraft:condenser_lattice"
+		}]
+	}],
+	rewards: [{
+		uid: "741ce7ec",
+		type: "item",
+		item: "thaumcraft:condenser_lattice",
+		count: 6
+	}]
+}

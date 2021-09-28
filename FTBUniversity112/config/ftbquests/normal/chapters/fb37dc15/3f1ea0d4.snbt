@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.jadedamaranthus.title}",
+	x: 3.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.jadedamaranthus.subtitle}",
+	text: [
+		"{ftbuniversity.jadedamaranthus.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	tasks: [{
+		uid: "a91cb2b2",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "jadedAmaranthus"
+			}
+		}]
+	}]
+}

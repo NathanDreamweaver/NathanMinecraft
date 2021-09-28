@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.pcsecurityup.title}",
+	x: 3.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.pcsecurityup.subtitle}",
+	text: [
+		"{ftbuniversity.pcsecurityup.desc1}",
+		"",
+		"{ftbuniversity.pcsecurityup.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"113f15f8"
+	],
+	tasks: [{
+		uid: "0982371d",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:security_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "8325eb81",
+		type: "item",
+		item: "pneumaticcraft:security_upgrade",
+		count: 8
+	}]
+}

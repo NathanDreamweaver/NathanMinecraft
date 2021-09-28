@@ -1,0 +1,37 @@
+{
+	title: "{ftbuniversity.progmek.title}",
+	icon: "mekanismgenerators:generator 1 3",
+	x: 2.5d,
+	y: -0.5d,
+	description: "{ftbuniversity.progmek.subtitle}",
+	text: [
+		"{ftbuniversity.progmek.desc1}",
+		"",
+		"{ftbuniversity.progmek.desc2}",
+		"",
+		"{ftbuniversity.progmek.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "697a5444",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8ae5fc7d",
+		type: "item",
+		item: {
+			id: "mekanism:balloon",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Luftballon"
+				}
+			},
+			Damage: 1s
+		},
+		count: 99
+	}]
+}

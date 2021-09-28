@@ -1,0 +1,52 @@
+{
+	title: "{ftbuniversity.barham.title}",
+	icon: "yabba:hammer",
+	x: 2.75d,
+	y: 3.0d,
+	shape: "square",
+	description: "{ftbuniversity.barham.subtitle}",
+	text: [
+		"{ftbuniversity.barham.desc1}",
+		"",
+		"{ftbuniversity.barham.desc2}",
+		"",
+		"{ftbuniversity.barham.desc3}",
+		"",
+		"{ftbuniversity.barham.desc4}",
+		"",
+		"{ftbuniversity.barham.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4ea94e32"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "ab845aa5",
+		type: "item",
+		items: [{
+			item: "yabba:hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "59a5b0ac",
+		type: "item",
+		items: [{
+			item: "yabba:painter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7d395b4",
+		type: "item",
+		items: [{
+			item: "yabba:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

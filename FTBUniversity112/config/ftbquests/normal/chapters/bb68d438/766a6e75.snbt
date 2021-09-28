@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.craftingcpu.title}",
+	icon: "appliedenergistics2:crafting_accelerator",
+	x: 12.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.craftingcpu.subtitle}",
+	text: [
+		"{ftbuniversity.craftingcpu.desc1}",
+		"",
+		"{ftbuniversity.craftingcpu.desc2}",
+		"",
+		"{ftbuniversity.craftingcpu.desc3}",
+		"",
+		"{ftbuniversity.craftingcpu.desc4}"
+	],
+	dependencies: [
+		"5e042058"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "1fb0010a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	},
+	{
+		uid: "e2e3512b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	},
+	{
+		uid: "9b8aa820",
+		type: "item",
+		title: "{ftbuniversity.craftingcpu.task}",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_4k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_16k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	}]
+}

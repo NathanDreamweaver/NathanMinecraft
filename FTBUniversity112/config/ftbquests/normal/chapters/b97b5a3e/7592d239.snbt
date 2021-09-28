@@ -1,0 +1,32 @@
+{
+	icon: "rftools:elevator",
+	x: 1.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.rftelevator.subtitle}",
+	text: [
+		"{ftbuniversity.rftelevator.desc1}",
+		"",
+		"{ftbuniversity.rftelevator.desc2}",
+		"",
+		"{ftbuniversity.rftelevator.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "f219ba54",
+		type: "item",
+		items: [{
+			item: "rftools:elevator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc517611",
+		type: "item",
+		team_reward: true,
+		item: "rftools:elevator"
+	}]
+}

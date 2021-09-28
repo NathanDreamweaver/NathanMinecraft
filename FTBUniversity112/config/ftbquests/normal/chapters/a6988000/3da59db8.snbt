@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.bathsalt.title}",
+	x: -0.3717687074829783d,
+	y: -3.477551020408157d,
+	description: "{ftbuniversity.bathsalt.subtitle}",
+	text: [
+		"{ftbuniversity.bathsalt.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c5c018e2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "62ab23c2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bath_salts"
+		}]
+	}]
+}

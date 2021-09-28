@@ -1,0 +1,14 @@
+name = "Foam​Fix"
+filename = "foamfix-0.10.11-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3137/883/foamfix-0.10.11-1.12.2.jar"
+hash-format = "murmur2"
+hash = "3300724371"
+
+[update]
+[update.curseforge]
+file-id = 3137883
+project-id = 278494
+release-channel = "beta"

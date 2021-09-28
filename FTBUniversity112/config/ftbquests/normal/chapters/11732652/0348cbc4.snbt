@@ -1,0 +1,77 @@
+{
+	title: "{ftbuniversity.logisticaltransporter.title}",
+	icon: {
+		id: "mekanism:transmitter",
+		tag: {
+			tier: 0
+		},
+		Damage: 3s
+	},
+	x: 8.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.logisticaltransporter.subtitle}",
+	text: [
+		"{ftbuniversity.logisticaltransporter.desc1}",
+		"",
+		"{ftbuniversity.logisticaltransporter.desc2}",
+		"",
+		"{ftbuniversity.logisticaltransporter.desc3}",
+		"",
+		"{ftbuniversity.logisticaltransporter.desc4}",
+		"",
+		"{ftbuniversity.logisticaltransporter.desc5}",
+		"",
+		"{ftbuniversity.logisticaltransporter.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72",
+		"60216f1b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "fe40410e",
+		type: "item",
+		title: "{ftbuniversity.logisticaltransporter.task}",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "25163f41",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 3s
+		},
+		count: 16
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.arcanelevitator.title}",
+	x: -3.8431972789115463d,
+	y: -0.711904761904762d,
+	description: "{ftbuniversity.arcanelevitator.subtitle}",
+	text: [
+		"{ftbuniversity.arcanelevitator.desc1}",
+		"",
+		"{ftbuniversity.arcanelevitator.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5a700f13"
+	],
+	hide: true,
+	size: 0.375d,
+	tasks: [{
+		uid: "c0baf064",
+		type: "item",
+		items: [{
+			item: "thaumcraft:levitator"
+		}]
+	}]
+}

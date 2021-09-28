@@ -1,0 +1,27 @@
+{
+	icon: "deepmoblearning:soot_covered_redstone",
+	x: 0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.sooty.subtitle}",
+	text: [
+		"{ftbuniversity.sooty.desc1}",
+		"",
+		"{ftbuniversity.sooty.desc2}"
+	],
+	dependencies: [
+		"9594b4b3"
+	],
+	tasks: [{
+		uid: "3da634a1",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:soot_covered_redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "b8ceea7a",
+		type: "item",
+		item: "deepmoblearning:soot_covered_redstone",
+		count: 15
+	}]
+}

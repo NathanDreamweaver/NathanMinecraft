@@ -1,0 +1,14 @@
+name = "QMD"
+filename = "QMD-0.11.0-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3135/269/QMD-0.11.0-1.12.2.jar"
+hash-format = "murmur2"
+hash = "2880054254"
+
+[update]
+[update.curseforge]
+file-id = 3135269
+project-id = 362056
+release-channel = "beta"

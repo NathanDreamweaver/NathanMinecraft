@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.orb5.title}",
+	x: 9.25d,
+	y: -3.75d,
+	description: "{ftbuniversity.orb5.subtitle}",
+	text: [
+		"{ftbuniversity.orb5.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f517f86f"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "83c80865",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

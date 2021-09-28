@@ -1,0 +1,19 @@
+{
+	title: "{ftbuniversity.logupgs.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 0.0d,
+	y: 9.0d,
+	description: "{ftbuniversity.logupgs.subtitle}",
+	text: [
+		"{ftbuniversity.logupgs.desc1}",
+		"",
+		"{ftbuniversity.logupgs.desc2}"
+	],
+	dependencies: [
+		"34327740"
+	],
+	tasks: [{
+		uid: "1b638fe0",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.exu2firemill.title}",
+	x: -1.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.exu2firemill.subtitle}",
+	text: [
+		"{ftbuniversity.exu2firemill.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"44add260"
+	],
+	tasks: [{
+		uid: "f7d7d45c",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 5"
+		}]
+	}]
+}

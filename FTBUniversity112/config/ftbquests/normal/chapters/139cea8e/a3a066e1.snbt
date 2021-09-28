@@ -1,0 +1,47 @@
+{
+	title: "Deep Mob Learning",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 205,
+			TrophyVariant: "neon",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "deepmoblearning:glitch_infused_helmet",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Glitch",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487467L
+		}
+	},
+	x: 3.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.dmltrophy.subtitle}",
+	dependencies: [
+		"dbdb4f38"
+	],
+	rewards: [{
+		uid: "4578fba3",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "neon",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "deepmoblearning:glitch_infused_helmet",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Glitch",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

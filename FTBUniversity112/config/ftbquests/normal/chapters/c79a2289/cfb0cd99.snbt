@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.ic2replicator.title}",
+	x: 14.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.ic2replicator.subtitle}",
+	text: [
+		"{ftbuniversity.ic2replicator.desc1}",
+		"",
+		"{ftbuniversity.ic2replicator.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47fffb17",
+		"cce98914"
+	],
+	tasks: [{
+		uid: "7da67ed5",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	}]
+}

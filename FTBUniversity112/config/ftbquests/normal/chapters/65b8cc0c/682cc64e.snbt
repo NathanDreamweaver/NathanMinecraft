@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.drawercontroller.title}",
+	x: -2.25d,
+	y: 3.25d,
+	shape: "square",
+	description: "{ftbuniversity.drawercontroller.subtitle}",
+	text: [
+		"{ftbuniversity.drawercontroller.desc1}",
+		"",
+		"{ftbuniversity.drawercontroller.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"54818575"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "8e9ffc31",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "554fc13c",
+		type: "item",
+		item: "storagedrawers:controllerslave"
+	}]
+}

@@ -1,0 +1,14 @@
+name = "MmmMmmMmmMmm"
+filename = "MmmMmmMmmMmm-1.12-1.14.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2503/41/MmmMmmMmmMmm-1.12-1.14.jar"
+hash-format = "murmur2"
+hash = "2806477088"
+
+[update]
+[update.curseforge]
+file-id = 2503041
+project-id = 225738
+release-channel = "beta"

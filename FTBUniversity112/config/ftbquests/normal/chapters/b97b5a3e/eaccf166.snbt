@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.rftpowercell.title}",
+	icon: "rftools:powercell",
+	x: 1.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.rftpowercell.subtitle}",
+	text: [
+		"{ftbuniversity.rftpowercell.desc1}",
+		"",
+		"{ftbuniversity.rftpowercell.desc2}",
+		"",
+		"{ftbuniversity.rftpowercell.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "c43cd1c7",
+		type: "item",
+		title: "{ftbuniversity.rftpowercell.task}",
+		items: [{
+			item: "rftools:powercell_simple"
+		},
+		{
+			item: "rftools:powercell"
+		},
+		{
+			item: "rftools:powercell_advanced"
+		}],
+		ignore_nbt: 1b
+	}]
+}

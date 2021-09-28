@@ -1,0 +1,46 @@
+{
+	title: "{ftbuniversity.thaumonom.title}",
+	icon: "thaumcraft:thaumonomicon",
+	x: 0.5503401360544871d,
+	y: 0.6081632653061106d,
+	description: "{ftbuniversity.thaumonom.subtitle}",
+	text: [
+		"{ftbuniversity.thaumonom.desc1}",
+		"",
+		"{ftbuniversity.thaumonom.desc2}",
+		"",
+		"{ftbuniversity.thaumonom.desc3}",
+		"",
+		"{ftbuniversity.thaumonom.desc4}",
+		"",
+		"{ftbuniversity.thaumonom.desc5}",
+		"",
+		"{ftbuniversity.thaumonom.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"850c4167"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "517b3c73",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	},
+	{
+		uid: "817d24d3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14a01082",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 3
+	}]
+}

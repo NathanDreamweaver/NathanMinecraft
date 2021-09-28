@@ -1,0 +1,19 @@
+{
+	title: "{ftbuniversity.mekreactorbackup.title}",
+	icon: "minecraft:skull",
+	x: 13.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.mekreactorbackup.subtitle}",
+	text: [
+		"{ftbuniversity.mekreactorbackup.desc1}",
+		"",
+		"{ftbuniversity.mekreactorbackup.desc2}"
+	],
+	dependencies: [
+		"5e095d38"
+	],
+	tasks: [{
+		uid: "47de5235",
+		type: "checkmark"
+	}]
+}

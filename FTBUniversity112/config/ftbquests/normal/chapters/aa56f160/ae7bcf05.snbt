@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.induschass.subtitle}",
+	text: [
+		"{ftbuniversity.induschass.desc1}",
+		"",
+		"{ftbuniversity.induschass.desc2}",
+		"",
+		"{ftbuniversity.induschass.desc3}"
+	],
+	dependencies: [
+		"4b9e4c96"
+	],
+	tasks: [{
+		uid: "d13f56d0",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5558610f",
+		type: "item",
+		item: "enderio:item_material 1 1",
+		count: 3
+	}]
+}

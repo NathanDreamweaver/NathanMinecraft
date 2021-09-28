@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.dreadthorne.title}",
+	x: -1.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.dreadthorne.subtitle}",
+	text: [
+		"{ftbuniversity.dreadthorne.desc}"
+	],
+	dependencies: [
+		"290bd89d"
+	],
+	tasks: [{
+		uid: "a9b1cb27",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "dreadthorn"
+			}
+		}]
+	}]
+}

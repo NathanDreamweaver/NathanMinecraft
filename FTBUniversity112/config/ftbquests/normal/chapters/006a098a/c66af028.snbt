@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.digitalguide.subtitle}",
+	text: [
+		"{ftbuniversity.digitalguide.desc}"
+	],
+	tasks: [{
+		uid: "c0edf19c",
+		type: "item",
+		items: [{
+			item: "valkyrielib:guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

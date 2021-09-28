@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.eiotank.title}",
+	icon: "enderio:block_tank",
+	x: -0.5d,
+	y: -3.875d,
+	description: "{ftbuniversity.eiotank.subtitle}",
+	text: [
+		"{ftbuniversity.eiotank.desc1}",
+		"",
+		"{ftbuniversity.eiotank.desc2}"
+	],
+	tasks: [{
+		uid: "e9c63a39",
+		type: "item",
+		title: "{ftbuniversity.eiotank.task}",
+		items: [{
+			item: "enderio:block_tank"
+		},
+		{
+			item: "enderio:block_tank 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ba61194c",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 8
+	}]
+}

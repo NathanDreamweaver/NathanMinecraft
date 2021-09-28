@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.avaaxe.title}",
+	x: -2.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.avaaxe.subtitle}",
+	text: [
+		"{ftbuniversity.avaaxe.desc1}",
+		"",
+		"{ftbuniversity.avaaxe.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "c6d4fd4a",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

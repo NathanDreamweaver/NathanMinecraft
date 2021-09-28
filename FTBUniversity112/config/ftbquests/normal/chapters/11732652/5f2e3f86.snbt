@@ -1,0 +1,21 @@
+{
+	x: 8.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.chemcryst.subtitle}",
+	text: [
+		"{ftbuniversity.chemcryst.desc1}",
+		"",
+		"{ftbuniversity.chemcryst.desc2}"
+	],
+	dependencies: [
+		"52594412"
+	],
+	tasks: [{
+		uid: "7edd63e3",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

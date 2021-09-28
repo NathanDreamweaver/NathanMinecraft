@@ -1,0 +1,47 @@
+{
+	title: "Thaumcraft 6",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "thaumcraft:thaumonomicon",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Mad Magiscientist",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487572L
+		}
+	},
+	x: 1.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.tc6trophy.subtitle}",
+	dependencies: [
+		"a6988000"
+	],
+	rewards: [{
+		uid: "b7fd238e",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "thaumcraft:thaumonomicon",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Mad Magiscientist",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

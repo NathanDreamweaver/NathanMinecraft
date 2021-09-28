@@ -1,0 +1,123 @@
+{
+	title: "{ftbuniversity.tranquility.title}",
+	icon: "quark:variant_leaves 1 1",
+	disable_toast: true,
+	x: 1.5d,
+	y: -5.25d,
+	description: "{ftbuniversity.tranquility.subtitle}",
+	text: [
+		"{ftbuniversity.tranquility.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"15245966"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "580613d4",
+		type: "item",
+		title: "{ftbuniversity.tranquility.task1}",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:potato"
+		},
+		{
+			item: "minecraft:carrot"
+		},
+		{
+			item: "minecraft:wheat"
+		},
+		{
+			item: "minecraft:nether_wart"
+		},
+		{
+			item: "minecraft:beetroot"
+		}]
+	},
+	{
+		uid: "0c890c4a",
+		type: "item",
+		title: "{ftbuniversity.tranquility.task2}",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:dirt"
+		},
+		{
+			item: "minecraft:grass"
+		},
+		{
+			item: "minecraft:farmland"
+		}]
+	},
+	{
+		uid: "2ad237e7",
+		type: "item",
+		title: "{ftbuniversity.tranquility.task3}",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:flint_and_steel"
+		},
+		{
+			item: "minecraft:netherrack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62f6dc42",
+		type: "item",
+		title: "{ftbuniversity.tranquility.task4}",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "5a239f8e",
+		type: "item",
+		title: "{ftbuniversity.tranquility.task5}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "887c3cb8",
+		type: "item",
+		title: "{ftbuniversity.tranquility.task6}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeLeaves",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "75ce9ecc",
+		type: "item",
+		title: "{ftbuniversity.tranquility.task7}",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:water_bucket"
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "lifeessence",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

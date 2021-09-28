@@ -1,0 +1,45 @@
+{
+	title: "{ftbuniversity.bloodaltar4.title}",
+	icon: "bloodmagic:decorative_brick 1 1",
+	x: 8.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.bloodaltar4.subtitle}",
+	text: [
+		"{ftbuniversity.bloodaltar4.desc}"
+	],
+	dependencies: [
+		"f06672df"
+	],
+	tasks: [{
+		uid: "ad1b85f6",
+		type: "item",
+		title: "{ftbuniversity.bloodaltar4.task}",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 4"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 3"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 6"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 5"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 1"
+		}],
+		count: 28L
+	},
+	{
+		uid: "8444a9d0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick 1 1"
+		}],
+		count: 4L
+	}]
+}

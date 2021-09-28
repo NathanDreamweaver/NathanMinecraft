@@ -1,0 +1,43 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/chemical_reactor.png"
+		}
+	},
+	x: 0.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.chemreact.subtitle}",
+	text: [
+		"{ftbuniversity.chemreact.desc1}",
+		"",
+		"{ftbuniversity.chemreact.desc2}",
+		"",
+		"{ftbuniversity.chemreact.desc3}"
+	],
+	dependencies: [
+		"20e07320",
+		"2d1edbc9"
+	],
+	tasks: [{
+		uid: "09fe08d0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:chemicalreactor"
+		}]
+	}],
+	rewards: [{
+		uid: "4ef1ae4e",
+		type: "item",
+		item: {
+			id: "advancedrocketry:bucketrocketfuel",
+			tag: {
+				Fluid: {
+					FluidName: "rocketfuel",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.prefab1.title}",
+	icon: "prefab:item_start_house",
+	disable_toast: true,
+	x: 0.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.prefab1.subtitle}",
+	text: [
+		"{ftbuniversity.prefab1.desc1}",
+		"",
+		"{ftbuniversity.prefab1.desc2}",
+		"",
+		"{ftbuniversity.prefab1.desc3}",
+		"",
+		"{ftbuniversity.prefab1.desc4}"
+	],
+	dependencies: [
+		"10009e54"
+	],
+	size: 0.75d,
+	min_width: 275,
+	rewards: [{
+		uid: "557155d2",
+		type: "choice",
+		table: 22
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.autocross.title}",
+	x: -4.265306122448983d,
+	y: -2.6122448979591866d,
+	description: "{ftbuniversity.autocross.subtitle}",
+	text: [
+		"{ftbuniversity.autocross.desc1}",
+		"",
+		"{ftbuniversity.autocross.desc2}",
+		"",
+		"{ftbuniversity.autocross.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cb358160"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "65025ea5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret"
+		}]
+	}],
+	rewards: [{
+		uid: "311c7129",
+		type: "item",
+		item: "minecraft:arrow",
+		count: 96
+	}]
+}

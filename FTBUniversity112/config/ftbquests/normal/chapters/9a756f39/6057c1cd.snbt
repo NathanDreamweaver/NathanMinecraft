@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.spellcloth.title}",
+	x: 0.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.spellcloth.subtitle}",
+	text: [
+		"{ftbuniversity.spellcloth.desc1}",
+		"",
+		"{ftbuniversity.spellcloth.desc2}",
+		"",
+		"{ftbuniversity.spellcloth.desc3}"
+	],
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "b49ac6a0",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:spell_cloth"
+		}]
+	}]
+}

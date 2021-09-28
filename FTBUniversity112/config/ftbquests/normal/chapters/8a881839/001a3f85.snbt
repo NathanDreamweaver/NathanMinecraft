@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.worldints.title}",
+	icon: "integratedtunnels:part_importer_world_item_item",
+	x: 4.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.worldints.subtitle}",
+	text: [
+		"{ftbuniversity.worldints.desc1}",
+		"",
+		"{ftbuniversity.worldints.desc2}",
+		"",
+		"{ftbuniversity.worldints.desc3}"
+	],
+	dependencies: [
+		"73342d2c"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "952dd8ed",
+		type: "item",
+		title: "{ftbuniversity.worldints.task}",
+		items: [{
+			item: "integratedtunnels:part_importer_world_item_item"
+		},
+		{
+			item: "integratedtunnels:part_exporter_world_item_item"
+		},
+		{
+			item: "integratedtunnels:part_importer_world_fluid_item"
+		},
+		{
+			item: "integratedtunnels:part_exporter_world_fluid_item"
+		},
+		{
+			item: "integratedtunnels:part_importer_world_block_item"
+		},
+		{
+			item: "integratedtunnels:part_exporter_world_block_item"
+		}]
+	}]
+}

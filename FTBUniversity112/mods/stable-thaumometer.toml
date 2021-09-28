@@ -1,0 +1,14 @@
+name = "Stable Thaumometer"
+filename = "DarkoHatesBounces-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2651/148/DarkoHatesBounces-1.12.2-1.0.0.jar"
+hash-format = "murmur2"
+hash = "1463578705"
+
+[update]
+[update.curseforge]
+file-id = 2651148
+project-id = 309503
+release-channel = "beta"

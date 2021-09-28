@@ -1,0 +1,64 @@
+{
+	title: "{ftbuniversity.ieotherbelts.title}",
+	icon: {
+		id: "immersiveengineering:conveyor",
+		tag: {
+			conveyorType: "immersiveengineering:vertical"
+		}
+	},
+	x: -1.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.ieotherbelts.subtitle}",
+	text: [
+		"{ftbuniversity.ieotherbelts.desc1}",
+		"",
+		"{ftbuniversity.ieotherbelts.desc2}",
+		"",
+		"{ftbuniversity.ieotherbelts.desc3}",
+		"",
+		"{ftbuniversity.ieotherbelts.desc4}"
+	],
+	dependencies: [
+		"88350777"
+	],
+	tasks: [{
+		uid: "a035de0b",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:vertical"
+			}
+		}]
+	},
+	{
+		uid: "11a4ea8a",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:dropper"
+			}
+		}]
+	},
+	{
+		uid: "5e842e0d",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:splitter"
+			}
+		}]
+	},
+	{
+		uid: "dc1fce05",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:extract"
+			}
+		}]
+	}]
+}

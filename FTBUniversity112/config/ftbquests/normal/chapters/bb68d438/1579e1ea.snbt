@@ -1,0 +1,18 @@
+{
+	x: 7.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.craftingterminal.subtitle}",
+	text: [
+		"{ftbuniversity.craftingterminal.desc}"
+	],
+	dependencies: [
+		"bb94141c"
+	],
+	tasks: [{
+		uid: "f3b6b928",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}]
+}

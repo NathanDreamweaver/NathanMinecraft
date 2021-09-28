@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.claimchunk.title}",
+	x: -0.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.claimchunk.subtitle}",
+	text: [
+		"{ftbuniversity.claimchunk.desc1}",
+		"",
+		"{ftbuniversity.claimchunk.desc2}",
+		"",
+		"{ftbuniversity.claimchunk.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	tasks: [{
+		uid: "4540cb2e",
+		type: "custom",
+		title: "{ftbuniversity.claimchunk.subtitle}",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ftblib:textures/icons/map.png"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "7075a2f9",
+		type: "item",
+		item: "minecraft:map"
+	}]
+}

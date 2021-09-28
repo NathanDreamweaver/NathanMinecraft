@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.ec2wireless.title}",
+	x: 9.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.ec2wireless.subtitle}",
+	text: [
+		"{ftbuniversity.ec2wireless.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b5c582fd"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "9c18669f",
+		type: "item",
+		items: [{
+			id: "extracells:terminal.fluid.wireless",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "07fcda63",
+		type: "item",
+		items: [{
+			id: "extracells:terminal.gas.wireless",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

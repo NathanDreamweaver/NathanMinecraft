@@ -1,0 +1,49 @@
+{
+	title: "{ftbuniversity.observatory.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "advancedrocketry:dataunit",
+			tag: {
+				RepairCost: 0,
+				maxData: 1000,
+				display: {
+					LocName: "ftbuniversity.observatory.reward1"
+				},
+				DataType: 1,
+				Data: 1000,
+				locked: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "advancedrocketry:dataunit",
+			tag: {
+				RepairCost: 0,
+				maxData: 1000,
+				display: {
+					LocName: "ftbuniversity.observatory.reward2"
+				},
+				DataType: 4,
+				Data: 1000,
+				locked: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "advancedrocketry:dataunit",
+			tag: {
+				RepairCost: 0,
+				maxData: 1000,
+				display: {
+					LocName: "ftbuniversity.observatory.reward3"
+				},
+				DataType: 6,
+				Data: 1000,
+				locked: 0b
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.laseramplifier.title}",
+	x: 12.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.laseramplifier.subtitle}",
+	text: [
+		"{ftbuniversity.laseramplifier.desc1}",
+		"",
+		"{ftbuniversity.laseramplifier.desc2}",
+		"",
+		"{ftbuniversity.laseramplifier.desc3}",
+		"",
+		"{ftbuniversity.laseramplifier.desc4}",
+		"",
+		"{ftbuniversity.laseramplifier.desc5}",
+		"",
+		"{ftbuniversity.laseramplifier.desc6}"
+	],
+	dependencies: [
+		"ccbedca6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "cafbdf7e",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 14"
+		}],
+		ignore_nbt: 1b
+	}]
+}

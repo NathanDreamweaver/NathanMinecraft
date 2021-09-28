@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.proglog.title}",
+	icon: "logisticspipes:pipe_basic",
+	x: -1.5d,
+	y: -2.75d,
+	description: "{ftbuniversity.proglog.subtitle}",
+	text: [
+		"{ftbuniversity.proglog.desc1}",
+		"",
+		"{ftbuniversity.proglog.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "0f446261",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ecf21b06",
+		type: "item",
+		item: "logisticspipes:guide_book"
+	}]
+}

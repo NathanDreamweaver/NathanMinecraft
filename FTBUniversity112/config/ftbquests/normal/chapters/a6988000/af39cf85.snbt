@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.thaumaaspects.title}",
+	x: -0.43877551020407424d,
+	y: 0.7040816326530503d,
+	description: "{ftbuniversity.thaumaaspects.subtitle}",
+	text: [
+		"{ftbuniversity.thaumaaspects.desc1}",
+		"",
+		"{ftbuniversity.thaumaaspects.desc2}",
+		"",
+		"{ftbuniversity.thaumaaspects.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"850c4167"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "f3dea6d6",
+		type: "checkmark",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "thaumcraft:textures/aspects/ordo.png"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "0c920ce0",
+		type: "loot",
+		table: 0
+	}]
+}

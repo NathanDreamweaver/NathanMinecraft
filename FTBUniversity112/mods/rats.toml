@@ -1,0 +1,14 @@
+name = "Rats"
+filename = "rats-3.2.14-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3028/671/rats-3.2.14-1.12.2.jar"
+hash-format = "murmur2"
+hash = "4294806470"
+
+[update]
+[update.curseforge]
+file-id = 3028671
+project-id = 323596
+release-channel = "beta"

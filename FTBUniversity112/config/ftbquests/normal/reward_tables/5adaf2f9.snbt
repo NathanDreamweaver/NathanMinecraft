@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.simplesag.rewards}",
+	loot_size: 32,
+	rewards: [{
+		item: "thermalfoundation:material"
+	},
+	{
+		item: "thermalfoundation:material 1 1"
+	},
+	{
+		item: "thermalfoundation:material 1 64"
+	},
+	{
+		item: "thermalfoundation:material 1 65"
+	},
+	{
+		item: "thermalfoundation:material 1 66"
+	},
+	{
+		item: "thermalfoundation:material 1 67"
+	},
+	{
+		item: "thermalfoundation:material 1 68"
+	},
+	{
+		item: "thermalfoundation:material 1 69"
+	},
+	{
+		item: "thermalfoundation:material 1 70"
+	}]
+}

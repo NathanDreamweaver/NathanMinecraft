@@ -1,0 +1,14 @@
+name = "Lazy AE2"
+filename = "lazy-ae2-1.12.2-1.1.25.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3142/586/lazy-ae2-1.12.2-1.1.25.jar"
+hash-format = "murmur2"
+hash = "2479374406"
+
+[update]
+[update.curseforge]
+file-id = 3142586
+project-id = 322347
+release-channel = "beta"

@@ -1,0 +1,25 @@
+{
+	x: -0.126870748299325d,
+	y: -2.702040816326523d,
+	description: "{ftbuniversity.everful.subtitle}",
+	text: [
+		"{ftbuniversity.everful.desc1}",
+		"",
+		"{ftbuniversity.everful.desc2}",
+		"",
+		"{ftbuniversity.everful.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c5c018e2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "6b020ac4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:everfull_urn"
+		}]
+	}]
+}

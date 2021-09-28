@@ -1,0 +1,43 @@
+{
+	icon: "forestry:alveary.swarmer",
+	x: 2.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.alveary2.subtitle}",
+	text: [
+		"{ftbuniversity.alveary2.desc1}",
+		"{ftbuniversity.alveary2.desc2}",
+		"{ftbuniversity.alveary2.desc3}",
+		"{ftbuniversity.alveary2.desc4}",
+		"{ftbuniversity.alveary2.desc5}",
+		"{ftbuniversity.alveary2.desc6}",
+		"{ftbuniversity.alveary2.desc7}"
+	],
+	dependencies: [
+		"296a2c0a"
+	],
+	optional: true,
+	min_width: 350,
+	tasks: [{
+		uid: "4d130893",
+		type: "item",
+		title: "{ftbuniversity.alveary2.task}",
+		items: [{
+			item: "forestry:alveary.swarmer"
+		},
+		{
+			item: "forestry:alveary.fan"
+		},
+		{
+			item: "forestry:alveary.heater"
+		},
+		{
+			item: "forestry:alveary.hygro"
+		},
+		{
+			item: "forestry:alveary.stabiliser"
+		},
+		{
+			item: "forestry:alveary.sieve"
+		}]
+	}]
+}

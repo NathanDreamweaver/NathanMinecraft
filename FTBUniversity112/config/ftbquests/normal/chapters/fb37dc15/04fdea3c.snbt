@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.lifeimbuer.subtitle}",
+	text: [
+		"{ftbuniversity.lifeimbuer.desc}"
+	],
+	dependencies: [
+		"290bd89d"
+	],
+	tasks: [{
+		uid: "e16e6a72",
+		type: "item",
+		items: [{
+			item: "botania:spawnerclaw"
+		}]
+	}]
+}

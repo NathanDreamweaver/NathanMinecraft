@@ -1,0 +1,56 @@
+{
+	icon: "immersiveengineering:wooden_device0 1 2",
+	x: 1.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.engineersworkbench.subtitle}",
+	text: [
+		"{ftbuniversity.engineersworkbench.desc1}",
+		"",
+		"{ftbuniversity.engineersworkbench.desc2}",
+		"",
+		"{ftbuniversity.engineersworkbench.desc3}",
+		"",
+		"{ftbuniversity.engineersworkbench.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5c4af523"
+	],
+	tasks: [{
+		uid: "13736eee",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	},
+	{
+		uid: "7a1f6b5d",
+		type: "item",
+		title: "{ftbuniversity.engineersworkbench.task}",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		},
+		{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "bullet"
+			}
+		},
+		{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "molds"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c2f13e5",
+		type: "choice",
+		table: 4
+	}]
+}

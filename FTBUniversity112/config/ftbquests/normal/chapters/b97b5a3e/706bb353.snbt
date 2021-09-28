@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.rftinfuser.subtitle}",
+	text: [
+		"{ftbuniversity.rftinfuser.desc}"
+	],
+	dependencies: [
+		"451c9518"
+	],
+	tasks: [{
+		uid: "b827e603",
+		type: "item",
+		items: [{
+			item: "rftools:machine_infuser"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc24371b",
+		type: "item",
+		item: "rftools:dimensional_shard",
+		count: 64
+	}]
+}

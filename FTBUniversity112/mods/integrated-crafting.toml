@@ -1,0 +1,14 @@
+name = "Integrated Crafting"
+filename = "IntegratedCrafting-1.12.2-1.0.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3010/631/IntegratedCrafting-1.12.2-1.0.10.jar"
+hash-format = "murmur2"
+hash = "444449149"
+
+[update]
+[update.curseforge]
+file-id = 3010631
+project-id = 287357
+release-channel = "beta"

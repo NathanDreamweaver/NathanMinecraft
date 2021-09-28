@@ -1,0 +1,40 @@
+{
+	x: 13.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.lasertract.subtitle}",
+	text: [
+		"{ftbuniversity.lasertract.desc1}",
+		"",
+		"{ftbuniversity.lasertract.desc2}"
+	],
+	dependencies: [
+		"2e9c7790"
+	],
+	tasks: [{
+		uid: "4dac911e",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {
+					security: 0,
+					ownerUUID: "13027fdb-aac9-491b-9d93-c7e2f791d846",
+					Items: [{
+						Slot: 0,
+						id: "minecraft:cobblestone",
+						Count: 23,
+						Damage: 0
+					},
+					{
+						Slot: 1,
+						id: "minecraft:dirt",
+						Count: 8,
+						Damage: 0
+					}]
+				}
+			},
+			Damage: 15s
+		}],
+		ignore_nbt: 1b
+	}]
+}

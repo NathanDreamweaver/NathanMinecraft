@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.exchangegad.subtitle}",
+	text: [
+		"{ftbuniversity.exchangegad.desc}",
+		"",
+		"{ftbuniversity.gengadget.desc1}",
+		"",
+		"{ftbuniversity.gengadget.desc2}"
+	],
+	tasks: [{
+		uid: "4b78c953",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				anchorcoords: [],
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,70 @@
+{
+	title: "{ftbuniversity.mechanicalpipes.title}",
+	icon: {
+		id: "mekanism:transmitter",
+		tag: {
+			tier: 0
+		},
+		Damage: 1s
+	},
+	x: 7.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.mechanicalpipes.subtitle}",
+	text: [
+		"{ftbuniversity.mechanicalpipes.desc1}",
+		"",
+		"{ftbuniversity.mechanicalpipes.desc2}",
+		"",
+		"{ftbuniversity.mechanicalpipes.desc3}",
+		"",
+		"{ftbuniversity.mechanicalpipes.desc4}"
+	],
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "169c2c1f",
+		type: "item",
+		title: "{ftbuniversity.mechanicalpipes.task}",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 1s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 1s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 1s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "b3cbbb69",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 1s
+		},
+		count: 16
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.golemancy.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/cat_golemancy.png"
+		}
+	},
+	x: -2.46870748299321d,
+	y: 0.4346938775510125d,
+	shape: "circle",
+	description: "{ftbuniversity.golemancy.subtitle}",
+	text: [
+		"{ftbuniversity.golemancy.desc1}",
+		"",
+		"{ftbuniversity.golemancy.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"46159d30",
+		"63a500b0",
+		"2213b63e",
+		"c31b9cbc"
+	],
+	tasks: [{
+		uid: "aa15acf4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mind"
+		}]
+	}]
+}

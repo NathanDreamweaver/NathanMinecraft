@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.exu2explosive.subtitle}",
+	text: [
+		"{ftbuniversity.exu2explosive.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "eb69f101",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1dd59315",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 16
+	}]
+}

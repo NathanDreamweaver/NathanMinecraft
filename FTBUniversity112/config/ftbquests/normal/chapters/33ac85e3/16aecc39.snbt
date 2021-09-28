@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.pipeseal.title}",
+	x: -1.75d,
+	y: -7.0d,
+	description: "{ftbuniversity.pipeseal.subtitle}",
+	text: [
+		"{ftbuniversity.pipeseal.desc1}",
+		"",
+		"{ftbuniversity.pipeseal.desc2}"
+	],
+	dependencies: [
+		"7adea7b7"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "a7136270",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:pipesealer"
+		}],
+		count: 4L
+	}]
+}

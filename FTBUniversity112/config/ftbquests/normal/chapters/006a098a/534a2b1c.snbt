@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.etpersonal1.title}",
+	x: 1.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.etpersonal1.subtitle}",
+	text: [
+		"{ftbuniversity.etpersonal1.desc1}",
+		"",
+		"{ftbuniversity.etpersonal1.desc2}",
+		"",
+		"{ftbuniversity.etpersonal1.desc3}",
+		"",
+		"{ftbuniversity.etpersonal1.desc4}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4f2b6f8b"
+	],
+	tasks: [{
+		uid: "5567b352",
+		type: "item",
+		items: [{
+			item: "environmentaltech:nano_cont_personal_1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

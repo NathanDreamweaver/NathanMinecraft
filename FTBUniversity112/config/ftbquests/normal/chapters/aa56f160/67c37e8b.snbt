@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.enhancedchassis.title}",
+	x: -0.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.enhancedchassis.subtitle}",
+	text: [
+		"{ftbuniversity.enhancedchassis.desc1}",
+		"",
+		"{ftbuniversity.enhancedchassis.desc2}"
+	],
+	dependencies: [
+		"4b9e4c96"
+	],
+	tasks: [{
+		uid: "8907bd29",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "35d6abbd",
+		type: "item",
+		item: "enderio:item_material 1 54"
+	}]
+}

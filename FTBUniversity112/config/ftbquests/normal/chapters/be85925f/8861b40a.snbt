@@ -1,0 +1,150 @@
+{
+	title: "{ftbuniversity.flight.title}",
+	disable_toast: true,
+	x: 1.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.flight.subtitle}",
+	text: [
+		"{ftbuniversity.flight.desc}"
+	],
+	tasks: [{
+		uid: "69cb75fe",
+		type: "item",
+		title: "{ftbuniversity.flight.task}",
+		disable_toast: true,
+		items: [{
+			item: "ic2:jetpack 1 27"
+		},
+		{
+			id: "ic2:jetpack_electric",
+			tag: {},
+			Damage: 26s
+		},
+		{
+			item: "ic2:crafting 1 37"
+		},
+		{
+			item: "mekanism:jetpack"
+		},
+		{
+			item: "mekanism:armoredjetpack"
+		},
+		{
+			item: "extrautils2:chickenring"
+		},
+		{
+			item: "extrautils2:chickenring 1 1"
+		},
+		{
+			item: "extrautils2:angelring"
+		},
+		{
+			item: "extrautils2:angelring 1 1"
+		},
+		{
+			item: "extrautils2:angelring 1 2"
+		},
+		{
+			item: "extrautils2:angelring 1 3"
+		},
+		{
+			item: "extrautils2:angelring 1 4"
+		},
+		{
+			item: "extrautils2:angelring 1 5"
+		},
+		{
+			ForgeCaps: {
+				"thaumicaugmentation:elytra_harness_augment": {}
+			},
+			id: "botania:flighttiara"
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:elytra"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:glide"
+			},
+			Damage: 1s
+		},
+		{
+			item: "environmentaltech:modifier_creative_flight"
+		},
+		{
+			item: "pneumaticcraft:jet_boots_upgrade"
+		},
+		{
+			item: "bloodmagic:sigil_air"
+		},
+		{
+			item: "advancedrocketry:hovercraft"
+		},
+		{
+			item: "advancedrocketry:jetpack"
+		},
+		{
+			item: "avaritia:infinity_chestplate"
+		},
+		{
+			item: "deepmoblearning:glitch_infused_chestplate"
+		},
+		{
+			item: "hooked:hook"
+		},
+		{
+			item: "hooked:hook 1 1"
+		},
+		{
+			item: "hooked:hook 1 2"
+		},
+		{
+			item: "hooked:hook 1 3"
+		},
+		{
+			item: "hooked:hook 1 4"
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 0,
+				key: "bloodmagic.upgrade.elytra"
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					slots: 1
+				}
+			},
+			id: "thaumicaugmentation:thaumostatic_harness"
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					slots: 2
+				}
+			},
+			id: "thaumicaugmentation:elytra_harness"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00411a4a",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 2s
+				}]
+			}
+		}
+	}]
+}

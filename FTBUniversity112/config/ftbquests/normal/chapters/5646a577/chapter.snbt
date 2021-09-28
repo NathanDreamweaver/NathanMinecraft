@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.magicchap.title}",
+	icon: "botania:lightrelay 1 3",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

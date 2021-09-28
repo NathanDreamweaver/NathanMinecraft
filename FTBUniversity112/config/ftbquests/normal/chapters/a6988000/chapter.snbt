@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.thaumchap.title}",
+	icon: "thaumcraft:thaumonomicon",
+	always_invisible: false,
+	group: 1447470455,
+	default_quest_shape: "circle"
+}

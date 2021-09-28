@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.thermalcentrifuge.title}",
+	x: 8.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.thermalcentrifuge.subtitle}",
+	text: [
+		"{ftbuniversity.thermalcentrifuge.desc1}",
+		"",
+		"{ftbuniversity.thermalcentrifuge.desc2}",
+		"",
+		"{ftbuniversity.thermalcentrifuge.desc3}",
+		"",
+		"{ftbuniversity.thermalcentrifuge.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d465b6e",
+		"31a34ec1",
+		"60216f1b",
+		"c96eece2"
+	],
+	tasks: [{
+		uid: "75fa0e0f",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 52"
+		}]
+	}]
+}

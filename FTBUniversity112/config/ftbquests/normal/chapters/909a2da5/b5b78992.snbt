@@ -1,0 +1,31 @@
+{
+	icon: "logisticspipes:pipe_remote_orderer",
+	x: -5.0d,
+	y: 8.5d,
+	description: "{ftbuniversity.logordreq.subtitle}",
+	text: [
+		"{ftbuniversity.logordreq.desc1}",
+		"",
+		"{ftbuniversity.logordreq.desc2}",
+		"",
+		"{ftbuniversity.logordreq.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "f60bbdd3",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_remote_orderer"
+		}]
+	},
+	{
+		uid: "4cc813e3",
+		type: "item",
+		items: [{
+			item: "logisticspipes:remote_orderer"
+		}]
+	}]
+}

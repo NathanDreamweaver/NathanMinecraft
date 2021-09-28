@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.hungrychest.title}",
+	x: -3.8880952380952394d,
+	y: -1.076190476190476d,
+	description: "{ftbuniversity.hungrychest.subtitle}",
+	text: [
+		"{ftbuniversity.hungrychest.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c31b9cbc"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "a5e25271",
+		type: "item",
+		items: [{
+			item: "thaumcraft:hungry_chest"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.ic2crops.title}",
+	x: 0.0d,
+	y: -3.5d,
+	description: "{ftbuniversity.ic2crops.subtitle}",
+	text: [
+		"{ftbuniversity.ic2crops.desc1}",
+		"",
+		"{ftbuniversity.ic2crops.desc2}",
+		"{ftbuniversity.ic2crops.desc3}",
+		"{ftbuniversity.ic2crops.desc4}",
+		"",
+		"{ftbuniversity.ic2crops.desc5}",
+		"",
+		"{ftbuniversity.ic2crops.desc6}",
+		"",
+		"{ftbuniversity.ic2crops.desc7}"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "b537ed24",
+		type: "item",
+		items: [{
+			item: "ic2:crop_stick"
+		}]
+	}]
+}

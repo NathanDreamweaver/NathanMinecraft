@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.essentiasmelting1.title}",
+	icon: "thaumcraft:smelter_basic",
+	x: 0.8574829931972872d,
+	y: -2.756462585034015d,
+	description: "{ftbuniversity.essentiasmelting1.subtitle}",
+	text: [
+		"{ftbuniversity.essentiasmelting1.desc1}",
+		"",
+		"{ftbuniversity.essentiasmelting1.desc2}",
+		"",
+		"{ftbuniversity.essentiasmelting1.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f61fa9bc",
+		"ab222635"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "ee539bb5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "f179805e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "3f899f44",
+		type: "item",
+		item: "thaumcraft:alumentum",
+		count: 6
+	}]
+}

@@ -1,0 +1,14 @@
+name = "Mystical World"
+filename = "mysticalworld-1.12.2-1.9.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3054/945/mysticalworld-1.12.2-1.9.2.jar"
+hash-format = "murmur2"
+hash = "394076022"
+
+[update]
+[update.curseforge]
+file-id = 3054945
+project-id = 282940
+release-channel = "beta"

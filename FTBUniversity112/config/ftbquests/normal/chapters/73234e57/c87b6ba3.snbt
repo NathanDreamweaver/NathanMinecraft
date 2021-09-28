@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.transfergadget.title}",
+	x: 0.75d,
+	y: -0.75d,
+	description: "{ftbuniversity.transfergadget.subtitle}",
+	text: [
+		"{ftbuniversity.transfergadget.desc1}",
+		"",
+		"{ftbuniversity.transfergadget.desc2}",
+		"",
+		"{ftbuniversity.transfergadget.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f494bdc3"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "58531757",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:transfer_gadget"
+		}]
+	}]
+}

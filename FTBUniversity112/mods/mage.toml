@@ -1,0 +1,14 @@
+name = "MAGE (Graphical Tweaks)"
+filename = "MAGE-0.2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2625/223/MAGE-0.2.4.jar"
+hash-format = "murmur2"
+hash = "101614385"
+
+[update]
+[update.curseforge]
+file-id = 2625223
+project-id = 287471
+release-channel = "beta"

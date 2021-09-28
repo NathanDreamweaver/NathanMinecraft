@@ -1,0 +1,64 @@
+{
+	title: "{ftbuniversity.purecrystals.title}",
+	icon: "appliedenergistics2:material 1 12",
+	x: 3.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.purecrystals.subtitle}",
+	text: [
+		"{ftbuniversity.purecrystals.desc1}",
+		"",
+		"{ftbuniversity.purecrystals.desc2}",
+		"",
+		"{ftbuniversity.purecrystals.desc3}",
+		"",
+		"{ftbuniversity.purecrystals.desc4}"
+	],
+	dependencies: [
+		"4bf7fd2f"
+	],
+	tasks: [{
+		uid: "1fcf7170",
+		type: "item",
+		title: "{ftbuniversity.purecrystals.task1}",
+		items: [{
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 0
+			}
+		},
+		{
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 600
+			},
+			Damage: 600s
+		},
+		{
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1200
+			},
+			Damage: 1200s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "00fd053d",
+		type: "item",
+		title: "{ftbuniversity.purecrystals.task2}",
+		items: [{
+			item: "appliedenergistics2:material 1 10"
+		},
+		{
+			item: "appliedenergistics2:material 1 11"
+		},
+		{
+			item: "appliedenergistics2:material 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "62fa8adf",
+		type: "choice",
+		table: 11
+	}]
+}

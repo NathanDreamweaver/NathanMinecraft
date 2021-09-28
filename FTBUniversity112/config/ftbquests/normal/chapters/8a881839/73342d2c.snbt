@@ -1,0 +1,46 @@
+{
+	title: "{ftbuniversity.integratedtunnels.title}",
+	icon: "integratedtunnels:part_importer_item_item",
+	x: 5.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.integratedtunnels.subtitle}",
+	text: [
+		"{ftbuniversity.integratedtunnels.desc1}",
+		"",
+		"{ftbuniversity.integratedtunnels.desc2}",
+		"",
+		"{ftbuniversity.integratedtunnels.desc3}",
+		"",
+		"{ftbuniversity.integratedtunnels.desc4}",
+		"",
+		"{ftbuniversity.integratedtunnels.desc5}",
+		"",
+		"{ftbuniversity.integratedtunnels.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e3098252"
+	],
+	min_width: 325,
+	tasks: [{
+		uid: "d8d6d3b8",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_interface_item_item"
+		}]
+	},
+	{
+		uid: "21fe10df",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_importer_item_item"
+		}]
+	},
+	{
+		uid: "2fad0949",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_exporter_item_item"
+		}]
+	}]
+}

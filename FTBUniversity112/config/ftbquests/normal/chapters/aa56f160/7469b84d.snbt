@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.travelanchor.subtitle}",
+	text: [
+		"{ftbuniversity.travelanchor.desc1}",
+		"",
+		"{ftbuniversity.travelanchor.desc2}",
+		"",
+		"{ftbuniversity.travelanchor.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "89972de4",
+		type: "item",
+		items: [{
+			item: "enderio:block_travel_anchor"
+		}]
+	}],
+	rewards: [{
+		uid: "222056c5",
+		type: "item",
+		item: "enderio:block_travel_anchor"
+	}]
+}

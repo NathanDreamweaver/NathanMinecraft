@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.exu2porcupine.title}",
+	x: 3.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.exu2porcupine.subtitle}",
+	text: [
+		"{ftbuniversity.exu2porcupine.desc1}",
+		"",
+		"{ftbuniversity.exu2porcupine.desc2}",
+		"",
+		"{ftbuniversity.exu2porcupine.desc3}",
+		"",
+		"{ftbuniversity.exu2porcupine.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "241d52be",
+		type: "item",
+		items: [{
+			item: "extrautils2:interactionproxy"
+		}]
+	}]
+}

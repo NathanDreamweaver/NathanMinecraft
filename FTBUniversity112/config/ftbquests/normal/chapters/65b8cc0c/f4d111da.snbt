@@ -1,0 +1,83 @@
+{
+	title: "{ftbuniversity.yabups.title}",
+	icon: {
+		ForgeCaps: {
+			Parent: {}
+		},
+		id: "yabba:upgrade_obsidian_shell"
+	},
+	x: 2.25d,
+	y: 2.75d,
+	shape: "square",
+	description: "{ftbuniversity.yabups.subtitle}",
+	text: [
+		"{ftbuniversity.yabups.desc1}",
+		"",
+		"{ftbuniversity.yabups.desc2}",
+		"",
+		"{ftbuniversity.yabups.desc3}",
+		"",
+		"{ftbuniversity.yabups.desc4}",
+		"",
+		"{ftbuniversity.yabups.desc5}",
+		"",
+		"{ftbuniversity.yabups.desc6}",
+		"",
+		"{ftbuniversity.yabups.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4ea94e32"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "79b7b6f4",
+		type: "item",
+		title: "{ftbuniversity.yabups.task}",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_obsidian_shell"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_redstone_out"
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					Down: 1b,
+					Progress: 0b,
+					Collect: 0b,
+					Up: 1b
+				}
+			},
+			id: "yabba:upgrade_hopper"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_void"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_pickup"
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					Progress: 0s
+				}
+			},
+			id: "yabba:upgrade_smelting"
+		}]
+	}]
+}

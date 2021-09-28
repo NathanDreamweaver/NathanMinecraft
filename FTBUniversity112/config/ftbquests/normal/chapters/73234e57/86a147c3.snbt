@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.pnspeed.subtitle}",
+	text: [
+		"{ftbuniversity.pnspeed.desc}"
+	],
+	dependencies: [
+		"b31731ea"
+	],
+	tasks: [{
+		uid: "b6941c2c",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:speed_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "1af0a91e",
+		type: "item",
+		item: "pneumaticcraft:speed_upgrade",
+		count: 20
+	}]
+}

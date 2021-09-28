@@ -1,0 +1,31 @@
+{
+	x: 9.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.integratednbt.subtitle}",
+	text: [
+		"{ftbuniversity.integratednbt.desc1}",
+		"",
+		"{ftbuniversity.integratednbt.desc2}",
+		"",
+		"{ftbuniversity.integratednbt.desc3}",
+		"",
+		"{ftbuniversity.integratednbt.desc4}",
+		"",
+		"{ftbuniversity.integratednbt.desc5}",
+		"",
+		"{ftbuniversity.integratednbt.desc6}",
+		"",
+		"{ftbuniversity.integratednbt.desc7}"
+	],
+	dependencies: [
+		"81c41667"
+	],
+	min_width: 325,
+	tasks: [{
+		uid: "9ecffafb",
+		type: "item",
+		items: [{
+			item: "integratednbt:nbt_extractor"
+		}]
+	}]
+}

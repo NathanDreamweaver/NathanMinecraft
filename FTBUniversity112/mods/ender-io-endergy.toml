@@ -1,0 +1,14 @@
+name = "Ender IO Endergy"
+filename = "EnderIO-endergy-1.12.2-5.2.66.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3124/450/EnderIO-endergy-1.12.2-5.2.66.jar"
+hash-format = "murmur2"
+hash = "2252280505"
+
+[update]
+[update.curseforge]
+file-id = 3124450
+project-id = 304346
+release-channel = "beta"

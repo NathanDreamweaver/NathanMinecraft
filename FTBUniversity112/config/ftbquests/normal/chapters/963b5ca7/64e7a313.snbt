@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.creativepool.subtitle}",
+	text: [
+		"{ftbuniversity.creativepool.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "beda3f1d",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 1"
+		}]
+	}]
+}

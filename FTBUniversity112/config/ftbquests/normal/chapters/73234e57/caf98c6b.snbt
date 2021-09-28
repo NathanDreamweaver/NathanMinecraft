@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.aircompressor.title}",
+	x: 3.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.aircompressor.subtitle}",
+	text: [
+		"{ftbuniversity.aircompressor.desc1}",
+		"",
+		"{ftbuniversity.aircompressor.desc2}"
+	],
+	dependencies: [
+		"b9774f8d"
+	],
+	tasks: [{
+		uid: "816ed4c2",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:air_compressor"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.mekpump.subtitle}",
+	text: [
+		"{ftbuniversity.mekpump.desc1}",
+		"",
+		"{ftbuniversity.mekpump.desc2}",
+		"",
+		"{ftbuniversity.mekpump.desc3}",
+		"",
+		"{ftbuniversity.mekpump.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4bd5a868",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}]
+}

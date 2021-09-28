@@ -1,0 +1,14 @@
+name = "Save My Stronghold! (Forge)"
+filename = "savemystronghold-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2845/37/savemystronghold-1.12.2-1.0.0.jar"
+hash-format = "murmur2"
+hash = "758728309"
+
+[update]
+[update.curseforge]
+file-id = 2845037
+project-id = 355248
+release-channel = "beta"

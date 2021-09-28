@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.arwireless.title}",
+	x: -2.0d,
+	y: -5.75d,
+	description: "{ftbuniversity.arwireless.subtitle}",
+	text: [
+		"{ftbuniversity.arwireless.desc1}",
+		"",
+		"{ftbuniversity.arwireless.desc2}"
+	],
+	dependencies: [
+		"d123d137"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "52d3527d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:wirelesstransciever"
+		}]
+	}]
+}

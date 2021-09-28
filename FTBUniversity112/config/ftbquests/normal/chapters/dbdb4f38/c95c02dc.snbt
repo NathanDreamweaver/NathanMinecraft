@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.glitch.title}",
+	icon: "deepmoblearning:glitch_heart",
+	x: 4.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.glitch.subtitle}",
+	text: [
+		"{ftbuniversity.glitch.desc1}",
+		"",
+		"{ftbuniversity.glitch.desc2}"
+	],
+	dependencies: [
+		"8aa0e9ba"
+	],
+	tasks: [{
+		uid: "a9ca6f52",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_heart"
+		}]
+	},
+	{
+		uid: "084745af",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_ingot"
+		}]
+	}]
+}

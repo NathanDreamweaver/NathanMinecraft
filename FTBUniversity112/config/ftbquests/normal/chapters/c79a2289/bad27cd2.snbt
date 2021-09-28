@@ -1,0 +1,64 @@
+{
+	title: "{ftbuniversity.ic2nuclear3.1.title}",
+	icon: {
+		id: "ic2:heat_vent",
+		tag: {
+			advDmg: 0
+		}
+	},
+	x: 4.75d,
+	y: -3.75d,
+	description: "{ftbuniversity.ic2nuclear3.1.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear3.1.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear3.1.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear3.1.desc3}",
+		"",
+		"{ftbuniversity.ic2nuclear3.1.desc4}",
+		"",
+		"{ftbuniversity.ic2nuclear3.1.desc5}",
+		"",
+		"{ftbuniversity.ic2nuclear3.1.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5be0253"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "1bb19196",
+		type: "item",
+		title: "{ftbuniversity.ic2nuclear3.1.task}",
+		items: [{
+			id: "ic2:heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:advanced_heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:reactor_heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			item: "ic2:component_heat_vent"
+		},
+		{
+			id: "ic2:overclocked_heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

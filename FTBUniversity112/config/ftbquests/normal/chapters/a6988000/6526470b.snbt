@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.charmundying.title}",
+	x: -3.4412414965986144d,
+	y: -3.830214625850342d,
+	description: "{ftbuniversity.charmundying.subtitle}",
+	text: [
+		"{ftbuniversity.charmundying.desc1}",
+		"",
+		"{ftbuniversity.charmundying.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fa8540c9"
+	],
+	hide: true,
+	size: 0.375d,
+	optional: true,
+	tasks: [{
+		uid: "3d4151c1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:charm_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

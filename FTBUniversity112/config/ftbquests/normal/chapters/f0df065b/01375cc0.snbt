@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.exu2trash.title}",
+	icon: "extrautils2:trashcan",
+	x: 0.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.exu2trash.subtitle}",
+	text: [
+		"{ftbuniversity.exu2trash.desc}"
+	],
+	tasks: [{
+		uid: "f0a37cee",
+		type: "item",
+		title: "{ftbuniversity.exu2trash.task}",
+		items: [{
+			item: "extrautils2:trashcan"
+		},
+		{
+			item: "extrautils2:trashcanfluid"
+		},
+		{
+			item: "extrautils2:trashcanenergy"
+		}]
+	}]
+}

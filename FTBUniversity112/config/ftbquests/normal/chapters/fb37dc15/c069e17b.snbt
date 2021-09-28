@@ -1,0 +1,57 @@
+{
+	icon: "botania:opencrate 1 1",
+	x: 3.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.craftycrate.subtitle}",
+	text: [
+		"{ftbuniversity.craftycrate.desc1}",
+		"",
+		"{ftbuniversity.craftycrate.desc2}",
+		"",
+		"{ftbuniversity.craftycrate.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	tasks: [{
+		uid: "512521d9",
+		type: "item",
+		items: [{
+			item: "botania:opencrate 1 1"
+		}]
+	},
+	{
+		uid: "dfbbf260",
+		type: "item",
+		title: "{ftbuniversity.craftycrate.task}",
+		items: [{
+			item: "botania:craftpattern"
+		},
+		{
+			item: "botania:craftpattern 1 1"
+		},
+		{
+			item: "botania:craftpattern 1 2"
+		},
+		{
+			item: "botania:craftpattern 1 3"
+		},
+		{
+			item: "botania:craftpattern 1 4"
+		},
+		{
+			item: "botania:craftpattern 1 5"
+		},
+		{
+			item: "botania:craftpattern 1 6"
+		},
+		{
+			item: "botania:craftpattern 1 7"
+		},
+		{
+			item: "botania:craftpattern 1 8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

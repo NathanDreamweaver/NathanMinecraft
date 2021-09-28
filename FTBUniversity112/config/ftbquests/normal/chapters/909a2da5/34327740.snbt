@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	description: "{ftbuniversity.logpipecont.subtitle}",
+	text: [
+		"{ftbuniversity.logpipecont.desc}"
+	],
+	dependencies: [
+		"da208635"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1016933d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_controller"
+		}]
+	}]
+}

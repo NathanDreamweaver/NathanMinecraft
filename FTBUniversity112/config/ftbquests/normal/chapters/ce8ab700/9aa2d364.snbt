@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.ducharms.title}",
+	icon: "darkutils:charm_gluttony",
+	x: 3.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.ducharms.subtitle}",
+	text: [
+		"{ftbuniversity.ducharms.desc1}",
+		"",
+		"{ftbuniversity.ducharms.desc2}"
+	],
+	tasks: [{
+		uid: "8f24ebdb",
+		type: "item",
+		title: "{ftbuniversity.ducharms.task}",
+		items: [{
+			item: "darkutils:charm_agression"
+		},
+		{
+			item: "darkutils:charm_gluttony"
+		},
+		{
+			item: "darkutils:charm_null"
+		},
+		{
+			item: "darkutils:charm_portal"
+		},
+		{
+			item: "darkutils:charm_sleep"
+		},
+		{
+			item: "darkutils:focus_sash"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73dea90a",
+		type: "command",
+		auto: "invisible",
+		command: "/summon darkutils:fake_tnt @x @y @z {Fuse:120s}"
+	}]
+}

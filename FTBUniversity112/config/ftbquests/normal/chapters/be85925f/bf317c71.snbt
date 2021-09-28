@@ -1,0 +1,45 @@
+{
+	disable_toast: true,
+	x: 0.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.spawners.subtitle}",
+	text: [
+		"{ftbuniversity.spawners.desc}"
+	],
+	tasks: [{
+		uid: "43d209ef",
+		type: "item",
+		title: "{ftbuniversity.spawners.title}",
+		disable_toast: true,
+		items: [{
+			item: "enderio:block_powered_spawner"
+		},
+		{
+			item: "rftools:spawner"
+		},
+		{
+			item: "extrautils2:supermobspawner"
+		},
+		{
+			item: "extrautils2:cursedearth"
+		},
+		{
+			item: "darkutils:monolith 1 1"
+		},
+		{
+			item: "pneumaticcraft:spawner_agitator"
+		},
+		{
+			item: "rats:garbage_pile"
+		},
+		{
+			item: "botania:spawnerclaw"
+		}]
+	}],
+	rewards: [{
+		uid: "a474eab4",
+		type: "random",
+		title: "{ftbuniversity.spawners.rewards}",
+		table: 30
+	}]
+}

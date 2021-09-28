@@ -1,0 +1,65 @@
+{
+	title: "{ftbuniversity.essentiatubes.title}",
+	icon: "thaumcraft:tube",
+	x: 1.6125850340136125d,
+	y: -3.123809523809527d,
+	description: "{ftbuniversity.essentiatubes.subtitle}",
+	text: [
+		"{ftbuniversity.essentiatubes.desc1}",
+		"",
+		"{ftbuniversity.essentiatubes.desc2}",
+		"",
+		"{ftbuniversity.essentiatubes.desc3}",
+		"",
+		"{ftbuniversity.essentiatubes.desc4}",
+		"",
+		"{ftbuniversity.essentiatubes.desc5}",
+		"",
+		"{ftbuniversity.essentiatubes.desc6}",
+		"{ftbuniversity.essentiatubes.desc7}",
+		"{ftbuniversity.essentiatubes.desc8}",
+		"{ftbuniversity.essentiatubes.desc9}",
+		"{ftbuniversity.essentiatubes.desc10}",
+		"{ftbuniversity.essentiatubes.desc11}",
+		"{ftbuniversity.essentiatubes.desc12}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec7bfba3"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 275,
+	tasks: [{
+		uid: "c1565f15",
+		type: "item",
+		title: "{ftbuniversity.essentiatubes.task}",
+		items: [{
+			item: "thaumcraft:tube"
+		},
+		{
+			item: "thaumcraft:tube_valve"
+		},
+		{
+			item: "thaumcraft:tube_restrict"
+		},
+		{
+			item: "thaumcraft:tube_oneway"
+		},
+		{
+			item: "thaumcraft:tube_filter"
+		},
+		{
+			item: "thaumcraft:tube_buffer"
+		}]
+	},
+	{
+		uid: "724f07af",
+		type: "item",
+		items: [{
+			item: "thaumcraft:resonator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

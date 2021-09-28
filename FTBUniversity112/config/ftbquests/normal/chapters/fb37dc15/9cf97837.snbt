@@ -1,0 +1,28 @@
+{
+	x: 2.25d,
+	y: -1.25d,
+	description: "{ftbuniversity.rosaarcana.subtitle}",
+	text: [
+		"{ftbuniversity.rosaarcana.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "2b6b5d6a",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "arcanerose"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d39fa5fb",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

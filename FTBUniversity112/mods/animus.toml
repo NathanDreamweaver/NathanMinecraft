@@ -1,0 +1,14 @@
+name = "Animus"
+filename = "Animus-1.12-2.1.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2888/473/Animus-1.12-2.1.7.jar"
+hash-format = "murmur2"
+hash = "4208511036"
+
+[update]
+[update.curseforge]
+file-id = 2888473
+project-id = 229664
+release-channel = "beta"

@@ -1,0 +1,33 @@
+{
+	title: "We Prey at Night, We Stalk at Night",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/plague_rat.png"
+		}
+	},
+	x: -3.0d,
+	y: -8.0d,
+	description: "{ftbuniversity.plaguerat.subtitle}",
+	text: [
+		"{ftbuniversity.plaguerat.desc1}",
+		"",
+		"{ftbuniversity.plaguerat.desc2}",
+		"",
+		"{ftbuniversity.plaguerat.desc3}"
+	],
+	dependencies: [
+		"266f0663"
+	],
+	tasks: [{
+		uid: "2bac9e3f",
+		type: "observation",
+		title: "{ftbuniversity.plaguerat.subtitle}",
+		match_type: "entity_id",
+		match: "rats:rat",
+		nbt: {
+			Plague: 1b
+		},
+		timer: 0L
+	}]
+}

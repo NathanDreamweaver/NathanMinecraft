@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.dnadecrypt.subtitle}",
+	text: [
+		"{ftbuniversity.dnadecrypt.desc1}",
+		"",
+		"{ftbuniversity.dnadecrypt.desc2}"
+	],
+	dependencies: [
+		"9ad53eae"
+	],
+	tasks: [{
+		uid: "6f14896a",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:dnadecrypter"
+		}]
+	}]
+}

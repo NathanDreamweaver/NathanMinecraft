@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.cloudstepper.title}",
+	x: -3.378571428571391d,
+	y: -3.18395612244899d,
+	description: "{ftbuniversity.cloudstepper.subtitle}",
+	text: [
+		"{ftbuniversity.cloudstepper.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2cce1ae6"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "01fc44e4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloud_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

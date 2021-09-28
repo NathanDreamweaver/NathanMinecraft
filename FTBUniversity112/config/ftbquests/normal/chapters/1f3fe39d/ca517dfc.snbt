@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.progexu2.title}",
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator_survival"
+		}
+	},
+	x: -2.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.progexu2.subtitle}",
+	text: [
+		"{ftbuniversity.progexu2.desc1}",
+		"",
+		"{ftbuniversity.progexu2.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "ee943155",
+		type: "checkmark"
+	}]
+}

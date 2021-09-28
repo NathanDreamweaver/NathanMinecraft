@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.progression.title}",
+	icon: "minecraft:compass",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

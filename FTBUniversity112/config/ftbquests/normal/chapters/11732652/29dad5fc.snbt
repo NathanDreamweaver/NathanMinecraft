@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.mekheatgen.title}",
+	x: 1.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.mekheatgen.subtitle}",
+	text: [
+		"{ftbuniversity.mekheatgen.desc1}",
+		"",
+		"{ftbuniversity.mekheatgen.desc2}",
+		"",
+		"{ftbuniversity.mekheatgen.desc3}",
+		"",
+		"{ftbuniversity.mekheatgen.desc4}"
+	],
+	dependencies: [
+		"7e0e1f4c"
+	],
+	tasks: [{
+		uid: "21ec5f95",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78d6cb4d",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

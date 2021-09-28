@@ -1,0 +1,14 @@
+name = "Architect"
+filename = "Architect-MC1.12-1.2.0.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2444/355/Architect-MC1.12-1.2.0.6.jar"
+hash-format = "murmur2"
+hash = "2165954664"
+
+[update]
+[update.curseforge]
+file-id = 2444355
+project-id = 264874
+release-channel = "beta"

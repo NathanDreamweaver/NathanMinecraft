@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.forestrycarpenter.title}",
+	x: -3.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.forestrycarpenter.subtitle}",
+	text: [
+		"{ftbuniversity.forestrycarpenter.desc1}",
+		"",
+		"{ftbuniversity.forestrycarpenter.desc2}",
+		"",
+		"{ftbuniversity.forestrycarpenter.desc3}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "856bfc54",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e1a63fb",
+		type: "item",
+		item: "forestry:crate",
+		count: 32
+	}]
+}

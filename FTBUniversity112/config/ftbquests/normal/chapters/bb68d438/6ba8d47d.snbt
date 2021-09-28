@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.grindstone.title}",
+	icon: "appliedenergistics2:grindstone",
+	x: -0.75d,
+	y: 0.0d,
+	description: "{ftbuniversity.grindstone.subtitle}",
+	text: [
+		"{ftbuniversity.grindstone.desc1}",
+		"",
+		"{ftbuniversity.grindstone.desc2}",
+		"",
+		"{ftbuniversity.grindstone.desc3}"
+	],
+	dependencies: [
+		"53e0fcbc"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "ada7d356",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "f130cf2f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crank"
+		}]
+	}]
+}

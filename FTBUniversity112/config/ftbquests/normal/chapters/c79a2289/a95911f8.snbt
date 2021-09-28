@@ -1,0 +1,69 @@
+{
+	title: "{ftbuniversity.ic2nuclear1.title}",
+	icon: "ic2:hazmat_chestplate",
+	x: 3.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.ic2nuclear1.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear1.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear1.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear1.desc3}",
+		"",
+		"{ftbuniversity.ic2nuclear1.desc4}",
+		"",
+		"{ftbuniversity.ic2nuclear1.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0861d32f"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "0a3c6669",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "ic2:hazmat_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99b7dd6d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "ic2:hazmat_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d4ab051f",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "ic2:hazmat_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9524d86f",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "ic2:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c1d6b53",
+		type: "item",
+		item: "ic2:iodine_tablet",
+		count: 8
+	}]
+}

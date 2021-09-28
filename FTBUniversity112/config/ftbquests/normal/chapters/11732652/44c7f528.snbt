@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.chargepad.subtitle}",
+	text: [
+		"{ftbuniversity.chargepad.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "428ae23c",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 14s
+		}],
+		ignore_nbt: 1b
+	}]
+}

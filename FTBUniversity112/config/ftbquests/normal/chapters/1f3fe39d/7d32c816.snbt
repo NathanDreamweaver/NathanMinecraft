@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.progpneu.title}",
+	icon: "pneumaticcraft:air_compressor",
+	x: -2.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.progpneu.subtitle}",
+	text: [
+		"{ftbuniversity.progpneu.desc1}",
+		"",
+		"{ftbuniversity.progpneu.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "400f2cd9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1783525e",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "pneumaticcraft:book"
+			}
+		}
+	}]
+}

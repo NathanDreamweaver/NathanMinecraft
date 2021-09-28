@@ -1,0 +1,63 @@
+{
+	title: "{ftbuniversity.iecoveredbelt.title}",
+	icon: {
+		id: "immersiveengineering:conveyor",
+		tag: {
+			conveyorType: "immersiveengineering:covered"
+		}
+	},
+	x: 0.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.iecoveredbelt.subtitle}",
+	text: [
+		"{ftbuniversity.iecoveredbelt.desc1}",
+		"",
+		"{ftbuniversity.iecoveredbelt.desc2}",
+		"",
+		"{ftbuniversity.iecoveredbelt.desc3}"
+	],
+	dependencies: [
+		"88350777"
+	],
+	tasks: [{
+		uid: "d55712ac",
+		type: "item",
+		title: "{ftbuniversity.iecoveredbelt.task}",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:covered"
+			}
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:droppercovered"
+			}
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:verticalcovered"
+			}
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:extractcovered"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95be4e50",
+		type: "item",
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:chute_steel"
+			}
+		},
+		count: 16
+	}]
+}

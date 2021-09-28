@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.ic2nuclear3.5.title}",
+	x: 5.0d,
+	y: -5.5d,
+	description: "{ftbuniversity.ic2nuclear3.5.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear3.5.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear3.5.desc2}"
+	],
+	dependencies: [
+		"e5be0253"
+	],
+	tasks: [{
+		uid: "5518b990",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 24"
+		}],
+		count: 6L
+	}]
+}

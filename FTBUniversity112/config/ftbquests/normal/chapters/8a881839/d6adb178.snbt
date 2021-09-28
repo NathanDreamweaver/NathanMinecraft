@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 3.75d,
+	description: "{ftbuniversity.energybattery.subtitle}",
+	text: [
+		"{ftbuniversity.energybattery.desc1}",
+		"",
+		"{ftbuniversity.energybattery.desc2}",
+		"",
+		"{ftbuniversity.energybattery.desc3}"
+	],
+	dependencies: [
+		"8d9f4c0e"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "fea7e3ee",
+		type: "item",
+		items: [{
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

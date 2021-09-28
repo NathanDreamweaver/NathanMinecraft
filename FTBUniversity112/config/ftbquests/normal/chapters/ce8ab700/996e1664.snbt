@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.constpaste.title}",
+	icon: "buildinggadgets:constructionpaste",
+	x: 1.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.constpaste.subtitle}",
+	text: [
+		"{ftbuniversity.constpaste.desc1}",
+		"",
+		"{ftbuniversity.constpaste.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"57a976d5",
+		"247e9fc8",
+		"748d2e67"
+	],
+	tasks: [{
+		uid: "ea759505",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionblockpowder"
+		}]
+	},
+	{
+		uid: "72411529",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionpaste"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+name = "Prefab"
+filename = "prefab-1.3.0.26.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2651/659/prefab-1.3.0.26.jar"
+hash-format = "murmur2"
+hash = "4287122251"
+
+[update]
+[update.curseforge]
+file-id = 2651659
+project-id = 246550
+release-channel = "beta"

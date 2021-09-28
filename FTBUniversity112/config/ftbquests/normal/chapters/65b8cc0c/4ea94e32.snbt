@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.yabba.title}",
+	x: 1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.yabba.subtitle}",
+	text: [
+		"{ftbuniversity.yabba.desc1}",
+		"",
+		"{ftbuniversity.yabba.desc2}",
+		"",
+		"{ftbuniversity.yabba.desc3}",
+		"",
+		"{ftbuniversity.yabba.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "fdbb18ac",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "4da5588f",
+		type: "item",
+		item: "nuclearcraft:cobblestone_generator_compact"
+	}]
+}

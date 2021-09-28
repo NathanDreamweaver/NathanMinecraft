@@ -1,0 +1,39 @@
+{
+	icon: "rats:rat_upgrade_basic_ratlantean",
+	x: 4.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.ratlantisups.subtitle}",
+	text: [
+		"{ftbuniversity.ratlantisups.desc1}",
+		"",
+		"{ftbuniversity.ratlantisups.desc2}"
+	],
+	dependencies: [
+		"68317c6f"
+	],
+	tasks: [{
+		uid: "cd45d2c5",
+		type: "item",
+		title: "{ftbuniversity.ratlantisups.title}",
+		items: [{
+			item: "rats:rat_upgrade_feral_bite"
+		},
+		{
+			item: "rats:rat_upgrade_buccaneer"
+		},
+		{
+			item: "rats:rat_upgrade_ratinator"
+		},
+		{
+			item: "rats:rat_upgrade_psychic"
+		},
+		{
+			item: "rats:rat_upgrade_nonbeliever"
+		}]
+	}],
+	rewards: [{
+		uid: "4b9bf8ab",
+		type: "item",
+		item: "rats:plague_tome"
+	}]
+}

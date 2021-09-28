@@ -1,0 +1,215 @@
+{
+	title: "{ftbuniversity.ierevolver.title}",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 21,
+				Items: []
+			}
+		},
+		id: "immersiveengineering:revolver",
+		tag: {
+			bullets: []
+		}
+	},
+	x: 3.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.ierevolver.subtitle}",
+	text: [
+		"{ftbuniversity.ierevolver.desc1}",
+		"",
+		"{ftbuniversity.ierevolver.desc2}",
+		"",
+		"{ftbuniversity.ierevolver.desc3}",
+		"",
+		"{ftbuniversity.ierevolver.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0cde9a1a",
+		"5c4af523",
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "90553b1f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 21,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:revolver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7ba29dfb",
+		type: "item",
+		title: "{ftbuniversity.ierevolver.task}",
+		items: [{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "casull"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "armor_piercing"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "buckshot"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "he"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "silver"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "dragonsbreath"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "potion"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "flare"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "terrasteel"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "crystalwill"
+			},
+			Damage: 2s
+		},
+		{
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "wolfpack"
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9087af49",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 8,
+					Items: [{
+						Slot: 0,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					},
+					{
+						Slot: 1,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					},
+					{
+						Slot: 2,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					},
+					{
+						Slot: 3,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					},
+					{
+						Slot: 4,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					},
+					{
+						Slot: 5,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					},
+					{
+						Slot: 6,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					},
+					{
+						Slot: 7,
+						id: "immersiveengineering:bullet",
+						Count: 1b,
+						tag: {
+							bullet: "wolfpack"
+						},
+						Damage: 2s
+					}]
+				}
+			},
+			id: "immersiveengineering:speedloader"
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 2.75d,
+	y: -2.75d,
+	description: "{ftbuniversity.antiplasmid.subtitle}",
+	text: [
+		"{ftbuniversity.antiplasmid.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b405571"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "ccaefe1d",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:antiplasmid"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

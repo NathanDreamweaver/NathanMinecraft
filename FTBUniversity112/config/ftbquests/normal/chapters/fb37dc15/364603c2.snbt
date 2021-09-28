@@ -1,0 +1,42 @@
+{
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "orechid"
+		}
+	},
+	x: 3.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.orechid.subtitle}",
+	text: [
+		"{ftbuniversity.orechid.desc1}",
+		"",
+		"{ftbuniversity.orechid.desc2}",
+		"",
+		"{ftbuniversity.orechid.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	tasks: [{
+		uid: "1b1d7548",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "orechid"
+			}
+		}]
+	},
+	{
+		uid: "1764e80a",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "orechidIgnem"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,134 @@
+{
+	title: "{ftbuniversity.mekturbine.title}",
+	icon: "mekanismgenerators:generator 1 10",
+	x: 16.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.mekturbine.subtitle}",
+	text: [
+		"{ftbuniversity.mekturbine.desc1}",
+		"",
+		"{ftbuniversity.mekturbine.desc2}",
+		"",
+		"{ftbuniversity.mekturbine.desc3}",
+		"",
+		"{ftbuniversity.mekturbine.desc4}",
+		"",
+		"{ftbuniversity.mekturbine.desc5}",
+		"",
+		"{ftbuniversity.mekturbine.desc6}",
+		"",
+		"{ftbuniversity.mekturbine.desc7}",
+		"",
+		"{ftbuniversity.mekturbine.desc8}",
+		"",
+		"{ftbuniversity.mekturbine.desc9}",
+		"",
+		"{ftbuniversity.mekturbine.desc10}",
+		"",
+		"{ftbuniversity.mekturbine.desc11}",
+		"",
+		"{ftbuniversity.mekturbine.desc12}"
+	],
+	dependencies: [
+		"bd46fdf3"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "1484ab3b",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 10"
+		},
+		{
+			item: "mekanism:basicblock 1 10"
+		}]
+	},
+	{
+		uid: "ccf8a4d7",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 7"
+		}]
+	},
+	{
+		uid: "a099f7b4",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:turbineblade"
+		}]
+	},
+	{
+		uid: "33d79cab",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 8"
+		}]
+	},
+	{
+		uid: "35fa2c15",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 6"
+		}]
+	},
+	{
+		uid: "454cd563",
+		type: "item",
+		items: [{
+			id: "mekanismgenerators:generator",
+			tag: {},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bfb1fd7b",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 12"
+		}]
+	},
+	{
+		uid: "2980d6f3",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fcd7c923",
+		type: "item",
+		item: {
+			id: "extrautils2:drum",
+			tag: {
+				RepairCost: 1,
+				Fluid: {
+					FluidName: "steam",
+					Amount: 256000
+				},
+				display: {
+					Name: "Lasts Shorter Than You'd Think"
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "693d4b03",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 9,
+				structureName: "config/capsule/prefabs/mekanism_turbine",
+				display: {
+					color: 3949738
+				},
+				label: "Mekanism Turbine"
+			},
+			Damage: 3s
+		}
+	}]
+}

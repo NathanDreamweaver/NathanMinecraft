@@ -1,0 +1,20 @@
+{
+	x: 8.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.electricheater.subtitle}",
+	text: [
+		"{ftbuniversity.electricheater.desc1}",
+		"",
+		"{ftbuniversity.electricheater.desc2}"
+	],
+	dependencies: [
+		"ac778fab"
+	],
+	tasks: [{
+		uid: "9bb30ed3",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 12"
+		}]
+	}]
+}

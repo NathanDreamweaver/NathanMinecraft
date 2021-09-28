@@ -1,0 +1,73 @@
+{
+	title: "{ftbuniversity.spawners.rewards3}",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:elder_guardian"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mowziesmobs:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mowziesmobs:ferrous_wroughtnaut"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mowziesmobs:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mowziesmobs:barako"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mowziesmobs:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mowziesmobs:frostmaw"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "rats:marbled_cheese_golem"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "rats:black_death"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "ftbuniversity_spawners_rewards3",
+		color: 8388736,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

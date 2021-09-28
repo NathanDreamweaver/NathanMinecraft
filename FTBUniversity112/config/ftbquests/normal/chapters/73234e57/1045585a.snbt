@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.plasticmixer.title}",
+	x: 3.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.plasticmixer.subtitle}",
+	text: [
+		"{ftbuniversity.plasticmixer.desc1}",
+		"",
+		"{ftbuniversity.plasticmixer.desc2}",
+		"",
+		"{ftbuniversity.plasticmixer.desc3}"
+	],
+	dependencies: [
+		"b31731ea"
+	],
+	tasks: [{
+		uid: "14fbf109",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:plastic_mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "b98e037f",
+		type: "item",
+		item: "minecraft:dye 1 1",
+		count: 16
+	},
+	{
+		uid: "4f81d09e",
+		type: "item",
+		item: "minecraft:dye 1 2",
+		count: 16
+	},
+	{
+		uid: "a4fad733",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 16
+	}]
+}

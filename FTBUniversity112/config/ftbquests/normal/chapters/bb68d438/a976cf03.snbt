@@ -1,0 +1,54 @@
+{
+	title: "{ftbuniversity.p2pstyles.title}",
+	icon: "appliedenergistics2:part 1 465",
+	x: 14.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.p2pstyles.subtitle}",
+	text: [
+		"{ftbuniversity.p2pstyles.desc1}",
+		"",
+		"{ftbuniversity.p2pstyles.desc2}",
+		"",
+		"{ftbuniversity.p2pstyles.desc3}",
+		"",
+		"{ftbuniversity.p2pstyles.desc4}",
+		"",
+		"{ftbuniversity.p2pstyles.desc5}",
+		"",
+		"{ftbuniversity.p2pstyles.desc6}",
+		"",
+		"{ftbuniversity.p2pstyles.desc7}",
+		"",
+		"{ftbuniversity.p2pstyles.desc8}",
+		"",
+		""
+	],
+	dependencies: [
+		"c3e5bd03"
+	],
+	size: 0.75d,
+	min_width: 300,
+	tasks: [{
+		uid: "8071656f",
+		type: "item",
+		title: "{ftbuniversity.p2pstyles.task}",
+		items: [{
+			item: "appliedenergistics2:part 1 469"
+		},
+		{
+			item: "appliedenergistics2:part 1 463"
+		},
+		{
+			item: "appliedenergistics2:part 1 465"
+		},
+		{
+			item: "appliedenergistics2:part 1 462"
+		},
+		{
+			item: "appliedenergistics2:part 1 467"
+		},
+		{
+			item: "appliedenergistics2:part 1 461"
+		}]
+	}]
+}

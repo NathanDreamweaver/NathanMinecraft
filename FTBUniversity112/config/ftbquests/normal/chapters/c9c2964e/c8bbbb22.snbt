@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.miningdrillupgrades.title}",
+	icon: "immersiveengineering:toolupgrade",
+	x: 2.5d,
+	y: -3.75d,
+	description: "{ftbuniversity.miningdrillupgrades.subtitle}",
+	text: [
+		"{ftbuniversity.miningdrillupgrades.desc1}",
+		"",
+		"{ftbuniversity.miningdrillupgrades.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"13388778",
+		"61aadde9"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "5107f212",
+		type: "item",
+		title: "{ftbuniversity.miningdrillupgrades.task}",
+		items: [{
+			item: "immersiveengineering:toolupgrade"
+		},
+		{
+			item: "immersiveengineering:toolupgrade 1 1"
+		},
+		{
+			item: "immersiveengineering:toolupgrade 1 2"
+		},
+		{
+			item: "immersiveengineering:toolupgrade 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "240c77ec",
+		type: "random",
+		table: 5
+	}]
+}

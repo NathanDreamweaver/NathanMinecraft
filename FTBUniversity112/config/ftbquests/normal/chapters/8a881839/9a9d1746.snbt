@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.iddoor.title}",
+	x: 10.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.iddoor.subtitle}",
+	text: [
+		"{ftbuniversity.iddoor.desc1}",
+		"",
+		"{ftbuniversity.iddoor.desc2}",
+		"",
+		"{ftbuniversity.iddoor.desc3}"
+	],
+	dependencies: [
+		"a0fed76a"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "4c1496de",
+		type: "checkmark"
+	}]
+}

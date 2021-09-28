@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.mesecurity.title}",
+	x: 9.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.mesecurity.subtitle}",
+	text: [
+		"{ftbuniversity.mesecurity.desc1}",
+		"",
+		"{ftbuniversity.mesecurity.desc2}",
+		"",
+		"{ftbuniversity.mesecurity.desc3}",
+		"",
+		"{ftbuniversity.mesecurity.desc4}",
+		"",
+		"{ftbuniversity.mesecurity.desc5}"
+	],
+	dependencies: [
+		"fadf0198"
+	],
+	tasks: [{
+		uid: "06bb6f01",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "568102b9",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:biometric_card",
+			tag: {}
+		}
+	}]
+}

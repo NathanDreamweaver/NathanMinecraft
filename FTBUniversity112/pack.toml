@@ -1,0 +1,11 @@
+name = "FTB University 112"
+version = "1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "409d3b934324b6711350a0a01a0c9fd2106c27ae22a529e6dca1dff969c8211a"
+
+[versions]
+forge = "14.23.5.2847"
+minecraft = "1.12.2"

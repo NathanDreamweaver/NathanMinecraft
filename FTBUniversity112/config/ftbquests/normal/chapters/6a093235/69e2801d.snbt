@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "4500eafe",
+		type: "item",
+		items: [{
+			item: "libvulpes:productingot 1 7"
+		},
+		{
+			item: "advancedrocketry:productingot 1 1"
+		},
+		{
+			item: "advancedrocketry:productingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c78a5dbe",
+		type: "command",
+		auto: "invisible",
+		command: "/ftbquests change_progress complete @team 07e18fac"
+	}]
+}

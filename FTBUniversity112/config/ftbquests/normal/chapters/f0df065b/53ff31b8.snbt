@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.exu2spikes.title}",
+	icon: "extrautils2:spike_iron",
+	x: -1.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.exu2spikes.subtitle}",
+	text: [
+		"{ftbuniversity.exu2spikes.desc1}",
+		"",
+		"{ftbuniversity.exu2spikes.desc2}"
+	],
+	tasks: [{
+		uid: "b221ae94",
+		type: "item",
+		title: "{ftbuniversity.exu2spikes.task}",
+		items: [{
+			item: "extrautils2:spike_wood"
+		},
+		{
+			item: "extrautils2:spike_stone"
+		},
+		{
+			item: "extrautils2:spike_iron"
+		},
+		{
+			item: "extrautils2:spike_gold"
+		},
+		{
+			item: "extrautils2:spike_diamond"
+		},
+		{
+			item: "extrautils2:spike_creative"
+		}]
+	}]
+}

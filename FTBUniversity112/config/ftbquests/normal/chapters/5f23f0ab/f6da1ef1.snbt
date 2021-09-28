@@ -1,0 +1,48 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.beealyzer.subtitle}",
+	text: [
+		"{ftbuniversity.beealyzer.desc1}",
+		"",
+		"{ftbuniversity.beealyzer.desc2}",
+		"",
+		"{ftbuniversity.beealyzer.desc3}",
+		"{ftbuniversity.beealyzer.desc4}",
+		"{ftbuniversity.beealyzer.desc5}",
+		"{ftbuniversity.beealyzer.desc6}",
+		"{ftbuniversity.beealyzer.desc7}",
+		"{ftbuniversity.beealyzer.desc8}",
+		"{ftbuniversity.beealyzer.desc9}",
+		"{ftbuniversity.beealyzer.desc10}",
+		"",
+		"{ftbuniversity.beealyzer.desc11}",
+		"",
+		"{ftbuniversity.beealyzer.desc12}"
+	],
+	dependencies: [
+		"5308ae57"
+	],
+	optional: true,
+	min_width: 300,
+	tasks: [{
+		uid: "ef96c46f",
+		type: "item",
+		items: [{
+			id: "forestry:portable_alyzer",
+			tag: {
+				UID: -1383336772,
+				Slots: {},
+				Charges: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c587b18",
+		type: "item",
+		item: "forestry:honeydew",
+		count: 16
+	}]
+}

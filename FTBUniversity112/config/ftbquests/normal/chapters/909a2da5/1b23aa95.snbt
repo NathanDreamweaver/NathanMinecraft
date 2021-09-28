@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.modpolysink.title}",
+	x: 4.0d,
+	y: 6.0d,
+	description: "{ftbuniversity.modpolysink.subtitle}",
+	text: [
+		"{ftbuniversity.modpolysink.desc1}",
+		"",
+		"{ftbuniversity.modpolysink.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "78980c2e",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_item_sink_mod"
+		}]
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "RFTools",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "rftools:builder",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Techie",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487460L
+		}
+	},
+	x: 0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.rfttrophy.subtitle}",
+	dependencies: [
+		"b97b5a3e"
+	],
+	rewards: [{
+		uid: "c0d47e42",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "rftools:builder",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Techie",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

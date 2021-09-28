@@ -1,0 +1,27 @@
+{
+	x: 8.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.wct2.subtitle}",
+	text: [
+		"{ftbuniversity.wct2.desc1}",
+		"",
+		"{ftbuniversity.wct2.desc2}",
+		"",
+		"{ftbuniversity.wct2.desc3}"
+	],
+	dependencies: [
+		"6ce6eeb8"
+	],
+	tasks: [{
+		uid: "e7918929",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.essentiamirror.title}",
+	x: -5.76156462585034d,
+	y: -1.2629251700680229d,
+	description: "{ftbuniversity.essentiamirror.subtitle}",
+	text: [
+		"{ftbuniversity.essentiamirror.desc1}",
+		"",
+		"{ftbuniversity.essentiamirror.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4ed93a4"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "a5420237",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror_essentia"
+		}]
+	}],
+	rewards: [{
+		uid: "af7ebb90",
+		type: "item",
+		item: "thaumcraft:mirror_essentia"
+	}]
+}

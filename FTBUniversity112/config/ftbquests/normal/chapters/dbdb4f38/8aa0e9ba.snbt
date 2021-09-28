@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.trial.title}",
+	icon: "deepmoblearning:trial_keystone",
+	x: 3.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.trial.subtitle}",
+	text: [
+		"{ftbuniversity.trial.desc1}",
+		"",
+		"{ftbuniversity.trial.desc2}",
+		"",
+		"{ftbuniversity.trial.desc3}",
+		"",
+		"{ftbuniversity.trial.desc4}",
+		"",
+		"{ftbuniversity.trial.desc5}",
+		"",
+		"{ftbuniversity.trial.desc6}"
+	],
+	dependencies: [
+		"7a695aa2"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "28870362",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	},
+	{
+		uid: "c62d5f60",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

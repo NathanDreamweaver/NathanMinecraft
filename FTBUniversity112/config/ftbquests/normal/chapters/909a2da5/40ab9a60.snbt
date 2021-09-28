@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.logpipewrenches.title}",
+	icon: "logisticspipes:pipe_manager",
+	x: -2.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.logpipewrenches.subtitle}",
+	text: [
+		"{ftbuniversity.logpipewrenches.desc}"
+	],
+	dependencies: [
+		"ba9953a3"
+	],
+	tasks: [{
+		uid: "00671cf9",
+		type: "item",
+		title: "{ftbuniversity.logpipewrenches.task}",
+		items: [{
+			item: "logisticspipes:pipe_manager"
+		},
+		{
+			item: "appliedenergistics2:certus_quartz_wrench"
+		},
+		{
+			item: "appliedenergistics2:nether_quartz_wrench"
+		},
+		{
+			item: "enderio:item_yeta_wrench"
+		},
+		{
+			item: "thermalfoundation:wrench"
+		}]
+	}]
+}

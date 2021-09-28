@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.hooked.title}",
+	icon: "hooked:hook 1 1",
+	x: -3.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.hooked.subtitle}",
+	text: [
+		"{ftbuniversity.hooked.desc1}",
+		"",
+		"{ftbuniversity.hooked.desc2}",
+		"",
+		"{ftbuniversity.hooked.desc3}",
+		"",
+		"{ftbuniversity.hooked.desc4}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "6277bb26",
+		type: "item",
+		title: "{ftbuniversity.hooked.task}",
+		items: [{
+			item: "hooked:hook"
+		},
+		{
+			item: "hooked:hook 1 1"
+		},
+		{
+			item: "hooked:hook 1 2"
+		},
+		{
+			item: "hooked:hook 1 3"
+		},
+		{
+			item: "hooked:hook 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

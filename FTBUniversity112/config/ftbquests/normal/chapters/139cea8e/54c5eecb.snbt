@@ -1,0 +1,47 @@
+{
+	title: "Immersive Engineering",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "immersiveengineering:tool",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Engineer",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487389L
+		}
+	},
+	x: 1.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.immengtrophy.subtitle}",
+	dependencies: [
+		"c9c2964e"
+	],
+	rewards: [{
+		uid: "8f75e101",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "immersiveengineering:tool",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Engineer",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

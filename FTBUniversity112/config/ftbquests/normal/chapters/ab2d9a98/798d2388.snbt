@@ -1,0 +1,30 @@
+{
+	icon: "geneticsreborn:cloningmachine",
+	x: 0.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.cloning.subtitle}",
+	text: [
+		"{ftbuniversity.cloning.desc1}",
+		"",
+		"{ftbuniversity.cloning.desc2}"
+	],
+	dependencies: [
+		"29ef3651"
+	],
+	tasks: [{
+		uid: "8e2a9fe7",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:cloningmachine"
+		}]
+	},
+	{
+		uid: "4276c2ff",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:advancedscraper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

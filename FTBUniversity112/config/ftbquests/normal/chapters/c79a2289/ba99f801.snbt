@@ -1,0 +1,70 @@
+{
+	title: "{ftbuniversity.nanoarmor.title}",
+	icon: {
+		id: "ic2:nano_helmet",
+		tag: {
+			charge: 1000000.0d
+		}
+	},
+	x: 10.0d,
+	y: 7.0d,
+	description: "{ftbuniversity.nanoarmor.subtitle}",
+	text: [
+		"{ftbuniversity.nanoarmor.desc1}",
+		"",
+		"{ftbuniversity.nanoarmor.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"58587b95",
+		"31a34ec1"
+	],
+	tasks: [{
+		uid: "49212875",
+		type: "item",
+		items: [{
+			id: "ic2:nano_helmet",
+			tag: {
+				charge: 1000000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bbafb49a",
+		type: "item",
+		items: [{
+			id: "ic2:nano_chestplate",
+			tag: {
+				charge: 1000000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b82a8460",
+		type: "item",
+		items: [{
+			id: "ic2:nano_leggings",
+			tag: {
+				charge: 1000000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b53b88b3",
+		type: "item",
+		items: [{
+			id: "ic2:nano_boots",
+			tag: {
+				charge: 1000000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

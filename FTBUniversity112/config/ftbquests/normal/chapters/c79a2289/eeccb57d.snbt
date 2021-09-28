@@ -1,0 +1,69 @@
+{
+	title: "{ftbuniversity.ic2brew1.title}",
+	icon: "ic2:barrel",
+	x: 0.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.ic2brew1.subtitle}",
+	text: [
+		"{ftbuniversity.ic2brew1.desc1}",
+		"",
+		"{ftbuniversity.ic2brew1.desc2}",
+		"",
+		"{ftbuniversity.ic2brew1.desc3}",
+		"",
+		"{ftbuniversity.ic2brew1.desc4}",
+		"",
+		"{ftbuniversity.ic2brew1.desc5}"
+	],
+	dependencies: [
+		"a0da8607"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "f0bb59b3",
+		type: "item",
+		items: [{
+			item: "ic2:scaffold"
+		}]
+	},
+	{
+		uid: "ecd1888c",
+		type: "item",
+		items: [{
+			item: "ic2:barrel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e422c124",
+		type: "item",
+		title: "{ftbuniversity.ic2brew1.task}",
+		items: [{
+			item: "minecraft:wheat"
+		},
+		{
+			item: "ic2:crop_res 1 4"
+		},
+		{
+			item: "minecraft:reeds"
+		}]
+	},
+	{
+		uid: "bf69df2d",
+		type: "item",
+		items: [{
+			item: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a53d550c",
+		type: "item",
+		items: [{
+			item: "ic2:mug"
+		}],
+		ignore_nbt: 1b
+	}]
+}

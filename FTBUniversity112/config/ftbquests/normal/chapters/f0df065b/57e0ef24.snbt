@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 6.5d,
+	description: "{ftbuniversity.exu2heatedredstone.subtitle}",
+	text: [
+		"{ftbuniversity.exu2heatedredstone.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "42889671",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_redstone"
+			}
+		}]
+	}]
+}

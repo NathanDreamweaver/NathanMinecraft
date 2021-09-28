@@ -1,0 +1,92 @@
+{
+	title: "{ftbuniversity.medrive.title}",
+	icon: "appliedenergistics2:drive",
+	x: 9.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.medrive.subtitle}",
+	text: [
+		"{ftbuniversity.medrive.desc1}",
+		"",
+		"{ftbuniversity.medrive.desc2}",
+		"",
+		"{ftbuniversity.medrive.desc3}",
+		"",
+		"{ftbuniversity.medrive.desc4}",
+		"",
+		"{ftbuniversity.medrive.desc5}"
+	],
+	dependencies: [
+		"bb94141c"
+	],
+	tasks: [{
+		uid: "fb0e0120",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "e1b8c898",
+		type: "item",
+		title: "{ftbuniversity.medrive.task}",
+		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		},
+		{
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		},
+		{
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			},
+			Damage: 1s
+		},
+		{
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			},
+			Damage: 2s
+		},
+		{
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			},
+			Damage: 3s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6840c22f",
+		type: "item",
+		item: "appliedenergistics2:material 1 35",
+		count: 64
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: 0.125d,
+	description: "{ftbuniversity.mfsuupgrade.subtitle}",
+	text: [
+		"{ftbuniversity.mfsuupgrade.desc1}",
+		"",
+		"{ftbuniversity.mfsuupgrade.desc2}"
+	],
+	dependencies: [
+		"70cbd550"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "5210fcaa",
+		type: "item",
+		items: [{
+			item: "ic2:upgrade_kit"
+		}]
+	}]
+}

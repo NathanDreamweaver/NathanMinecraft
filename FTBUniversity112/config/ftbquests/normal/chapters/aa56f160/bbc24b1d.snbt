@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.xpvacuum.subtitle}",
+	text: [
+		"{ftbuniversity.xpvacuum.desc1}",
+		"",
+		"{ftbuniversity.xpvacuum.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "fe63605f",
+		type: "item",
+		items: [{
+			item: "enderio:block_xp_vacuum"
+		}]
+	}],
+	rewards: [{
+		uid: "20f053c1",
+		type: "item",
+		item: "minecraft:experience_bottle",
+		count: 32
+	}]
+}

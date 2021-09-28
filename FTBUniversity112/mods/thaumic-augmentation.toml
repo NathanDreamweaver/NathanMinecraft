@@ -1,0 +1,14 @@
+name = "Thaumic Augmentation"
+filename = "ThaumicAugmentation-1.12.2-2.0.12.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3136/234/ThaumicAugmentation-1.12.2-2.0.12.jar"
+hash-format = "murmur2"
+hash = "2412703631"
+
+[update]
+[update.curseforge]
+file-id = 3136234
+project-id = 319441
+release-channel = "beta"

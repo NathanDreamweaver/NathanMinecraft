@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.incense1.title}",
+	x: 2.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.incense1.subtitle}",
+	text: [
+		"{ftbuniversity.incense1.desc1}",
+		"",
+		"{ftbuniversity.incense1.desc2}",
+		"",
+		"{ftbuniversity.incense1.desc3}",
+		"",
+		"{ftbuniversity.incense1.desc4}"
+	],
+	dependencies: [
+		"27168eb1"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "36008567",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	}]
+}

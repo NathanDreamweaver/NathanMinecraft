@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.aversobel.subtitle}",
+	text: [
+		"{ftbuniversity.aversobel.desc1}",
+		"",
+		"{ftbuniversity.aversobel.desc2}",
+		"",
+		"{ftbuniversity.aversobel.desc3}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	tasks: [{
+		uid: "5de63b6d",
+		type: "item",
+		items: [{
+			item: "enderio:block_aversion_obelisk"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dea4cfb",
+		type: "item",
+		item: "botania:cosmetic 1 23"
+	}]
+}

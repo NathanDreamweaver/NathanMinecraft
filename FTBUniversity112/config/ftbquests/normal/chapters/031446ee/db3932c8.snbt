@@ -1,0 +1,77 @@
+{
+	title: "{ftbuniversity.boundtools.title}",
+	icon: {
+		id: "bloodmagic:bound_sword",
+		tag: {
+			Unbreakable: 1b,
+			binding: {
+				name: "1aaron5",
+				id: {
+					L: -7092105210548332474L,
+					M: 1369797818113935643L
+				}
+			},
+			activated: 1b
+		}
+	},
+	x: 6.75d,
+	y: -2.25d,
+	description: "{ftbuniversity.boundtools.subtitle}",
+	text: [
+		"{ftbuniversity.boundtools.desc1}",
+		"",
+		"{ftbuniversity.boundtools.desc2}",
+		"",
+		"{ftbuniversity.boundtools.desc3}",
+		"",
+		"{ftbuniversity.boundtools.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"458be84a",
+		"f06672df"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "84e0576d",
+		type: "item",
+		items: [{
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b,
+				activated: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "66525d87",
+		type: "item",
+		title: "{ftbuniversity.boundtools.title}",
+		items: [{
+			id: "bloodmagic:bound_pickaxe",
+			tag: {
+				Unbreakable: 1b,
+				activated: 0b
+			}
+		},
+		{
+			id: "bloodmagic:bound_axe",
+			tag: {
+				Unbreakable: 1b,
+				activated: 0b
+			}
+		},
+		{
+			id: "bloodmagic:bound_shovel",
+			tag: {
+				Unbreakable: 1b,
+				activated: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

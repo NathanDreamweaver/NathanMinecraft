@@ -1,0 +1,18 @@
+{
+	x: 11.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.craftingmonitor.subtitle}",
+	text: [
+		"{ftbuniversity.craftingmonitor.desc}"
+	],
+	dependencies: [
+		"766a6e75"
+	],
+	tasks: [{
+		uid: "f9eb6634",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_monitor"
+		}]
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	icon: "deepmoblearning:living_matter_overworldian",
+	x: 2.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.matter.subtitle}",
+	text: [
+		"{ftbuniversity.matter.desc1}",
+		"",
+		"{ftbuniversity.matter.desc2}",
+		"",
+		"{ftbuniversity.matter.desc3}"
+	],
+	dependencies: [
+		"7a695aa2"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2e31a619",
+		type: "item",
+		title: "{ftbuniversity.matter.title}",
+		items: [{
+			item: "deepmoblearning:living_matter_overworldian"
+		},
+		{
+			item: "deepmoblearning:living_matter_hellish"
+		},
+		{
+			item: "deepmoblearning:living_matter_extraterrestrial"
+		}]
+	}],
+	rewards: [{
+		uid: "c1fc9e6a",
+		type: "item",
+		item: "deepmoblearning:living_matter_overworldian",
+		count: 64
+	}]
+}

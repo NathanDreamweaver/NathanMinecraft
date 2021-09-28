@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.logreqtable.title}                 ",
+	x: -2.5d,
+	y: 7.5d,
+	description: "{ftbuniversity.logreqtable.subtitle}",
+	text: [
+		"{ftbuniversity.logreqtable.desc1}",
+		"",
+		"{ftbuniversity.logreqtable.desc2}",
+		"",
+		"{ftbuniversity.logreqtable.desc3}",
+		"",
+		"{ftbuniversity.logreqtable.desc4}",
+		"",
+		"{ftbuniversity.logreqtable.desc5}",
+		"",
+		"{ftbuniversity.logreqtable.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"59e8425d",
+		"49e7a420"
+	],
+	tasks: [{
+		uid: "d481ae8d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request_table"
+		}]
+	}]
+}

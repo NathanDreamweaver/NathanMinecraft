@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	description: "{ftbuniversity.passsup.subtitle}",
+	text: [
+		"{ftbuniversity.passsup.desc1}",
+		"",
+		"{ftbuniversity.passsup.desc2}",
+		"",
+		"{ftbuniversity.passsup.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "44fc2404",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_passive_supplier"
+		}]
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Blood Magic",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "guideapi:bloodmagic-guide",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Edgelord",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487572L
+		}
+	},
+	x: 0.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.bmtrophy.subtitle}",
+	dependencies: [
+		"031446ee"
+	],
+	rewards: [{
+		uid: "046f5d4b",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "guideapi:bloodmagic-guide",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Edgelord",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

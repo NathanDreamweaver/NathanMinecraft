@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	description: "{ftbuniversity.exu2disenchant.subtitle}",
+	text: [
+		"{ftbuniversity.exu2disenchant.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "ae189bc8",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		}]
+	}]
+}

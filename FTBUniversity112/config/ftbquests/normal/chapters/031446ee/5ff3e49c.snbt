@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.dagsac.title}",
+	x: 4.75d,
+	y: -2.25d,
+	description: "{ftbuniversity.dagsac.subtitle}",
+	text: [
+		"{ftbuniversity.dagsac.desc1}",
+		"",
+		"{ftbuniversity.dagsac.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"68867424"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "398ae66d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

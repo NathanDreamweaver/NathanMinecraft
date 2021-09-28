@@ -1,0 +1,60 @@
+{
+	title: "{ftbuniversity.rituals1.title}",
+	icon: "bloodmagic:ritual_stone",
+	x: 6.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.rituals1.subtitle}",
+	text: [
+		"{ftbuniversity.rituals1.desc1}",
+		"",
+		"{ftbuniversity.rituals1.desc2}",
+		"",
+		"{ftbuniversity.rituals1.desc3}",
+		"",
+		"{ftbuniversity.rituals1.desc4}",
+		"",
+		"{ftbuniversity.rituals1.desc5}",
+		"",
+		"{ftbuniversity.rituals1.desc6}"
+	],
+	dependencies: [
+		"f06672df"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "86533c38",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "1d96726c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}]
+	},
+	{
+		uid: "ad36f3c3",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01a90235",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0afd8204",
+		type: "item",
+		item: "bloodmagic:ritual_stone",
+		count: 16
+	}]
+}

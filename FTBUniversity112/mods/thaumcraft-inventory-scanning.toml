@@ -1,0 +1,14 @@
+name = "Thaumic Inventory Scanning (Thaumcraft Addon)"
+filename = "ThaumicInventoryScanning_1.12.2-2.0.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2559/89/ThaumicInventoryScanning_1.12.2-2.0.10.jar"
+hash-format = "murmur2"
+hash = "1964344708"
+
+[update]
+[update.curseforge]
+file-id = 2559089
+project-id = 238003
+release-channel = "beta"

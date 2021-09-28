@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.mekwind.subtitle}",
+	text: [
+		"{ftbuniversity.mekwind.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "5d737f24",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.arcanespa.title}",
+	x: -0.6255102040816425d,
+	y: -3.804081632653059d,
+	description: "{ftbuniversity.arcanespa.subtitle}",
+	text: [
+		"{ftbuniversity.arcanespa.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3da59db8"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "091843a5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:spa"
+		}]
+	}],
+	rewards: [{
+		uid: "09b24e00",
+		type: "item",
+		item: "thaumcraft:sanity_soap",
+		count: 32
+	}]
+}

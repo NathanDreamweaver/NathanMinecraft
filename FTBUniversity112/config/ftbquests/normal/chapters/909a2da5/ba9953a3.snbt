@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.basiclogpipes.subtitle}",
+	text: [
+		"{ftbuniversity.basiclogpipes.desc1}",
+		"",
+		"{ftbuniversity.basiclogpipes.desc2}",
+		"{ftbuniversity.basiclogpipes.desc3}",
+		"",
+		"{ftbuniversity.basiclogpipes.desc4}",
+		"",
+		"{ftbuniversity.basiclogpipes.desc5}"
+	],
+	dependencies: [
+		"a8ec64a8"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "8582c721",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_basic"
+		}]
+	}]
+}

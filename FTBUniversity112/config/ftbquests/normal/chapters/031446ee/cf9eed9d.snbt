@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.senttools.title}",
+	icon: {
+		id: "bloodmagic:sentient_axe",
+		tag: {}
+	},
+	x: 0.25d,
+	y: 0.75d,
+	description: "{ftbuniversity.senttools.subtitle}",
+	text: [
+		"{ftbuniversity.senttools.desc1}",
+		"",
+		"{ftbuniversity.senttools.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640097ed"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "afec7484",
+		type: "item",
+		title: "{ftbuniversity.senttools.task}",
+		items: [{
+			id: "bloodmagic:sentient_axe",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sentient_pickaxe",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sentient_shovel",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sentient_bow",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

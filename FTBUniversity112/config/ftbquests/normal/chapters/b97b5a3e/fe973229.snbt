@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.rftbook.subtitle}",
+	text: [
+		"{ftbuniversity.rftbook.desc}"
+	],
+	tasks: [{
+		uid: "97157944",
+		type: "item",
+		items: [{
+			item: "rftools:rftools_manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

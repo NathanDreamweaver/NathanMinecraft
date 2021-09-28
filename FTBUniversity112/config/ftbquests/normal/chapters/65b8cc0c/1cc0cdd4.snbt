@@ -1,0 +1,95 @@
+{
+	title: "{ftbuniversity.ironchests.title}",
+	icon: "ironchest:iron_chest",
+	x: 0.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.ironchests.subtitle}",
+	text: [
+		"{ftbuniversity.ironchests.desc1}",
+		"",
+		"{ftbuniversity.ironchests.desc2}",
+		"{ftbuniversity.ironchests.desc3}",
+		"{ftbuniversity.ironchests.desc4}",
+		"{ftbuniversity.ironchests.desc5}",
+		"{ftbuniversity.ironchests.desc6}",
+		"",
+		"{ftbuniversity.ironchests.desc7}",
+		"",
+		"{ftbuniversity.ironchests.desc8}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "9b3144b3",
+		type: "item",
+		title: "{ftbuniversity.ironchests.task1}",
+		items: [{
+			item: "ironchest:iron_chest 1 3"
+		},
+		{
+			item: "ironchest:iron_chest"
+		},
+		{
+			item: "ironchest:iron_chest 1 4"
+		},
+		{
+			item: "ironchest:iron_chest 1 1"
+		},
+		{
+			item: "ironchest:iron_chest 1 2"
+		},
+		{
+			item: "ironchest:iron_chest 1 6"
+		},
+		{
+			item: "ironchest:iron_chest 1 5"
+		}]
+	},
+	{
+		uid: "33b2e308",
+		type: "item",
+		title: "{ftbuniversity.ironchests.task2}",
+		items: [{
+			item: "ironchest:wood_copper_chest_upgrade"
+		},
+		{
+			item: "ironchest:wood_iron_chest_upgrade"
+		},
+		{
+			item: "ironchest:copper_iron_chest_upgrade"
+		},
+		{
+			item: "ironchest:copper_silver_chest_upgrade"
+		},
+		{
+			item: "ironchest:silver_gold_chest_upgrade"
+		},
+		{
+			item: "ironchest:iron_gold_chest_upgrade"
+		},
+		{
+			item: "ironchest:gold_diamond_chest_upgrade"
+		},
+		{
+			item: "ironchest:diamond_obsidian_chest_upgrade"
+		},
+		{
+			item: "ironchest:diamond_crystal_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "986f884f",
+		type: "item",
+		item: "ironchest:iron_chest 1 7"
+	},
+	{
+		uid: "a554becd",
+		type: "item",
+		item: "ironchest:vanilla_iron_shulker_upgrade"
+	}]
+}

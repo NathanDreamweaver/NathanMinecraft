@@ -1,0 +1,82 @@
+{
+	title: "{ftbuniversity.iecables.title}",
+	icon: "immersiveengineering:wirecoil 1 1",
+	x: 4.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.iecables.subtitle}",
+	text: [
+		"{ftbuniversity.iecables.desc1}",
+		"",
+		"{ftbuniversity.iecables.desc2}",
+		"",
+		"{ftbuniversity.iecables.desc3}",
+		"",
+		"{ftbuniversity.iecables.desc4}",
+		"",
+		"{ftbuniversity.iecables.desc5}",
+		"",
+		"{ftbuniversity.iecables.desc6}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"bf66b31c"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "53b00203",
+		type: "item",
+		title: "{ftbuniversity.iecables.task1}",
+		items: [{
+			item: "immersiveengineering:connector"
+		},
+		{
+			item: "immersiveengineering:connector 1 2"
+		},
+		{
+			item: "immersiveengineering:connector 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e1f05e6",
+		type: "item",
+		title: "{ftbuniversity.iecables.task2}",
+		items: [{
+			item: "immersiveengineering:connector 1 1"
+		},
+		{
+			item: "immersiveengineering:connector 1 3"
+		},
+		{
+			item: "immersiveengineering:connector 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fa519c6",
+		type: "item",
+		title: "{ftbuniversity.iecables.task3}",
+		items: [{
+			item: "immersiveengineering:wirecoil"
+		},
+		{
+			item: "immersiveengineering:wirecoil 1 6"
+		},
+		{
+			item: "immersiveengineering:wirecoil 1 1"
+		},
+		{
+			item: "immersiveengineering:wirecoil 1 7"
+		},
+		{
+			item: "immersiveengineering:wirecoil 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "619f6931",
+		type: "choice",
+		table: 3
+	}]
+}

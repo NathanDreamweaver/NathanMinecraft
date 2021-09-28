@@ -1,0 +1,21 @@
+{
+	x: -1.746088435374169d,
+	y: -3.132993197278914d,
+	description: "{ftbuniversity.workbenchcharger.subtitle}",
+	text: [
+		"{ftbuniversity.workbenchcharger.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65905474"
+	],
+	hide: true,
+	size: 0.375d,
+	tasks: [{
+		uid: "a73ebde1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}]
+}

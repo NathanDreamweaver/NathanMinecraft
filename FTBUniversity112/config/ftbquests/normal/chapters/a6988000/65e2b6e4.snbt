@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.infusionstones.title}",
+	icon: "thaumcraft:matrix_speed",
+	x: -2.9948979591836746d,
+	y: -2.0206908163265354d,
+	description: "{ftbuniversity.infusionstones.subtitle}",
+	text: [
+		"{ftbuniversity.infusionstones.desc1}",
+		"",
+		"{ftbuniversity.infusionstones.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2cce1ae6"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "6e9b27ae",
+		type: "item",
+		title: "{ftbuniversity.infusionstones.task}",
+		items: [{
+			item: "thaumcraft:matrix_cost"
+		},
+		{
+			item: "thaumcraft:matrix_speed"
+		}]
+	}]
+}

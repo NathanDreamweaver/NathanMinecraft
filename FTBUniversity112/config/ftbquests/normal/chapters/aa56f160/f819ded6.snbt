@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.xpobel.subtitle}",
+	text: [
+		"{ftbuniversity.xpobel.desc1}",
+		"",
+		"{ftbuniversity.xpobel.desc2}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	tasks: [{
+		uid: "0bd2295f",
+		type: "item",
+		items: [{
+			item: "enderio:block_experience_obelisk"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f3a7791",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

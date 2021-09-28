@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.delayer.subtitle}",
+	text: [
+		"{ftbuniversity.delayer.desc1}",
+		"",
+		"{ftbuniversity.delayer.desc2}",
+		"",
+		"{ftbuniversity.delayer.desc3}"
+	],
+	dependencies: [
+		"81c41667"
+	],
+	tasks: [{
+		uid: "be029de1",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:delay"
+		}]
+	}]
+}

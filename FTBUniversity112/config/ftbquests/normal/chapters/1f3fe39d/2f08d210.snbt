@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.progenv.title}",
+	icon: "environmentaltech:void_ore_miner_cont_1",
+	x: 1.5d,
+	y: 2.5d,
+	description: "{ftbuniversity.progenv.subtitle}",
+	text: [
+		"{ftbuniversity.progenv.desc1}",
+		"",
+		"{ftbuniversity.progenv.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "7421035b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "9bf6a762",
+		type: "item",
+		item: "valkyrielib:guide"
+	}]
+}

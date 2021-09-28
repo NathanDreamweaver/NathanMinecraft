@@ -1,0 +1,60 @@
+{
+	title: "{ftbuniversity.exu2rings.title}",
+	icon: "extrautils2:angelring 1 1",
+	x: 2.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.exu2rings.subtitle}",
+	text: [
+		"{ftbuniversity.exu2rings.desc1}",
+		"",
+		"{ftbuniversity.exu2rings.desc2}",
+		"",
+		"{ftbuniversity.exu2rings.desc3}",
+		"",
+		"{ftbuniversity.exu2rings.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "6cbb2094",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "015c8a15",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "da000b7f",
+		type: "item",
+		title: "{ftbuniversity.exu2rings.task}",
+		items: [{
+			item: "extrautils2:angelring"
+		},
+		{
+			item: "extrautils2:angelring 1 1"
+		},
+		{
+			item: "extrautils2:angelring 1 2"
+		},
+		{
+			item: "extrautils2:angelring 1 3"
+		},
+		{
+			item: "extrautils2:angelring 1 4"
+		},
+		{
+			item: "extrautils2:angelring 1 5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

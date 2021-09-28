@@ -1,0 +1,150 @@
+{
+	title: "{ftbuniversity.etmodifiers.title}",
+	icon: "environmentaltech:modifier_speed",
+	x: 9.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.etmodifiers.subtitle}",
+	text: [
+		"{ftbuniversity.etmodifiers.desc1}",
+		"",
+		"{ftbuniversity.etmodifiers.desc2}",
+		"",
+		"{ftbuniversity.etmodifiers.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d732f70a",
+		"4f2b6f8b",
+		"b7509d9b",
+		"534a2b1c",
+		"8a458272"
+	],
+	tasks: [{
+		uid: "84ac8f1c",
+		type: "item",
+		title: "{ftbuniversity.etmodifiers.task1}",
+		items: [{
+			item: "environmentaltech:modifier_speed"
+		},
+		{
+			item: "environmentaltech:modifier_accuracy"
+		},
+		{
+			item: "environmentaltech:modifier_luck"
+		}]
+	},
+	{
+		uid: "d720017d",
+		type: "item",
+		title: "{ftbuniversity.etmodifiers.task2}",
+		items: [{
+			item: "environmentaltech:modifier_piezo"
+		}]
+	},
+	{
+		uid: "3836d086",
+		type: "item",
+		title: "{ftbuniversity.etmodifiers.task3}",
+		items: [{
+			item: "environmentaltech:modifier_speed"
+		},
+		{
+			item: "environmentaltech:modifier_haste"
+		},
+		{
+			item: "environmentaltech:modifier_strength"
+		},
+		{
+			item: "environmentaltech:modifier_jump_boost"
+		},
+		{
+			item: "environmentaltech:modifier_regeneration"
+		},
+		{
+			item: "environmentaltech:modifier_resistance"
+		},
+		{
+			item: "environmentaltech:modifier_fire_resistance"
+		},
+		{
+			item: "environmentaltech:modifier_water_breathing"
+		},
+		{
+			item: "environmentaltech:modifier_invisibility"
+		},
+		{
+			item: "environmentaltech:modifier_night_vision"
+		},
+		{
+			item: "environmentaltech:modifier_health_boost"
+		},
+		{
+			item: "environmentaltech:modifier_saturation"
+		},
+		{
+			item: "environmentaltech:modifier_glowing"
+		},
+		{
+			item: "environmentaltech:modifier_luck"
+		}]
+	},
+	{
+		uid: "632f7f3c",
+		type: "item",
+		title: "{ftbuniversity.etmodifiers.task4}",
+		items: [{
+			item: "environmentaltech:modifier_speed"
+		},
+		{
+			item: "environmentaltech:modifier_creative_flight"
+		},
+		{
+			item: "environmentaltech:modifier_flight_speed"
+		},
+		{
+			item: "environmentaltech:modifier_haste"
+		},
+		{
+			item: "environmentaltech:modifier_strength"
+		},
+		{
+			item: "environmentaltech:modifier_jump_boost"
+		},
+		{
+			item: "environmentaltech:modifier_regeneration"
+		},
+		{
+			item: "environmentaltech:modifier_resistance"
+		},
+		{
+			item: "environmentaltech:modifier_fire_resistance"
+		},
+		{
+			item: "environmentaltech:modifier_water_breathing"
+		},
+		{
+			item: "environmentaltech:modifier_invisibility"
+		},
+		{
+			item: "environmentaltech:modifier_night_vision"
+		},
+		{
+			item: "environmentaltech:modifier_health_boost"
+		},
+		{
+			item: "environmentaltech:modifier_saturation"
+		},
+		{
+			item: "environmentaltech:modifier_glowing"
+		},
+		{
+			item: "environmentaltech:modifier_luck"
+		}]
+	}],
+	rewards: [{
+		uid: "b468221f",
+		type: "item",
+		item: "environmentaltech:modifier_null",
+		count: 16
+	}]
+}

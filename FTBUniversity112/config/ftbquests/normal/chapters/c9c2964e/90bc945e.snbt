@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.iechargingstation.subtitle}",
+	text: [
+		"{ftbuniversity.iechargingstation.desc1}",
+		"",
+		"{ftbuniversity.iechargingstation.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ee314aed"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f5155731",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 5"
+		}]
+	}]
+}

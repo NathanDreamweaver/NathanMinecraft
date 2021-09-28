@@ -1,0 +1,80 @@
+{
+	icon: {
+		id: "xnet:connector",
+		tag: {
+			display: {
+				LocName: "tile.xnet.connector_blue.name"
+			}
+		}
+	},
+	x: 2.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.xnconnector.subtitle}",
+	text: [
+		"{ftbuniversity.xnconnector.desc1}",
+		"",
+		"{ftbuniversity.xnconnector.desc2}",
+		"",
+		"{ftbuniversity.xnconnector.desc3}",
+		"",
+		"{ftbuniversity.xnconnector.desc4}"
+	],
+	dependencies: [
+		"6f866295"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2804789b",
+		type: "item",
+		title: "{ftbuniversity.xnconnector.title}",
+		items: [{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		},
+		{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_red.name"
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_yellow.name"
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_green.name"
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75cb0586",
+		type: "item",
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		},
+		count: 3
+	}]
+}

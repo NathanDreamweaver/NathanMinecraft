@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.rftteleporter.title}",
+	icon: "rftools:matter_receiver",
+	x: -1.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.rftteleporter.subtitle}",
+	text: [
+		"{ftbuniversity.rftteleporter.desc1}",
+		"",
+		"{ftbuniversity.rftteleporter.desc2}",
+		"",
+		"{ftbuniversity.rftteleporter.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "5df35b73",
+		type: "item",
+		items: [{
+			item: "rftools:matter_receiver"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "939c6a4e",
+		type: "item",
+		items: [{
+			item: "rftools:matter_transmitter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8c9f81e",
+		type: "item",
+		items: [{
+			item: "rftools:dialing_device"
+		}],
+		ignore_nbt: 1b
+	}]
+}

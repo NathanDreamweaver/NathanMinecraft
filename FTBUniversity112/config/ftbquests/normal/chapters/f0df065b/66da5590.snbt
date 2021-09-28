@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.exu2manualmill.title}",
+	x: -2.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.exu2manualmill.subtitle}",
+	text: [
+		"{ftbuniversity.exu2manualmill.desc1}",
+		"",
+		"{ftbuniversity.exu2manualmill.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"44add260"
+	],
+	tasks: [{
+		uid: "9dec48b9",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 7"
+		}]
+	}]
+}

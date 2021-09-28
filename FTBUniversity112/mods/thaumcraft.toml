@@ -1,0 +1,14 @@
+name = "Thaumcraft"
+filename = "Thaumcraft-1.12.2-6.1.BETA26.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2629/23/Thaumcraft-1.12.2-6.1.BETA26.jar"
+hash-format = "murmur2"
+hash = "1607642850"
+
+[update]
+[update.curseforge]
+file-id = 2629023
+project-id = 223628
+release-channel = "beta"

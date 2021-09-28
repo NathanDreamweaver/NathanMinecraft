@@ -1,0 +1,23 @@
+{
+	x: -2.25d,
+	y: 5.25d,
+	description: "{ftbuniversity.rftcounter.subtitle}",
+	text: [
+		"{ftbuniversity.rftcounter.desc1}",
+		"",
+		"{ftbuniversity.rftcounter.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "3c3727c0",
+		type: "item",
+		items: [{
+			item: "rftools:counter_block"
+		}],
+		ignore_damage: true
+	}]
+}

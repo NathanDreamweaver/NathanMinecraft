@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.will.title}",
+	icon: "bloodmagic:monster_soul",
+	x: 2.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.will.subtitle}",
+	text: [
+		"{ftbuniversity.will.desc1}",
+		"",
+		"{ftbuniversity.will.desc2}",
+		"",
+		"{ftbuniversity.will.desc3}"
+	],
+	dependencies: [
+		"a2fddded"
+	],
+	tasks: [{
+		uid: "ee36d41c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4abfc099",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8aac5ab0",
+		type: "item",
+		item: "bloodmagic:soul_snare",
+		count: 32
+	}]
+}

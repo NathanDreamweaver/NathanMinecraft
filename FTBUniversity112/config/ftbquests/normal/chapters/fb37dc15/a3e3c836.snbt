@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.spectrolus.title}",
+	x: 4.5d,
+	y: -1.25d,
+	description: "{ftbuniversity.spectrolus.subtitle}",
+	text: [
+		"{ftbuniversity.spectrolus.desc1}",
+		"",
+		"{ftbuniversity.spectrolus.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "020ecc43",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "spectrolus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0306e2f4",
+		type: "item",
+		item: "extrautils2:decorativesolid 1 8",
+		count: 64
+	}]
+}

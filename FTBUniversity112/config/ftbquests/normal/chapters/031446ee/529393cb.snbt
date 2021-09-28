@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.spectools.title}",
+	x: 0.875d,
+	y: 1.125d,
+	description: "{ftbuniversity.spectools.subtitle}",
+	text: [
+		"{ftbuniversity.spectools.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d7b03fae"
+	],
+	hide: true,
+	size: 0.25d,
+	tasks: [{
+		uid: "e2decf3f",
+		type: "checkmark",
+		title: "spectral weapons"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.jetpackattachplate.title}",
+	x: 7.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.jetpackattachplate.subtitle}",
+	text: [
+		"{ftbuniversity.jetpackattachplate.desc1}",
+		"",
+		"{ftbuniversity.jetpackattachplate.desc2}"
+	],
+	dependencies: [
+		"37e23880"
+	],
+	tasks: [{
+		uid: "676aa921",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 37"
+		}]
+	}]
+}

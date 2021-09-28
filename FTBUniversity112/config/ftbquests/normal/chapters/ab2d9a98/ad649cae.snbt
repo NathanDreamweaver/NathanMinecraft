@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.syringe.title}",
+	x: -0.25d,
+	y: -1.0d,
+	description: "{ftbuniversity.syringe.subtitle}",
+	text: [
+		"{ftbuniversity.syringe.desc1}",
+		"",
+		"{ftbuniversity.syringe.desc2}"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "6e2a9393",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:glasssyringe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

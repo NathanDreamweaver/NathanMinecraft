@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.singularities.title}",
+	x: -1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.singularities.subtitle}",
+	text: [
+		"{ftbuniversity.singularities.desc1}",
+		"",
+		"{ftbuniversity.singularities.desc2}",
+		"",
+		"{ftbuniversity.singularities.desc3}"
+	],
+	dependencies: [
+		"c49f5e8b"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "165fd825",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.mhbook.title}",
+	x: -1.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.mhbook.subtitle}",
+	text: [
+		"{ftbuniversity.mhbook.desc1}",
+		"",
+		"{ftbuniversity.mhbook.desc2}"
+	],
+	tasks: [{
+		uid: "b95684ab",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:guidebook"
+		}]
+	}],
+	rewards: [{
+		uid: "9b221ea5",
+		type: "item",
+		item: "mahoutsukai:mahoujin_projector"
+	}]
+}

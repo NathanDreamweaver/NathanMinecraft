@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.craftcalc.subtitle}",
+	text: [
+		"{ftbuniversity.craftcalc.desc1}",
+		"",
+		"{ftbuniversity.craftcalc.desc2}",
+		"",
+		"{ftbuniversity.craftcalc.desc3}",
+		"",
+		"{ftbuniversity.craftcalc.desc4}",
+		"",
+		"{ftbuniversity.craftcalc.desc5}",
+		"",
+		"{ftbuniversity.craftcalc.desc6}"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "cc359d80",
+		type: "item",
+		items: [{
+			item: "jecalculation:item_calculator"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.template.subtitle}",
+	text: [
+		"{ftbuniversity.template.desc1}",
+		"",
+		"{ftbuniversity.template.desc2}",
+		"",
+		"{ftbuniversity.template.desc3}",
+		"",
+		"{ftbuniversity.template.desc4}",
+		"",
+		"{ftbuniversity.template.desc5}",
+		"",
+		"{ftbuniversity.template.desc6}",
+		"",
+		"{ftbuniversity.template.desc7}"
+	],
+	dependencies: [
+		"748d2e67"
+	],
+	min_width: 325,
+	tasks: [{
+		uid: "f9606e00",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:templatemanager"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.teacheu.title}",
+	x: 2.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.teacheu.subtitle}",
+	text: [
+		"{ftbuniversity.teacheu.desc1}",
+		"",
+		"{ftbuniversity.teacheu.desc2}",
+		"",
+		"{ftbuniversity.teacheu.desc3}",
+		"{ftbuniversity.teacheu.desc4}",
+		"{ftbuniversity.teacheu.desc5}",
+		"{ftbuniversity.teacheu.desc6}",
+		"{ftbuniversity.teacheu.desc7}",
+		"{ftbuniversity.teacheu.desc8}",
+		"",
+		"{ftbuniversity.teacheu.desc9}",
+		"",
+		"{ftbuniversity.teacheu.desc10}"
+	],
+	dependencies: [
+		"90efc992"
+	],
+	tasks: [{
+		uid: "080e2f6f",
+		type: "checkmark",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "thaumcraft:textures/aspects/perditio.png"
+			}
+		}
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.intdynchap.title}",
+	icon: "integrateddynamics:cable",
+	always_invisible: false,
+	group: 565104616,
+	default_quest_shape: "square"
+}

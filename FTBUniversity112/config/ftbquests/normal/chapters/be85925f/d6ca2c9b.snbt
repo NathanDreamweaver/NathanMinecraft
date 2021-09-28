@@ -1,0 +1,92 @@
+{
+	title: "{ftbuniversity.itemtransfer.title}",
+	disable_toast: true,
+	x: 1.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.itemtransfer.subtitle}",
+	text: [
+		"{ftbuniversity.itemtransfer.desc}"
+	],
+	tasks: [{
+		uid: "5b830ac5",
+		type: "item",
+		title: "{ftbuniversity.itemtransfer.task}",
+		disable_toast: true,
+		items: [{
+			item: "enderio:item_item_conduit"
+		},
+		{
+			item: "extrautils2:grocket"
+		},
+		{
+			item: "extrautils2:grocket 1 3"
+		},
+		{
+			item: "extrautils2:flattransfernode"
+		},
+		{
+			item: "quark:pipe"
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:vertical"
+			}
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:splitter"
+			}
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:extract"
+			}
+		},
+		{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:dropper"
+			}
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		},
+		{
+			item: "rats:rat_upgrade_platter"
+		}]
+	}]
+}

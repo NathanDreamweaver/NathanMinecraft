@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.claimexplosions.title}",
+	x: 0.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.claimexplosions.subtitle}",
+	text: [
+		"{ftbuniversity.claimexplosions.desc1}",
+		"",
+		"{ftbuniversity.claimexplosions.desc2}"
+	],
+	dependencies: [
+		"a470948b"
+	],
+	tasks: [{
+		uid: "ac1c8fc7",
+		type: "custom",
+		title: "{ftbuniversity.claimexplosions.subtitle}",
+		icon: "minecraft:skull 1 4"
+	}],
+	rewards: [{
+		uid: "571b1997",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:creeper"
+				}
+			}
+		},
+		count: 16
+	}]
+}

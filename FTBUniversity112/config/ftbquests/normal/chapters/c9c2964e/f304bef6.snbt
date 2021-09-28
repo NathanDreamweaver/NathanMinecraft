@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.ielightningrod.title}",
+	icon: "immersiveengineering:metal_multiblock 1 14",
+	x: 7.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.ielightningrod.subtitle}",
+	text: [
+		"{ftbuniversity.ielightningrod.desc1}",
+		"",
+		"{ftbuniversity.ielightningrod.desc2}",
+		"",
+		"{ftbuniversity.ielightningrod.desc3}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ab2bc23b"
+	],
+	tasks: [{
+		uid: "d01ecf97",
+		type: "observation",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:lightningrod",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "0974df91",
+		type: "item",
+		item: "immersiveengineering:metal_decoration1",
+		count: 64
+	}]
+}

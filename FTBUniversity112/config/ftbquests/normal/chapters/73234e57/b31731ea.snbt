@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.pnthermoprocplant.title}",
+	x: 2.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.pnthermoprocplant.subtitle}",
+	text: [
+		"{ftbuniversity.pnthermoprocplant.desc1}",
+		"",
+		"{ftbuniversity.pnthermoprocplant.desc2}"
+	],
+	dependencies: [
+		"1cb47cce",
+		"b9774f8d"
+	],
+	tasks: [{
+		uid: "b0d7dea2",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:thermopneumatic_processing_plant"
+		}]
+	}]
+}

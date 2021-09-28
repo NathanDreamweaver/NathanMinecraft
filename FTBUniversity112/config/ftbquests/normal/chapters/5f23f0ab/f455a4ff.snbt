@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.gendustry.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 5.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.gendustry.subtitle}",
+	text: [
+		"{ftbuniversity.gendustry.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"296a2c0a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "901eaf2e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6b8d4be1",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "gendustry_unlocked"
+	}]
+}

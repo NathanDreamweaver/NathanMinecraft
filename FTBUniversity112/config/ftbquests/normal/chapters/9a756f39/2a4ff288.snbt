@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.treasury.title}",
+	x: 1.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.treasury.subtitle}",
+	text: [
+		"{ftbuniversity.treasury.desc1}",
+		"",
+		"{ftbuniversity.treasury.desc2}",
+		"",
+		"{ftbuniversity.treasury.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "99ecfbb6",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:treasury_projection_gauntlet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

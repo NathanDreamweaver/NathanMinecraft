@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.hopperhock.title}",
+	x: 1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.hopperhock.subtitle}",
+	text: [
+		"{ftbuniversity.hopperhock.desc1}",
+		"",
+		"{ftbuniversity.hopperhock.desc2}"
+	],
+	dependencies: [
+		"290bd89d"
+	],
+	tasks: [{
+		uid: "cd45e375",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hopperhock"
+			}
+		}]
+	}]
+}

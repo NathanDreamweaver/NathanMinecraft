@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -1.75d,
+	description: "{ftbuniversity.labeller.subtitle}",
+	text: [
+		"{ftbuniversity.labeller.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5ac83711"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "401f4c26",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:labeller"
+		}]
+	}]
+}

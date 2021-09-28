@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.exu2halitosis.subtitle}",
+	text: [
+		"{ftbuniversity.exu2halitosis.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "dca05321",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_dragonsbreath"
+			}
+		}]
+	}]
+}

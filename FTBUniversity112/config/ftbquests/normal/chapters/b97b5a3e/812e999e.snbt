@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.rftshapecard.subtitle}",
+	text: [
+		"{ftbuniversity.rftshapecard.desc1}",
+		"",
+		"{ftbuniversity.rftshapecard.desc2}",
+		"",
+		"{ftbuniversity.rftshapecard.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "feaa2d21",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25946587",
+		type: "item",
+		item: "rftools:rftools_shape_manual"
+	}]
+}

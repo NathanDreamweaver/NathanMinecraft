@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.exu2endergen.subtitle}",
+	text: [
+		"{ftbuniversity.exu2endergen.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "40c2920e",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		}]
+	}]
+}

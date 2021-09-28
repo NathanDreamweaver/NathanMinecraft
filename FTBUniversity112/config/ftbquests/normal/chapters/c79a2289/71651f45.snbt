@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.ironfurnace.title}",
+	x: 1.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.ironfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.ironfurnace.desc}"
+	],
+	dependencies: [
+		"3e456bba"
+	],
+	tasks: [{
+		uid: "3d05f706",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 46"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7118feb2",
+		type: "item",
+		item: "immersiveengineering:stone_decoration 1 3"
+	}]
+}

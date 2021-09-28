@@ -1,0 +1,26 @@
+{
+	x: -6.75d,
+	y: 7.25d,
+	shape: "square",
+	description: "{ftbuniversity.logcraftsign.subtitle}",
+	text: [
+		"{ftbuniversity.logcraftsign.desc1}",
+		"",
+		"{ftbuniversity.logcraftsign.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"59e8425d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "5f36e117",
+		type: "item",
+		items: [{
+			id: "logisticspipes:sign_creator",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

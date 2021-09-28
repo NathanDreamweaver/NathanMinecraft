@@ -1,0 +1,48 @@
+{
+	title: "{ftbuniversity.seismic.title}",
+	icon: {
+		id: "mekanism:machineblock2",
+		tag: {
+			mekData: {}
+		},
+		Damage: 9s
+	},
+	x: 3.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.seismic.subtitle}",
+	text: [
+		"{ftbuniversity.seismic.desc1}",
+		"",
+		"{ftbuniversity.seismic.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "880a6d20",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aa19c843",
+		type: "item",
+		items: [{
+			id: "mekanism:seismicreader",
+			tag: {
+				mekData: {
+					energyStored: 12000.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.logprogram.title}",
+	icon: "integrateddynamics:logic_programmer",
+	x: 8.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.logprogram.subtitle}",
+	text: [
+		"{ftbuniversity.logprogram.desc1}",
+		"",
+		"{ftbuniversity.logprogram.desc2}",
+		"",
+		"{ftbuniversity.logprogram.desc3}",
+		"",
+		"{ftbuniversity.logprogram.desc4}",
+		"",
+		"{ftbuniversity.logprogram.desc5}",
+		"",
+		"{ftbuniversity.logprogram.desc6}",
+		"",
+		"{ftbuniversity.logprogram.desc7}"
+	],
+	dependencies: [
+		"06de313c"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "756476a7",
+		type: "item",
+		title: "{ftbuniversity.logprogram.task}",
+		items: [{
+			item: "integrateddynamics:logic_programmer"
+		},
+		{
+			item: "integrateddynamics:portable_logic_programmer"
+		}]
+	},
+	{
+		uid: "a986a514",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variablestore"
+		}]
+	}]
+}

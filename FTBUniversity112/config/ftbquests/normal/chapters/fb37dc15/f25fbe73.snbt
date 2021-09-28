@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.autoendo.title}",
+	x: 0.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.autoendo.subtitle}",
+	text: [
+		"{ftbuniversity.autoendo.desc1}",
+		"",
+		"{ftbuniversity.autoendo.desc2}",
+		"",
+		"{ftbuniversity.autoendo.desc3}"
+	],
+	dependencies: [
+		"448c4f47"
+	],
+	hide: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "736032d2",
+		type: "item",
+		items: [{
+			item: "botania:opencrate"
+		}]
+	}],
+	rewards: [{
+		uid: "c6067e04",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 8
+	}]
+}

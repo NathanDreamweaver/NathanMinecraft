@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.exu2pink.subtitle}",
+	text: [
+		"{ftbuniversity.exu2pink.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "97c105eb",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8a6f21ad",
+		type: "item",
+		item: "minecraft:red_flower 1 7",
+		count: 64
+	}]
+}

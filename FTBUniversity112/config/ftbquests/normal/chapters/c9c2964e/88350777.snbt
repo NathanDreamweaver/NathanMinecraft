@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.ieconveyor.subtitle}",
+	text: [
+		"{ftbuniversity.ieconveyor.desc1}",
+		"",
+		"{ftbuniversity.ieconveyor.desc2}",
+		"",
+		"{ftbuniversity.ieconveyor.desc3}",
+		"",
+		"{ftbuniversity.ieconveyor.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bf66b31c"
+	],
+	tasks: [{
+		uid: "7e167678",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "37d040c6",
+		type: "item",
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		},
+		count: 32
+	}]
+}

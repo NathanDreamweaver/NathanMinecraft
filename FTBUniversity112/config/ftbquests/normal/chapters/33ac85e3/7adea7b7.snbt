@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.spacestation2.title}",
+	icon: "thaumcraft:celestial_notes 1 1",
+	x: 0.0d,
+	y: -7.0d,
+	description: "{ftbuniversity.spacestation2.subtitle}",
+	text: [
+		"{ftbuniversity.spacestation2.desc1}",
+		"",
+		"{ftbuniversity.spacestation2.desc2}"
+	],
+	dependencies: [
+		"879b496a"
+	],
+	tasks: [{
+		uid: "0de03397",
+		type: "dimension",
+		title: "{ftbuniversity.spacestation2.task}",
+		dim: -2
+	}],
+	rewards: [{
+		uid: "eb01c31e",
+		type: "item",
+		item: {
+			id: "advancedrocketry:bucketrocketfuel",
+			tag: {
+				Fluid: {
+					FluidName: "rocketfuel",
+					Amount: 1000
+				}
+			}
+		}
+	},
+	{
+		uid: "e8f44679",
+		type: "item",
+		item: "advancedrocketry:thermitetorch",
+		count: 16
+	}]
+}

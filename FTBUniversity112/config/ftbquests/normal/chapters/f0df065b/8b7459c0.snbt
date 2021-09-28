@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.exu2transfernodes.title}",
+	icon: "extrautils2:pipe",
+	x: 0.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.exu2transfernodes.subtitle}",
+	text: [
+		"{ftbuniversity.exu2transfernodes.desc1}",
+		"",
+		"{ftbuniversity.exu2transfernodes.desc2}"
+	],
+	tasks: [{
+		uid: "9bc0155e",
+		type: "item",
+		items: [{
+			item: "extrautils2:grocket"
+		}]
+	},
+	{
+		uid: "7595fefe",
+		type: "item",
+		items: [{
+			item: "extrautils2:grocket 1 2"
+		}]
+	},
+	{
+		uid: "e0951fb7",
+		type: "item",
+		items: [{
+			item: "extrautils2:pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "f1ca921f",
+		type: "item",
+		item: "extrautils2:pipe",
+		count: 64
+	}]
+}

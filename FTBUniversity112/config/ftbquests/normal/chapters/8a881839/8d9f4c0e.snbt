@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.itnonitems.title}",
+	icon: "integratedtunnels:part_importer_fluid_item",
+	x: 4.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.itnonitems.subtitle}",
+	text: [
+		"{ftbuniversity.itnonitems.desc}"
+	],
+	dependencies: [
+		"73342d2c"
+	],
+	tasks: [{
+		uid: "f36cba7a",
+		type: "item",
+		title: "{ftbuniversity.itnonitems.task}",
+		items: [{
+			item: "integratedtunnels:part_interface_fluid_item"
+		},
+		{
+			item: "integratedtunnels:part_importer_fluid_item"
+		},
+		{
+			item: "integratedtunnels:part_exporter_fluid_item"
+		},
+		{
+			item: "integratedtunnels:part_interface_energy_item"
+		},
+		{
+			item: "integratedtunnels:part_importer_energy_item"
+		},
+		{
+			item: "integratedtunnels:part_exporter_energy_item"
+		}]
+	}]
+}

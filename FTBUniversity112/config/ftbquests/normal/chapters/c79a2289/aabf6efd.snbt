@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.inductionfurnace.title}",
+	x: 8.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.inductionfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.inductionfurnace.desc1}",
+		"",
+		"{ftbuniversity.inductionfurnace.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d465b6e",
+		"60216f1b",
+		"31a34ec1"
+	],
+	tasks: [{
+		uid: "533e5e27",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 54"
+		}]
+	}]
+}

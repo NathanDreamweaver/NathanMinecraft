@@ -1,0 +1,14 @@
+name = "Gendustry"
+filename = "gendustry-1.6.5.8-mc1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2516/215/gendustry-1.6.5.8-mc1.12.2.jar"
+hash-format = "murmur2"
+hash = "1769408380"
+
+[update]
+[update.curseforge]
+file-id = 2516215
+project-id = 70492
+release-channel = "beta"

@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.voidres3.subtitle}",
+	text: [
+		"{ftbuniversity.voidres3.desc}",
+		"",
+		"{ftbuniversity.etechmodifiers}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	dependencies: [
+		"93a3642c",
+		"7747cbec"
+	],
+	tasks: [{
+		uid: "6ae9133a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

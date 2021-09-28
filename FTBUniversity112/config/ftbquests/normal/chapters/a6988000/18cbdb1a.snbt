@@ -1,0 +1,25 @@
+{
+	x: 0.6523809523810158d,
+	y: -1.412244897959198d,
+	description: "{ftbuniversity.thaumometer.subtitle}",
+	text: [
+		"{ftbuniversity.thaumometer.desc1}",
+		"",
+		"{ftbuniversity.thaumometer.desc2}",
+		"",
+		"{ftbuniversity.thaumometer.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ca7a42ec"
+	],
+	tasks: [{
+		uid: "bbb8415a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

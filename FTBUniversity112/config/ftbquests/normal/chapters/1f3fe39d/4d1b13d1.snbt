@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.progfor.title}",
+	icon: "forestry:fabricator",
+	x: 0.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.progfor.subtitle}",
+	text: [
+		"{ftbuniversity.progfor.desc1}",
+		"",
+		"{ftbuniversity.progfor.desc2}",
+		"",
+		"{ftbuniversity.progfor.desc3}",
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "4305d2f7",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "76bca120",
+		type: "item",
+		item: "forestry:book_forester"
+	}]
+}

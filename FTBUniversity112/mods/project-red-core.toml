@@ -1,0 +1,14 @@
+name = "Project Red - Core"
+filename = "ProjectRed-1.12.2-4.9.4.120-Base.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2745/545/ProjectRed-1.12.2-4.9.4.120-Base.jar"
+hash-format = "murmur2"
+hash = "2117407503"
+
+[update]
+[update.curseforge]
+file-id = 2745545
+project-id = 228702
+release-channel = "beta"

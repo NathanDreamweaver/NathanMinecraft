@@ -1,0 +1,30 @@
+{
+	x: 12.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.mekjetpack1.subtitle}",
+	text: [
+		"{ftbuniversity.mekjetpack1.desc1}",
+		"",
+		"{ftbuniversity.mekjetpack1.desc2}",
+		"",
+		"{ftbuniversity.mekjetpack1.desc3}",
+		"",
+		"{ftbuniversity.mekjetpack1.desc4}",
+		"",
+		"{ftbuniversity.mekjetpack1.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "ee384a3f",
+		type: "item",
+		items: [{
+			item: "mekanism:jetpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

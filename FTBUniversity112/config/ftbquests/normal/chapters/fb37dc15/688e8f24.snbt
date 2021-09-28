@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.corpcrystalcube.title}",
+	x: 7.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.corpcrystalcube.subtitle}",
+	text: [
+		"{ftbuniversity.corpcrystalcube.desc1}",
+		"",
+		"{ftbuniversity.corpcrystalcube.desc2}"
+	],
+	dependencies: [
+		"1598e270"
+	],
+	tasks: [{
+		uid: "f044b917",
+		type: "item",
+		items: [{
+			item: "botania:corporeacrystalcube"
+		}]
+	}]
+}

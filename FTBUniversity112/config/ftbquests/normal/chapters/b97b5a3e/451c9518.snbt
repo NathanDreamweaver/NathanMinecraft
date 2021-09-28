@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.rftdimshards.subtitle}",
+	text: [
+		"{ftbuniversity.rftdimshards.desc}"
+	],
+	dependencies: [
+		"133ae899"
+	],
+	tasks: [{
+		uid: "5a1a0adc",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard"
+		}]
+	}]
+}

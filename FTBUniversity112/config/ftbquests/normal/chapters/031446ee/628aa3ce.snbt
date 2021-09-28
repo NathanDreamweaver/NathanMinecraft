@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: -6.75d,
+	description: "{ftbuniversity.tinkerer.subtitle}",
+	text: [
+		"{ftbuniversity.tinkerer.desc1}",
+		"",
+		"{ftbuniversity.tinkerer.desc2}",
+		"{ftbuniversity.tinkerer.desc3}",
+		"{ftbuniversity.tinkerer.desc4}",
+		"{ftbuniversity.tinkerer.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a8c43d6",
+		"8b2f6b79"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "cbe4dd9f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_reader"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

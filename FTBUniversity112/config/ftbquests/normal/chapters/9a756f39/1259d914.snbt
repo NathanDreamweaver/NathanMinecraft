@@ -1,0 +1,45 @@
+{
+	title: "{ftbuniversity.powdered.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "mahoutsukai:textures/block/mahoujin.png"
+		}
+	},
+	x: 0.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.powdered.subtitle}",
+	text: [
+		"{ftbuniversity.powdered.desc1}",
+		"",
+		"{ftbuniversity.powdered.desc2}",
+		"",
+		"{ftbuniversity.powdered.desc3}"
+	],
+	dependencies: [
+		"737601c1"
+	],
+	tasks: [{
+		uid: "6fe28e29",
+		type: "item",
+		title: "{ftbuniversity.powdered.task}",
+		items: [{
+			item: "mahoutsukai:powdered_diamond"
+		},
+		{
+			item: "mahoutsukai:powdered_ender"
+		},
+		{
+			item: "mahoutsukai:powdered_gold"
+		},
+		{
+			item: "mahoutsukai:powdered_iron"
+		},
+		{
+			item: "mahoutsukai:powdered_quartz"
+		},
+		{
+			item: "mahoutsukai:powdered_emerald"
+		}]
+	}]
+}

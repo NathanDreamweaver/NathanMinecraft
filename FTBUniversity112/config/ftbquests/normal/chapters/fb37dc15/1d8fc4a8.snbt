@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.gaia2.title}",
+	icon: {
+		id: "botania:dice",
+		tag: {
+			soulbindUUID: "13027fdb-aac9-491b-9d93-c7e2f791d846"
+		}
+	},
+	x: 7.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.gaia2.subtitle}",
+	text: [
+		"{ftbuniversity.gaia2.desc1}",
+		"",
+		"{ftbuniversity.gaia2.desc2}"
+	],
+	dependencies: [
+		"f10b1c4e"
+	],
+	tasks: [{
+		uid: "2ec78281",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "35adaa67",
+		type: "item",
+		item: "botania:keepivy",
+		count: 6
+	}]
+}

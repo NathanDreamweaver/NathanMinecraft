@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.tabsup.title}",
+	x: 3.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.tabsup.subtitle}",
+	text: [
+		"{ftbuniversity.tabsup.desc1}",
+		"",
+		"{ftbuniversity.tabsup.desc2}",
+		"",
+		"{ftbuniversity.tabsup.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "a33e3dbe",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_item_sink_creativetab"
+		}]
+	}]
+}

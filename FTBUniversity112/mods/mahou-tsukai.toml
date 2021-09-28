@@ -1,0 +1,14 @@
+name = "Mahou Tsukai"
+filename = "mahoutsukai-1.12.2-v1.19.32.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3132/483/mahoutsukai-1.12.2-v1.19.32.jar"
+hash-format = "murmur2"
+hash = "2228192148"
+
+[update]
+[update.curseforge]
+file-id = 3132483
+project-id = 342543
+release-channel = "beta"

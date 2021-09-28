@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.beeguide.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/bee.png"
+		}
+	},
+	x: 2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.beeguide.subtitle}",
+	text: [
+		"{ftbuniversity.beeguide.desc1}",
+		"",
+		"{ftbuniversity.beeguide.desc2}",
+		"",
+		"{ftbuniversity.beeguide.desc3}"
+	],
+	hide_dependency_lines: true,
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "d03bbc7c",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.gaia1.rewards}",
+	loot_size: 1,
+	rewards: [{
+		title: "{ftbuniversity.gaia1.reward1}",
+		item: {
+			id: "botania:incensestick",
+			tag: {
+				brewKey: "strength"
+			}
+		}
+	},
+	{
+		title: "{ftbuniversity.gaia1.reward2}",
+		item: {
+			id: "botania:incensestick",
+			tag: {
+				brewKey: "regen"
+			}
+		}
+	},
+	{
+		title: "{ftbuniversity.gaia1.reward3}",
+		item: {
+			id: "botania:incensestick",
+			tag: {
+				brewKey: "resistance"
+			}
+		}
+	}]
+}

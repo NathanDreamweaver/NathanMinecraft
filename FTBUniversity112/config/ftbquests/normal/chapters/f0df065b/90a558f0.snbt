@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.exu2solarpanel.title}",
+	x: -2.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.exu2solarpanel.subtitle}",
+	text: [
+		"{ftbuniversity.exu2solarpanel.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"44add260"
+	],
+	tasks: [{
+		uid: "5bdc4d9c",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "04810432",
+		type: "item",
+		item: "extrautils2:passivegenerator",
+		count: 3
+	}]
+}

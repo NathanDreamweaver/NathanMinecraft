@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.ieautoworkbench.title}",
+	icon: "immersiveengineering:metal_multiblock 1 5",
+	x: 8.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.ieautoworkbench.subtitle}",
+	text: [
+		"{ftbuniversity.ieautoworkbench.desc1}",
+		"",
+		"{ftbuniversity.ieautoworkbench.desc2}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "6b1de2bc",
+		type: "observation",
+		title: "{ftbuniversity.ieautoworkbench.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:autoworkbench",
+		timer: 0L
+	}]
+}

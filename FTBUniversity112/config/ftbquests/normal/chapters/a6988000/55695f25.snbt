@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.pavingstones.title}",
+	icon: "thaumcraft:paving_stone_travel",
+	x: -2.696258503401374d,
+	y: -1.714568367346942d,
+	description: "{ftbuniversity.pavingstones.subtitle}",
+	text: [
+		"{ftbuniversity.pavingstones.desc1}",
+		"",
+		"{ftbuniversity.pavingstones.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"46159d30"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "68d20f98",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_travel"
+		}]
+	},
+	{
+		uid: "a1326eec",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_barrier"
+		}]
+	}]
+}

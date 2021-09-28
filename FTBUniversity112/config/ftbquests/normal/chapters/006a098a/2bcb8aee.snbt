@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.etassembler.subtitle}",
+	text: [
+		"{ftbuniversity.etassembler.desc1}",
+		"",
+		"{ftbuniversity.etassembler.desc2}"
+	],
+	dependencies: [
+		"c66af028"
+	],
+	tasks: [{
+		uid: "e21c07e5",
+		type: "item",
+		items: [{
+			item: "environmentaltech:tool_multiblock_assembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

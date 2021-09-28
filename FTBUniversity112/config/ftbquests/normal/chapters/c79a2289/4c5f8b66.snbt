@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.ic2furnace.title}",
+	x: 4.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.ic2furnace.subtitle}",
+	text: [
+		"{ftbuniversity.ic2furnace.desc1}",
+		"",
+		"{ftbuniversity.ic2furnace.desc2}"
+	],
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "da0f34a0",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 44"
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "{ftbuniversity.beescoop.title}",
+	icon: "forestry:scoop",
+	x: 2.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.beescoop.subtitle}",
+	text: [
+		"{ftbuniversity.beescoop.desc1}",
+		"",
+		"{ftbuniversity.beescoop.desc2}",
+		"",
+		"{ftbuniversity.beescoop.desc3}"
+	],
+	dependencies: [
+		"bdf762ff"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3d656f6b",
+		type: "item",
+		title: "{ftbuniversity.beescoop.task}",
+		items: [{
+			item: "forestry:scoop"
+		},
+		{
+			item: "magicbees:manasteelscoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11b0afc0",
+		type: "item",
+		items: [{
+			item: "forestry:smoker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df9529c4",
+		type: "loot",
+		table: 2
+	}]
+}

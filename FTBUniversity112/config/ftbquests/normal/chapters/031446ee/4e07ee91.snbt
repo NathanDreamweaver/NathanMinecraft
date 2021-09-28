@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.hellfire.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.hellfire.subtitle}",
+	text: [
+		"{ftbuniversity.hellfire.desc1}",
+		"",
+		"{ftbuniversity.hellfire.desc2}",
+		"",
+		"{ftbuniversity.hellfire.desc3}"
+	],
+	dependencies: [
+		"c6c47625"
+	],
+	tasks: [{
+		uid: "8410edbc",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.orb2.title}",
+	x: 4.75d,
+	y: -3.75d,
+	description: "{ftbuniversity.orb2.subtitle}",
+	text: [
+		"{ftbuniversity.orb2.desc1}",
+		"",
+		"{ftbuniversity.orb2.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"68867424"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "582f5060",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

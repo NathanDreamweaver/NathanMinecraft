@@ -1,0 +1,46 @@
+{
+	title: "{ftbuniversity.modularstorage.title}",
+	icon: "rftools:modular_storage",
+	x: 1.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.modularstorage.subtitle}",
+	text: [
+		"{ftbuniversity.modularstorage.desc1}",
+		"",
+		"{ftbuniversity.modularstorage.desc2}",
+		"",
+		"{ftbuniversity.modularstorage.desc3}",
+		"",
+		"{ftbuniversity.modularstorage.desc4}",
+		"",
+		"{ftbuniversity.modularstorage.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "d0d5d4a0",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	},
+	{
+		uid: "e9c016a3",
+		type: "item",
+		title: "{ftbuniversity.modularstorage.task}",
+		disable_toast: true,
+		items: [{
+			item: "rftools:storage_module"
+		},
+		{
+			item: "rftools:storage_module 1 1"
+		},
+		{
+			item: "rftools:storage_module 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

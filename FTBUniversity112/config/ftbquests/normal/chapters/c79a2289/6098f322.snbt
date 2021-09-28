@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.ic2loud.title}",
+	icon: "mekanism:mufflingupgrade",
+	x: 3.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.ic2loud.subtitle}",
+	text: [
+		"{ftbuniversity.ic2loud.desc1}",
+		"",
+		"{ftbuniversity.ic2loud.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	hide: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "91df80c3",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "{ftbuniversity.ratcage.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: "rats:rat_igloo_white"
+	},
+	{
+		item: "rats:rat_water_bottle"
+	},
+	{
+		item: "rats:rat_seed_bowl"
+	},
+	{
+		item: "rats:rat_hammock_white"
+	},
+	{
+		item: "rats:rat_breeding_lantern"
+	}]
+}

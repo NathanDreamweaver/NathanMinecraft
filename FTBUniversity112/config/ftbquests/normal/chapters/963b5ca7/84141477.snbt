@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 8.5d,
+	description: "{ftbuniversity.creativegas.subtitle}",
+	text: [
+		"{ftbuniversity.creativegas.desc1}",
+		"",
+		"{ftbuniversity.creativegas.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "d9c993ad",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 4
+			}
+		}]
+	}]
+}

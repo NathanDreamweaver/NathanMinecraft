@@ -1,0 +1,50 @@
+{
+	title: "{ftbuniversity.compactsolars.title}",
+	icon: "compactsolars:compact_solar_block 1 2",
+	x: 0.25d,
+	y: 2.0d,
+	description: "{ftbuniversity.compactsolars.subtitle}",
+	text: [
+		"{ftbuniversity.compactsolars.desc1}",
+		"",
+		"{ftbuniversity.compactsolars.desc2}",
+		"{ftbuniversity.compactsolars.desc3}",
+		"{ftbuniversity.compactsolars.desc4}"
+	],
+	dependencies: [
+		"5e4d1213"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "9e040b5d",
+		type: "item",
+		items: [{
+			item: "compactsolars:compact_solar_block"
+		}]
+	},
+	{
+		uid: "e23735c3",
+		type: "item",
+		items: [{
+			item: "compactsolars:compact_solar_block 1 1"
+		}]
+	},
+	{
+		uid: "1e170970",
+		type: "item",
+		items: [{
+			item: "compactsolars:compact_solar_block 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ed71050f",
+		type: "item",
+		item: "compactsolars:compact_solar_block 1 2",
+		count: 7
+	},
+	{
+		uid: "bc7dda30",
+		type: "item",
+		item: "compactsolars:solar_hat_high_voltage"
+	}]
+}

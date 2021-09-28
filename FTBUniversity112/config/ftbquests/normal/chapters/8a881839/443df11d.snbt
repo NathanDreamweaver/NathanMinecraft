@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.idwrench.subtitle}",
+	text: [
+		"{ftbuniversity.idwrench.desc1}",
+		"",
+		"{ftbuniversity.idwrench.desc2}"
+	],
+	dependencies: [
+		"5ac83711"
+	],
+	tasks: [{
+		uid: "2fcf7418",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:wrench"
+		}]
+	}]
+}

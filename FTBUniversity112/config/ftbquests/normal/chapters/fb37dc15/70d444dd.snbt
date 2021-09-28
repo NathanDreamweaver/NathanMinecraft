@@ -1,0 +1,65 @@
+{
+	title: "{ftbuniversity.autoshulk.title}",
+	icon: "rftools:spawner",
+	x: 5.25d,
+	y: -2.0d,
+	description: "{ftbuniversity.autoshulk.subtitle}",
+	text: [
+		"{ftbuniversity.autoshulk.desc1}",
+		"",
+		"{ftbuniversity.autoshulk.desc2}",
+		"",
+		"{ftbuniversity.autoshulk.desc3}",
+		"",
+		"{ftbuniversity.autoshulk.desc4}"
+	],
+	dependencies: [
+		"3b849572"
+	],
+	hide: true,
+	size: 0.75d,
+	min_width: 300,
+	tasks: [{
+		uid: "2918ffe0",
+		type: "item",
+		items: [{
+			item: "rftools:spawner"
+		}]
+	},
+	{
+		uid: "cd7d688f",
+		type: "item",
+		items: [{
+			item: "rftools:matter_beamer"
+		}]
+	},
+	{
+		uid: "31b339c2",
+		type: "item",
+		items: [{
+			item: "rftools:sensor_block"
+		}]
+	},
+	{
+		uid: "41953725",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "heiseiDream"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dc5a2764",
+		type: "item",
+		item: "projectred-integration:gate 1 24",
+		count: 2
+	},
+	{
+		uid: "09a96aab",
+		type: "item",
+		item: "projectred-transmission:wire",
+		count: 8
+	}]
+}

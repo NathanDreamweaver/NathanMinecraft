@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.arcanerail.title}",
+	x: -5.469387755102048d,
+	y: -2.6938775510204103d,
+	description: "{ftbuniversity.arcanerail.subtitle}",
+	text: [
+		"{ftbuniversity.arcanerail.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e076ab2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "0f446524",
+		type: "item",
+		items: [{
+			item: "thaumcraft:activator_rail"
+		}]
+	}]
+}

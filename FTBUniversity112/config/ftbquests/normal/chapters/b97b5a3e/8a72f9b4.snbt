@@ -1,0 +1,16 @@
+{
+	title: "{ftbuniversity.endergeniclink.title}",
+	icon: "biomesoplenty:earth",
+	x: -3.25d,
+	y: 2.0d,
+	description: "{ftbuniversity.endergeniclink.subtitle}",
+	text: [
+		""
+	],
+	custom_click: "https://ftb.gamepedia.com/Endergenic_Power_Generation#Example_Generator_Design",
+	dependencies: [
+		"24f3f648"
+	],
+	size: 0.5d,
+	optional: true
+}

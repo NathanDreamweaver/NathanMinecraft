@@ -1,0 +1,55 @@
+{
+	title: "{ftbuniversity.highspeedpipes.title}",
+	icon: "logisticspipes:pipe_hs_line",
+	x: 0.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.highspeedpipes.subtitle}",
+	text: [
+		"{ftbuniversity.highspeedpipes.desc1}",
+		"",
+		"{ftbuniversity.highspeedpipes.desc2}",
+		"",
+		"{ftbuniversity.highspeedpipes.desc3}"
+	],
+	dependencies: [
+		"a8ec64a8"
+	],
+	size: 0.75d,
+	min_width: 250,
+	tasks: [{
+		uid: "5769575f",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_hs_speedup"
+		}],
+		count: 2L
+	},
+	{
+		uid: "61cfe050",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_hs_line"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ba99a0d2",
+		type: "item",
+		title: "{ftbuniversity.highspeedpipes.task3}",
+		items: [{
+			item: "logisticspipes:pipe_hs_s_curve"
+		},
+		{
+			item: "logisticspipes:pipe_hs_curve"
+		},
+		{
+			item: "logisticspipes:pipe_hs_gain"
+		}]
+	}],
+	rewards: [{
+		uid: "27409010",
+		type: "item",
+		item: "logisticspipes:pipe_hs_line",
+		count: 64
+	}]
+}

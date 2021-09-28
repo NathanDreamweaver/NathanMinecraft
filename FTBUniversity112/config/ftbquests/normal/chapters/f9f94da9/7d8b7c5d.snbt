@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.ratcombine.title}",
+	icon: {
+		id: "rats:rat_upgrade_combined",
+		tag: {}
+	},
+	x: 5.5d,
+	y: -6.5d,
+	description: "{ftbuniversity.ratcombine.subtitle}",
+	text: [
+		"{ftbuniversity.ratcombine.desc1}",
+		"",
+		"{ftbuniversity.ratcombine.desc2}",
+		"",
+		"{ftbuniversity.ratcombine.desc3}",
+		"",
+		"{ftbuniversity.ratcombine.desc4}"
+	],
+	dependencies: [
+		"68317c6f"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "0c9fcb4e",
+		type: "item",
+		items: [{
+			id: "rats:rat_upgrade_combined",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "46904a47",
+		type: "item",
+		items: [{
+			item: "rats:upgrade_combiner"
+		},
+		{
+			item: "rats:upgrade_separator"
+		}]
+	}]
+}

@@ -1,0 +1,98 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/atmosphere_terraformer.png"
+		}
+	},
+	x: 3.0d,
+	y: -7.5d,
+	shape: "circle",
+	description: "{ftbuniversity.atmterr.subtitle}",
+	text: [
+		"{ftbuniversity.atmterr.desc1}",
+		"",
+		"{ftbuniversity.atmterr.desc2}",
+		"",
+		"{ftbuniversity.atmterr.desc3}",
+		"",
+		"{ftbuniversity.atmterr.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b138bf7c",
+		"7adea7b7"
+	],
+	size: 0.75d,
+	min_width: 275,
+	tasks: [{
+		uid: "f6ea56a1",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:terraformer"
+		}]
+	},
+	{
+		uid: "8edaf883",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:advstructuremachine"
+		}],
+		count: 443L
+	},
+	{
+		uid: "5f151510",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:concrete"
+		}],
+		count: 207L
+	},
+	{
+		uid: "4b2c4769",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:clay"
+		}],
+		count: 136L
+	},
+	{
+		uid: "75f2d8bb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 72L
+	},
+	{
+		uid: "de63f675",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:oxygenvent"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7483eb2b",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}],
+		count: 3L
+	},
+	{
+		uid: "6cea117b",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 2"
+		}],
+		count: 4L
+	}]
+}

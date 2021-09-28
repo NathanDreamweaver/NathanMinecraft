@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.alchemicmetal.title}",
+	icon: "thaumcraft:ingot 1 2",
+	x: 0.5717687074829954d,
+	y: -2.42993197278912d,
+	description: "{ftbuniversity.alchemicmetal.subtitle}",
+	text: [
+		"{ftbuniversity.alchemicmetal.desc1}",
+		"",
+		"{ftbuniversity.alchemicmetal.desc2}",
+		"",
+		"{ftbuniversity.alchemicmetal.desc3}",
+		"",
+		"{ftbuniversity.alchemicmetal.desc4}",
+		"",
+		"{ftbuniversity.alchemicmetal.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e21dcaa9"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "ab222635",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	},
+	{
+		uid: "e2e72fc0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4a56f32f",
+		type: "loot",
+		table: 16
+	}]
+}

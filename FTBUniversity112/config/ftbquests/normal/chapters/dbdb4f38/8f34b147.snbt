@@ -1,0 +1,127 @@
+{
+	title: "{ftbuniversity.learner.title}",
+	icon: {
+		id: "deepmoblearning:deep_learner",
+		tag: {
+			inventory: [{
+				id: "minecraft:air",
+				Count: 1b,
+				Damage: 0s
+			},
+			{
+				id: "minecraft:air",
+				Count: 1b,
+				Damage: 0s
+			},
+			{
+				id: "minecraft:air",
+				Count: 1b,
+				Damage: 0s
+			},
+			{
+				id: "minecraft:air",
+				Count: 1b,
+				Damage: 0s
+			}]
+		}
+	},
+	x: 1.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.learner.subtitle}",
+	text: [
+		"{ftbuniversity.learner.desc1}",
+		"",
+		"{ftbuniversity.learner.desc2}",
+		"",
+		"{ftbuniversity.learner.desc3}",
+		"",
+		"{ftbuniversity.learner.desc4}"
+	],
+	dependencies: [
+		"a33d0a47"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "54b37499",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:deep_learner",
+			tag: {
+				inventory: [{
+					id: "minecraft:air",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "minecraft:air",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "minecraft:air",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "minecraft:air",
+					Count: 1b,
+					Damage: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c8c78264",
+		type: "item",
+		title: "{ftbuniversity.learner.task}",
+		items: [{
+			item: "deepmoblearning:data_model_zombie"
+		},
+		{
+			item: "deepmoblearning:data_model_skeleton"
+		},
+		{
+			item: "deepmoblearning:data_model_creeper"
+		},
+		{
+			item: "deepmoblearning:data_model_spider"
+		},
+		{
+			item: "deepmoblearning:data_model_slime"
+		},
+		{
+			item: "deepmoblearning:data_model_witch"
+		},
+		{
+			item: "deepmoblearning:data_model_blaze"
+		},
+		{
+			item: "deepmoblearning:data_model_ghast"
+		},
+		{
+			item: "deepmoblearning:data_model_wither_skeleton"
+		},
+		{
+			item: "deepmoblearning:data_model_enderman"
+		},
+		{
+			item: "deepmoblearning:data_model_wither"
+		},
+		{
+			item: "deepmoblearning:data_model_dragon"
+		},
+		{
+			item: "deepmoblearning:data_model_shulker"
+		},
+		{
+			item: "deepmoblearning:data_model_guardian"
+		},
+		{
+			item: "deepmoblearning:data_model_thermal_elemental"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

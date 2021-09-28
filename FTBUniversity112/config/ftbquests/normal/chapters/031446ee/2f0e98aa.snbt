@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.demcruc.title}",
+	x: 6.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.demcruc.subtitle}",
+	text: [
+		"{ftbuniversity.demcruc.desc1}",
+		"",
+		"{ftbuniversity.demcruc.desc2}",
+		"",
+		"{ftbuniversity.demcruc.desc3}"
+	],
+	dependencies: [
+		"f06672df",
+		"4e07ee91"
+	],
+	tasks: [{
+		uid: "00a37cc2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "c8498b96",
+		type: "item",
+		item: {
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 256.0d
+			},
+			Damage: 1s
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.chainsaw.title}",
+	x: 4.5d,
+	y: 7.5d,
+	description: "{ftbuniversity.chainsaw.subtitle}",
+	text: [
+		"{ftbuniversity.chainsaw.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3aff2ff5"
+	],
+	tasks: [{
+		uid: "4b083ef9",
+		type: "item",
+		items: [{
+			id: "ic2:chainsaw",
+			tag: {
+				charge: 30000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

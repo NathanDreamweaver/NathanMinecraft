@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.corpfun.title}",
+	x: 5.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.corpfun.subtitle}",
+	text: [
+		"{ftbuniversity.corpfun.desc1}",
+		"",
+		"{ftbuniversity.corpfun.desc2}",
+		"",
+		"{ftbuniversity.corpfun.desc3}"
+	],
+	dependencies: [
+		"1598e270"
+	],
+	tasks: [{
+		uid: "d821f5f0",
+		type: "item",
+		items: [{
+			item: "botania:corporeafunnel"
+		}]
+	}]
+}

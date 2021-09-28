@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.iedieselgen.title}",
+	icon: "immersiveengineering:metal_multiblock 1 10",
+	x: 8.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.iedieselgen.subtitle}",
+	text: [
+		"{ftbuniversity.iedieselgen.desc1}",
+		"",
+		"{ftbuniversity.iedieselgen.desc2}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"f79e4a10",
+		"3b2f7168"
+	],
+	tasks: [{
+		uid: "3efdda9d",
+		type: "observation",
+		title: "{ftbuniversity.iedieselgen.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:dieselgenerator",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "6c357d01",
+		type: "item",
+		item: "immersiveengineering:earmuffs"
+	}]
+}

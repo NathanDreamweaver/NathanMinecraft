@@ -1,0 +1,28 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.wiredcharger.subtitle}",
+	text: [
+		"{ftbuniversity.wiredcharger.desc1}",
+		"",
+		"{ftbuniversity.wiredcharger.desc2}"
+	],
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "1e83a1ae",
+		type: "item",
+		items: [{
+			item: "enderio:block_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1556d113",
+		type: "command",
+		title: "{ftbuniversity.wiredcharger.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team d575072b"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.ierevolverupgrades.title}",
+	icon: "immersiveengineering:toolupgrade 1 5",
+	x: 3.5d,
+	y: -3.75d,
+	description: "{ftbuniversity.ierevolverupgrades.subtitle}",
+	text: [
+		"{ftbuniversity.ierevolverupgrades.desc1}",
+		"",
+		"{ftbuniversity.ierevolverupgrades.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"eea3d423",
+		"61aadde9"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "2ca5fca6",
+		type: "item",
+		title: "{ftbuniversity.ierevolverupgrades.task}",
+		items: [{
+			item: "immersiveengineering:toolupgrade 1 4"
+		},
+		{
+			item: "immersiveengineering:toolupgrade 1 5"
+		},
+		{
+			item: "immersiveengineering:toolupgrade 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6badb4a8",
+		type: "random",
+		table: 5
+	}]
+}

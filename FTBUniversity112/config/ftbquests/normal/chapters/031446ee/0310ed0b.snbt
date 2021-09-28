@@ -1,0 +1,35 @@
+{
+	icon: "bloodmagic:demon_crystal",
+	x: 8.0d,
+	y: 1.25d,
+	description: "{ftbuniversity.clusters.subtitle}",
+	text: [
+		"{ftbuniversity.clusters.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ce02c662",
+		"3a8c43d6"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "3aed5610",
+		type: "item",
+		title: "{ftbuniversity.clusters.task}",
+		items: [{
+			item: "bloodmagic:demon_crystal"
+		},
+		{
+			item: "bloodmagic:demon_crystal 1 1"
+		},
+		{
+			item: "bloodmagic:demon_crystal 1 2"
+		},
+		{
+			item: "bloodmagic:demon_crystal 1 3"
+		},
+		{
+			item: "bloodmagic:demon_crystal 1 4"
+		}]
+	}]
+}

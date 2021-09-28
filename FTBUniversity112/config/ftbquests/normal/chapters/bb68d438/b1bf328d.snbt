@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.medense.title}",
+	x: 5.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.medense.subtitle}",
+	text: [
+		"{ftbuniversity.medense.desc1}",
+		"",
+		"{ftbuniversity.medense.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bc228c29"
+	],
+	tasks: [{
+		uid: "fe1c160a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 516"
+		}]
+	}],
+	rewards: [{
+		uid: "8b284955",
+		type: "item",
+		item: "appliedenergistics2:part 1 516",
+		count: 16
+	}]
+}

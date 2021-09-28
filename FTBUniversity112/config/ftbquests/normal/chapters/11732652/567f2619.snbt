@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.dtfuel.title}",
+	icon: {
+		id: "ic2:fluid_cell",
+		tag: {
+			Fluid: {
+				FluidName: "liquidfusionfuel",
+				Amount: 1000
+			}
+		}
+	},
+	x: 14.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.dtfuel.subtitle}",
+	text: [
+		"{ftbuniversity.dtfuel.desc1}",
+		"",
+		"{ftbuniversity.dtfuel.desc2}",
+		"",
+		"{ftbuniversity.dtfuel.desc3}"
+	],
+	dependencies: [
+		"5e095d38"
+	],
+	tasks: [{
+		uid: "d5d1bec2",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.ae2facade.title}",
+	x: 6.0d,
+	y: -3.375d,
+	description: "{ftbuniversity.ae2facade.subtitle}",
+	text: [
+		"{ftbuniversity.ae2facade.desc1}",
+		"",
+		"{ftbuniversity.ae2facade.desc2}",
+		"",
+		"{ftbuniversity.ae2facade.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d7703de8"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "3b185e8a",
+		type: "item",
+		title: "{ftbuniversity.ae2facade.task}",
+		items: [{
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:stone"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ec2a1c5",
+		type: "item",
+		item: "appliedenergistics2:part 1 120",
+		count: 16
+	}]
+}

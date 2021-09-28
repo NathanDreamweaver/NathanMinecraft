@@ -1,0 +1,26 @@
+{
+	x: -6.75d,
+	y: 7.75d,
+	shape: "square",
+	description: "{ftbuniversity.fuzcraftlog.subtitle}",
+	text: [
+		"{ftbuniversity.fuzcraftlog.desc1}",
+		"",
+		"{ftbuniversity.fuzcraftlog.desc2}",
+		"",
+		"{ftbuniversity.fuzcraftlog.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"59e8425d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "1964183d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:crafting_table_fuzzy"
+		}]
+	}]
+}

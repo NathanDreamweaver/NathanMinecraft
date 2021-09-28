@@ -1,0 +1,37 @@
+{
+	icon: "appliedenergistics2:interface",
+	x: 12.5d,
+	y: -0.5d,
+	description: "{ftbuniversity.meinterface.subtitle}",
+	text: [
+		"{ftbuniversity.meinterface.desc1}",
+		"",
+		"{ftbuniversity.meinterface.desc2}",
+		"",
+		"{ftbuniversity.meinterface.desc3}",
+		"",
+		"{ftbuniversity.meinterface.desc4}",
+		"",
+		"{ftbuniversity.meinterface.desc5}",
+		"",
+		"{ftbuniversity.meinterface.desc6}",
+		"",
+		"{ftbuniversity.meinterface.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fadf0198"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e1a40054",
+		type: "item",
+		title: "{ftbuniversity.meinterface.task}",
+		items: [{
+			item: "appliedenergistics2:interface"
+		},
+		{
+			item: "appliedenergistics2:part 1 440"
+		}]
+	}]
+}

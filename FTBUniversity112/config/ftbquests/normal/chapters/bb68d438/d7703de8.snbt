@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.mesmartcable.title}",
+	x: 6.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.mesmartcable.subtitle}",
+	text: [
+		"{ftbuniversity.mesmartcable.desc1}",
+		"",
+		"{ftbuniversity.mesmartcable.desc2}"
+	],
+	dependencies: [
+		"bc228c29"
+	],
+	tasks: [{
+		uid: "630433b1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "58b5f75d",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 16
+	}]
+}

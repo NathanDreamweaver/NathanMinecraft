@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.botconjcat.title}",
+	x: 3.25d,
+	y: -0.7d,
+	description: "{ftbuniversity.botconjcat.subtitle}",
+	text: [
+		"{ftbuniversity.botconjcat.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad",
+		"cf73c538"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "0438cb9d",
+		type: "item",
+		items: [{
+			item: "botania:conjurationcatalyst"
+		}]
+	}]
+}

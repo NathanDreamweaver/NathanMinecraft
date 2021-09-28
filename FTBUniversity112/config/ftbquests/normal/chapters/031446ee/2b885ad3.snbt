@@ -1,0 +1,47 @@
+{
+	icon: "bloodmagic:sigil_teleposition",
+	x: 8.25d,
+	y: -3.75d,
+	description: "{ftbuniversity.sigils4.subtitle}",
+	text: [
+		"{ftbuniversity.sigils4.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a8c43d6"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "ece0486c",
+		type: "item",
+		title: "{ftbuniversity.sigils4.title}",
+		items: [{
+			item: "bloodmagic:sigil_teleposition"
+		},
+		{
+			id: "bloodmagic:sigil_haste",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sigil_suppression",
+			tag: {}
+		},
+		{
+			item: "bloodmagic:sigil_transposition"
+		},
+		{
+			id: "bloodmagic:sigil_ender_severance",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sigil_compression",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sigil_phantom_bridge",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "{ftbuniversity.p2p1.title}",
+	icon: "appliedenergistics2:part 1 460",
+	x: 14.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.p2p1.subtitle}",
+	text: [
+		"{ftbuniversity.p2p1.desc1}",
+		"",
+		"{ftbuniversity.p2p1.desc2}",
+		"",
+		"{ftbuniversity.p2p1.desc3}",
+		"",
+		"{ftbuniversity.p2p1.desc4}",
+		"",
+		"{ftbuniversity.p2p1.desc5}",
+		"",
+		"{ftbuniversity.p2p1.desc6}",
+		"",
+		"{ftbuniversity.p2p1.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fadf0198"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ba5d65c4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 460"
+		}]
+	},
+	{
+		uid: "32055584",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bcd89319",
+		type: "item",
+		item: "appliedenergistics2:part 1 460"
+	}]
+}

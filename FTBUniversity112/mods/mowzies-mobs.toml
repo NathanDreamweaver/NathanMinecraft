@@ -1,0 +1,14 @@
+name = "Mowzie's Mobs"
+filename = "mowziesmobs-1.5.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3048/685/mowziesmobs-1.5.8.jar"
+hash-format = "murmur2"
+hash = "760385178"
+
+[update]
+[update.curseforge]
+file-id = 3048685
+project-id = 250498
+release-channel = "beta"

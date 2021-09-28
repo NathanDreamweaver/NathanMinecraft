@@ -1,0 +1,114 @@
+{
+	title: "{ftbuniversity.multifarmcontrol.title}",
+	icon: {
+		id: "forestry:chipsets",
+		tag: {
+			T: 3
+		},
+		Damage: 3s
+	},
+	x: -2.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.multifarmcontrol.subtitle}",
+	text: [
+		"{ftbuniversity.multifarmcontrol.desc1}",
+		"",
+		"{ftbuniversity.multifarmcontrol.desc2}",
+		"",
+		"{ftbuniversity.multifarmcontrol.desc3}",
+		"",
+		"{ftbuniversity.multifarmcontrol.desc4}"
+	],
+	dependencies: [
+		"4808667c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "899d85f1",
+		type: "item",
+		title: "{ftbuniversity.multifarmcontrol.task1}",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 0
+			}
+		},
+		{
+			id: "forestry:chipsets",
+			tag: {
+				T: 1
+			},
+			Damage: 1s
+		},
+		{
+			id: "forestry:chipsets",
+			tag: {
+				T: 2
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:chipsets",
+			tag: {
+				T: 3
+			},
+			Damage: 3s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04671fbb",
+		type: "item",
+		items: [{
+			item: "forestry:soldering_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "43923e5b",
+		type: "item",
+		title: "{ftbuniversity.multifarmcontrol.task2}",
+		items: [{
+			item: "forestry:thermionic_tubes"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 1"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 2"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 4"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 5"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 6"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 7"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 8"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 9"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 10"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 11"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 12"
+		},
+		{
+			item: "forestry:thermionic_tubes 1 13"
+		}],
+		ignore_nbt: 1b
+	}]
+}

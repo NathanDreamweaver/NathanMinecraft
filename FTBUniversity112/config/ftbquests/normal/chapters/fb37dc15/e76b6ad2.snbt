@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: 6.5d,
+	description: "{ftbuniversity.luminizer.subtitle}",
+	text: [
+		"{ftbuniversity.luminizer.desc1}",
+		"",
+		"{ftbuniversity.luminizer.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	hide: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "534a4c5e",
+		type: "item",
+		items: [{
+			item: "botania:lightrelay"
+		}]
+	}],
+	rewards: [{
+		uid: "39754fe2",
+		type: "item",
+		item: "botania:lightrelay",
+		count: 8
+	}]
+}

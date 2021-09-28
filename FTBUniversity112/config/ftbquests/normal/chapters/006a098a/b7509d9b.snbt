@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.voidore1.title}",
+	x: 3.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.voidore1.subtitle}",
+	text: [
+		"{ftbuniversity.voidore1.desc1}",
+		"",
+		"{ftbuniversity.voidore1.desc2}",
+		"",
+		"{ftbuniversity.voidore1.desc3}",
+		"",
+		"{ftbuniversity.voidore1.desc4}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	dependencies: [
+		"2bcb8aee"
+	],
+	tasks: [{
+		uid: "6dc61a1a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

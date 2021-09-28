@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.rftwire.title}",
+	x: -1.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.rftwire.subtitle}",
+	text: [
+		"{ftbuniversity.rftwire.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "98ced9c5",
+		type: "item",
+		items: [{
+			item: "rftools:wire_block"
+		}]
+	}]
+}

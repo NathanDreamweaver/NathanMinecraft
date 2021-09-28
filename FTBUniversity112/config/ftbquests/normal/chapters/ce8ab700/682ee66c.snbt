@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.vectorplates.title}",
+	icon: "darkutils:trap_move",
+	x: 0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.vectorplates.subtitle}",
+	text: [
+		"{ftbuniversity.vectorplates.desc1}",
+		"",
+		"{ftbuniversity.vectorplates.desc2}",
+		"",
+		"{ftbuniversity.vectorplates.desc3}"
+	],
+	tasks: [{
+		uid: "f0115649",
+		type: "item",
+		title: "{ftbuniversity.vectorplates.task}",
+		items: [{
+			item: "darkutils:trap_move"
+		},
+		{
+			item: "darkutils:trap_move_fast"
+		},
+		{
+			item: "darkutils:trap_move_hyper"
+		},
+		{
+			item: "darkutils:trap_anchor"
+		}]
+	}]
+}

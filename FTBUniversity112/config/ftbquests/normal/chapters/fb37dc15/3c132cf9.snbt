@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.corpret.title}",
+	x: 7.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.corpret.subtitle}",
+	text: [
+		"{ftbuniversity.corpret.desc1}",
+		"",
+		"{ftbuniversity.corpret.desc2}",
+		"",
+		"{ftbuniversity.corpret.desc3}"
+	],
+	dependencies: [
+		"1598e270",
+		"59a769ed"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "40ace233",
+		type: "item",
+		items: [{
+			item: "botania:corporearetainer"
+		}]
+	}]
+}

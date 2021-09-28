@@ -1,0 +1,27 @@
+{
+	x: 1.2544217687075019d,
+	y: -2.6755102040816396d,
+	description: "{ftbuniversity.voidjar.subtitle}",
+	text: [
+		"{ftbuniversity.voidjar.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec7bfba3"
+	],
+	hide: true,
+	size: 0.25d,
+	tasks: [{
+		uid: "b32b0315",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_void"
+		}]
+	}],
+	rewards: [{
+		uid: "d0550537",
+		type: "item",
+		item: "thaumcraft:jar_normal",
+		count: 6
+	}]
+}

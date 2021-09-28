@@ -1,0 +1,74 @@
+{
+	title: "{ftbuniversity.econvert.title}",
+	icon: "energyconverters:energy_producer_eu 1 4",
+	x: 11.5d,
+	y: -4.0d,
+	shape: "diamond",
+	description: "{ftbuniversity.econvert.subtitle}",
+	text: [
+		"{ftbuniversity.econvert.desc1}",
+		"",
+		"{ftbuniversity.econvert.desc2}",
+		"",
+		"{ftbuniversity.econvert.desc3}",
+		"",
+		"{ftbuniversity.econvert.desc4}"
+	],
+	dependencies: [
+		"770039d2"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6ce494c6",
+		type: "item",
+		title: "{ftbuniversity.econvert.task1}",
+		items: [{
+			item: "energyconverters:energy_consumer_fe"
+		},
+		{
+			item: "energyconverters:energy_consumer_eu"
+		},
+		{
+			item: "energyconverters:energy_consumer_eu 1 1"
+		},
+		{
+			item: "energyconverters:energy_consumer_eu 1 2"
+		},
+		{
+			item: "energyconverters:energy_consumer_eu 1 3"
+		},
+		{
+			item: "energyconverters:energy_consumer_eu 1 4"
+		}]
+	},
+	{
+		uid: "78fcc9d1",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_bridge"
+		}]
+	},
+	{
+		uid: "3ea38a2f",
+		type: "item",
+		title: "{ftbuniversity.econvert.task2}",
+		items: [{
+			item: "energyconverters:energy_producer_fe"
+		},
+		{
+			item: "energyconverters:energy_producer_eu"
+		},
+		{
+			item: "energyconverters:energy_producer_eu 1 1"
+		},
+		{
+			item: "energyconverters:energy_producer_eu 1 2"
+		},
+		{
+			item: "energyconverters:energy_producer_eu 1 3"
+		},
+		{
+			item: "energyconverters:energy_producer_eu 1 4"
+		}]
+	}]
+}

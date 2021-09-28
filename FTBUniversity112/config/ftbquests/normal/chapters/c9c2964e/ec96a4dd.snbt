@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.projector.title}",
+	x: 1.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.projector.subtitle}",
+	text: [
+		"{ftbuniversity.projector.desc1}",
+		"",
+		"{ftbuniversity.projector.desc2}",
+		"",
+		"{ftbuniversity.projector.desc3}",
+		"",
+		"{ftbuniversity.projector.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5c4af523"
+	],
+	tasks: [{
+		uid: "da51de0e",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

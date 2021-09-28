@@ -1,0 +1,14 @@
+name = "Random Things"
+filename = "RandomThings-MC1.12.2-4.2.7.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2905/241/RandomThings-MC1.12.2-4.2.7.4.jar"
+hash-format = "murmur2"
+hash = "3215073064"
+
+[update]
+[update.curseforge]
+file-id = 2905241
+project-id = 59816
+release-channel = "beta"

@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.eiomagnet.title}",
+	x: -2.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.eiomagnet.subtitle}",
+	text: [
+		"{ftbuniversity.eiomagnet.desc1}",
+		"",
+		"{ftbuniversity.eiomagnet.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "12015111",
+		type: "item",
+		items: [{
+			id: "enderio:item_magnet",
+			tag: {
+				"enderio:energy": 100000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa44d4b9",
+		type: "item",
+		item: {
+			id: "thermalfoundation:material",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Iron Filings"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+name = "MiniCoal"
+filename = "minicoal-1.12.2-1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2549/326/minicoal-1.12.2-1.0.jar"
+hash-format = "murmur2"
+hash = "4076941392"
+
+[update]
+[update.curseforge]
+file-id = 2549326
+project-id = 252291
+release-channel = "beta"

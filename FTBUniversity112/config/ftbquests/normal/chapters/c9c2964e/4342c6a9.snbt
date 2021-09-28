@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.ierouter.subtitle}",
+	text: [
+		"{ftbuniversity.ierouter.desc1}",
+		"",
+		"{ftbuniversity.ierouter.desc2}",
+		"",
+		"{ftbuniversity.ierouter.desc3}"
+	],
+	dependencies: [
+		"88350777"
+	],
+	tasks: [{
+		uid: "dc75507b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 3"
+		}]
+	}]
+}

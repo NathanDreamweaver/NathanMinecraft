@@ -1,0 +1,79 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/orbital_laser_drill.png"
+		}
+	},
+	x: -4.125d,
+	y: -6.0d,
+	shape: "circle",
+	description: "{ftbuniversity.arlasdrill.subtitle}",
+	text: [
+		"{ftbuniversity.arlasdrill.desc1}",
+		"",
+		"{ftbuniversity.arlasdrill.desc2}",
+		"",
+		"{ftbuniversity.arlasdrill.desc3}",
+		"",
+		"{ftbuniversity.arlasdrill.desc4}",
+		"",
+		"{ftbuniversity.arlasdrill.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7adea7b7"
+	],
+	size: 0.75d,
+	min_width: 300,
+	tasks: [{
+		uid: "e450e6f2",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacelaser"
+		}]
+	},
+	{
+		uid: "57231fe4",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:advstructuremachine"
+		}],
+		count: 24L
+	},
+	{
+		uid: "36745bce",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 8L
+	},
+	{
+		uid: "776e3757",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}],
+		count: 7L
+	},
+	{
+		uid: "9ad3ee51",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f4d4065c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:lens"
+		}]
+	}]
+}

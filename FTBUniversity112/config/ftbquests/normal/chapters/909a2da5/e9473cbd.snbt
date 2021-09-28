@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.itemsinkmodule.title}",
+	x: 3.0d,
+	y: 6.0d,
+	description: "{ftbuniversity.itemsinkmodule.subtitle}",
+	text: [
+		"{ftbuniversity.itemsinkmodule.desc1}",
+		"",
+		"{ftbuniversity.itemsinkmodule.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "bc9d5b04",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_item_sink"
+		}]
+	}]
+}

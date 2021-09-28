@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.arcanelamp.title}",
+	x: -4.312585034013587d,
+	y: -0.9772108843537382d,
+	description: "{ftbuniversity.arcanelamp.subtitle}",
+	text: [
+		"{ftbuniversity.arcanelamp.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c31b9cbc"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "e579eb03",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_arcane"
+		}]
+	}]
+}

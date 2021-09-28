@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.cheatthaum.subtitle}",
+	text: [
+		"{ftbuniversity.cheatthaum.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "38e5e820",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

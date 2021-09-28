@@ -1,0 +1,62 @@
+{
+	title: "{ftbuniversity.pristine.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: "deepmoblearning:pristine_matter_zombie",
+		weight: 5
+	},
+	{
+		item: "deepmoblearning:pristine_matter_skeleton",
+		weight: 5
+	},
+	{
+		item: "deepmoblearning:pristine_matter_creeper",
+		weight: 5
+	},
+	{
+		item: "deepmoblearning:pristine_matter_spider",
+		weight: 5
+	},
+	{
+		item: "deepmoblearning:pristine_matter_slime",
+		weight: 5
+	},
+	{
+		item: "deepmoblearning:pristine_matter_witch",
+		weight: 4
+	},
+	{
+		item: "deepmoblearning:pristine_matter_blaze",
+		weight: 4
+	},
+	{
+		item: "deepmoblearning:pristine_matter_ghast",
+		weight: 4
+	},
+	{
+		item: "deepmoblearning:pristine_matter_wither_skeleton",
+		weight: 3
+	},
+	{
+		item: "deepmoblearning:pristine_matter_enderman",
+		weight: 3
+	},
+	{
+		item: "deepmoblearning:pristine_matter_wither"
+	},
+	{
+		item: "deepmoblearning:pristine_matter_dragon"
+	},
+	{
+		item: "deepmoblearning:pristine_matter_shulker",
+		weight: 2
+	},
+	{
+		item: "deepmoblearning:pristine_matter_guardian",
+		weight: 3
+	},
+	{
+		item: "deepmoblearning:pristine_matter_thermal_elemental",
+		weight: 4
+	}]
+}

@@ -1,0 +1,14 @@
+name = "Dense Neutron Collectors"
+filename = "denseneutroncollectors-1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2692/309/denseneutroncollectors-1.1.jar"
+hash-format = "murmur2"
+hash = "1179965793"
+
+[update]
+[update.curseforge]
+file-id = 2692309
+project-id = 318143
+release-channel = "beta"

@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.primalcrusher.title}",
+	x: -4.1380952380952465d,
+	y: 1.932020408163254d,
+	description: "{ftbuniversity.primalcrusher.subtitle}",
+	text: [
+		"{ftbuniversity.primalcrusher.desc1}",
+		"",
+		"{ftbuniversity.primalcrusher.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0084898"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "14a8c7dc",
+		type: "item",
+		items: [{
+			id: "thaumcraft:primal_crusher",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				},
+				{
+					lvl: 1s,
+					id: 4s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

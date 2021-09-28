@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.meexport.title}",
+	x: 9.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.meexport.subtitle}",
+	text: [
+		"{ftbuniversity.meexport.desc1}",
+		"",
+		"{ftbuniversity.meexport.desc2}",
+		"",
+		"{ftbuniversity.meexport.desc3}",
+		"",
+		"{ftbuniversity.meexport.desc4}"
+	],
+	dependencies: [
+		"fadf0198"
+	],
+	tasks: [{
+		uid: "15023411",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	}]
+}

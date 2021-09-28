@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: -3.75d,
+	description: "{ftbuniversity.peritia.subtitle}",
+	text: [
+		"{ftbuniversity.peritia.desc1}",
+		"",
+		"{ftbuniversity.peritia.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f06672df"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "661fd0a6",
+		type: "item",
+		items: [{
+			item: "bloodmagic:experience_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.ic2miner.title}",
+	icon: "ic2:te 1 60",
+	x: 5.5d,
+	y: 8.5d,
+	description: "{ftbuniversity.ic2miner.subtitle}",
+	text: [
+		"{ftbuniversity.ic2miner.desc1}",
+		"",
+		"{ftbuniversity.ic2miner.desc2}",
+		"",
+		"{ftbuniversity.ic2miner.desc3}",
+		"",
+		"{ftbuniversity.ic2miner.desc4}",
+		"",
+		"{ftbuniversity.ic2miner.desc5}",
+		"",
+		"{ftbuniversity.ic2miner.desc6}"
+	],
+	dependencies: [
+		"94c77663"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "db50daee",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 60"
+		}]
+	},
+	{
+		uid: "3b717494",
+		type: "item",
+		items: [{
+			item: "ic2:mining_pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "51b818ae",
+		type: "item",
+		item: "ic2:mining_pipe",
+		count: 32
+	}]
+}

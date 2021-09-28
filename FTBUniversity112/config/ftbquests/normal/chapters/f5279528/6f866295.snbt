@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.xncontroller.subtitle}",
+	text: [
+		"{ftbuniversity.xncontroller.desc1}",
+		"",
+		"{ftbuniversity.xncontroller.desc2}",
+		"",
+		"{ftbuniversity.xncontroller.desc3}"
+	],
+	tasks: [{
+		uid: "720aa74f",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.manastorage.title}",
+	icon: "botania:pool",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.manastorage.subtitle}",
+	text: [
+		"{ftbuniversity.manastorage.desc1}",
+		"",
+		"{ftbuniversity.manastorage.desc2}",
+		"",
+		"{ftbuniversity.manastorage.desc3}"
+	],
+	dependencies: [
+		"6245436b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f64474e9",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	},
+	{
+		uid: "d5d84fd7",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "778b1d51",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b861aec",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 8
+	}]
+}

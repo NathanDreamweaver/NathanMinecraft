@@ -1,0 +1,45 @@
+{
+	title: "{ftbuniversity.chisel.title}",
+	icon: "chisel:chisel_iron",
+	x: -1.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.chisel.subtitle}",
+	text: [
+		"{ftbuniversity.chisel.desc1}",
+		"",
+		"{ftbuniversity.chisel.desc2}"
+	],
+	tasks: [{
+		uid: "dd683dcb",
+		type: "item",
+		title: "{ftbuniversity.chisel.task}",
+		items: [{
+			item: "chisel:chisel_iron"
+		},
+		{
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		},
+		{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f7f887e",
+		type: "item",
+		item: "chisel:offsettool"
+	},
+	{
+		uid: "343130bf",
+		type: "item",
+		item: "chisel:antiblock 1 15",
+		count: 64
+	}]
+}

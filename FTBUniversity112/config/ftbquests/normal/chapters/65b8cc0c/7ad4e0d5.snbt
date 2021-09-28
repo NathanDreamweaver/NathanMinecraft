@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.quarkenchant.title}",
+	x: 0.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.quarkenchant.subtitle}",
+	text: [
+		"{ftbuniversity.quarkenchant.desc1}",
+		"",
+		"{ftbuniversity.quarkenchant.desc2}",
+		"",
+		"{ftbuniversity.quarkenchant.desc3}",
+		"",
+		"{ftbuniversity.quarkenchant.desc4}",
+		"",
+		"{ftbuniversity.quarkenchant.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	min_width: 325,
+	tasks: [{
+		uid: "9ed9bcba",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "492420dc",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

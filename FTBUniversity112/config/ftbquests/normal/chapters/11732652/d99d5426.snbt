@@ -1,0 +1,79 @@
+{
+	title: "{ftbuniversity.pressurizedtube.title}",
+	icon: {
+		id: "mekanism:transmitter",
+		tag: {
+			tier: 0
+		},
+		Damage: 2s
+	},
+	x: 8.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.pressurizedtube.subtitle}",
+	text: [
+		"{ftbuniversity.pressurizedtube.desc1}",
+		"",
+		"{ftbuniversity.pressurizedtube.desc2}",
+		"",
+		"{ftbuniversity.pressurizedtube.desc3}",
+		"",
+		"{ftbuniversity.pressurizedtube.desc4}"
+	],
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "3d8f9983",
+		type: "item",
+		title: "{ftbuniversity.pressurizedtube.task}",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 2s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 2s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 2s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 2s
+		},
+		{
+			item: "enderio:item_gas_conduit"
+		},
+		{
+			item: "enderio:item_gas_conduit 1 1"
+		},
+		{
+			item: "enderio:item_gas_conduit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c8116534",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 2s
+		},
+		count: 16
+	}]
+}

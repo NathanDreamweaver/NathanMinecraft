@@ -1,0 +1,24 @@
+{
+	x: 0.5142857142857054d,
+	y: 1.4604625850340014d,
+	description: "{ftbuniversity.causecoll.subtitle}",
+	text: [
+		"{ftbuniversity.causecoll.desc1}",
+		"",
+		"{ftbuniversity.causecoll.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2cce1ae6",
+		"6d3f37ee"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "49e6d296",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	}]
+}

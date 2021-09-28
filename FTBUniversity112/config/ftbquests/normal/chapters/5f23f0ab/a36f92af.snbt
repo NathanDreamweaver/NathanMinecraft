@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.imprinter.title}",
+	x: 4.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.imprinter.subtitle}",
+	text: [
+		"{ftbuniversity.imprinter.desc1}",
+		"",
+		"{ftbuniversity.imprinter.desc2}"
+	],
+	dependencies: [
+		"1905650a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1224b5c5",
+		type: "item",
+		items: [{
+			item: "gendustry:imprinter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

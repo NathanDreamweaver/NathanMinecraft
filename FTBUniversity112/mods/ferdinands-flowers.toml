@@ -1,0 +1,14 @@
+name = "Ferdinand's Flowers"
+filename = "Ferdinand's Flowers-1.12.x-1.10.4.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2634/217/Ferdinand's Flowers-1.12.x-1.10.4.1.jar"
+hash-format = "murmur2"
+hash = "3428096273"
+
+[update]
+[update.curseforge]
+file-id = 2634217
+project-id = 282077
+release-channel = "beta"

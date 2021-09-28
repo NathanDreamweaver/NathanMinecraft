@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.meksolar.subtitle}",
+	text: [
+		"{ftbuniversity.meksolar.desc}"
+	],
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "5287f478",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

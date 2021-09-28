@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.railgunups.title}",
+	icon: "immersiveengineering:toolupgrade 1 9",
+	x: 5.5d,
+	y: -3.75d,
+	description: "{ftbuniversity.railgunups.subtitle}",
+	text: [
+		"{ftbuniversity.railgunups.desc1}",
+		"",
+		"{ftbuniversity.railgunups.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d0b62d60",
+		"61aadde9"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "753d0dde",
+		type: "item",
+		title: "{ftbuniversity.railgunups.task}",
+		items: [{
+			item: "immersiveengineering:toolupgrade 1 8"
+		},
+		{
+			item: "immersiveengineering:toolupgrade 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cab5d15b",
+		type: "random",
+		table: 5
+	}]
+}

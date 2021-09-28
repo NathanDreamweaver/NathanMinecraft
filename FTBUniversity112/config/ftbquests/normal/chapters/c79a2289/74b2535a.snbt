@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.ic2pump.title}",
+	x: 4.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.ic2pump.subtitle}",
+	text: [
+		"{ftbuniversity.ic2pump.desc1}",
+		"",
+		"{ftbuniversity.ic2pump.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "178007c0",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "1dca40d0",
+		type: "item",
+		item: "ic2:fluid_cell",
+		count: 64
+	}]
+}

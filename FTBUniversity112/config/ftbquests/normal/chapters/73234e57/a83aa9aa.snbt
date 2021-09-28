@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.advtubes.subtitle}",
+	text: [
+		"{ftbuniversity.advtubes.desc}"
+	],
+	dependencies: [
+		"ca875266"
+	],
+	tasks: [{
+		uid: "76145eb2",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:advanced_pressure_tube"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.willtypes.title}",
+	icon: "bloodmagic:item_demon_crystal 1 3",
+	x: 9.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.willtypes.subtitle}",
+	text: [
+		"{ftbuniversity.willtypes.desc1}",
+		"",
+		"{ftbuniversity.willtypes.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ce02c662",
+		"be53bf43"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "27d0cd37",
+		type: "item",
+		title: "{ftbuniversity.willtypes.task}",
+		items: [{
+			item: "bloodmagic:item_demon_crystal 1 1"
+		},
+		{
+			item: "bloodmagic:item_demon_crystal 1 2"
+		},
+		{
+			item: "bloodmagic:item_demon_crystal 1 3"
+		},
+		{
+			item: "bloodmagic:item_demon_crystal 1 4"
+		}]
+	}]
+}

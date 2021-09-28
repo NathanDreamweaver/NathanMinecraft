@@ -1,0 +1,14 @@
+name = "Avaritia IO"
+filename = "avaritiaio-1.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2800/346/avaritiaio-1.4.jar"
+hash-format = "murmur2"
+hash = "824425252"
+
+[update]
+[update.curseforge]
+file-id = 2800346
+project-id = 312149
+release-channel = "beta"

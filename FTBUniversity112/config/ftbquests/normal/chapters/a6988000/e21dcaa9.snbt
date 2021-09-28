@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.thaumalchemy.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/cat_alchemy.png"
+		}
+	},
+	x: -0.16258503401360258d,
+	y: -1.6448979591836732d,
+	description: "{ftbuniversity.thaumalchemy.subtitle}",
+	text: [
+		"{ftbuniversity.thaumalchemy.desc1}",
+		"",
+		"{ftbuniversity.thaumalchemy.desc2}",
+		"",
+		"{ftbuniversity.thaumalchemy.desc3}",
+		"",
+		"{ftbuniversity.thaumalchemy.desc4}",
+		"",
+		"{ftbuniversity.thaumalchemy.desc5}",
+		"",
+		"",
+		"{ftbuniversity.thaumalchemy.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"18cbdb1a"
+	],
+	tasks: [{
+		uid: "3651821b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "119509b6",
+		type: "item",
+		item: "thaumcraft:nugget 1 9",
+		count: 64
+	}]
+}

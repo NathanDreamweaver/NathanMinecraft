@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.plaguecure.title}",
+	icon: "rats:purifying_liquid",
+	x: -4.0d,
+	y: -7.5d,
+	description: "{ftbuniversity.plaguecure.subtitle}",
+	text: [
+		"{ftbuniversity.plaguecure.desc1}",
+		"",
+		"{ftbuniversity.plaguecure.desc2}"
+	],
+	dependencies: [
+		"7602591a"
+	],
+	tasks: [{
+		uid: "11277602",
+		type: "item",
+		items: [{
+			item: "rats:purifying_liquid"
+		}]
+	},
+	{
+		uid: "939908f6",
+		type: "item",
+		title: "{ftbuniversity.plaguecure.task}",
+		items: [{
+			item: "rats:herb_bundle"
+		},
+		{
+			item: "rats:treacle"
+		},
+		{
+			item: "rats:plague_leech"
+		},
+		{
+			item: "rats:plague_stew"
+		}]
+	}],
+	rewards: [{
+		uid: "43e24d0c",
+		type: "item",
+		item: "rats:plague_doctorate"
+	}]
+}

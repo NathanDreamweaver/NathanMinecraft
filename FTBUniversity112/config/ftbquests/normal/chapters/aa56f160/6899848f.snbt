@@ -1,0 +1,31 @@
+{
+	x: 2.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.endergenerator.subtitle}",
+	text: [
+		"{ftbuniversity.endergenerator.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5cca937b"
+	],
+	tasks: [{
+		uid: "7e48dab1",
+		type: "item",
+		items: [{
+			item: "enderio:block_ender_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "9f1aee92",
+		type: "item",
+		item: "enderio:item_material 1 36",
+		count: 8
+	},
+	{
+		uid: "fd4af994",
+		type: "item",
+		item: "enderio:item_material 1 37",
+		count: 8
+	}]
+}

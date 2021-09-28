@@ -1,0 +1,31 @@
+{
+	icon: {
+		id: "bloodmagic:sacrificial_dagger",
+		tag: {
+			sacrifice: 0b
+		},
+		Damage: 1s
+	},
+	x: 0.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.creativedagger.subtitle}",
+	text: [
+		"{ftbuniversity.creativedagger.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "c79e0d18",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

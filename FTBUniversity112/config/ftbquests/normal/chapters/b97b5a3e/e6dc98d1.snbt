@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.rftdestanal.title}",
+	x: -2.25d,
+	y: 3.25d,
+	description: "{ftbuniversity.rftdestanal.subtitle}",
+	text: [
+		"{ftbuniversity.rftdestanal.desc1}",
+		"",
+		"{ftbuniversity.rftdestanal.desc2}",
+		"",
+		"{ftbuniversity.rftdestanal.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"63d80748"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "0521b7bf",
+		type: "item",
+		items: [{
+			item: "rftools:destination_analyzer"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.treetraits.title}",
+	icon: "forestry:portable_alyzer",
+	x: 4.25d,
+	y: 0.0d,
+	description: "{ftbuniversity.treetraits.subtitle}",
+	text: [
+		"{ftbuniversity.treetraits.desc1}",
+		"{ftbuniversity.treetraits.desc2}",
+		"{ftbuniversity.treetraits.desc3}",
+		"{ftbuniversity.treetraits.desc4}",
+		"{ftbuniversity.treetraits.desc5}",
+		"{ftbuniversity.treetraits.desc6}",
+		"{ftbuniversity.treetraits.desc7}",
+		"{ftbuniversity.treetraits.desc8}"
+	],
+	dependencies: [
+		"aeef5836"
+	],
+	size: 0.75d,
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "9892ff44",
+		type: "checkmark"
+	}]
+}

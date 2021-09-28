@@ -1,0 +1,20 @@
+{
+	x: 14.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.ipautolube.subtitle}",
+	text: [
+		"{ftbuniversity.ipautolube.desc1}",
+		"",
+		"{ftbuniversity.ipautolube.desc2}"
+	],
+	dependencies: [
+		"f79e4a10"
+	],
+	tasks: [{
+		uid: "2fbaaad1",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:metal_device"
+		}]
+	}]
+}

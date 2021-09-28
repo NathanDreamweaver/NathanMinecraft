@@ -1,0 +1,31 @@
+{
+	x: 1.2044217687074834d,
+	y: -2.980952380952388d,
+	description: "{ftbuniversity.wardedjar.subtitle}",
+	text: [
+		"{ftbuniversity.wardedjar.desc1}",
+		"",
+		"{ftbuniversity.wardedjar.desc2}",
+		"",
+		"{ftbuniversity.wardedjar.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"877e4761"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "3e28785c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}]
+	}],
+	rewards: [{
+		uid: "8c2b585d",
+		type: "item",
+		item: "thaumcraft:label",
+		count: 8
+	}]
+}

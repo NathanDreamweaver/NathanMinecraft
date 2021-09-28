@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.creativecheese.subtitle}",
+	text: [
+		"{ftbuniversity.creativecheese.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "b57b6acf",
+		type: "item",
+		items: [{
+			item: "rats:creative_cheese"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+name = "Quick Leaf Decay"
+filename = "QuickLeafDecay-MC1.12.1-1.2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2469/364/QuickLeafDecay-MC1.12.1-1.2.4.jar"
+hash-format = "murmur2"
+hash = "2445458263"
+
+[update]
+[update.curseforge]
+file-id = 2469364
+project-id = 225839
+release-channel = "beta"

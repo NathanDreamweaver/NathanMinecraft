@@ -1,0 +1,58 @@
+{
+	title: "{ftbuniversity.mekbin.title}",
+	icon: {
+		id: "mekanism:basicblock",
+		tag: {
+			tier: 0
+		},
+		Damage: 6s
+	},
+	x: 2.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.mekbin.subtitle}",
+	text: [
+		"{ftbuniversity.mekbin.desc1}",
+		"",
+		"{ftbuniversity.mekbin.desc2}",
+		"",
+		"{ftbuniversity.mekbin.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1568ca55",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 0
+			},
+			Damage: 6s
+		},
+		{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 1
+			},
+			Damage: 6s
+		},
+		{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		},
+		{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 3
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

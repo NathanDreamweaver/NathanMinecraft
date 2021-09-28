@@ -1,0 +1,32 @@
+{
+	icon: "ic2:te 1 31",
+	x: 8.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.ic2nuclear6.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear6.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear6.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear6.desc3}",
+		"",
+		"{ftbuniversity.ic2nuclear5.desc4}"
+	],
+	dependencies: [
+		"fd6d8ff7"
+	],
+	tasks: [{
+		uid: "34b6008e",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 31"
+		}]
+	},
+	{
+		uid: "2bdcae43",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 7"
+		}]
+	}]
+}

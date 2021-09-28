@@ -1,0 +1,47 @@
+{
+	title: "Integrated Dynamics",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "integrateddynamics:cable",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Logician",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487298L
+		}
+	},
+	x: 2.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.idtrophy.subtitle}",
+	dependencies: [
+		"8a881839"
+	],
+	rewards: [{
+		uid: "256a5dd1",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "integrateddynamics:cable",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Logician",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 13.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.mekjetpack2.subtitle}",
+	text: [
+		"{ftbuniversity.mekjetpack2.desc1}",
+		"",
+		"{ftbuniversity.mekjetpack2.desc2}"
+	],
+	dependencies: [
+		"11aeedd0"
+	],
+	tasks: [{
+		uid: "e7952911",
+		type: "item",
+		items: [{
+			item: "mekanism:armoredjetpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

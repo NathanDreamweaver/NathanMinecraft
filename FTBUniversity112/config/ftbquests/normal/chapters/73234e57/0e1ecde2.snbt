@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.amadron.title}",
+	x: 2.25d,
+	y: 3.75d,
+	description: "{ftbuniversity.amadron.subtitle}",
+	text: [
+		"{ftbuniversity.amadron.desc1}",
+		"",
+		"{ftbuniversity.amadron.desc2}",
+		"",
+		"{ftbuniversity.amadron.desc3}",
+		"",
+		"{ftbuniversity.amadron.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2ff9539"
+	],
+	size: 0.5d,
+	min_width: 275,
+	tasks: [{
+		uid: "66cb5c05",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:amadron_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

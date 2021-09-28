@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.forestrymod.title}",
+	icon: "forestry:fabricator",
+	always_invisible: false,
+	group: 2109457760,
+	default_quest_shape: ""
+}

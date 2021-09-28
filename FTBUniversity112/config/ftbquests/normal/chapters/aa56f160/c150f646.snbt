@@ -1,0 +1,41 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.enhancedalloysmelt.subtitle}",
+	text: [
+		"{ftbuniversity.enhancedalloysmelt.desc}"
+	],
+	dependencies: [
+		"67c37e8b"
+	],
+	tasks: [{
+		uid: "1dc4f44a",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e0587880",
+		type: "command",
+		title: "{ftbuniversity.enhancedalloysmelt.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team 0564c50b"
+	},
+	{
+		uid: "2438b29d",
+		type: "item",
+		item: "thermalfoundation:material 1 65"
+	},
+	{
+		uid: "69be6389",
+		type: "item",
+		item: "minecraft:wool"
+	},
+	{
+		uid: "5f77e0df",
+		type: "item",
+		item: "enderio:item_material 1 32"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.universalterm.title}",
+	x: 9.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.universalterm.subtitle}",
+	text: [
+		"{ftbuniversity.universalterm.desc1}",
+		"",
+		"{ftbuniversity.universalterm.desc2}",
+		"",
+		"{ftbuniversity.universalterm.desc3}"
+	],
+	min_required_dependencies: 2,
+	dependencies: [
+		"18514cd0",
+		"61b96c47",
+		"6ce6eeb8"
+	],
+	min_width: 1,
+	tasks: [{
+		uid: "bc3c846e",
+		type: "item",
+		items: [{
+			id: "extracells:terminal.universal.wireless",
+			tag: {
+				type: 0b,
+				modules: 23b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

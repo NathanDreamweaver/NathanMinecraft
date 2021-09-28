@@ -1,0 +1,23 @@
+{
+	x: -1.9501700680272407d,
+	y: -3.357482993197273d,
+	description: "{ftbuniversity.amuletofvis.subtitle}",
+	text: [
+		"{ftbuniversity.amuletofvis.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65905474",
+		"2cce1ae6"
+	],
+	hide: true,
+	size: 0.375d,
+	tasks: [{
+		uid: "1e0b4785",
+		type: "item",
+		items: [{
+			item: "thaumcraft:amulet_vis 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

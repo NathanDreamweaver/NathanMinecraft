@@ -1,0 +1,46 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/area_gravity_controller.png"
+		}
+	},
+	x: -3.0d,
+	y: -6.75d,
+	shape: "circle",
+	description: "{ftbuniversity.areagravity.subtitle}",
+	text: [
+		"{ftbuniversity.areagravity.desc1}",
+		"",
+		"{ftbuniversity.areagravity.desc2}",
+		"",
+		"{ftbuniversity.areagravity.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2ec2a9c6"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "1ff215ab",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:gravitymachine"
+		}]
+	},
+	{
+		uid: "1dbffc51",
+		type: "item",
+		items: [{
+			item: "libvulpes:advstructuremachine"
+		}],
+		count: 4L
+	},
+	{
+		uid: "db409786",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}]
+	}]
+}

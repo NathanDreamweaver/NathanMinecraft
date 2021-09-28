@@ -1,0 +1,78 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/crystallizer.png"
+		}
+	},
+	x: -2.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.crystallizer.subtitle}",
+	text: [
+		"{ftbuniversity.crystallizer.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e37b324"
+	],
+	tasks: [{
+		uid: "eba7e3d5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:crystallizer"
+		}]
+	},
+	{
+		uid: "fcbc3ddf",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "6fcd21cf",
+		type: "item",
+		title: "{ftbuniversity.coils}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 2L
+	},
+	{
+		uid: "91d29803",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "dbf35fbd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "c160dea0",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:iquartzcrucible"
+		}],
+		count: 6L
+	}]
+}

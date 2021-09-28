@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.platepress.title}",
+	x: 0.0d,
+	y: 0.75d,
+	description: "{ftbuniversity.platepress.subtitle}",
+	text: [
+		"{ftbuniversity.platepress.desc1}",
+		"",
+		"{ftbuniversity.platepress.desc2}",
+		"",
+		"{ftbuniversity.platepress.desc3}"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "baca80b6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:platepress"
+		}]
+	}]
+}

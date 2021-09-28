@@ -1,0 +1,53 @@
+{
+	title: "{ftbuniversity.ic2nuclear5.title}",
+	icon: {
+		id: "ic2:fluid_cell",
+		tag: {
+			Fluid: {
+				FluidName: "ic2coolant",
+				Amount: 1000
+			}
+		}
+	},
+	x: 7.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.ic2nuclear5.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear5.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear5.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear5.desc3}",
+		"",
+		"{ftbuniversity.ic2nuclear5.desc4}"
+	],
+	dependencies: [
+		"9b69225d"
+	],
+	tasks: [{
+		uid: "e7e5c379",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2coolant",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "f5142191",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2hot_coolant",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.eiochargeritem.title}",
+	icon: "enderio:item_inventory_charger",
+	x: -3.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.eiochargeritem.subtitle}",
+	text: [
+		"{ftbuniversity.eiochargeritem.desc1}",
+		"",
+		"{ftbuniversity.eiochargeritem.desc2}",
+		"",
+		"{ftbuniversity.eiochargeritem.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "fcdbc819",
+		type: "item",
+		title: "{ftbuniversity.eiochargeritem.task}",
+		items: [{
+			item: "enderio:item_inventory_charger_simple"
+		},
+		{
+			item: "enderio:item_inventory_charger_basic"
+		},
+		{
+			item: "enderio:item_inventory_charger"
+		},
+		{
+			item: "enderio:item_inventory_charger_vibrant"
+		}]
+	}]
+}

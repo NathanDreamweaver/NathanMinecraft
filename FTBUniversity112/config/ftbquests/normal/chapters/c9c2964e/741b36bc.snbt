@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.engineershammer.title}",
+	x: 1.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.engineershammer.subtitle}",
+	text: [
+		"{ftbuniversity.engineershammer.desc}"
+	],
+	dependencies: [
+		"bf66b31c"
+	],
+	tasks: [{
+		uid: "bef240ab",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

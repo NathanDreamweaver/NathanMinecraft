@@ -1,0 +1,73 @@
+{
+	title: "{ftbuniversity.ic2ev.title}",
+	icon: {
+		id: "ic2:cable",
+		tag: {
+			type: 3,
+			insulation: 1
+		},
+		Damage: 3s
+	},
+	x: 13.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.ic2ev.subtitle}",
+	text: [
+		"{ftbuniversity.ic2ev.desc1}",
+		"",
+		"{ftbuniversity.ic2ev.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"67a60dd5"
+	],
+	tasks: [{
+		uid: "1abb4b79",
+		type: "item",
+		title: "{ftbuniversity.ic2ev.task}",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 0b
+			},
+			Damage: 3s
+		},
+		{
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 1b
+			},
+			Damage: 3s
+		},
+		{
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 2b
+			},
+			Damage: 3s
+		},
+		{
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 3b
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "2ae20e90",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 0b
+			},
+			Damage: 3s
+		},
+		count: 32
+	}]
+}

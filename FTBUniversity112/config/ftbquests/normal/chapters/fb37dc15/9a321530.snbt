@@ -1,0 +1,40 @@
+{
+	icon: "botania:lightrelay 1 2",
+	x: 2.75d,
+	y: 7.1d,
+	description: "{ftbuniversity.forklumin.subtitle}",
+	text: [
+		"{ftbuniversity.forklumin.desc1}",
+		"",
+		"{ftbuniversity.forklumin.desc2}",
+		"",
+		"{ftbuniversity.forklumin.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e76b6ad2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "0e9d8e34",
+		type: "item",
+		items: [{
+			item: "botania:lightrelay 1 2"
+		}]
+	},
+	{
+		uid: "c249dadc",
+		type: "item",
+		items: [{
+			item: "botania:animatedtorch"
+		}]
+	},
+	{
+		uid: "62a502cf",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 1"
+		}]
+	}]
+}

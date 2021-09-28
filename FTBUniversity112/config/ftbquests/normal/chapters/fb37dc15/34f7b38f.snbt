@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.fallenkanade.subtitle}",
+	text: [
+		"{ftbuniversity.fallenkanade.desc1}",
+		"",
+		"{ftbuniversity.fallenkanade.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	tasks: [{
+		uid: "70e51832",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "fallenKanade"
+			}
+		}]
+	}]
+}

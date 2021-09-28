@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.logsneak.title}",
+	x: -0.5d,
+	y: 14.0d,
+	description: "{ftbuniversity.logsneak.subtitle}",
+	text: [
+		"{ftbuniversity.logsneak.desc1}",
+		"",
+		"{ftbuniversity.logsneak.desc2}",
+		"",
+		"{ftbuniversity.logsneak.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "7d7fc4bb",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_sneaky"
+		}]
+	}]
+}

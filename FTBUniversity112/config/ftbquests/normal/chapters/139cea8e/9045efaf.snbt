@@ -1,0 +1,47 @@
+{
+	title: "Logistics Pipes",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "logisticspipes:pipe_basic",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Logistician",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487298L
+		}
+	},
+	x: -1.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.lptrophy.subtitle}",
+	dependencies: [
+		"909a2da5"
+	],
+	rewards: [{
+		uid: "40bc31c0",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "logisticspipes:pipe_basic",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Logistician",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.mekreactor2.title}",
+	x: 13.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.mekreactor2.subtitle}",
+	text: [
+		"{ftbuniversity.mekreactor2.desc1}",
+		"",
+		"{ftbuniversity.mekreactor2.desc2}",
+		"",
+		"{ftbuniversity.mekreactor2.desc3}",
+		"",
+		"{ftbuniversity.mekreactor2.desc4}",
+		"",
+		"{ftbuniversity.mekreactor2.desc5}",
+		"",
+		"{ftbuniversity.mekreactor2.desc6}",
+		"",
+		"{ftbuniversity.mekreactor2.desc7}",
+		"",
+		"{ftbuniversity.mekreactor2.desc8}",
+		"",
+		"{ftbuniversity.mekreactor2.desc9}",
+		"",
+		"{ftbuniversity.mekreactor2.desc10}",
+		"",
+		"{ftbuniversity.mekreactor2.desc11}"
+	],
+	dependencies: [
+		"79191ab9"
+	],
+	min_width: 450,
+	tasks: [{
+		uid: "090afea9",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:hohlraum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

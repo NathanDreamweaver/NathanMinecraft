@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.sentsword.title}",
+	x: 0.75d,
+	y: 0.75d,
+	description: "{ftbuniversity.sentsword.subtitle}",
+	text: [
+		"{ftbuniversity.sentsword.desc1}",
+		"",
+		"{ftbuniversity.sentsword.desc2}",
+		"",
+		"{ftbuniversity.sentsword.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640097ed"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "219a06e3",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

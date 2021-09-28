@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.camoapp.title}",
+	x: 1.75d,
+	y: 4.25d,
+	description: "{ftbuniversity.camoapp.subtitle}",
+	text: [
+		"{ftbuniversity.camoapp.desc1}",
+		"",
+		"{ftbuniversity.camoapp.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2ff9539"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "a4eee1f3",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:camo_applicator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/beacon.png"
+		}
+	},
+	x: -4.0d,
+	y: -3.5d,
+	shape: "circle",
+	description: "{ftbuniversity.arbeacon.subtitle}",
+	text: [
+		"{ftbuniversity.arbeacon.desc1}",
+		"",
+		"{ftbuniversity.arbeacon.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e07320",
+		"2ec2a9c6"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "9ef9b07a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:beacon"
+		}]
+	},
+	{
+		uid: "1fc32862",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 7L
+	},
+	{
+		uid: "449ea3a8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:redstone_block"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.osmcomp.subtitle}",
+	text: [
+		"{ftbuniversity.osmcomp.desc1}",
+		"",
+		"{ftbuniversity.osmcomp.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "0dbc2427",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3bb736c0",
+		type: "item",
+		item: {
+			id: "mekanismtools:glowstonepaxel",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Glowstone Shickaxe"
+				}
+			}
+		}
+	}]
+}

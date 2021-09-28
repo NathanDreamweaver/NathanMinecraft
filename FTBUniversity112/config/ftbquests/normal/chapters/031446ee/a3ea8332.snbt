@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.altarfluids.title}",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "lifeessence",
+			Amount: 1000
+		}
+	},
+	x: 1.25d,
+	y: -2.75d,
+	description: "{ftbuniversity.altarfluids.subtitle}",
+	text: [
+		"{ftbuniversity.altarfluids.desc1}",
+		"",
+		"{ftbuniversity.altarfluids.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"27168eb1"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "0777e2a5",
+		type: "checkmark"
+	}]
+}

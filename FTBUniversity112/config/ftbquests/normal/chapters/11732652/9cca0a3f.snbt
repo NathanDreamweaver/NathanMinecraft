@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.atomicdiss.title}",
+	x: 7.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.atomicdiss.subtitle}",
+	text: [
+		"{ftbuniversity.atomicdiss.desc1}",
+		"",
+		"{ftbuniversity.atomicdiss.desc2}",
+		"",
+		"{ftbuniversity.atomicdiss.desc3}",
+		"{ftbuniversity.atomicdiss.desc4}",
+		"{ftbuniversity.atomicdiss.desc5}",
+		"{ftbuniversity.atomicdiss.desc6}",
+		"{ftbuniversity.atomicdiss.desc7}",
+		"{ftbuniversity.atomicdiss.desc8}"
+	],
+	dependencies: [
+		"be3ed0f6"
+	],
+	tasks: [{
+		uid: "dddc45c6",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

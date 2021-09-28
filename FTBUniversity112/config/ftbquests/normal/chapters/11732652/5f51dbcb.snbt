@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.cheminfuse.subtitle}",
+	text: [
+		"{ftbuniversity.cheminfuse.desc1}",
+		"",
+		"{ftbuniversity.cheminfuse.desc2}"
+	],
+	dependencies: [
+		"35e3f6c1"
+	],
+	tasks: [{
+		uid: "a373cbe7",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

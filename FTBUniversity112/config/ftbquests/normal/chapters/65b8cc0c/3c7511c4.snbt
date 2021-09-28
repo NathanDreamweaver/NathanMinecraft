@@ -1,0 +1,58 @@
+{
+	title: "{ftbuniversity.frameddrawers.title}",
+	icon: "storagedrawers:customdrawers 1 1",
+	x: -2.75d,
+	y: 3.0d,
+	shape: "square",
+	description: "{ftbuniversity.frameddrawers.subtitle}",
+	text: [
+		"{ftbuniversity.frameddrawers.desc1}",
+		"",
+		"{ftbuniversity.frameddrawers.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"54818575"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "24a9486e",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	},
+	{
+		uid: "43d3bf87",
+		type: "item",
+		title: "{ftbuniversity.frameddrawers.task}",
+		items: [{
+			item: "storagedrawers:customdrawers"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 1"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 2"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 3"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 4"
+		},
+		{
+			item: "storagedrawers:customtrim"
+		},
+		{
+			item: "framedcompactdrawers:framed_compact_drawer"
+		},
+		{
+			item: "framedcompactdrawers:framed_drawer_controller"
+		},
+		{
+			item: "framedcompactdrawers:framed_slave"
+		}]
+	}]
+}

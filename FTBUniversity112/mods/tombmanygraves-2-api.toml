@@ -1,0 +1,14 @@
+name = "TombManyGraves 2 API"
+filename = "tombmanygraves2api-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2563/73/tombmanygraves2api-1.12.2-1.0.0.jar"
+hash-format = "murmur2"
+hash = "2159395981"
+
+[update]
+[update.curseforge]
+file-id = 2563073
+project-id = 294202
+release-channel = "beta"

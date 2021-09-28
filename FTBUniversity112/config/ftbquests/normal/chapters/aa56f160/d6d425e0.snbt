@@ -1,0 +1,33 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.eiospawner.subtitle}",
+	text: [
+		"{ftbuniversity.eiospawner.desc1}",
+		"",
+		"{ftbuniversity.eiospawner.desc2}",
+		"",
+		"{ftbuniversity.eiospawner.desc3}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	tasks: [{
+		uid: "79a6df96",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fe0a4db",
+		type: "item",
+		item: {
+			id: "enderio:item_broken_spawner",
+			tag: {
+				entityId: "mysticalworld:entity_beetle"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -2.75d,
+	y: 4.75d,
+	description: "{ftbuniversity.rftsensor.subtitle}",
+	text: [
+		"{ftbuniversity.rftsensor.desc1}",
+		"",
+		"{ftbuniversity.rftsensor.desc2}",
+		"",
+		"{ftbuniversity.rftsensor.desc3}",
+		"",
+		"{ftbuniversity.rftsensor.desc4}",
+		"",
+		"{ftbuniversity.rftsensor.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "8effe6a8",
+		type: "item",
+		items: [{
+			item: "rftools:sensor_block"
+		}],
+		ignore_nbt: 1b
+	}]
+}

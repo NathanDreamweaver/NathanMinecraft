@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.purification.title}",
+	x: 5.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.purification.subtitle}",
+	text: [
+		"{ftbuniversity.purification.desc1}",
+		"",
+		"{ftbuniversity.purification.desc2}"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"d28233b1"
+	],
+	tasks: [{
+		uid: "3aca7772",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 9"
+		}],
+		ignore_nbt: 1b
+	}]
+}

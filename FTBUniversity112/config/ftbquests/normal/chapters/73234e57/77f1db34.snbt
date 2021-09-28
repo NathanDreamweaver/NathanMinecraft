@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.liquidcompressor.title}",
+	x: 3.0d,
+	y: -0.875d,
+	description: "{ftbuniversity.liquidcompressor.subtitle}",
+	text: [
+		"{ftbuniversity.liquidcompressor.desc1}",
+		"",
+		"{ftbuniversity.liquidcompressor.desc2}"
+	],
+	dependencies: [
+		"caf98c6b"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "cc75b579",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:liquid_compressor"
+		}]
+	}]
+}

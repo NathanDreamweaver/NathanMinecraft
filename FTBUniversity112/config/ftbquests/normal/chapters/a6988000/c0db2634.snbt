@@ -1,0 +1,23 @@
+{
+	x: -3.18333333333333d,
+	y: -0.6690476190476176d,
+	description: "{ftbuniversity.dioptra.subtitle}",
+	text: [
+		"{ftbuniversity.dioptra.desc1}",
+		"",
+		"{ftbuniversity.dioptra.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c31b9cbc"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "02b39824",
+		type: "item",
+		items: [{
+			item: "thaumcraft:dioptra"
+		}]
+	}]
+}

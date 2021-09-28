@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.bloodpacks.title}",
+	icon: "bloodmagic:pack_self_sacrifice",
+	x: 3.25d,
+	y: -2.25d,
+	description: "{ftbuniversity.bloodpacks.subtitle}",
+	text: [
+		"{ftbuniversity.bloodpacks.desc1}",
+		"",
+		"{ftbuniversity.bloodpacks.desc2}",
+		"",
+		"{ftbuniversity.bloodpacks.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f119ed62"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "9e6b7c8e",
+		type: "item",
+		title: "{ftbuniversity.bloodpacks.task}",
+		items: [{
+			item: "bloodmagic:pack_self_sacrifice"
+		},
+		{
+			item: "bloodmagic:pack_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.hyacidus.title}",
+	x: -1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.hyacidus.subtitle}",
+	text: [
+		"{ftbuniversity.hyacidus.desc}"
+	],
+	dependencies: [
+		"290bd89d"
+	],
+	tasks: [{
+		uid: "2eb3969f",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hyacidus"
+			}
+		}]
+	}]
+}

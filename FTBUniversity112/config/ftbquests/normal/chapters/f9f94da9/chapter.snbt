@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.ratchap.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/rat.png"
+		}
+	},
+	always_invisible: false,
+	group: -1158736179,
+	default_quest_shape: "",
+	images: [{
+		x: 0.6936507936507894d,
+		y: -5.065674603174585d,
+		width: 19.2d,
+		height: 18.5d,
+		rotation: 0.0d,
+		image: "ftbuniversity:textures/whiskers.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

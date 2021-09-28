@@ -1,0 +1,32 @@
+{
+	x: 9.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.digitalminer.subtitle}",
+	text: [
+		"{ftbuniversity.digitalminer.desc1}",
+		"",
+		"{ftbuniversity.digitalminer.desc2}",
+		"",
+		"{ftbuniversity.digitalminer.desc3}",
+		"",
+		"{ftbuniversity.digitalminer.desc4}",
+		"{ftbuniversity.digitalminer.desc5}",
+		"{ftbuniversity.digitalminer.desc6}",
+		"{ftbuniversity.digitalminer.desc7}",
+		"{ftbuniversity.digitalminer.desc8}",
+		"",
+		"{ftbuniversity.digitalminer.desc9}"
+	],
+	dependencies: [
+		"b4ef314a"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "aac8ece1",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.orb3.title}",
+	x: 6.0d,
+	y: -3.75d,
+	description: "{ftbuniversity.orb3.subtitle}",
+	text: [
+		"{ftbuniversity.orb3.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f06672df"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "0758eecc",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

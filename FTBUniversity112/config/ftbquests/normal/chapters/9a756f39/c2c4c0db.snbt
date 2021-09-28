@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.durexch.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "mahoutsukai:textures/block/mahoujin.png"
+		}
+	},
+	x: -1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.durexch.subtitle}",
+	text: [
+		"{ftbuniversity.durexch.desc1}",
+		"",
+		"{ftbuniversity.durexch.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "aedea4c1",
+		type: "observation",
+		title: "{ftbuniversity.durexch.task}",
+		match_type: "block_id",
+		match: "mahoutsukai:mahoujin_durability_exchange",
+		timer: 0L
+	}]
+}

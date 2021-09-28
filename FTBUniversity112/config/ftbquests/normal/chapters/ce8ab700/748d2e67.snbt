@@ -1,0 +1,29 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.copypaste.subtitle}",
+	text: [
+		"{ftbuniversity.copypaste.desc1}",
+		"",
+		"{ftbuniversity.copypaste.desc2}",
+		"",
+		"{ftbuniversity.copypaste.desc3}",
+		"",
+		"{ftbuniversity.gengadget.desc1}",
+		"",
+		"{ftbuniversity.gengadget.desc2}"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "550e31e6",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

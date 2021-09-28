@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.pollidisiac.title}",
+	x: 1.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.pollidisiac.subtitle}",
+	text: [
+		"{ftbuniversity.pollidisiac.desc}"
+	],
+	dependencies: [
+		"290bd89d"
+	],
+	tasks: [{
+		uid: "1d0ac72f",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "pollidisiac"
+			}
+		}]
+	}]
+}

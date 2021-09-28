@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.vvworld.title}",
+	x: 0.75d,
+	y: -7.75d,
+	description: "{ftbuniversity.vvworld.subtitle}",
+	text: [
+		"{ftbuniversity.vvworld.desc1}",
+		"",
+		"{ftbuniversity.vvworld.desc2}",
+		"",
+		"{ftbuniversity.otgwarning}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4647eca4"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "794157b4",
+		type: "dimension",
+		dim: 1002
+	}]
+}

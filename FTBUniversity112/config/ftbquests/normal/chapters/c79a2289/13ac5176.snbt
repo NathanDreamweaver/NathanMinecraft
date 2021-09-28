@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 1.85d,
+	description: "{ftbuniversity.transformupgrade.subtitle}",
+	text: [
+		"{ftbuniversity.transformupgrade.desc1}",
+		"",
+		"{ftbuniversity.transformupgrade.desc2}"
+	],
+	dependencies: [
+		"67a60dd5"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "ba040e9b",
+		type: "item",
+		items: [{
+			item: "ic2:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "696c5599",
+		type: "item",
+		item: "ic2:upgrade 1 1",
+		count: 6
+	}]
+}

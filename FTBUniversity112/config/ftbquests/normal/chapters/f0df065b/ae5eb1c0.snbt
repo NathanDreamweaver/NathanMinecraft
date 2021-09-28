@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.exu2deepdark.title}",
+	x: -1.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.exu2deepdark.subtitle}",
+	text: [
+		"{ftbuniversity.exu2deepdark.desc1}",
+		"",
+		"{ftbuniversity.exu2deepdark.desc2}",
+		"",
+		"{ftbuniversity.exu2deepdark.desc3}",
+		"",
+		"{ftbuniversity.exu2deepdark.desc4}"
+	],
+	tasks: [{
+		uid: "a9ac0d46",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "dbc07a8e",
+		type: "item",
+		item: "charm:cake_night_vision"
+	}]
+}

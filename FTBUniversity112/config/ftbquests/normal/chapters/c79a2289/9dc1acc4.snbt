@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.ic2staticshoes.title}",
+	x: 3.75d,
+	y: 6.75d,
+	description: "{ftbuniversity.ic2staticshoes.subtitle}",
+	text: [
+		"{ftbuniversity.ic2staticshoes.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"89a06b55"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "1ffaeae6",
+		type: "item",
+		items: [{
+			id: "ic2:static_boots",
+			tag: {
+				x: 973,
+				z: 196
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

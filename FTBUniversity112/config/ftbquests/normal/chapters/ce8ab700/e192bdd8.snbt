@@ -1,0 +1,119 @@
+{
+	title: "{ftbuniversity.projectredgates.title}",
+	icon: "projectred-integration:gate 1 24",
+	x: -3.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.projectredgates.subtitle}",
+	text: [
+		"{ftbuniversity.projectredgates.desc1}",
+		"",
+		"{ftbuniversity.projectredgates.desc2}"
+	],
+	tasks: [{
+		uid: "4d278511",
+		type: "item",
+		title: "{ftbuniversity.projectredgates.task}",
+		items: [{
+			item: "projectred-integration:gate"
+		},
+		{
+			item: "projectred-integration:gate 1 1"
+		},
+		{
+			item: "projectred-integration:gate 1 2"
+		},
+		{
+			item: "projectred-integration:gate 1 3"
+		},
+		{
+			item: "projectred-integration:gate 1 4"
+		},
+		{
+			item: "projectred-integration:gate 1 5"
+		},
+		{
+			item: "projectred-integration:gate 1 6"
+		},
+		{
+			item: "projectred-integration:gate 1 7"
+		},
+		{
+			item: "projectred-integration:gate 1 8"
+		},
+		{
+			item: "projectred-integration:gate 1 9"
+		},
+		{
+			item: "projectred-integration:gate 1 10"
+		},
+		{
+			item: "projectred-integration:gate 1 11"
+		},
+		{
+			item: "projectred-integration:gate 1 12"
+		},
+		{
+			item: "projectred-integration:gate 1 13"
+		},
+		{
+			item: "projectred-integration:gate 1 14"
+		},
+		{
+			item: "projectred-integration:gate 1 15"
+		},
+		{
+			item: "projectred-integration:gate 1 16"
+		},
+		{
+			item: "projectred-integration:gate 1 17"
+		},
+		{
+			item: "projectred-integration:gate 1 18"
+		},
+		{
+			item: "projectred-integration:gate 1 19"
+		},
+		{
+			item: "projectred-integration:gate 1 20"
+		},
+		{
+			item: "projectred-integration:gate 1 21"
+		},
+		{
+			item: "projectred-integration:gate 1 22"
+		},
+		{
+			item: "projectred-integration:gate 1 23"
+		},
+		{
+			item: "projectred-integration:gate 1 24"
+		},
+		{
+			item: "projectred-integration:gate 1 25"
+		},
+		{
+			item: "projectred-integration:gate 1 26"
+		},
+		{
+			item: "projectred-integration:gate 1 27"
+		},
+		{
+			item: "projectred-integration:gate 1 28"
+		},
+		{
+			item: "projectred-integration:gate 1 29"
+		},
+		{
+			item: "projectred-integration:gate 1 30"
+		},
+		{
+			item: "projectred-integration:gate 1 31"
+		},
+		{
+			item: "projectred-integration:gate 1 32"
+		},
+		{
+			item: "projectred-integration:gate 1 33"
+		}]
+	}]
+}

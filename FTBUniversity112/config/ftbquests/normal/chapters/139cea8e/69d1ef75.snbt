@@ -1,0 +1,47 @@
+{
+	title: "{ftbuniversity.creativechap.title}",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 205,
+			TrophyVariant: "neon",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "avaritia:infinity_helmet",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "OP",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487899L
+		}
+	},
+	x: 1.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.endgametrophy.subtitle}",
+	dependencies: [
+		"963b5ca7"
+	],
+	rewards: [{
+		uid: "e95f66d8",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "neon",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "avaritia:infinity_helmet",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Over Powered",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

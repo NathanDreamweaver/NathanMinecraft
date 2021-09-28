@@ -1,0 +1,14 @@
+name = "Environmental Tech"
+filename = "environmentaltech-1.12.2-2.0.20.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2691/536/environmentaltech-1.12.2-2.0.20.1.jar"
+hash-format = "murmur2"
+hash = "1520876991"
+
+[update]
+[update.curseforge]
+file-id = 2691536
+project-id = 245453
+release-channel = "beta"

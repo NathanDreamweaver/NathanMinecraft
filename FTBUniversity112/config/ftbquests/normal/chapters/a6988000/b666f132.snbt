@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.crimsonrites.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/cat_eldritch.png"
+		}
+	},
+	x: -2.40204081632654d,
+	y: 1.2979591836734627d,
+	description: "{ftbuniversity.crimsonrites.subtitle}",
+	text: [
+		"{ftbuniversity.crimsonrites.desc1}",
+		"",
+		"{ftbuniversity.crimsonrites.desc2}",
+		"",
+		"{ftbuniversity.crimsonrites.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f8439115"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b364362d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	}]
+}

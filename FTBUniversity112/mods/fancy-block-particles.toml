@@ -1,0 +1,14 @@
+name = "Fancy Block Particles"
+filename = "FancyBlockParticles-1.12.x-2.4.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2632/107/FancyBlockParticles-1.12.x-2.4.1.jar"
+hash-format = "murmur2"
+hash = "2259896282"
+
+[update]
+[update.curseforge]
+file-id = 2632107
+project-id = 254441
+release-channel = "beta"

@@ -1,0 +1,48 @@
+{
+	title: "{ftbuniversity.caliburn.title}",
+	x: 1.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.caliburn.subtitle}",
+	text: [
+		"{ftbuniversity.caliburn.desc1}",
+		"",
+		"{ftbuniversity.caliburn.desc2}",
+		"",
+		"{ftbuniversity.caliburn.desc3}",
+		"",
+		"{ftbuniversity.caliburn.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "96b8dbb1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+				}
+			},
+			id: "mahoutsukai:caliburn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e07da976",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 17s
+				}]
+			}
+		},
+		count: 2
+	}]
+}

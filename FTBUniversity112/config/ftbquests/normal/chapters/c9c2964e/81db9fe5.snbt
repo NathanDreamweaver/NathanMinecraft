@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.waterwheel.title}",
+	icon: "immersiveengineering:wooden_device1",
+	x: 3.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.waterwheel.subtitle}",
+	text: [
+		"{ftbuniversity.waterwheel.desc1}",
+		"",
+		"{ftbuniversity.waterwheel.desc2}",
+		"",
+		"{ftbuniversity.waterwheel.desc3}"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"ab2bc23b",
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "2018556f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}]
+	},
+	{
+		uid: "11d819c0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6ee9e7a5",
+		type: "item",
+		team_reward: true,
+		item: "immersiveengineering:wooden_device1"
+	}]
+}

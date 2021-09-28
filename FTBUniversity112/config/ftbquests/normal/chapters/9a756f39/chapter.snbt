@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.mhchap.title}",
+	icon: "mahoutsukai:guidebook",
+	always_invisible: false,
+	group: 1447470455,
+	default_quest_shape: "circle"
+}

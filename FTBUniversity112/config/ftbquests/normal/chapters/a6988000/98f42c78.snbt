@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.advancedcross.title}",
+	x: -4.653061224489797d,
+	y: -2.7959183673469425d,
+	description: "{ftbuniversity.advancedcross.subtitle}",
+	text: [
+		"{ftbuniversity.advancedcross.desc1}",
+		"",
+		"{ftbuniversity.advancedcross.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e076ab2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "d97bd3b1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "41b7c64e",
+		type: "item",
+		item: "minecraft:arrow",
+		count: 192
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 9.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.ic2steamboiler.subtitle}",
+	text: [
+		"{ftbuniversity.ic2steamboiler.desc1}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc2}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc3}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc4}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc5}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc6}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc7}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc8}",
+		"",
+		"{ftbuniversity.ic2steamboiler.desc9}"
+	],
+	dependencies: [
+		"b084c4c0"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "25eeea09",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 34"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+name = "Capsule"
+filename = "Capsule-1.12.2-3.3.11.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2963/673/Capsule-1.12.2-3.3.11.jar"
+hash-format = "murmur2"
+hash = "1853660930"
+
+[update]
+[update.curseforge]
+file-id = 2963673
+project-id = 235338
+release-channel = "beta"

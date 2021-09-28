@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.apiaristchest.subtitle}",
+	text: [
+		"{ftbuniversity.apiaristchest.desc1}",
+		"",
+		"{ftbuniversity.apiaristchest.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d818d27c",
+		"e9ae08ed"
+	],
+	hide: true,
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "bf1db66a",
+		type: "item",
+		items: [{
+			item: "forestry:bee_chest"
+		}]
+	}]
+}

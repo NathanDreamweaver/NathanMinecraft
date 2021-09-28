@@ -1,0 +1,14 @@
+name = "Akashic Tome"
+filename = "AkashicTome-1.2-12.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2648/656/AkashicTome-1.2-12.jar"
+hash-format = "murmur2"
+hash = "3030749418"
+
+[update]
+[update.curseforge]
+file-id = 2648656
+project-id = 250577
+release-channel = "beta"

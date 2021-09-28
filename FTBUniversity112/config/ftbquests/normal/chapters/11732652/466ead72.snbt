@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.metallurgicinfuser.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.metallurgicinfuser.subtitle}",
+	text: [
+		"{ftbuniversity.metallurgicinfuser.desc1}",
+		"",
+		"{ftbuniversity.metallurgicinfuser.desc2}",
+		"",
+		"{ftbuniversity.metallurgicinfuser.desc3}"
+	],
+	dependencies: [
+		"896ca234",
+		"7e0e1f4c"
+	],
+	tasks: [{
+		uid: "f7f873bf",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fe3ecc44",
+		type: "item",
+		item: "mekanism:compressedredstone",
+		count: 4
+	}]
+}

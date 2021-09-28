@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.darkarmor.title}",
+	icon: "enderio:item_dark_steel_chestplate",
+	x: 0.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.darkarmor.subtitle}",
+	text: [
+		"{ftbuniversity.darkarmor.desc1}",
+		"",
+		"{ftbuniversity.darkarmor.desc2}",
+		"",
+		"{ftbuniversity.darkarmor.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "a99be4e4",
+		type: "item",
+		title: "{ftbuniversity.darkarmor.task}",
+		items: [{
+			item: "enderio:item_dark_steel_helmet"
+		},
+		{
+			item: "enderio:item_dark_steel_chestplate"
+		},
+		{
+			item: "enderio:item_dark_steel_leggings"
+		},
+		{
+			item: "enderio:item_dark_steel_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 9.75d,
+	y: -3.75d,
+	description: "{ftbuniversity.awacryst.subtitle}",
+	text: [
+		"{ftbuniversity.awacryst.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1f9afe3f",
+		"8b2f6b79"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "d36e7db2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

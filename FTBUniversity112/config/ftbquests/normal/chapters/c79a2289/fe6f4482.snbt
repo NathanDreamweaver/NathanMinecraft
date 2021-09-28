@@ -1,0 +1,20 @@
+{
+	x: 7.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.solidfuelfire.subtitle}",
+	text: [
+		"{ftbuniversity.solidfuelfire.desc1}",
+		"",
+		"{ftbuniversity.solidfuelfire.desc2}"
+	],
+	dependencies: [
+		"ac778fab"
+	],
+	tasks: [{
+		uid: "4875098f",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 15"
+		}]
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "{ftbuniversity.spacestation.title}",
+	icon: "advancedrocketry:stationbuilder",
+	x: 0.0d,
+	y: -6.0d,
+	description: "{ftbuniversity.spacestation.subtitle}",
+	text: [
+		"{ftbuniversity.spacestation.desc1}",
+		"",
+		"{ftbuniversity.spacestation.desc2}",
+		"",
+		"{ftbuniversity.spacestation.desc3}",
+		"",
+		"{ftbuniversity.spacestation.desc4}",
+		"",
+		"{ftbuniversity.spacestation.desc5}",
+		"",
+		"{ftbuniversity.spacestation.desc6}",
+		"",
+		"{ftbuniversity.spacestation.desc7}"
+	],
+	dependencies: [
+		"bee53bfa"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "ee4391ee",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	},
+	{
+		uid: "221f5f10",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	},
+	{
+		uid: "f37a7fcb",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	}],
+	rewards: [{
+		uid: "5e929986",
+		type: "item",
+		item: "advancedrocketry:loader 1 1"
+	}]
+}

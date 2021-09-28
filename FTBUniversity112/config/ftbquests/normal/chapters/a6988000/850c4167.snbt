@@ -1,0 +1,97 @@
+{
+	title: "{ftbuniversity.thaumstart.title}",
+	icon: {
+		id: "thaumcraft:crystal_essence",
+		tag: {
+			Aspects: [{
+				amount: 1,
+				key: "terra"
+			}]
+		}
+	},
+	x: -0.1428571428571317d,
+	y: 0.13265306122449516d,
+	description: "{ftbuniversity.thaumstart.subtitle}",
+	text: [
+		"{ftbuniversity.thaumstart.desc1}",
+		"",
+		"{ftbuniversity.thaumstart.desc2}",
+		"",
+		"{ftbuniversity.thaumstart.desc3}"
+	],
+	tasks: [{
+		uid: "0944e276",
+		type: "item",
+		title: "{ftbuniversity.thaumstart.task}",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39b1b39e",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "9a53519d",
+		type: "item",
+		item: "thaumcraft:sapling_silverwood"
+	},
+	{
+		uid: "69277299",
+		type: "item",
+		item: "thaumcraft:sapling_greatwood"
+	}]
+}

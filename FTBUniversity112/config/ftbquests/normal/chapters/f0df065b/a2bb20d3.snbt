@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.exu2dropofevil.subtitle}",
+	text: [
+		"{ftbuniversity.exu2dropofevil.desc1}",
+		"",
+		"{ftbuniversity.exu2dropofevil.desc2}",
+		"",
+		"{ftbuniversity.exu2dropofevil.desc3}",
+		"",
+		"{ftbuniversity.exu2dropofevil.desc4}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "521c2c6a",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 10"
+		}]
+	}]
+}

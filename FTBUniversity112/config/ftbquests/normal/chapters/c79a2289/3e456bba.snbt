@@ -1,0 +1,37 @@
+{
+	title: "{ftbuniversity.ic2tools.title}",
+	icon: "ic2:forge_hammer",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.ic2tools.subtitle}",
+	text: [
+		"{ftbuniversity.ic2tools.desc1}",
+		"",
+		"{ftbuniversity.ic2tools.desc2}",
+		"",
+		"{ftbuniversity.ic2tools.desc3}"
+	],
+	tasks: [{
+		uid: "466c9637",
+		type: "item",
+		items: [{
+			item: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7c180d9",
+		type: "item",
+		items: [{
+			item: "ic2:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f80ebf24",
+		type: "choice",
+		table: 7
+	}]
+}

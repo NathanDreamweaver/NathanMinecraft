@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.electrosep.subtitle}",
+	text: [
+		"{ftbuniversity.electrosep.desc1}",
+		"",
+		"{ftbuniversity.electrosep.desc2}",
+		"",
+		"{ftbuniversity.electrosep.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72",
+		"cf800606"
+	],
+	tasks: [{
+		uid: "a6be497f",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

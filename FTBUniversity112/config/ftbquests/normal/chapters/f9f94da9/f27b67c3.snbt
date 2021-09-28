@@ -1,0 +1,35 @@
+{
+	icon: "rats:rat_upgrade_flight",
+	x: 1.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.ratmovement.subtitle}",
+	text: [
+		"{ftbuniversity.ratmovement.desc}",
+		"",
+		"{ftbuniversity.ratuptips}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "b9d9b62b",
+		type: "item",
+		title: "{ftbuniversity.ratmovement.title}",
+		items: [{
+			item: "rats:rat_upgrade_speed"
+		},
+		{
+			item: "rats:rat_upgrade_aquatic"
+		},
+		{
+			item: "rats:rat_upgrade_flight"
+		},
+		{
+			item: "rats:rat_upgrade_dragon"
+		},
+		{
+			item: "rats:rat_upgrade_ender"
+		}]
+	}]
+}

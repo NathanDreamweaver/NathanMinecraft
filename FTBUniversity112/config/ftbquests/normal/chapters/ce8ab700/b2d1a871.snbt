@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.destructgad.subtitle}",
+	text: [
+		"{ftbuniversity.destructgad.desc1}",
+		"",
+		"{ftbuniversity.destructgad.desc2}",
+		"",
+		"{ftbuniversity.gengadget.desc1}",
+		"",
+		"{ftbuniversity.gengadget.desc2}"
+	],
+	tasks: [{
+		uid: "a67558cc",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1,
+				fuzzy: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

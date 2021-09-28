@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.exu2clock.subtitle}",
+	text: [
+		"{ftbuniversity.exu2clock.desc}"
+	],
+	tasks: [{
+		uid: "e5d7a32e",
+		type: "item",
+		items: [{
+			item: "extrautils2:redstoneclock"
+		}]
+	}]
+}

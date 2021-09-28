@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.fluix.title}",
+	x: 1.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.fluix.subtitle}",
+	text: [
+		"{ftbuniversity.fluix.desc1}",
+		"",
+		"{ftbuniversity.fluix.desc2}"
+	],
+	dependencies: [
+		"53e0fcbc"
+	],
+	tasks: [{
+		uid: "64348bf7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "85f9be97",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 8
+	}]
+}

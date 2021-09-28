@@ -1,0 +1,216 @@
+{
+	title: "{ftbuniversity.iearcfurnace.title}",
+	icon: "immersiveengineering:metal_multiblock 1 13",
+	x: 10.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.iearcfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.iearcfurnace.desc1}",
+		"",
+		"{ftbuniversity.iearcfurnace.desc2}",
+		"",
+		"{ftbuniversity.iearcfurnace.desc3}",
+		"",
+		"{ftbuniversity.iearcfurnace.desc4}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "de925764",
+		type: "observation",
+		title: "{ftbuniversity.iearcfurnace.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:arcfurnace",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "5547a171",
+		type: "item",
+		item: {
+			id: "minecraft:chest",
+			tag: {
+				BlockEntityTag: {
+					ForgeCaps: {
+						"nuclearcraft:capability_default_radiation_resistance": {
+							radiationResistance: 0.0d
+						}
+					},
+					Items: [{
+						Slot: 0,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 1,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 2,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 3,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 4,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 5,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 6,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 7,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 8,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 9,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 10,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 11,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 12,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 13,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 14,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 15,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 16,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 17,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 18,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 19,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 20,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 21,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 22,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 23,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 24,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 25,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					},
+					{
+						Slot: 26,
+						id: "immersiveengineering:material",
+						Count: 64,
+						Damage: 7
+					}],
+					id: "minecraft:chest",
+					Lock: ""
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					]
+				}
+			}
+		}
+	}]
+}

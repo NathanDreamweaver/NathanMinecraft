@@ -1,0 +1,23 @@
+{
+	x: 1.75d,
+	y: -1.75d,
+	description: "{ftbuniversity.regulatormod.subtitle}",
+	text: [
+		"{ftbuniversity.regulatormod.desc1}",
+		"",
+		"{ftbuniversity.regulatormod.desc2}",
+		"",
+		"{ftbuniversity.regulatormod.desc3}"
+	],
+	dependencies: [
+		"113f15f8"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "e3ca255d",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:regulator_tube_module"
+		}]
+	}]
+}

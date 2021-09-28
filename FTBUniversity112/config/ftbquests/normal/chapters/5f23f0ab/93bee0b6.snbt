@@ -1,0 +1,50 @@
+{
+	title: "{ftbuniversity.apiaristarmor.title}",
+	icon: "forestry:apiarist_helmet",
+	x: 1.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.apiaristarmor.subtitle}",
+	text: [
+		"{ftbuniversity.apiaristarmor.desc}"
+	],
+	dependencies: [
+		"cf93d96d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e6a0b85d",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d823fd16",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ed2449c",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6fcada0d",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

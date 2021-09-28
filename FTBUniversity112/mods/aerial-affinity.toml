@@ -1,0 +1,14 @@
+name = "Aerial Affinity"
+filename = "aerialaffinity-1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2700/280/aerialaffinity-1.2.jar"
+hash-format = "murmur2"
+hash = "4145981911"
+
+[update]
+[update.curseforge]
+file-id = 2700280
+project-id = 314471
+release-channel = "beta"

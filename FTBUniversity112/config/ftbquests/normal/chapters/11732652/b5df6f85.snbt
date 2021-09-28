@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.dynamictank.title}",
+	icon: "mekanism:basicblock 1 9",
+	x: 2.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.dynamictank.subtitle}",
+	text: [
+		"{ftbuniversity.dynamictank.desc1}",
+		"",
+		"{ftbuniversity.dynamictank.desc2}",
+		"",
+		"{ftbuniversity.dynamictank.desc3}",
+		"",
+		"{ftbuniversity.dynamictank.desc4}",
+		"",
+		"{ftbuniversity.dynamictank.desc5}"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"466ead72",
+		"60216f1b"
+	],
+	min_width: 225,
+	tasks: [{
+		uid: "bdc38f22",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 9"
+		}]
+	},
+	{
+		uid: "611935af",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 11"
+		}]
+	}]
+}

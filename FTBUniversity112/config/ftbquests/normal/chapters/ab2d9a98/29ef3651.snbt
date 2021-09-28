@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.scraper.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.scraper.subtitle}",
+	text: [
+		"{ftbuniversity.scraper.desc1}",
+		"",
+		"{ftbuniversity.scraper.desc2}"
+	],
+	tasks: [{
+		uid: "23e2fd89",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:metalscraper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.idsqueezer.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.idsqueezer.subtitle}",
+	text: [
+		"{ftbuniversity.idsqueezer.desc1}",
+		"",
+		"{ftbuniversity.idsqueezer.desc2}",
+		"",
+		"{ftbuniversity.idsqueezer.desc3}"
+	],
+	dependencies: [
+		"029a8552"
+	],
+	tasks: [{
+		uid: "91c410d2",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:squeezer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "90e43f63",
+		type: "item",
+		item: "integrateddynamics:menril_torch",
+		count: 64
+	}]
+}

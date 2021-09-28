@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.playersim.subtitle}",
+	text: [
+		"{ftbuniversity.playersim.desc1}",
+		"",
+		"{ftbuniversity.playersim.desc2}",
+		"",
+		"{ftbuniversity.playersim.desc3}"
+	],
+	dependencies: [
+		"001a3f85"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "4b8aa4f8",
+		type: "item",
+		items: [{
+			item: "integratedtunnels:part_player_simulator_item"
+		}]
+	}]
+}

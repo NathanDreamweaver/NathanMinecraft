@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.rftvoidcard.title}",
+	x: -2.25d,
+	y: 9.25d,
+	description: "{ftbuniversity.rftvoidcard.subtitle}",
+	text: [
+		"{ftbuniversity.rftvoidcard.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a0da998d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "44bc1e93",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

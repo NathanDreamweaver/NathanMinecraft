@@ -1,0 +1,14 @@
+name = "Quark"
+filename = "Quark-r1.6-179.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2924/91/Quark-r1.6-179.jar"
+hash-format = "murmur2"
+hash = "2910837341"
+
+[update]
+[update.curseforge]
+file-id = 2924091
+project-id = 243121
+release-channel = "beta"

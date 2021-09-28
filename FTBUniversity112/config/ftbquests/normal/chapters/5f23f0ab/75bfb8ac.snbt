@@ -1,0 +1,18 @@
+{
+	title: "{ftbuniversity.forestrybottler.title}",
+	x: -4.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.forestrybottler.subtitle}",
+	text: [
+		"{ftbuniversity.forestrybottler.desc}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "c3b26afb",
+		type: "item",
+		items: [{
+			item: "forestry:bottler"
+		}],
+		ignore_nbt: 1b
+	}]
+}

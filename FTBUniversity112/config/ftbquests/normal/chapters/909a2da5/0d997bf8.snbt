@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.craftlogi2.title}",
+	icon: "botania:cosmetic 1 31",
+	x: -6.25d,
+	y: 7.5d,
+	shape: "square",
+	description: "{ftbuniversity.craftlogi2.subtitle}",
+	text: [
+		"{ftbuniversity.craftlogi2.desc1}",
+		"",
+		"{ftbuniversity.craftlogi2.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"59e8425d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "274f0292",
+		type: "checkmark"
+	}]
+}

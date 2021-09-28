@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.iewirecutters.title}",
+	tags: [
+		"ding"
+	],
+	x: 4.75d,
+	y: 0.625d,
+	description: "{ftbuniversity.iewirecutters.subtitle}",
+	text: [
+		"{ftbuniversity.iewirecutters.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ee314aed"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "af5218d3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

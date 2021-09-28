@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.pnaircan.title}",
+	x: 1.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.pnaircan.subtitle}",
+	text: [
+		"{ftbuniversity.pnaircan.desc1}",
+		"",
+		"{ftbuniversity.pnaircan.desc2}",
+		"",
+		"{ftbuniversity.pnaircan.desc3}"
+	],
+	dependencies: [
+		"a2251250"
+	],
+	tasks: [{
+		uid: "667cfb86",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:air_canister 1 30000"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

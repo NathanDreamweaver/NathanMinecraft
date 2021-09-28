@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.creativestorage.title}",
+	icon: "storagedrawers:upgrade_creative",
+	x: -0.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.creativestorage.subtitle}",
+	text: [
+		"{ftbuniversity.creativestorage.desc1}",
+		"",
+		"{ftbuniversity.creativestorage.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "05742350",
+		type: "item",
+		title: "{ftbuniversity.creativestorage.task}",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_star_tier"
+		}]
+	}]
+}

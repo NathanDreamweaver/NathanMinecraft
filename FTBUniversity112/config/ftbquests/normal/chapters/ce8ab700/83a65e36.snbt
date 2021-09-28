@@ -1,0 +1,152 @@
+{
+	title: "{ftbuniversity.microblocks.title}",
+	icon: "microblockcbe:saw_diamond",
+	x: -1.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.microblocks.subtitle}",
+	text: [
+		"{ftbuniversity.microblocks.desc1}",
+		"",
+		"{ftbuniversity.microblocks.desc2}",
+		"",
+		"{ftbuniversity.microblocks.desc3}",
+		"",
+		"{ftbuniversity.microblocks.desc4}",
+		"",
+		"{ftbuniversity.microblocks.desc5}",
+		"",
+		"{ftbuniversity.microblocks.desc6}"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ca54752b",
+		type: "item",
+		title: "{ftbuniversity.microblocks.task1}",
+		items: [{
+			item: "microblockcbe:saw_stone"
+		},
+		{
+			item: "microblockcbe:saw_iron"
+		},
+		{
+			item: "microblockcbe:saw_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4953a16",
+		type: "item",
+		title: "{ftbuniversity.microblocks.task2}",
+		items: [{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 4s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 2s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 1s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 516s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 772s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 770s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 769s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 516s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 514s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 513s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb819c95",
+		type: "item",
+		title: "{ftbuniversity.microblocks.task3}",
+		items: [{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 260s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 258s
+		},
+		{
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:log[axis=y,variant=oak]"
+			},
+			Damage: 257s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1538c23e",
+		type: "item",
+		item: {
+			id: "microblockcbe:microblock",
+			tag: {
+				mat: "minecraft:diamond_block"
+			},
+			Damage: 513s
+		},
+		count: 32
+	}]
+}

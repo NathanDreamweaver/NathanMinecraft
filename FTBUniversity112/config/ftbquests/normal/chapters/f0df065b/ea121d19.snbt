@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.exu2frosty.subtitle}",
+	text: [
+		"{ftbuniversity.exu2frosty.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "0625905e",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ice"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "42edc06f",
+		type: "item",
+		item: "minecraft:packed_ice",
+		count: 16
+	}]
+}

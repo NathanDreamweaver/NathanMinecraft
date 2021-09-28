@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.mekflamethrower.title}",
+	x: 12.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.mekflamethrower.subtitle}",
+	text: [
+		"{ftbuniversity.mekflamethrower.desc1}",
+		"",
+		"{ftbuniversity.mekflamethrower.desc2}",
+		"",
+		"{ftbuniversity.mekflamethrower.desc3}",
+		"",
+		"{ftbuniversity.mekflamethrower.desc4}",
+		"",
+		"{ftbuniversity.mekflamethrower.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "f6503ef2",
+		type: "item",
+		items: [{
+			item: "mekanism:flamethrower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.metalformer.title}",
+	x: 5.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.metalformer.subtitle}",
+	text: [
+		"{ftbuniversity.metalformer.desc1}",
+		"",
+		"{ftbuniversity.metalformer.desc2}",
+		"{ftbuniversity.metalformer.desc3}",
+		"{ftbuniversity.metalformer.desc4}",
+		"{ftbuniversity.metalformer.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "7567b7f8",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "f868590a",
+		type: "item",
+		item: "ic2:crafting 1 38",
+		count: 16
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 7.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.ic2elecjet.subtitle}",
+	text: [
+		"{ftbuniversity.ic2elecjet.desc1}",
+		"",
+		"{ftbuniversity.ic2elecjet.desc2}",
+		"",
+		"{ftbuniversity.ic2jetpackmodes}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3aff2ff5"
+	],
+	tasks: [{
+		uid: "0ba500ad",
+		type: "item",
+		items: [{
+			id: "ic2:jetpack_electric",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.simplesag.title}",
+	x: 3.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.simplesag.subtitle}",
+	text: [
+		"{ftbuniversity.simplesag.desc1}",
+		"",
+		"{ftbuniversity.simplesag.desc2}"
+	],
+	dependencies: [
+		"4b9e4c96"
+	],
+	tasks: [{
+		uid: "5bea93eb",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fb8c8a4",
+		type: "loot",
+		table: 8
+	}]
+}

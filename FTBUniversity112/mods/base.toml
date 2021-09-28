@@ -1,0 +1,14 @@
+name = "B.A.S.E"
+filename = "base-1.12.2-3.13.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2722/575/base-1.12.2-3.13.0.jar"
+hash-format = "murmur2"
+hash = "503243924"
+
+[update]
+[update.curseforge]
+file-id = 2722575
+project-id = 246996
+release-channel = "beta"

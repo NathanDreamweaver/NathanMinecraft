@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.ieindussqueeze.title}",
+	icon: "immersiveengineering:metal_multiblock 1 7",
+	x: 9.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.ieindussqueeze.subtitle}",
+	text: [
+		"{ftbuniversity.ieindussqueeze.desc}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "f8faa4b9",
+		type: "observation",
+		title: "{ftbuniversity.ieindussqueeze.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:squeezer",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c8d664a4",
+		type: "item",
+		item: {
+			id: "forestry:refractory",
+			tag: {
+				Fluid: {
+					FluidName: "plantoil",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

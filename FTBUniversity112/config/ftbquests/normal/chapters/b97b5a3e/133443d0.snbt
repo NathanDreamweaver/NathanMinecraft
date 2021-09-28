@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 10.0d,
+	description: "{ftbuniversity.rftactivityprobe.subtitle}",
+	text: [
+		"{ftbuniversity.rftactivityprobe.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"451c9518"
+	],
+	tasks: [{
+		uid: "ee132db7",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:activity_probe"
+		}],
+		ignore_nbt: 1b
+	}]
+}

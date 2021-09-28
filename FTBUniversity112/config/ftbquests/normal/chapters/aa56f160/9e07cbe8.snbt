@@ -1,0 +1,383 @@
+{
+	title: "{ftbuniversity.eioupgrades.title}",
+	icon: "enderio:item_dark_steel_upgrade",
+	x: -0.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.eioupgrades.subtitle}",
+	text: [
+		"{ftbuniversity.eioupgrades.desc1}",
+		"",
+		"{ftbuniversity.eioupgrades.desc2}",
+		"",
+		"{ftbuniversity.eioupgrades.desc3}",
+		"",
+		"{ftbuniversity.eioupgrades.desc4}",
+		"",
+		"{ftbuniversity.eioupgrades.desc5}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"af8a21f2",
+		"3d9c426d",
+		"8b54fc96",
+		"08ffec7b",
+		"2626745b",
+		"9aed8ed2"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "c0e1a51c",
+		type: "item",
+		title: "{ftbuniversity.eioupgrades.task1}",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade1"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade2"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade3"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade4"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:anvil"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:anvil1"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:anvil2"
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ab97ee9",
+		type: "item",
+		title: "{ftbuniversity.eioupgrades.task2}",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiointegrationforestry:apiarist_armor_head"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiointegrationforestry:apiarist_armor_chest"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiointegrationforestry:apiarist_armor_legs"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiointegrationforestry:apiarist_armor_feet"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:gogglesofrevealing"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:thaumaturge_robes_chest"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:thaumaturge_robes_legs"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:thaumaturge_robes_feet"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:elytra"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:glide"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:inv"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:inv1"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:inv2"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:jumpboost1"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:jumpboost2"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:jumpboost3"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:speedboost1"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:speedboost2"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:speedboost3"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiointegrationforestry:naturalist_eye"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:nightvision"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:padding"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiomachines:solar"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiomachines:solar1"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiomachines:solar2"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiomachines:solar3"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:sounddetector"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:step_assist"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:swim"
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b542968f",
+		type: "item",
+		title: "{ftbuniversity.eioupgrades.task3}",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:direct"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:hoe"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:spoon"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:tnt"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:tnt1"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:tnt2"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:tnt3"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:tnt4"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:carpet"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:depth"
+			},
+			Damage: 1s
+		},
+		{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:travel"
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

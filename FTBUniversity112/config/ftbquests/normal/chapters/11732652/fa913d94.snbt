@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: -4.0d,
+	description: "{ftbuniversity.mekmuffling.subtitle}",
+	text: [
+		"{ftbuniversity.mekmuffling.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "8ce84a75",
+		type: "item",
+		items: [{
+			item: "mekanism:mufflingupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "325f97d3",
+		type: "item",
+		item: "mekanism:mufflingupgrade",
+		count: 4
+	}]
+}

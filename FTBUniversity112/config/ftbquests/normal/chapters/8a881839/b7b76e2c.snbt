@@ -1,0 +1,33 @@
+{
+	icon: "integrateddynamics:part_redstone_writer_item",
+	x: 5.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.writers.subtitle}",
+	text: [
+		"{ftbuniversity.writers.desc1}",
+		"",
+		"{ftbuniversity.writers.desc2}",
+		"",
+		"{ftbuniversity.writers.desc3}",
+		"",
+		"{ftbuniversity.writers.desc4}"
+	],
+	dependencies: [
+		"1cbddf84"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "654c53b0",
+		type: "item",
+		title: "{ftbuniversity.writers.title}",
+		items: [{
+			item: "integrateddynamics:part_audio_writer_item"
+		},
+		{
+			item: "integrateddynamics:part_effect_writer_item"
+		},
+		{
+			item: "integrateddynamics:part_redstone_writer_item"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.cropnalyzer.title}",
+	x: 1.0d,
+	y: -3.5d,
+	description: "{ftbuniversity.cropnalyzer.subtitle}",
+	text: [
+		"{ftbuniversity.cropnalyzer.desc1}",
+		"",
+		"{ftbuniversity.cropnalyzer.desc2}",
+		"{ftbuniversity.cropnalyzer.desc3}",
+		"{ftbuniversity.cropnalyzer.desc4}",
+		"{ftbuniversity.cropnalyzer.desc5}"
+	],
+	dependencies: [
+		"a0da8607"
+	],
+	tasks: [{
+		uid: "6707222b",
+		type: "item",
+		items: [{
+			id: "ic2:cropnalyzer",
+			tag: {
+				charge: 100000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

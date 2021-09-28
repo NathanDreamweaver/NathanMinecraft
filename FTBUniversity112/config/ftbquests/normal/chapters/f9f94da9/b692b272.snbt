@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.ratcage.title}",
+	x: 2.0d,
+	y: -5.5d,
+	description: "{ftbuniversity.ratcage.subtitle}",
+	text: [
+		"{ftbuniversity.ratcage.desc1}",
+		"",
+		"{ftbuniversity.ratcage.desc2}",
+		"",
+		"{ftbuniversity.ratcage.desc3}"
+	],
+	dependencies: [
+		"ad68b4cc"
+	],
+	tasks: [{
+		uid: "94c1f845",
+		type: "item",
+		items: [{
+			item: "rats:rat_cage"
+		}]
+	}],
+	rewards: [{
+		uid: "28feb649",
+		type: "choice",
+		table: 17
+	}]
+}

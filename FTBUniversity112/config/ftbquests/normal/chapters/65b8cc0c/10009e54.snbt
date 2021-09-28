@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.leavespawn.title}",
+	icon: "ftbquests:book",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.leavespawn.subtitle}",
+	text: [
+		"{ftbuniversity.leavespawn.desc1}",
+		"",
+		"{ftbuniversity.leavespawn.desc2}",
+		"",
+		"{ftbuniversity.leavespawn.desc3}",
+		"",
+		"{ftbuniversity.leavespawn.desc4}"
+	],
+	size: 1.25d,
+	min_width: 250,
+	or_tasks: true,
+	tasks: [{
+		uid: "6372f287",
+		type: "stat",
+		title: "{ftbuniversity.leavespawn.task1}",
+		icon: "minecraft:map",
+		stat: "stat.walkOneCm",
+		value: 10000
+	},
+	{
+		uid: "7e34f27c",
+		type: "stat",
+		title: "{ftbuniversity.leavespawn.task2}",
+		icon: "minecraft:map",
+		stat: "stat.sprintOneCm",
+		value: 10000
+	}]
+}

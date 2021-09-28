@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.voidbot5.subtitle}",
+	text: [
+		"{ftbuniversity.voidbot5.desc}",
+		"",
+		"{ftbuniversity.etechmodifiers}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	dependencies: [
+		"8d4ea1a3",
+		"94785d22"
+	],
+	tasks: [{
+		uid: "1c5d270d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_botanic_miner_cont_5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

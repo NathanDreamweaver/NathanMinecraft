@@ -1,0 +1,60 @@
+{
+	icon: "forestry:apiary",
+	x: 2.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.apiary.subtitle}",
+	text: [
+		"{ftbuniversity.apiary.desc1}",
+		"",
+		"{ftbuniversity.beehouse.desc2}",
+		"",
+		"{ftbuniversity.apiary.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5308ae57"
+	],
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "12e193bb",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	},
+	{
+		uid: "bb3c9aec",
+		type: "item",
+		title: "{ftbuniversity.apiary.task}",
+		items: [{
+			item: "forestry:frame_untreated"
+		},
+		{
+			item: "forestry:frame_impregnated"
+		},
+		{
+			item: "forestry:frame_proven"
+		},
+		{
+			item: "magicbees:frames.temporal"
+		},
+		{
+			item: "magicbees:frames.metabolic"
+		},
+		{
+			item: "magicbees:frames.necrotic"
+		},
+		{
+			item: "magicbees:frames.magic"
+		},
+		{
+			item: "magicbees:frames.gentle"
+		},
+		{
+			item: "magicbees:frames.oblivion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

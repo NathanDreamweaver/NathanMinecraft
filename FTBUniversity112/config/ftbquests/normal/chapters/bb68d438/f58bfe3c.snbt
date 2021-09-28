@@ -1,0 +1,30 @@
+{
+	x: 8.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.capacitycard.subtitle}",
+	text: [
+		"{ftbuniversity.capacitycard.desc1}",
+		"",
+		"{ftbuniversity.capacitycard.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"ebb19bbd",
+		"c7224ee7",
+		"772c89ae"
+	],
+	tasks: [{
+		uid: "191c3ebf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 27"
+		}]
+	}],
+	rewards: [{
+		uid: "6e190a0d",
+		type: "item",
+		item: "appliedenergistics2:material 1 27",
+		count: 5
+	}]
+}

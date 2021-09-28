@@ -1,0 +1,49 @@
+{
+	title: "{ftbuniversity.artendport.title}",
+	icon: "randomthings:ingredient 1 1",
+	x: 1.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.artendport.subtitle}",
+	text: [
+		"{ftbuniversity.artendport.desc1}",
+		"",
+		"{ftbuniversity.artendport.desc2}",
+		"",
+		"{ftbuniversity.artendport.desc3}",
+		"",
+		"{ftbuniversity.artendport.desc4}"
+	],
+	tasks: [{
+		uid: "332a16d0",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 1"
+		}]
+	},
+	{
+		uid: "57543541",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:end_rod"
+		}]
+	},
+	{
+		uid: "40bcd405",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 10L
+	},
+	{
+		uid: "1b90b2ff",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/biome_scanner.png"
+		}
+	},
+	x: 2.0d,
+	y: -6.75d,
+	shape: "circle",
+	description: "{ftbuniversity.arbioscan.subtitle}",
+	text: [
+		"{ftbuniversity.arbioscan.desc1}",
+		"",
+		"{ftbuniversity.arbioscan.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7adea7b7"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "2386d8e8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:biomescanner"
+		}]
+	},
+	{
+		uid: "efd7dc5b",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 21L
+	},
+	{
+		uid: "210ff412",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:redstone_block"
+		}]
+	},
+	{
+		uid: "b39bf574",
+		type: "item",
+		title: "{ftbuniversity.motors}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

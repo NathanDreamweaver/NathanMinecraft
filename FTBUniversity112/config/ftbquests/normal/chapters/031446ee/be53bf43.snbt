@@ -1,0 +1,31 @@
+{
+	x: 6.25d,
+	y: -6.25d,
+	description: "{ftbuniversity.rituals2.subtitle}",
+	text: [
+		"{ftbuniversity.rituals2.desc1}",
+		"",
+		"{ftbuniversity.rituals2.desc2}",
+		"",
+		"{ftbuniversity.rituals2.desc3}",
+		"",
+		"{ftbuniversity.rituals2.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8b2f6b79",
+		"3a8c43d6"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "11b25c6d",
+		type: "item",
+		items: [{
+			id: "bloodmagic:ritual_diviner",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

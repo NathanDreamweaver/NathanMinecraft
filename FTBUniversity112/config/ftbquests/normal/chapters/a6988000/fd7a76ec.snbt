@@ -1,0 +1,21 @@
+{
+	x: -3.408163265306122d,
+	y: 1.5102040816326507d,
+	description: "{ftbuniversity.voidsiphon.subtitle}",
+	text: [
+		"{ftbuniversity.voidsiphon.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0084898"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "881f946a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_siphon"
+		}]
+	}]
+}

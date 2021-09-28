@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.bellows.title}",
+	x: -3.57789115646257d,
+	y: -1.2425170068027143d,
+	description: "{ftbuniversity.bellows.subtitle}",
+	text: [
+		"{ftbuniversity.bellows.desc1}",
+		"",
+		"{ftbuniversity.bellows.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cbf159f3"
+	],
+	hide: true,
+	size: 0.375d,
+	tasks: [{
+		uid: "a79a73ce",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bellows"
+		}]
+	}]
+}

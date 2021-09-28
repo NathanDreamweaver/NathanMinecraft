@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.iewindmill.title}",
+	icon: "immersiveengineering:wooden_device1 1 1",
+	x: 2.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.iewindmill.subtitle}",
+	text: [
+		"{ftbuniversity.iewindmill.desc1}",
+		"",
+		"{ftbuniversity.iewindmill.desc2}",
+		"",
+		"{ftbuniversity.iewindmill.desc3}"
+	],
+	dependencies: [
+		"5c4af523"
+	],
+	tasks: [{
+		uid: "55dde814",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 1"
+		}]
+	},
+	{
+		uid: "59e7c441",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 12"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1f44484a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}]
+}

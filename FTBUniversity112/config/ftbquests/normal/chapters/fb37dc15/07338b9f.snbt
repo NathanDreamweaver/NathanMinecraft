@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.corpindex.title}",
+	x: 5.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.corpindex.subtitle}",
+	text: [
+		"{ftbuniversity.corpindex.desc1}",
+		"",
+		"{ftbuniversity.corpindex.desc2}",
+		"",
+		"{ftbuniversity.corpindex.desc3}"
+	],
+	dependencies: [
+		"1598e270"
+	],
+	tasks: [{
+		uid: "8435a45f",
+		type: "item",
+		items: [{
+			item: "botania:corporeaindex"
+		}]
+	}]
+}

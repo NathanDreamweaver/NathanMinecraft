@@ -1,0 +1,53 @@
+{
+	title: "{ftbuniversity.drawerkeys.title}",
+	icon: "storagedrawers:drawer_key",
+	x: -2.25d,
+	y: 2.75d,
+	shape: "square",
+	description: "{ftbuniversity.drawerkeys.subtitle}",
+	text: [
+		"{ftbuniversity.drawerkeys.desc1}",
+		"",
+		"{ftbuniversity.drawerkeys.desc2}",
+		"",
+		"{ftbuniversity.drawerkeys.desc3}",
+		"",
+		"{ftbuniversity.drawerkeys.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"54818575"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 250,
+	or_tasks: true,
+	tasks: [{
+		uid: "928b1b62",
+		type: "item",
+		items: [{
+			item: "storagedrawers:drawer_key"
+		}]
+	},
+	{
+		uid: "e81f1869",
+		type: "item",
+		items: [{
+			item: "storagedrawers:shroud_key"
+		}]
+	},
+	{
+		uid: "dc8e3a55",
+		type: "item",
+		items: [{
+			item: "storagedrawers:personal_key"
+		}]
+	},
+	{
+		uid: "0c3a3bb1",
+		type: "item",
+		items: [{
+			item: "storagedrawers:quantify_key"
+		}]
+	}]
+}

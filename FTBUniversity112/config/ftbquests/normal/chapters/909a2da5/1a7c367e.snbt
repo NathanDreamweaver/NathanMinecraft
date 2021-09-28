@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.logopq.title}",
+	x: -0.5d,
+	y: 12.0d,
+	description: "{ftbuniversity.logopq.subtitle}",
+	text: [
+		"{ftbuniversity.logopq.desc1}",
+		"",
+		"{ftbuniversity.logopq.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "a21796e7",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_opaque"
+		}]
+	}]
+}

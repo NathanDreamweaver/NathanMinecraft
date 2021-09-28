@@ -1,0 +1,65 @@
+{
+	icon: {
+		id: "xnet:advanced_connector",
+		tag: {
+			display: {
+				LocName: "tile.xnet.advanced_connector_blue.name"
+			}
+		}
+	},
+	x: 2.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.advconnectors.subtitle}",
+	text: [
+		"{ftbuniversity.advconnectors.desc1}",
+		"",
+		"{ftbuniversity.advconnectors.desc2}",
+		"",
+		"{ftbuniversity.advconnectors.desc3}",
+		"{ftbuniversity.advconnectors.desc4}"
+	],
+	dependencies: [
+		"055df0ac"
+	],
+	tasks: [{
+		uid: "212da5c8",
+		type: "item",
+		title: "{ftbuniversity.advconnectors.title}",
+		items: [{
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_blue.name"
+				}
+			}
+		},
+		{
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_red.name"
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_yellow.name"
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_green.name"
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

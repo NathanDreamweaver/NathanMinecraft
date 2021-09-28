@@ -1,0 +1,14 @@
+name = "Loot Capacitor Tooltips"
+filename = "lootcapacitortooltips-1.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2687/139/lootcapacitortooltips-1.3.jar"
+hash-format = "murmur2"
+hash = "60008387"
+
+[update]
+[update.curseforge]
+file-id = 2687139
+project-id = 316304
+release-channel = "beta"

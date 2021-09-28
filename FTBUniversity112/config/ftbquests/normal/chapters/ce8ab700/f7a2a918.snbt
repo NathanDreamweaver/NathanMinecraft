@@ -1,0 +1,88 @@
+{
+	title: "{ftbuniversity.dufilters.title}",
+	icon: "darkutils:filter 1 3",
+	x: 2.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.dufilters.subtitle}",
+	text: [
+		"{ftbuniversity.dufilters.desc1}",
+		"",
+		"{ftbuniversity.dufilters.desc2}"
+	],
+	tasks: [{
+		uid: "347ac6e3",
+		type: "item",
+		title: "{ftbuniversity.dufilters.task1}",
+		items: [{
+			item: "darkutils:filter"
+		},
+		{
+			item: "darkutils:filter 1 1"
+		},
+		{
+			item: "darkutils:filter 1 2"
+		},
+		{
+			item: "darkutils:filter 1 3"
+		},
+		{
+			item: "darkutils:filter 1 4"
+		},
+		{
+			item: "darkutils:filter 1 5"
+		},
+		{
+			item: "darkutils:filter 1 6"
+		},
+		{
+			item: "darkutils:filter 1 7"
+		},
+		{
+			item: "darkutils:filter 1 8"
+		},
+		{
+			item: "darkutils:filter 1 9"
+		},
+		{
+			item: "darkutils:filter 1 10"
+		}]
+	},
+	{
+		uid: "36ce1f04",
+		type: "item",
+		title: "{ftbuniversity.dufilters.task2}",
+		items: [{
+			item: "darkutils:filter_inverted"
+		},
+		{
+			item: "darkutils:filter_inverted 1 1"
+		},
+		{
+			item: "darkutils:filter_inverted 1 2"
+		},
+		{
+			item: "darkutils:filter_inverted 1 3"
+		},
+		{
+			item: "darkutils:filter_inverted 1 4"
+		},
+		{
+			item: "darkutils:filter_inverted 1 5"
+		},
+		{
+			item: "darkutils:filter_inverted 1 6"
+		},
+		{
+			item: "darkutils:filter_inverted 1 7"
+		},
+		{
+			item: "darkutils:filter_inverted 1 8"
+		},
+		{
+			item: "darkutils:filter_inverted 1 9"
+		},
+		{
+			item: "darkutils:filter_inverted 1 10"
+		}]
+	}]
+}

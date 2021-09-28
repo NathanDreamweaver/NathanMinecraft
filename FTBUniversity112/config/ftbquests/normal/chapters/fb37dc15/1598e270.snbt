@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.corporea.title}",
+	icon: "botania:corporeaspark",
+	x: 6.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.corporea.subtitle}",
+	text: [
+		"{ftbuniversity.corporea.desc1}",
+		"",
+		"{ftbuniversity.corporea.desc2}",
+		"",
+		"{ftbuniversity.corporea.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "23084dc5",
+		type: "item",
+		items: [{
+			item: "botania:corporeaspark"
+		}]
+	},
+	{
+		uid: "219e789d",
+		type: "item",
+		items: [{
+			item: "botania:corporeaspark 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1604c7fb",
+		type: "item",
+		item: "botania:corporeaspark",
+		count: 6
+	}]
+}

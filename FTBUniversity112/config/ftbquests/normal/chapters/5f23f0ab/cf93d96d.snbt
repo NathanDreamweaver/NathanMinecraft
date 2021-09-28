@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.forestrycentrifuge.subtitle}",
+	text: [
+		"{ftbuniversity.forestrycentrifuge.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d818d27c",
+		"e9ae08ed"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9e8fa4c3",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}]
+}

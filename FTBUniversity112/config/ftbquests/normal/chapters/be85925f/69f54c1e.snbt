@@ -1,0 +1,59 @@
+{
+	disable_toast: true,
+	x: 1.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.smelters.subtitle}",
+	text: [
+		"{ftbuniversity.smelters.desc}"
+	],
+	tasks: [{
+		uid: "2b92ce58",
+		type: "item",
+		title: "{ftbuniversity.smelters.title}",
+		items: [{
+			item: "minecraft:furnace"
+		},
+		{
+			item: "mekanism:machineblock 1 10"
+		},
+		{
+			item: "enderio:block_simple_furnace"
+		},
+		{
+			item: "enderio:block_alloy_smelter"
+		},
+		{
+			item: "enderio:block_enhanced_alloy_smelter"
+		},
+		{
+			item: "ic2:te 1 46"
+		},
+		{
+			item: "ic2:te 1 44"
+		},
+		{
+			item: "ic2:te 1 54"
+		},
+		{
+			id: "botania:specialflower",
+			tag: {
+				type: "exoflame"
+			}
+		},
+		{
+			item: "thaumcraft:infernal_furnace"
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:furnace"
+			}
+		},
+		{
+			item: "immersiveengineering:metal_device1 1 1"
+		},
+		{
+			item: "rats:rat_upgrade_chef"
+		}]
+	}]
+}

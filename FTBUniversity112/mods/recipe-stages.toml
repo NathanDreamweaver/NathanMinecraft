@@ -1,0 +1,14 @@
+name = "Recipe Stages"
+filename = "RecipeStages-1.1.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3007/873/RecipeStages-1.1.3.jar"
+hash-format = "murmur2"
+hash = "3088901246"
+
+[update]
+[update.curseforge]
+file-id = 3007873
+project-id = 280554
+release-channel = "beta"

@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.dmlsword.subtitle}",
+	text: [
+		"{ftbuniversity.dmlsword.desc1}",
+		"",
+		"{ftbuniversity.dmlsword.desc2}"
+	],
+	dependencies: [
+		"c95c02dc"
+	],
+	tasks: [{
+		uid: "0e7e9245",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

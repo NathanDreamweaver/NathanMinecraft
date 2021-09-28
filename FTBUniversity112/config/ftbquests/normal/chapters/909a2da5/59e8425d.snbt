@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.craftlogi.title}",
+	icon: "logisticspipes:pipe_crafting",
+	x: -5.5d,
+	y: 7.5d,
+	description: "{ftbuniversity.craftlogi.subtitle}",
+	text: [
+		"{ftbuniversity.craftlogi.desc1}",
+		"",
+		"{ftbuniversity.craftlogi.desc2}",
+		"",
+		"{ftbuniversity.craftlogi.desc3}",
+		"",
+		"{ftbuniversity.craftlogi.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "f641c959",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_crafting"
+		}]
+	},
+	{
+		uid: "837f833a",
+		type: "item",
+		items: [{
+			item: "logisticspipes:crafting_table"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.enhancedcharger.subtitle}",
+	text: [
+		"{ftbuniversity.enhancedcharger.desc}"
+	],
+	dependencies: [
+		"67c37e8b"
+	],
+	tasks: [{
+		uid: "786b2a25",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89bbd749",
+		type: "command",
+		title: "{ftbuniversity.enhancedcharger.reward}",
+		team_reward: false,
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team a576a6b8"
+	}]
+}

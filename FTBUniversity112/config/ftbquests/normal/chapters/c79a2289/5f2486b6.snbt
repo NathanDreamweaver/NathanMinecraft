@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.magnetizer.title}",
+	x: 6.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.magnetizer.subtitle}",
+	text: [
+		"{ftbuniversity.magnetizer.desc1}",
+		"",
+		"{ftbuniversity.magnetizer.desc2}",
+		"",
+		"{ftbuniversity.magnetizer.desc3}",
+		"",
+		"{ftbuniversity.magnetizer.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "99a30626",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 37"
+		}]
+	}],
+	rewards: [{
+		uid: "0525e4d5",
+		type: "item",
+		item: "ic2:fence",
+		count: 20
+	}]
+}

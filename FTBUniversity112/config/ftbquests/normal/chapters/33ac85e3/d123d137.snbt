@@ -1,0 +1,67 @@
+{
+	title: "{ftbuniversity.satterm.title}",
+	x: -2.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.satterm.subtitle}",
+	text: [
+		"{ftbuniversity.satterm.desc1}",
+		"",
+		"{ftbuniversity.satterm.desc2}",
+		"",
+		"{ftbuniversity.satterm.desc3}",
+		"",
+		"{ftbuniversity.satterm.desc4}",
+		"",
+		"{ftbuniversity.satterm.desc5}"
+	],
+	dependencies: [
+		"57648650"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "df133a41",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitecontrolcenter"
+		}]
+	}],
+	rewards: [{
+		uid: "8c501407",
+		type: "item",
+		item: {
+			id: "advancedrocketry:dataunit",
+			tag: {
+				maxData: 1000,
+				DataType: 1,
+				Data: 1000,
+				locked: 0b
+			}
+		}
+	},
+	{
+		uid: "f365a558",
+		type: "item",
+		item: {
+			id: "advancedrocketry:dataunit",
+			tag: {
+				maxData: 1000,
+				DataType: 4,
+				Data: 1000,
+				locked: 0b
+			}
+		}
+	},
+	{
+		uid: "9fa0c1a4",
+		type: "item",
+		item: {
+			id: "advancedrocketry:dataunit",
+			tag: {
+				maxData: 1000,
+				DataType: 6,
+				Data: 1000,
+				locked: 0b
+			}
+		}
+	}]
+}

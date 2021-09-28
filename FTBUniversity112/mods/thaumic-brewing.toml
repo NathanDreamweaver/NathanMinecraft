@@ -1,0 +1,14 @@
+name = "Thaumic Brewing"
+filename = "thaumicbrewing-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2666/739/thaumicbrewing-1.0.2.jar"
+hash-format = "murmur2"
+hash = "4202472911"
+
+[update]
+[update.curseforge]
+file-id = 2666739
+project-id = 312660
+release-channel = "beta"

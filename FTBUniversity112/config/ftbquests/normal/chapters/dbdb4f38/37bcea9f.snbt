@@ -1,0 +1,82 @@
+{
+	title: "{ftbuniversity.pristine.title}",
+	icon: "deepmoblearning:extraction_chamber",
+	x: 2.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.pristine.subtitle}",
+	text: [
+		"{ftbuniversity.pristine.desc1}",
+		"",
+		"{ftbuniversity.pristine.desc2}",
+		"",
+		"{ftbuniversity.pristine.desc3}",
+		"",
+		"{ftbuniversity.pristine.desc4}"
+	],
+	dependencies: [
+		"7a695aa2"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "eb5239c9",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	},
+	{
+		uid: "577aefa5",
+		type: "item",
+		title: "{ftbuniversity.pristine.title}",
+		items: [{
+			item: "deepmoblearning:pristine_matter_zombie"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_skeleton"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_creeper"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_spider"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_slime"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_witch"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_blaze"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_ghast"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_wither_skeleton"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_enderman"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_wither"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_dragon"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_shulker"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_guardian"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_thermal_elemental"
+		}]
+	}],
+	rewards: [{
+		uid: "e7c92fe9",
+		type: "random",
+		table: 18
+	}]
+}

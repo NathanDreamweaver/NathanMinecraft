@@ -1,0 +1,47 @@
+{
+	title: "Advanced Rocketry",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "advancedrocketry:spacehelmet",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Astronaut",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487461L
+		}
+	},
+	x: 2.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.artrophy.subtitle}",
+	dependencies: [
+		"33ac85e3"
+	],
+	rewards: [{
+		uid: "058108e2",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "advancedrocketry:spacehelmet",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Astronaut",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

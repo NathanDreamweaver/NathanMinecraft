@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.neorat.title}",
+	x: 5.0d,
+	y: -7.5d,
+	description: "{ftbuniversity.neorat.subtitle}",
+	text: [
+		"{ftbuniversity.neorat.desc1}",
+		"",
+		"{ftbuniversity.neorat.desc2}",
+		"",
+		"{ftbuniversity.neorat.desc3}",
+		"",
+		"{ftbuniversity.neorat.desc4}"
+	],
+	dependencies: [
+		"d0e1e09c"
+	],
+	tasks: [{
+		uid: "0ea5d49c",
+		type: "item",
+		items: [{
+			item: "rats:vial_of_sentience"
+		}]
+	}]
+}

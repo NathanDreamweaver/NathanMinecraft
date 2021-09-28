@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.enchsink.subtitle}",
+	text: [
+		"{ftbuniversity.enchsink.desc1}",
+		"",
+		"{ftbuniversity.enchsink.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "de63e7ca",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_enchantment_sink"
+		}]
+	}]
+}

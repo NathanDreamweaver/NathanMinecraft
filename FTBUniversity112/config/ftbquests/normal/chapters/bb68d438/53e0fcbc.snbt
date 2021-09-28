@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.certus.title}",
+	icon: "appliedenergistics2:quartz_ore",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.certus.subtitle}",
+	text: [
+		"{ftbuniversity.certus.desc1}",
+		"",
+		"{ftbuniversity.certus.desc2}",
+		"",
+		"{ftbuniversity.certus.desc3}"
+	],
+	tasks: [{
+		uid: "fe3dd73f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		},
+		{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7855742b",
+		type: "choice",
+		table: 10
+	}]
+}

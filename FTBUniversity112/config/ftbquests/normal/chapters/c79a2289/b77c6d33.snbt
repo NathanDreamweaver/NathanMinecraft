@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.ic2loss.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/aspects/motus.png"
+		}
+	},
+	x: 3.0d,
+	y: 1.825d,
+	description: "{ftbuniversity.ic2loss.subtitle}",
+	text: [
+		"{ftbuniversity.ic2loss.desc1}",
+		"",
+		"{ftbuniversity.ic2loss.desc2}",
+		"",
+		"{ftbuniversity.ic2loss.desc3}"
+	],
+	dependencies: [
+		"ec69e562"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "62d5ca39",
+		type: "checkmark"
+	}]
+}

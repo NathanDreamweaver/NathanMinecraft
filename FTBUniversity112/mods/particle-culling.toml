@@ -1,0 +1,14 @@
+name = "Particle Culling"
+filename = "particleculling-1.12.2-v1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3060/450/particleculling-1.12.2-v1.0.1.jar"
+hash-format = "murmur2"
+hash = "3591598924"
+
+[update]
+[update.curseforge]
+file-id = 3060450
+project-id = 408853
+release-channel = "beta"

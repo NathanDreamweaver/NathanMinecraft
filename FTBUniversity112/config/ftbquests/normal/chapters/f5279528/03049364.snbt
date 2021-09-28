@@ -1,0 +1,64 @@
+{
+	icon: {
+		id: "xnet:netcable",
+		tag: {
+			display: {
+				LocName: "tile.xnet.netcable_blue.name"
+			}
+		}
+	},
+	x: 3.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.xncables.subtitle}",
+	text: [
+		"{ftbuniversity.xncables.desc1}",
+		"",
+		"{ftbuniversity.xncables.desc2}",
+		"",
+		"{ftbuniversity.xncables.desc3}"
+	],
+	dependencies: [
+		"055df0ac"
+	],
+	tasks: [{
+		uid: "a4e5606f",
+		type: "item",
+		title: "{ftbuniversity.xncables.title}",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		},
+		{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_red.name"
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_yellow.name"
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_green.name"
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

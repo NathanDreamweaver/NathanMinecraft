@@ -1,0 +1,14 @@
+name = "Simple Trophies"
+filename = "simpletrophies-1.2.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2863/53/simpletrophies-1.2.2.1.jar"
+hash-format = "murmur2"
+hash = "825361291"
+
+[update]
+[update.curseforge]
+file-id = 2863053
+project-id = 301310
+release-channel = "beta"

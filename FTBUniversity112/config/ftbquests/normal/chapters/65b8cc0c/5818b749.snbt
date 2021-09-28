@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.exu2search.title}",
+	icon: "minecraft:chest",
+	x: 1.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.exu2search.subtitle}",
+	text: [
+		"{ftbuniversity.exu2search.desc1}",
+		"",
+		"{ftbuniversity.exu2search.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	tasks: [{
+		uid: "9f3e79b8",
+		type: "checkmark"
+	}]
+}

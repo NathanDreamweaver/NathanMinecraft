@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.celestnotes.rewards}",
+	loot_size: 6,
+	rewards: [{
+		item: "thaumcraft:celestial_notes"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 1"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 2"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 3"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 4"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 5"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 6"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 7"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 8"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 9"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 10"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 11"
+	},
+	{
+		item: "thaumcraft:celestial_notes 1 12"
+	}]
+}

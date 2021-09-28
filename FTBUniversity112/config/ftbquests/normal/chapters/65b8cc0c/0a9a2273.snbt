@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.worldtpinfo.title}",
+	x: 1.125d,
+	y: -0.5d,
+	shape: "circle",
+	description: "{ftbuniversity.worldtpinfo.subtitle}",
+	text: [
+		"{ftbuniversity.worldtpinfo.desc1}",
+		"",
+		"{ftbuniversity.worldtpinfo.desc2}",
+		"",
+		"{ftbuniversity.worldtpinfo.desc3}",
+		"",
+		"{ftbuniversity.worldtpinfo.desc4}",
+		"",
+		"{ftbuniversity.worldtpinfo.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"10009e54",
+		"7a48f800"
+	],
+	size: 0.5d,
+	optional: true,
+	min_width: 300,
+	tasks: [{
+		uid: "51d71ad3",
+		type: "checkmark",
+		icon: "minecraft:sign"
+	}],
+	rewards: [{
+		uid: "159298c6",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

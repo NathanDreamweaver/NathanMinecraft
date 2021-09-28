@@ -1,0 +1,46 @@
+{
+	title: "{ftbuniversity.tartaric2.title}",
+	icon: {
+		id: "bloodmagic:soul_gem",
+		tag: {},
+		Damage: 1s
+	},
+	x: -0.25d,
+	y: 0.0d,
+	description: "{ftbuniversity.tartaric2.subtitle}",
+	text: [
+		"{ftbuniversity.tartaric2.desc1}",
+		"",
+		"{ftbuniversity.tartaric2.desc2}"
+	],
+	dependencies: [
+		"640097ed"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "c018bba5",
+		type: "item",
+		title: "{ftbuniversity.tartaric2.task}",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 1s
+		},
+		{
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		},
+		{
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 3s
+		},
+		{
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

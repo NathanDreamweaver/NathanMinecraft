@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.thevat.title}",
+	x: -1.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.thevat.subtitle}",
+	text: [
+		"{ftbuniversity.thevat.desc1}",
+		"",
+		"{ftbuniversity.thevat.desc2}"
+	],
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "28831d94",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3955dc2f",
+		type: "item",
+		item: {
+			id: "enderio:item_cold_fire_igniter",
+			tag: {
+				"enderio:famount": 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,169 @@
+{
+	title: "{ftbuniversity.quarkbackpack.title}",
+	x: -1.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.quarkbackpack.subtitle}",
+	text: [
+		"{ftbuniversity.quarkbackpack.desc1}",
+		"",
+		"{ftbuniversity.quarkbackpack.desc2}",
+		"",
+		"{ftbuniversity.quarkbackpack.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	tasks: [{
+		uid: "d811195f",
+		type: "item",
+		items: [{
+			id: "quark:backpack",
+			tag: {
+				Inventory: [{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 0,
+					Damage: 0
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a235e267",
+		type: "item",
+		item: "quark:arrow_ender",
+		count: 16
+	}]
+}

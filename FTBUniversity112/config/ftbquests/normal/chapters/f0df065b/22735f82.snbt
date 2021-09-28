@@ -1,0 +1,98 @@
+{
+	title: "{ftbuniversity.exu2potions.title}",
+	icon: {
+		id: "minecraft:potion",
+		tag: {
+			Potion: "extrautils2:xu2.doom"
+		}
+	},
+	x: 1.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.exu2potions.subtitle}",
+	text: [
+		"{ftbuniversity.exu2potions.desc1}",
+		"",
+		"{ftbuniversity.exu2potions.desc2}"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "dfec2b24",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.gravity"
+			}
+		}]
+	},
+	{
+		uid: "4aac657d",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.second.chance"
+			}
+		}]
+	},
+	{
+		uid: "ceee6419",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.greek.fire"
+			}
+		}]
+	},
+	{
+		uid: "53130fa5",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.fizzy.lifting"
+			}
+		}]
+	},
+	{
+		uid: "b6095553",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.relapse"
+			}
+		}]
+	},
+	{
+		uid: "fb995dc1",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.love"
+			}
+		}]
+	},
+	{
+		uid: "d3766a13",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.purging"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f3a53394",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.doom"
+			}
+		}
+	}]
+}

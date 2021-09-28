@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.eiofluidfilter.subtitle}",
+	text: [
+		"{ftbuniversity.eiofluidfilter.desc}"
+	],
+	dependencies: [
+		"7581a4dc"
+	],
+	tasks: [{
+		uid: "cfeafe16",
+		type: "item",
+		items: [{
+			item: "enderio:item_fluid_filter"
+		}]
+	}]
+}

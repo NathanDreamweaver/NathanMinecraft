@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.creativecrystal.subtitle}",
+	text: [
+		"{ftbuniversity.creativecrystal.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "3e35a749",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

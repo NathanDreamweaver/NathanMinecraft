@@ -1,0 +1,146 @@
+{
+	title: "{ftbuniversity.researchaids.title}",
+	icon: "minecraft:bookshelf",
+	x: 1.8088435374149654d,
+	y: -0.6836734693877631d,
+	description: "{ftbuniversity.researchaids.subtitle}",
+	text: [
+		"{ftbuniversity.researchaids.desc1}",
+		"",
+		"{ftbuniversity.researchaids.desc2}",
+		"",
+		"{ftbuniversity.researchaids.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5814606f"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "5eaede33",
+		type: "item",
+		title: "{ftbuniversity.researchaids.task}",
+		items: [{
+			id: "minecraft:bookshelf",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task1"
+				}
+			}
+		},
+		{
+			id: "minecraft:enchanting_table",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task2"
+				}
+			}
+		},
+		{
+			id: "minecraft:obsidian",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task3"
+				}
+			}
+		},
+		{
+			id: "minecraft:end_portal_frame",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task4"
+				}
+			}
+		},
+		{
+			id: "minecraft:beacon",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task5"
+				}
+			}
+		},
+		{
+			id: "thaumcraft:arcane_workbench",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task6"
+				}
+			}
+		},
+		{
+			id: "thaumcraft:crucible",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task7"
+				}
+			}
+		},
+		{
+			id: "thaumcraft:infusion_matrix",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task8"
+				}
+			}
+		},
+		{
+			id: "thaumcraft:wand_workbench",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task9"
+				}
+			}
+		},
+		{
+			id: "thaumcraft:golem_builder",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task10"
+				}
+			}
+		},
+		{
+			id: "thaumcraft:jar_brain",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task11"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"thaumicaugmentation:elytra_harness_augment": {}
+			},
+			id: "thaumcraft:banner_crimson_cult",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task12"
+				}
+			}
+		},
+		{
+			id: "thaumcraft:stone_ancient_glyphed",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task13"
+				}
+			}
+		},
+		{
+			id: "appliedenergistics2:controller",
+			tag: {
+				display: {
+					LocName: "ftbuniversity.researchaids.task14"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5fe385e1",
+		type: "choice",
+		table: 14
+	}]
+}

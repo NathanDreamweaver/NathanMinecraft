@@ -1,0 +1,134 @@
+{
+	title: "{ftbuniversity.fluidtransfer.title}",
+	disable_toast: true,
+	x: 1.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.fluidtransfer.subtitle}",
+	text: [
+		"{ftbuniversity.fluidtransfer.desc}"
+	],
+	tasks: [{
+		uid: "0023bc1a",
+		type: "item",
+		title: "{ftbuniversity.fluidtransfer.task}",
+		disable_toast: true,
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		},
+		{
+			item: "enderio:item_liquid_conduit 1 1"
+		},
+		{
+			item: "enderio:item_liquid_conduit 1 2"
+		},
+		{
+			item: "logisticspipes:pipe_fluid_basic"
+		},
+		{
+			item: "extrautils2:grocket 1 2"
+		},
+		{
+			item: "extrautils2:grocket 1 4"
+		},
+		{
+			item: "immersiveengineering:metal_device1 1 6"
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 0b,
+				type: 0b
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 1b,
+				type: 0b
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 2b,
+				type: 0b
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 3b,
+				type: 0b
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 0b,
+				type: 1b
+			},
+			Damage: 1s
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 1b,
+				type: 1b
+			},
+			Damage: 1s
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 2b,
+				type: 1b
+			},
+			Damage: 1s
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 3b,
+				type: 1b
+			},
+			Damage: 1s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 1s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 1s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 1s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 1s
+		},
+		{
+			item: "rats:rat_upgrade_bucket"
+		},
+		{
+			item: "rats:rat_upgrade_big_bucket"
+		},
+		{
+			item: "extrautils2:flattransfernode 1 1"
+		}]
+	}]
+}

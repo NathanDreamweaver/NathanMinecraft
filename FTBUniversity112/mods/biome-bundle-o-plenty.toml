@@ -1,0 +1,14 @@
+name = "Biome Bundle O Plenty"
+filename = "Biome_Bundle_O_Plenty-1.12.2_v1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2965/30/Biome_Bundle_O_Plenty-1.12.2_v1.0.jar"
+hash-format = "murmur2"
+hash = "1205923952"
+
+[update]
+[update.curseforge]
+file-id = 2965030
+project-id = 385556
+release-channel = "beta"

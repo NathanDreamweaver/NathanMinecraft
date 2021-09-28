@@ -1,0 +1,85 @@
+{
+	disable_toast: true,
+	x: 3.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.invchargers.subtitle}",
+	text: [
+		"{ftbuniversity.invchargers.desc}"
+	],
+	tasks: [{
+		uid: "443bc47c",
+		type: "item",
+		title: "{ftbuniversity.invchargers.title}",
+		disable_toast: true,
+		items: [{
+			id: "enderio:item_inventory_charger_simple",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 0
+				}
+			}
+		},
+		{
+			id: "enderio:item_inventory_charger_basic",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 0
+				}
+			}
+		},
+		{
+			id: "enderio:item_inventory_charger",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 0
+				}
+			}
+		},
+		{
+			id: "enderio:item_inventory_charger_vibrant",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 0
+				}
+			}
+		},
+		{
+			item: "enderio:block_wireless_charger"
+		},
+		{
+			item: "enderio:block_normal_wireless_charger"
+		},
+		{
+			item: "immersiveengineering:powerpack"
+		},
+		{
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				energy: 0
+			}
+		},
+		{
+			item: "randomthings:spectreenergyinjector"
+		},
+		{
+			id: "randomthings:spectrecharger",
+			tag: {
+				options: {}
+			}
+		},
+		{
+			id: "randomthings:spectrecharger",
+			tag: {
+				options: {}
+			},
+			Damage: 1s
+		},
+		{
+			id: "randomthings:spectrecharger",
+			tag: {
+				options: {}
+			},
+			Damage: 2s
+		}]
+	}]
+}

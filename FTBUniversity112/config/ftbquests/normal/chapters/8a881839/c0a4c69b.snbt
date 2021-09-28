@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.stringetc.title}",
+	x: 0.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.stringetc.subtitle}",
+	text: [
+		"{ftbuniversity.stringetc.desc1}",
+		"",
+		"{ftbuniversity.stringetc.desc2}",
+		"",
+		"{ftbuniversity.stringetc.desc3}",
+		"",
+		"{ftbuniversity.stringetc.desc4}",
+		"",
+		"{ftbuniversity.stringetc.desc5}",
+		"",
+		"{ftbuniversity.stringetc.desc6}"
+	],
+	size: 1.125d,
+	min_width: 250,
+	tasks: [{
+		uid: "498ae12f",
+		type: "checkmark",
+		icon: "minecraft:string"
+	}]
+}

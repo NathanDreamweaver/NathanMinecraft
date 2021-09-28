@@ -1,0 +1,75 @@
+{
+	title: "{ftbuniversity.pneumaticarmor.title}",
+	icon: {
+		id: "pneumaticcraft:pneumatic_chestplate",
+		tag: {
+			volume: 28000,
+			air: 0
+		}
+	},
+	x: 6.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.pneumaticarmor.subtitle}",
+	text: [
+		"{ftbuniversity.pneumaticarmor.desc1}",
+		"",
+		"{ftbuniversity.pneumaticarmor.desc2}",
+		"",
+		"{ftbuniversity.pneumaticarmor.desc3}"
+	],
+	dependencies: [
+		"2bf2d4fd"
+	],
+	tasks: [{
+		uid: "583e6f96",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:pneumatic_helmet",
+			tag: {
+				volume: 12000,
+				air: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3ba6e63c",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:pneumatic_chestplate",
+			tag: {
+				volume: 28000,
+				air: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ebb86212",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:pneumatic_leggings",
+			tag: {
+				volume: 12000,
+				air: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6dc35b5",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:pneumatic_boots",
+			tag: {
+				volume: 12000,
+				air: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

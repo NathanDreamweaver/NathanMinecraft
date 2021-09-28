@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.beehouse.subtitle}",
+	text: [
+		"{ftbuniversity.beehouse.desc1}",
+		"",
+		"{ftbuniversity.beehouse.desc2}",
+		"",
+		"{ftbuniversity.beehouse.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5308ae57"
+	],
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "7c878f25",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}]
+}

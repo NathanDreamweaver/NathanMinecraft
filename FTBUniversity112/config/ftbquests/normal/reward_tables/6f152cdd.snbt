@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.researchaids.rewards}",
+	loot_size: 1,
+	rewards: [{
+		title: "{ftbuniversity.researchaids.reward1}",
+		item: "thaumcraft:curio"
+	},
+	{
+		title: "{ftbuniversity.researchaids.reward2}",
+		item: "thaumcraft:curio 1 1"
+	},
+	{
+		title: "{ftbuniversity.researchaids.reward3}",
+		item: "thaumcraft:curio 1 2"
+	},
+	{
+		title: "{ftbuniversity.researchaids.reward4}",
+		item: "thaumcraft:curio 1 3"
+	},
+	{
+		title: "{ftbuniversity.researchaids.reward5}",
+		item: "thaumcraft:curio 1 4"
+	},
+	{
+		title: "{ftbuniversity.researchaids.reward6}",
+		item: "thaumcraft:curio 1 5"
+	}]
+}

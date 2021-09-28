@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.mvtrans.title}",
+	x: 12.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.mvtrans.subtitle}",
+	text: [
+		"{ftbuniversity.mvtrans.desc1}",
+		"",
+		"{ftbuniversity.mvtrans.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"75232f96"
+	],
+	tasks: [{
+		uid: "c1af6c19",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 78"
+		}]
+	}]
+}

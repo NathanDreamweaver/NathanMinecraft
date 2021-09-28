@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.pnrefinery.subtitle}",
+	text: [
+		"{ftbuniversity.pnrefinery.desc1}",
+		"",
+		"{ftbuniversity.pnrefinery.desc2}",
+		"",
+		"{ftbuniversity.pnrefinery.desc3}"
+	],
+	dependencies: [
+		"f494bdc3"
+	],
+	tasks: [{
+		uid: "8857881f",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:refinery"
+		}]
+	}],
+	rewards: [{
+		uid: "b376cab7",
+		type: "item",
+		item: "pneumaticcraft:refinery"
+	}]
+}

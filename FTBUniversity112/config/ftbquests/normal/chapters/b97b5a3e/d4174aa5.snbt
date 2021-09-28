@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.rftcrafter1.subtitle}",
+	text: [
+		"{ftbuniversity.rftcrafter1.desc1}",
+		"",
+		"{ftbuniversity.rftcrafter1.desc2}",
+		"",
+		"{ftbuniversity.rftcrafter1.desc3}",
+		"",
+		"{ftbuniversity.rftcrafter1.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "eefa26f9",
+		type: "item",
+		items: [{
+			item: "rftools:crafter1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.improvedblastfurnace.title}",
+	icon: "immersiveengineering:stone_device 1 2",
+	x: 3.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.improvedblastfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.improvedblastfurnace.desc1}",
+		"",
+		"{ftbuniversity.improvedblastfurnace.desc2}"
+	],
+	dependencies: [
+		"ab2bc23b"
+	],
+	tasks: [{
+		uid: "407ad045",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	},
+	{
+		uid: "e4a532a3",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}]
+}

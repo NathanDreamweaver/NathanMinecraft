@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.simplestirling.subtitle}",
+	text: [
+		"{ftbuniversity.simplestirling.desc1}",
+		"",
+		"{ftbuniversity.simplestirling.desc2}"
+	],
+	dependencies: [
+		"4b9e4c96"
+	],
+	tasks: [{
+		uid: "2cbf951a",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "089a3888",
+		type: "item",
+		item: "minecraft:coal_block"
+	}]
+}

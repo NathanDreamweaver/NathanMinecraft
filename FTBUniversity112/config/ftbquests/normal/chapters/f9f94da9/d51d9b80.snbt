@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.ratitems.title}",
+	icon: "rats:rat_upgrade_platter",
+	x: -0.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.ratitems.subtitle}",
+	text: [
+		"{ftbuniversity.ratitems.desc}",
+		"",
+		"{ftbuniversity.ratuptips}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "9ecd8944",
+		type: "item",
+		title: "{ftbuniversity.ratitems.task}",
+		items: [{
+			item: "rats:rat_upgrade_platter"
+		},
+		{
+			id: "rats:rat_upgrade_blacklist",
+			tag: {}
+		},
+		{
+			id: "rats:rat_upgrade_whitelist",
+			tag: {}
+		}]
+	}]
+}

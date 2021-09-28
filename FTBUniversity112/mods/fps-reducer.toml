@@ -1,0 +1,14 @@
+name = "FPS Reducer"
+filename = "FpsReducer-mc1.12.2-1.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3042/760/FpsReducer-mc1.12.2-1.18.jar"
+hash-format = "murmur2"
+hash = "1942238267"
+
+[update]
+[update.curseforge]
+file-id = 3042760
+project-id = 280294
+release-channel = "beta"

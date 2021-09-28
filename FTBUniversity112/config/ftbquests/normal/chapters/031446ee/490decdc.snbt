@@ -1,0 +1,37 @@
+{
+	icon: "bloodmagic:potion_flask",
+	x: 5.0d,
+	y: -4.25d,
+	description: "{ftbuniversity.bmpots.subtitle}",
+	text: [
+		"{ftbuniversity.bmpots.desc1}",
+		"",
+		"{ftbuniversity.bmpots.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6c9d5cd1",
+		"68867424"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "980554c9",
+		type: "item",
+		items: [{
+			item: "bloodmagic:potion_flask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fc2cff4d",
+		type: "item",
+		title: "{ftbuniversity.bmpots.task}",
+		items: [{
+			item: "bloodmagic:component 1 28"
+		},
+		{
+			item: "bloodmagic:component 1 29"
+		}]
+	}]
+}

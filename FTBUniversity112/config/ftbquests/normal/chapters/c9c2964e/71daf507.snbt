@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.iechemthrower.title}",
+	x: 4.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.iechemthrower.subtitle}",
+	text: [
+		"{ftbuniversity.iechemthrower.desc1}",
+		"",
+		"{ftbuniversity.iechemthrower.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1e550da9",
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "8e739a85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 4,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:chemthrower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

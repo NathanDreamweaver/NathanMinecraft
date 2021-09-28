@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.etlight1.title}",
+	x: 2.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.etlight1.subtitle}",
+	text: [
+		"{ftbuniversity.etlight1.desc1}",
+		"",
+		"{ftbuniversity.etlight1.desc2}",
+		"",
+		"{ftbuniversity.etlight1.desc3}",
+		"",
+		"{ftbuniversity.etlight1.desc4}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bcb8aee"
+	],
+	tasks: [{
+		uid: "2c116c3a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_cont_1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

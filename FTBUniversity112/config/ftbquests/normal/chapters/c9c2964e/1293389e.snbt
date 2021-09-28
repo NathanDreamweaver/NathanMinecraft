@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.blastfurnacepreheaters.title}",
+	x: 3.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.blastfurnacepreheaters.subtitle}",
+	text: [
+		"{ftbuniversity.blastfurnacepreheaters.desc}"
+	],
+	dependencies: [
+		"09032342"
+	],
+	tasks: [{
+		uid: "80949f42",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1"
+		}],
+		count: 2L
+	}]
+}

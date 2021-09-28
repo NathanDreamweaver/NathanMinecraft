@@ -1,0 +1,48 @@
+{
+	title: "{ftbuniversity.endertools.title}",
+	icon: "enderio:item_end_steel_sword",
+	x: 1.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.endertools.subtitle}",
+	text: [
+		"{ftbuniversity.endertools.desc1}",
+		"",
+		"{ftbuniversity.endertools.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "cdf60952",
+		type: "item",
+		title: "{ftbuniversity.endertools.task}",
+		items: [{
+			item: "enderio:item_end_steel_sword"
+		},
+		{
+			item: "enderio:item_end_steel_pickaxe"
+		},
+		{
+			item: "enderio:item_end_steel_axe"
+		},
+		{
+			item: "enderio:item_end_steel_bow"
+		},
+		{
+			item: "enderio:item_end_steel_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dcc1c2c3",
+		type: "command",
+		title: "{ftbuniversity.endertools.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team 08ffec7b"
+	}]
+}

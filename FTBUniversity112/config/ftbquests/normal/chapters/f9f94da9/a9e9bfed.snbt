@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.ratfoods.title}",
+	icon: "rats:potato_kinishes",
+	x: 2.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.ratfoods.subtitle}",
+	text: [
+		"{ftbuniversity.ratfoods.desc1}",
+		"",
+		"{ftbuniversity.ratfoods.desc2}"
+	],
+	dependencies: [
+		"a7406f45"
+	],
+	tasks: [{
+		uid: "919ccbc1",
+		type: "item",
+		items: [{
+			item: "rats:confit_byaldi"
+		}]
+	},
+	{
+		uid: "6fe61837",
+		type: "item",
+		items: [{
+			item: "rats:potato_kinishes"
+		}]
+	}]
+}

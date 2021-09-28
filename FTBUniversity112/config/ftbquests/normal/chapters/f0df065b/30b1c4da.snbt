@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.exu2dragoneggmill.title}",
+	x: -2.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.exu2dragoneggmill.subtitle}",
+	text: [
+		"{ftbuniversity.exu2dragoneggmill.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"44add260"
+	],
+	tasks: [{
+		uid: "aa4cbf96",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "dd7bab2e",
+		type: "item",
+		item: "thermalfoundation:coin 1 1",
+		count: 30
+	}]
+}

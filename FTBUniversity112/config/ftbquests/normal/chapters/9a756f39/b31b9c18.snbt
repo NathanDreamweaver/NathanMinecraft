@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.proxproj.title}",
+	x: -1.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.proxproj.subtitle}",
+	text: [
+		"{ftbuniversity.proxproj.desc1}",
+		"",
+		"{ftbuniversity.proxproj.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "39eb8f25",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:proximity_projection_keys"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

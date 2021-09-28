@@ -1,0 +1,270 @@
+{
+	title: "{ftbuniversity.modulardrone.title}",
+	icon: {
+		id: "pneumaticcraft:drone",
+		tag: {
+			volume: 12000.0f,
+			currentAir: 0.0f
+		}
+	},
+	x: 5.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.modulardrone.subtitle}",
+	text: [
+		"{ftbuniversity.modulardrone.desc1}",
+		"",
+		"{ftbuniversity.modulardrone.desc2}",
+		"",
+		"{ftbuniversity.modulardrone.desc3}",
+		"",
+		"{ftbuniversity.modulardrone.desc4}",
+		"",
+		"{ftbuniversity.modulardrone.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bf2d4fd",
+		"1045585a"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "3a239f20",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:programmer"
+		}]
+	},
+	{
+		uid: "9c0fbd8e",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:drone",
+			tag: {
+				volume: 12000.0f,
+				currentAir: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "448234c4",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "pneumaticcraft:drone",
+			tag: {
+				volume: 12000.0f,
+				currentAir: 120000.0f,
+				display: {
+					Name: "Murder Hornet"
+				},
+				widgets: [{
+					name: "start",
+					x: -49,
+					y: -25
+				},
+				{
+					name: "entityAttack",
+					x: -49,
+					y: 8
+				},
+				{
+					string: "@player",
+					name: "text",
+					x: -64,
+					y: 19
+				},
+				{
+					string: "Text Widget acts as a filter, and since it's on the left it's a blacklist",
+					name: "comment",
+					x: -120,
+					y: 7
+				},
+				{
+					coord1Variable: "",
+					boxType: 0,
+					type: "box",
+					z1: 289,
+					name: "area",
+					x: -34,
+					y1: 4,
+					z2: 295,
+					y: 8,
+					x1: 1306,
+					y2: 6,
+					coord2Variable: "",
+					x2: 1301
+				},
+				{
+					name: "pickupItem",
+					x: -49,
+					y: 30
+				},
+				{
+					coord1Variable: "",
+					boxType: 0,
+					type: "box",
+					z1: 289,
+					name: "area",
+					x: -34,
+					y1: 4,
+					z2: 295,
+					y: 30,
+					x1: 1306,
+					y2: 6,
+					coord2Variable: "",
+					x2: 1301
+				},
+				{
+					string: "Use GPS Tool to replace these two Area widgets with two corners of the killing floor",
+					name: "comment",
+					x: -12,
+					y: 17
+				},
+				{
+					string: "Use Escape key to confirm",
+					name: "comment",
+					x: 37,
+					y: 1
+				},
+				{
+					DOWN: 1,
+					NORTH: 1,
+					WEST: 1,
+					name: "inventoryExport",
+					x: -49,
+					count: 1,
+					y: 52,
+					UP: 1,
+					SOUTH: 1,
+					useCount: 0,
+					EAST: 1
+				},
+				{
+					Count: 1,
+					specificMeta: 0,
+					useNBT: 0,
+					useModSimilarity: 0,
+					name: "itemFilter",
+					x: -64,
+					useOreDict: 0,
+					variable: "",
+					y: 41,
+					matchBlock: 0,
+					id: "minecraft:bow",
+					Damage: 0,
+					useMetadata: 0
+				},
+				{
+					string: "This won't kill players or pick up bows",
+					name: "comment",
+					x: -104,
+					y: 38
+				},
+				{
+					coord1Variable: "",
+					boxType: 0,
+					type: "box",
+					z1: 294,
+					name: "area",
+					x: -34,
+					y1: 8,
+					z2: 294,
+					y: 52,
+					x1: 1301,
+					y2: 8,
+					coord2Variable: "",
+					x2: 1301
+				},
+				{
+					string: "Use a GPS Tool to replace both coords of this Area widget with the block you want mob drops to enter",
+					name: "comment",
+					x: 8,
+					y: 50
+				},
+				{
+					DOWN: 1,
+					NORTH: 1,
+					WEST: 1,
+					name: "inventoryImport",
+					x: -49,
+					count: 1,
+					y: -14,
+					UP: 1,
+					SOUTH: 1,
+					useCount: 0,
+					EAST: 1
+				},
+				{
+					coord1Variable: "",
+					boxType: 0,
+					type: "box",
+					z1: 292,
+					name: "area",
+					x: -34,
+					y1: 8,
+					z2: 292,
+					y: -14,
+					x1: 1301,
+					y2: 8,
+					coord2Variable: "",
+					x2: 1301
+				},
+				{
+					string: "Use GPS Tool to replace both coords of this Area widget with the chest that has the weapon you want it to use",
+					name: "comment",
+					x: 3,
+					y: -16
+				},
+				{
+					Count: 1,
+					specificMeta: 0,
+					useNBT: 0,
+					useModSimilarity: 0,
+					name: "itemFilter",
+					x: -34,
+					useOreDict: 0,
+					variable: "",
+					y: -3,
+					matchBlock: 0,
+					id: "minecraft:diamond_sword",
+					Damage: 0,
+					useMetadata: 0
+				},
+				{
+					string: "Set the Item Filter to the weapon you want it to use, which has to be in the chest. Since it's on the right, it's a whitelist.",
+					name: "comment",
+					x: -85,
+					y: -13
+				},
+				{
+					Count: 1,
+					specificMeta: 0,
+					useNBT: 0,
+					useModSimilarity: 0,
+					name: "itemFilter",
+					x: -64,
+					useOreDict: 0,
+					variable: "",
+					y: 63,
+					matchBlock: 0,
+					id: "minecraft:diamond_sword",
+					Damage: 0,
+					useMetadata: 0
+				},
+				{
+					string: "Put the weapon in the blacklist here, so it doesn't put it in the mob drop chest",
+					name: "comment",
+					x: -101,
+					y: 62
+				},
+				{
+					string: "creeper",
+					name: "text",
+					x: -79,
+					y: 19
+				}]
+			}
+		}
+	}]
+}

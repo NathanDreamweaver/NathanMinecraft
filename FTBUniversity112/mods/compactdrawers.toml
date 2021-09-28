@@ -1,0 +1,14 @@
+name = "Compact Drawers"
+filename = "CompactDrawers-1.12.2-1.0.5.125.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2816/85/CompactDrawers-1.12.2-1.0.5.125.jar"
+hash-format = "murmur2"
+hash = "2727368613"
+
+[update]
+[update.curseforge]
+file-id = 2816085
+project-id = 293968
+release-channel = "beta"

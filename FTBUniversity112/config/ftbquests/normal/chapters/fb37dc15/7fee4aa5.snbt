@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.thermalily.title}",
+	x: 1.5d,
+	y: -1.25d,
+	description: "{ftbuniversity.thermalily.subtitle}",
+	text: [
+		"{ftbuniversity.thermalily.desc1}",
+		"",
+		"{ftbuniversity.thermalily.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "42a030e2",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "thermalily"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "152758fe",
+		type: "item",
+		item: "minecraft:clock"
+	}]
+}

@@ -1,0 +1,14 @@
+name = "Smooth Scrolling Everywhere (Forge)"
+filename = "smooth-scrolling-everywhere-1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2922/328/smooth-scrolling-everywhere-1.1.jar"
+hash-format = "murmur2"
+hash = "142556597"
+
+[update]
+[update.curseforge]
+file-id = 2922328
+project-id = 327056
+release-channel = "beta"

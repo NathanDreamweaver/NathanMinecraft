@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.spatdis.title}",
+	x: 0.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.spatdis.subtitle}",
+	text: [
+		"{ftbuniversity.spatdis.desc1}",
+		"",
+		"{ftbuniversity.spatdis.desc2}",
+		"",
+		"{ftbuniversity.spatdis.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "f0e97977",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:spatial_disorientation_gauntlet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

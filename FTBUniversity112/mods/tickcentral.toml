@@ -1,0 +1,14 @@
+name = "TickCentral"
+filename = "TickCentral-3.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3140/670/TickCentral-3.2.jar"
+hash-format = "murmur2"
+hash = "790351058"
+
+[update]
+[update.curseforge]
+file-id = 3140670
+project-id = 377201
+release-channel = "beta"

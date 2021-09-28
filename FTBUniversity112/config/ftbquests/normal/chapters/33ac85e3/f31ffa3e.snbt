@@ -1,0 +1,58 @@
+{
+	title: "{ftbuniversity.fueling.title}",
+	icon: "advancedrocketry:fuelingstation",
+	x: 0.0d,
+	y: -4.0d,
+	description: "{ftbuniversity.fueling.subtitle}",
+	text: [
+		"{ftbuniversity.fueling.desc1}",
+		"",
+		"{ftbuniversity.fueling.desc2}",
+		"",
+		"{ftbuniversity.fueling.desc3}",
+		"",
+		"{ftbuniversity.fueling.desc4}"
+	],
+	dependencies: [
+		"0ade1099"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2fa70a9b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	},
+	{
+		uid: "f34ed84d",
+		type: "item",
+		items: [{
+			id: "libvulpes:linker",
+			tag: {
+				MasterPos: {
+					dimId: -1,
+					MasterX: 0,
+					MasterY: 0,
+					MasterZ: 0
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d148e8b1",
+		type: "item",
+		item: {
+			id: "advancedrocketry:bucketrocketfuel",
+			tag: {
+				Fluid: {
+					FluidName: "rocketfuel",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	}]
+}

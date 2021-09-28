@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.bittank.title}",
+	x: -3.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.bittank.subtitle}",
+	text: [
+		"{ftbuniversity.bittank.desc1}",
+		"",
+		"{ftbuniversity.bittank.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8dbbc337"
+	],
+	tasks: [{
+		uid: "c96d5f9c",
+		type: "item",
+		items: [{
+			item: "chiselsandbits:bittank"
+		}]
+	}]
+}

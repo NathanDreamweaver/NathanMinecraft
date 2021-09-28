@@ -1,0 +1,21 @@
+{
+	x: 2.4d,
+	y: 6.5d,
+	description: "{ftbuniversity.detectlumin.subtitle}",
+	text: [
+		"{ftbuniversity.detectlumin.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e76b6ad2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "92c9bd36",
+		type: "item",
+		items: [{
+			item: "botania:lightrelay 1 1"
+		}]
+	}]
+}

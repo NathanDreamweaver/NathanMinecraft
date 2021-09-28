@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.indusapiary.title}",
+	x: 5.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.indusapiary.subtitle}",
+	text: [
+		"{ftbuniversity.indusapiary.desc1}",
+		"",
+		"{ftbuniversity.indusapiary.desc2}",
+		"",
+		"{ftbuniversity.indusapiary.desc3}"
+	],
+	dependencies: [
+		"f455a4ff"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c6527f65",
+		type: "item",
+		items: [{
+			item: "gendustry:industrial_apiary"
+		}],
+		ignore_nbt: 1b
+	}]
+}

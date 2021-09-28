@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	shape: "circle",
+	description: "{ftbuniversity.arforcefield.subtitle}",
+	text: [
+		"{ftbuniversity.arforcefield.desc1}",
+		"",
+		"{ftbuniversity.arforcefield.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7adea7b7"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "85ad4aa5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:forcefieldprojector"
+		}]
+	}]
+}

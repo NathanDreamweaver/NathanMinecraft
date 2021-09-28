@@ -1,0 +1,14 @@
+name = "AttributeFix"
+filename = "AttributeFix-1.12.2-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2643/711/AttributeFix-1.12.2-1.0.4.jar"
+hash-format = "murmur2"
+hash = "688166882"
+
+[update]
+[update.curseforge]
+file-id = 2643711
+project-id = 280510
+release-channel = "beta"

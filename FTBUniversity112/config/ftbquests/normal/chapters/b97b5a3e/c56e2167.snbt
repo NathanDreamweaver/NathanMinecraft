@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.rftmatboost.title}",
+	x: -2.75d,
+	y: 3.25d,
+	description: "{ftbuniversity.rftmatboost.subtitle}",
+	text: [
+		"{ftbuniversity.rftmatboost.desc1}",
+		"",
+		"{ftbuniversity.rftmatboost.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"63d80748"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "c4fa62aa",
+		type: "item",
+		items: [{
+			item: "rftools:matter_booster"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.intbook.subtitle}",
+	text: [
+		"{ftbuniversity.intbook.desc1}",
+		"",
+		"{ftbuniversity.intbook.desc2}",
+		"",
+		"{ftbuniversity.intbook.desc3}"
+	],
+	dependencies: [
+		"029a8552"
+	],
+	min_width: 225,
+	tasks: [{
+		uid: "a1f5f6b0",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:on_the_dynamics_of_integration"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

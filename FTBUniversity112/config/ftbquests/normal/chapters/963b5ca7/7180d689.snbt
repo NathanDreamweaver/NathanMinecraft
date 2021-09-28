@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.creativecombine.subtitle}",
+	text: [
+		"{ftbuniversity.creativecombine.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "8c69b9b2",
+		type: "item",
+		items: [{
+			id: "rats:rat_upgrade_combined_creative",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

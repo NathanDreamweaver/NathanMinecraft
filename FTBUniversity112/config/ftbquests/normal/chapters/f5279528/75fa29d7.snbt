@@ -1,0 +1,49 @@
+{
+	icon: "xnet:wireless_router",
+	x: 7.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.wirelessrouter.subtitle}",
+	text: [
+		"{ftbuniversity.wirelessrouter.desc1}",
+		"",
+		"{ftbuniversity.wirelessrouter.desc2}",
+		"",
+		"{ftbuniversity.wirelessrouter.desc3}",
+		"",
+		"{ftbuniversity.wirelessrouter.desc4}",
+		"",
+		"{ftbuniversity.wirelessrouter.desc5}"
+	],
+	dependencies: [
+		"48521ac6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2b922a75",
+		type: "item",
+		items: [{
+			item: "xnet:wireless_router"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93dcba79",
+		type: "item",
+		title: "{ftbuniversity.wirelessrouter.task}",
+		items: [{
+			item: "xnet:antenna_base"
+		},
+		{
+			item: "xnet:antenna"
+		},
+		{
+			item: "xnet:antenna_dish"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02414785",
+		type: "item",
+		item: "xnet:wireless_router"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 6.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.mutatron.subtitle}",
+	text: [
+		"{ftbuniversity.mutatron.desc1}",
+		"",
+		"{ftbuniversity.mutatron.desc2}",
+		"",
+		"{ftbuniversity.mutatron.desc3}"
+	],
+	dependencies: [
+		"9e32bd23"
+	],
+	optional: true,
+	tasks: [{
+		uid: "10d24816",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8588ab5",
+		type: "item",
+		item: "gendustry:labware",
+		count: 64
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "{ftbuniversity.pressurechamber.title}",
+	icon: "pneumaticcraft:pressure_chamber_wall",
+	x: 4.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.pressurechamber.subtitle}",
+	text: [
+		"{ftbuniversity.pressurechamber.desc1}",
+		"",
+		"{ftbuniversity.pressurechamber.desc2}",
+		"",
+		"{ftbuniversity.pressurechamber.desc3}",
+		"",
+		"{ftbuniversity.pressurechamber.desc4}",
+		"",
+		"{ftbuniversity.pressurechamber.desc5}",
+		"",
+		"{ftbuniversity.pressurechamber.desc6}"
+	],
+	dependencies: [
+		"caf98c6b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "739b31ac",
+		type: "item",
+		title: "{ftbuniversity.pressurechamber.task}",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_wall"
+		},
+		{
+			item: "pneumaticcraft:pressure_chamber_glass"
+		}]
+	},
+	{
+		uid: "d7fdf253",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_valve"
+		}]
+	},
+	{
+		uid: "60d8df5b",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_interface"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.travellerboot.title}",
+	x: -3.31666666666667d,
+	y: -2.7757928571428607d,
+	description: "{ftbuniversity.travellerboot.subtitle}",
+	text: [
+		"{ftbuniversity.travellerboot.desc1}",
+		"",
+		"{ftbuniversity.travellerboot.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2cce1ae6"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "fdc6a0cf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:traveller_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

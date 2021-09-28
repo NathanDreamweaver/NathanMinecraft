@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.faysight.title}",
+	x: 0.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.faysight.subtitle}",
+	text: [
+		"{ftbuniversity.faysight.desc1}",
+		"",
+		"{ftbuniversity.faysight.desc2}",
+		"",
+		"{ftbuniversity.faysight.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "7866b12a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+					MAHOUTSUKAI_CASTER_NAME: "",
+					MAHOUTSUKAI_CASTER_UUIDMost: 0L
+				}
+			},
+			id: "mahoutsukai:scroll_fay_sight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

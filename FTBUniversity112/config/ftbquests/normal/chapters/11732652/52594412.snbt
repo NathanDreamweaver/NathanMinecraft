@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 5.5d,
+	description: "{ftbuniversity.chemwasher.subtitle}",
+	text: [
+		"{ftbuniversity.chemwasher.desc}"
+	],
+	dependencies: [
+		"bb845e32"
+	],
+	tasks: [{
+		uid: "77701d86",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 7"
+		}],
+		ignore_nbt: 1b
+	}]
+}

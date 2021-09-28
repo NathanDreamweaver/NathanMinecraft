@@ -1,0 +1,105 @@
+{
+	title: "{ftbuniversity.butterflies.title}",
+	icon: {
+		id: "forestry:butterfly_ge",
+		tag: {
+			MaxH: 10,
+			Health: 10,
+			IsAnalyzed: 0,
+			Genome: {
+				Chromosomes: [{
+					UID1: "forestry.lepiMBlueMorpho",
+					UID0: "forestry.lepiMBlueMorpho",
+					Slot: 0
+				},
+				{
+					UID1: "forestry.sizeLarger",
+					UID0: "forestry.sizeLarger",
+					Slot: 1
+				},
+				{
+					UID1: "forestry.speedSlowest",
+					UID0: "forestry.speedSlowest",
+					Slot: 2
+				},
+				{
+					UID1: "forestry.lifespanShortest",
+					UID0: "forestry.lifespanShortest",
+					Slot: 3
+				},
+				{
+					UID1: "forestry.i3d",
+					UID0: "forestry.i3d",
+					Slot: 4
+				},
+				{
+					UID1: "forestry.i2d",
+					UID0: "forestry.i2d",
+					Slot: 5
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 6
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 7
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 8
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 9
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 10
+				},
+				{
+					UID1: "forestry.flowersVanilla",
+					UID0: "forestry.flowersVanilla",
+					Slot: 11
+				},
+				{
+					UID1: "forestry.bfNone",
+					UID0: "forestry.bfNone",
+					Slot: 12
+				},
+				{
+					UID1: "forestry.cocoonDefault",
+					UID0: "forestry.cocoonDefault",
+					Slot: 13
+				}]
+			}
+		}
+	},
+	x: 5.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.butterflies.subtitle}",
+	text: [
+		"{ftbuniversity.butterflies.desc1}",
+		"",
+		"{ftbuniversity.butterflies.desc2}",
+		"",
+		"{ftbuniversity.butterflies.desc3}",
+		"",
+		"{ftbuniversity.butterflies.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aeef5836"
+	],
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "972b4327",
+		type: "checkmark"
+	}]
+}

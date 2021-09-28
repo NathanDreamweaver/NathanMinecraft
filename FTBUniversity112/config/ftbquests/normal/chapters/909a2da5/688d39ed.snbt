@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.logsupplier.title}",
+	x: -3.0d,
+	y: 6.5d,
+	description: "{ftbuniversity.logsupplier.subtitle}",
+	text: [
+		"{ftbuniversity.logsupplier.desc1}",
+		"",
+		"{ftbuniversity.logsupplier.desc2}",
+		"",
+		"{ftbuniversity.logsupplier.desc3}",
+		"{ftbuniversity.logsupplier.desc4}",
+		"{ftbuniversity.logsupplier.desc5}",
+		"{ftbuniversity.logsupplier.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "e32d386c",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_supplier"
+		}]
+	}]
+}

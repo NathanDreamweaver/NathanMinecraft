@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.ic2nuclear2.title}",
+	x: 4.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.ic2nuclear2.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear2.desc}"
+	],
+	dependencies: [
+		"a95911f8"
+	],
+	tasks: [{
+		uid: "7b1c9d11",
+		type: "item",
+		items: [{
+			id: "ic2:uranium_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

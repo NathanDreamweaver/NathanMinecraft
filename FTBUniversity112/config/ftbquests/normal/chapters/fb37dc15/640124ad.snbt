@@ -1,0 +1,59 @@
+{
+	title: "{ftbuniversity.alfheim.title}",
+	icon: "botania:alfheimportal",
+	x: 5.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.alfheim.subtitle}",
+	text: [
+		"{ftbuniversity.alfheim.desc1}",
+		"",
+		"{ftbuniversity.alfheim.desc2}"
+	],
+	dependencies: [
+		"3f7b0b8e"
+	],
+	tasks: [{
+		uid: "ffe1b11b",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "8894ea53",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "569c4c3c",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "1df19159",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7c0fdc81",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0e26cfc5",
+		type: "item",
+		item: "botania:spreader 1 2"
+	}]
+}

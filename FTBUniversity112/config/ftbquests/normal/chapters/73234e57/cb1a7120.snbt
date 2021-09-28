@@ -1,0 +1,73 @@
+{
+	title: "{ftbuniversity.logisticdrones.title}",
+	icon: {
+		id: "pneumaticcraft:logistic_drone",
+		tag: {
+			volume: 12000.0f,
+			currentAir: 0.0f
+		}
+	},
+	x: 4.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.logisticdrones.subtitle}",
+	text: [
+		"{ftbuniversity.logisticdrones.desc1}",
+		"",
+		"{ftbuniversity.logisticdrones.desc2}",
+		"",
+		"{ftbuniversity.logisticdrones.desc3}",
+		"",
+		"{ftbuniversity.logisticdrones.desc4}",
+		"{ftbuniversity.logisticdrones.desc5}",
+		"{ftbuniversity.logisticdrones.desc6}",
+		"{ftbuniversity.logisticdrones.desc7}",
+		"{ftbuniversity.logisticdrones.desc8}",
+		"",
+		"{ftbuniversity.logisticdrones.desc9}"
+	],
+	dependencies: [
+		"1045585a"
+	],
+	min_width: 325,
+	tasks: [{
+		uid: "a16bfa7f",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:logistic_drone",
+			tag: {
+				volume: 12000.0f,
+				currentAir: 120000.0f
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3bb311d",
+		type: "item",
+		title: "{ftbuniversity.logisticdrones.task}",
+		items: [{
+			item: "pneumaticcraft:logistic_frame_passive_provider"
+		},
+		{
+			item: "pneumaticcraft:logistic_frame_active_provider"
+		},
+		{
+			item: "pneumaticcraft:logistic_frame_storage"
+		},
+		{
+			item: "pneumaticcraft:logistic_frame_default_storage"
+		},
+		{
+			item: "pneumaticcraft:logistic_frame_requester"
+		}]
+	},
+	{
+		uid: "0f475b5a",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:logistics_configurator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

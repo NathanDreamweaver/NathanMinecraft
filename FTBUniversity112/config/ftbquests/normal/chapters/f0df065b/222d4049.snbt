@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.exu2mining.title}",
+	x: 2.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.exu2mining.subtitle}",
+	text: [
+		"{ftbuniversity.exu2mining.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "160d915d",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 8"
+		}]
+	}]
+}

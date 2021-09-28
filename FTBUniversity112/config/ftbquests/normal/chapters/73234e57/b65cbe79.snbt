@@ -1,0 +1,71 @@
+{
+	title: "{ftbuniversity.minigun.title}",
+	icon: {
+		id: "pneumaticcraft:minigun",
+		tag: {
+			soundCounter: -1,
+			triggerTimeout: 0,
+			speed: 0.0d,
+			activated: 0
+		}
+	},
+	x: 2.25d,
+	y: 4.25d,
+	description: "{ftbuniversity.minigun.subtitle}",
+	text: [
+		"{ftbuniversity.minigun.desc1}",
+		"",
+		"{ftbuniversity.minigun.desc2}",
+		"",
+		"{ftbuniversity.minigun.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2ff9539"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "08d5620f",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:minigun",
+			tag: {
+				owningPlayerId: 429,
+				oldRotation: 0.0d,
+				rotation: 0.0d,
+				soundCounter: -1,
+				triggerTimeout: 0,
+				speed: 0.0d,
+				activated: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5fbc0d12",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:gun_ammo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02c6dd6d",
+		type: "item",
+		item: {
+			id: "pneumaticcraft:gun_ammo",
+			tag: {
+				potion: {
+					id: "minecraft:potion",
+					Count: 1,
+					tag: {
+						Potion: "extrautils2:xu2.doom"
+					},
+					Damage: 0
+				}
+			}
+		}
+	}]
+}

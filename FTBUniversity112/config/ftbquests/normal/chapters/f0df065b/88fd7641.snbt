@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.exu2watermill.title}",
+	x: -2.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.exu2watermill.subtitle}",
+	text: [
+		"{ftbuniversity.exu2watermill.desc1}",
+		"",
+		"{ftbuniversity.exu2watermill.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"44add260"
+	],
+	tasks: [{
+		uid: "6a69b808",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 3"
+		}]
+	}]
+}

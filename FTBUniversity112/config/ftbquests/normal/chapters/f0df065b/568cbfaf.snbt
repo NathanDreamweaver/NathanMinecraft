@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.exu2angel.subtitle}",
+	text: [
+		"{ftbuniversity.exu2angel.desc}"
+	],
+	tasks: [{
+		uid: "d0ba7870",
+		type: "item",
+		items: [{
+			item: "extrautils2:angelblock"
+		}]
+	}]
+}

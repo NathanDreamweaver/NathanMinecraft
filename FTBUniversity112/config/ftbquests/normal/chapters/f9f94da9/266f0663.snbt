@@ -1,0 +1,52 @@
+{
+	title: "{ftbuniversity.wildrat.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/rat.png"
+		}
+	},
+	x: -3.0d,
+	y: -6.5d,
+	description: "{ftbuniversity.wildrat.subtitle}",
+	text: [
+		"{ftbuniversity.wildrat.desc1}",
+		"",
+		"{ftbuniversity.wildrat.desc2}"
+	],
+	size: 1.65d,
+	tasks: [{
+		uid: "a5aa57b9",
+		type: "observation",
+		title: "{ftbuniversity.wildrat.subtitle}",
+		match_type: "entity_id",
+		match: "rats:rat",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "1e1695c5",
+		type: "item",
+		item: {
+			id: "minecraft:skull",
+			tag: {
+				SkullOwner: {
+					Id: "add3ce1d-a439-405a-8ef5-ae9d332978b8",
+					Properties: {
+						textures: [{
+							Signature: "qgz2ftHdLMEfDUfuuZA/cK0s+PYMW5YBcYH4NbG8EYCQ03T3Ck/6H/zQs3TmnHVNIU3pX57VlpeQsMLo1Qd4majSmY3nUyEG6HI7Dx3LMPvTKohZ4skTvQ/vRJLeQDHpkaOrbrDfebHzkiCNiekgeCrk14gCWNrAYLBVgQX6BSOsjlisHs9APWBhDVPaT7BcPPhKVJ3ESX35o1mAOj0O7WaWzDJY/jcSMWhMfMf5Xlzfc13gINihtwQtXE8c4VAyxe5Wxw1YC2iFvA8Wkg8mz+m4y/RYZckDGXFZmpjP9XWucyjNrmpR1A42kS0fS1DM1b/xKYfBV1l5dsWxq1WQNi/BToT91lVCE+Iupfmvz+PsBPNZPfn50Rv/x2YoLkXhB1Yb+se51yudOVFR87K+VT67z4An76q2VZ30RsHLFSsbo/w5jD/fhs+gQBNUg9YRm7pdn/QCiXIeGcvltiFdcKbJ5KC3tC1iIGc3VZeyD0IQo9oQCcpjSs5nLg4xyvu2tEARxvwp4LU0tXV0VPC6roEzgpVvWW9VamA7edgbULg+D99fUmrgBMs4gZ/FKPo1CZ88UmXfWJwe/EPwpT6IdilzAREe37mthA4VEUwQHlWHMDC/sdqD2/5XdPhEBiXw5wuvtBxd2Az8gBE6FAdGfRxvbzR0uO1MAxvFlnyY8cE=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5NTIxMzM5NTE2NCwKICAicHJvZmlsZUlkIiA6ICJhZGQzY2UxZGE0Mzk0MDVhOGVmNWFlOWQzMzI5NzhiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYWtlZHJlcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzE1NDY5MTdiYWI1ZTlmZDM3NTQyZWM0ODllZjA1NzNhMDYxNGIyNDc2YmMzNjc1NzZiODVhYzNmNDQyMDQ3IgogICAgfQogIH0KfQ=="
+						}]
+					},
+					Name: "Dakedres"
+				},
+				display: {
+					Lore: [
+						"Thanks to Dakedres for",
+						"helping design this chapter!"
+					]
+				}
+			},
+			Damage: 3s
+		}
+	}]
+}

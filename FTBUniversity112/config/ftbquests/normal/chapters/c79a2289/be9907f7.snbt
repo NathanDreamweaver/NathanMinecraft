@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.ic2recycler.title}",
+	x: 6.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.ic2recycler.subtitle}",
+	text: [
+		"{ftbuniversity.ic2recycler.desc1}",
+		"",
+		"{ftbuniversity.ic2recycler.desc2}"
+	],
+	dependencies: [
+		"31a34ec1"
+	],
+	tasks: [{
+		uid: "5da57e7c",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 48"
+		}]
+	}],
+	rewards: [{
+		uid: "9e7e9d7d",
+		type: "item",
+		item: "nuclearcraft:cobblestone_generator_compact"
+	},
+	{
+		uid: "32c0b75a",
+		type: "item",
+		item: "rats:potato_kinishes",
+		count: 32
+	}]
+}

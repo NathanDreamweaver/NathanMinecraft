@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.forestrymoistener.title}",
+	x: -3.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.forestrymoistener.subtitle}",
+	text: [
+		"{ftbuniversity.forestrymoistener.desc1}",
+		"",
+		"{ftbuniversity.forestrymoistener.desc2}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "bfb04053",
+		type: "item",
+		items: [{
+			item: "forestry:moistener"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd487b14",
+		type: "item",
+		item: "forestry:mouldy_wheat",
+		count: 16
+	}]
+}

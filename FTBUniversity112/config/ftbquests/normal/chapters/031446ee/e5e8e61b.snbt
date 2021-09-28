@@ -1,0 +1,27 @@
+{
+	x: 3.75d,
+	y: -2.25d,
+	description: "{ftbuniversity.lavcryst.subtitle}",
+	text: [
+		"{ftbuniversity.lavcryst.desc1}",
+		"",
+		"{ftbuniversity.lavcryst.desc2}",
+		"",
+		"{ftbuniversity.lavcryst.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f119ed62"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "fae981b9",
+		type: "item",
+		items: [{
+			item: "bloodmagic:lava_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

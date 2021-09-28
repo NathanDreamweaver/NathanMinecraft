@@ -1,0 +1,114 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/precision_assembler.png"
+		}
+	},
+	x: -1.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.precass.subtitle}",
+	text: [
+		"{ftbuniversity.precass.desc1}",
+		"",
+		"{ftbuniversity.precass.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e37b324"
+	],
+	tasks: [{
+		uid: "77d2fe49",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	},
+	{
+		uid: "e43ad742",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 24L
+	},
+	{
+		uid: "2984d3ca",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 2L
+	},
+	{
+		uid: "97c995c7",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "34a91069",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "6e69c4ec",
+		type: "item",
+		title: "{ftbuniversity.coils}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:coil0 1 4"
+		},
+		{
+			item: "libvulpes:coil0 1 2"
+		},
+		{
+			item: "libvulpes:coil0 1 9"
+		},
+		{
+			item: "libvulpes:coil0 1 7"
+		},
+		{
+			item: "libvulpes:coil0 1 10"
+		}],
+		count: 2L
+	},
+	{
+		uid: "0eb428f8",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "dbb18368",
+		type: "item",
+		title: "{ftbuniversity.motors}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:motor"
+		},
+		{
+			item: "libvulpes:advancedmotor"
+		},
+		{
+			item: "libvulpes:enhancedmotor"
+		},
+		{
+			item: "libvulpes:elitemotor"
+		}],
+		count: 2L
+	}]
+}

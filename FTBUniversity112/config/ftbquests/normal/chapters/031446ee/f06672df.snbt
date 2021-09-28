@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.bloodaltar3.title}",
+	icon: "minecraft:glowstone",
+	x: 6.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.bloodaltar3.subtitle}",
+	text: [
+		"{ftbuniversity.bloodaltar3.desc}"
+	],
+	dependencies: [
+		"68867424"
+	],
+	tasks: [{
+		uid: "914c4730",
+		type: "item",
+		title: "{ftbuniversity.bloodaltar3.task1}",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 4"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 3"
+		},
+		{
+			item: "bloodmagic:blood_rune 1 1"
+		}],
+		count: 20L
+	},
+	{
+		uid: "0da9a729",
+		type: "item",
+		title: "{ftbuniversity.bloodaltar3.task2}",
+		items: [{
+			item: "minecraft:glowstone"
+		},
+		{
+			item: "minecraft:sea_lantern"
+		}],
+		count: 4L
+	}]
+}

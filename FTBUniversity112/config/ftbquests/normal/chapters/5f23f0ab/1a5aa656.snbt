@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.proteindna.title}",
+	icon: "gendustry:extractor",
+	x: 6.0d,
+	y: 6.0d,
+	description: "{ftbuniversity.proteindna.subtitle}",
+	text: [
+		"{ftbuniversity.proteindna.desc1}",
+		"",
+		"{ftbuniversity.proteindna.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f455a4ff"
+	],
+	optional: true,
+	tasks: [{
+		uid: "daf7b707",
+		type: "item",
+		items: [{
+			item: "gendustry:liquifier"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "252a00cf",
+		type: "item",
+		items: [{
+			item: "gendustry:extractor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "352432de",
+		type: "choice",
+		table: 6
+	}]
+}

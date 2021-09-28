@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.zombiegen.subtitle}",
+	text: [
+		"{ftbuniversity.zombiegen.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5cca937b"
+	],
+	tasks: [{
+		uid: "79e6b7d2",
+		type: "item",
+		items: [{
+			item: "enderio:block_zombie_generator"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.daffomill.title}",
+	x: 0.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.daffomill.subtitle}",
+	text: [
+		"{ftbuniversity.daffomill.desc}"
+	],
+	dependencies: [
+		"290bd89d"
+	],
+	tasks: [{
+		uid: "ddcfe3bf",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "daffomill"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.treetap.title}",
+	icon: "ic2:treetap",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.treetap.subtitle}",
+	text: [
+		"{ftbuniversity.treetap.desc1}",
+		"",
+		"{ftbuniversity.treetap.desc2}",
+		"",
+		"{ftbuniversity.treetap.desc3}"
+	],
+	tasks: [{
+		uid: "5daa5952",
+		type: "item",
+		items: [{
+			item: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbccb767",
+		type: "item",
+		items: [{
+			item: "ic2:misc_resource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "74cff33d",
+		type: "item",
+		item: "ic2:sapling",
+		count: 6
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.avashov.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.avashov.subtitle}",
+	text: [
+		"{ftbuniversity.avashov.desc1}",
+		"",
+		"{ftbuniversity.avashov.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "e4e41533",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

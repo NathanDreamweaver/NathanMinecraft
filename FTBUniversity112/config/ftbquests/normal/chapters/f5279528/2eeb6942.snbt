@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.xnrouter.title}",
+	x: 5.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.xnrouter.subtitle}",
+	text: [
+		"{ftbuniversity.xnrouter.desc1}",
+		"",
+		"{ftbuniversity.xnrouter.desc2}",
+		"",
+		"{ftbuniversity.xnrouter.desc3}",
+		"",
+		"{ftbuniversity.xnrouter.desc4}",
+		"",
+		"{ftbuniversity.xnrouter.desc5}",
+		"",
+		"{ftbuniversity.xnrouter.desc6}"
+	],
+	dependencies: [
+		"d9c01312"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "3891dab0",
+		type: "item",
+		items: [{
+			item: "xnet:router"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "XNet",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "xnet:netcable",
+				Count: 1b,
+				tag: {
+					display: {
+						LocName: "tile.xnet.netcable_blue.name"
+					}
+				},
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Visual Programmer",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487298L
+		}
+	},
+	x: 0.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.xntrophy.subtitle}",
+	dependencies: [
+		"f5279528"
+	],
+	rewards: [{
+		uid: "fd4eaaba",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "xnet:netcable",
+					Count: 1b,
+					tag: {
+						display: {
+							LocName: "tile.xnet.netcable_blue.name"
+						}
+					},
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Visual Programmer",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

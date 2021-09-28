@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.ae2chap.title}",
+	icon: "chisel:futura 1 2",
+	always_invisible: false,
+	group: 565104616,
+	default_quest_shape: "square"
+}

@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.cognitohazard.title}",
+	x: 0.36224489795917947d,
+	y: -0.3367346938775526d,
+	description: "{ftbuniversity.cognitohazard.subtitle}",
+	text: [
+		""
+	],
+	can_repeat: true,
+	size: 0.0625d,
+	optional: true,
+	tasks: [{
+		uid: "7b9b8eb4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "29f0d965",
+		type: "command",
+		auto: "invisible",
+		command: "/kill @p"
+	}]
+}

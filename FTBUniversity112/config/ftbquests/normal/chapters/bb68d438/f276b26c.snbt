@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.mecontroller.title}",
+	x: 4.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.mecontroller.subtitle}",
+	text: [
+		"{ftbuniversity.mecontroller.desc1}",
+		"",
+		"{ftbuniversity.mecontroller.desc2}",
+		"",
+		"{ftbuniversity.mecontroller.desc3}",
+		"",
+		"{ftbuniversity.mecontroller.desc4}",
+		"",
+		"{ftbuniversity.mecontroller.desc5}",
+		"",
+		"{ftbuniversity.mecontroller.desc6}"
+	],
+	dependencies: [
+		"21ef680e",
+		"24932b88"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "4818e828",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

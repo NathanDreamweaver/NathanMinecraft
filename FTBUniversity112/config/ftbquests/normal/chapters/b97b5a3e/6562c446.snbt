@@ -1,0 +1,22 @@
+{
+	x: -2.75d,
+	y: 8.75d,
+	description: "{ftbuniversity.rftclearingquarry.subtitle}",
+	text: [
+		"{ftbuniversity.rftclearingquarry.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a4596eb8"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "660e98af",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

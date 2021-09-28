@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.lvtrans.title}",
+	x: 9.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.lvtrans.subtitle}",
+	text: [
+		"{ftbuniversity.lvtrans.desc1}",
+		"",
+		"{ftbuniversity.lvtrans.desc2}",
+		"",
+		"{ftbuniversity.lvtrans.desc3}",
+		"",
+		"{ftbuniversity.lvtrans.desc4}",
+		"",
+		"{ftbuniversity.lvtrans.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d465b6e"
+	],
+	tasks: [{
+		uid: "c744d8df",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 77"
+		}]
+	}]
+}

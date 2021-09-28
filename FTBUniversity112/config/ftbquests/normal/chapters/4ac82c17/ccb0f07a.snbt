@@ -1,0 +1,12 @@
+{
+	title: "WIP",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"NCO quests will be coming in a later update to University"
+	],
+	tasks: [{
+		uid: "4867ea96",
+		type: "checkmark"
+	}]
+}

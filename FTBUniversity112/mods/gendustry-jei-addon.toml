@@ -1,0 +1,14 @@
+name = "Gendustry JEI Addon"
+filename = "gendustryjei-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2609/434/gendustryjei-1.0.2.jar"
+hash-format = "murmur2"
+hash = "889307551"
+
+[update]
+[update.curseforge]
+file-id = 2609434
+project-id = 301364
+release-channel = "beta"

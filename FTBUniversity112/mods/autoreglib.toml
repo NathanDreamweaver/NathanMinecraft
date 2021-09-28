@@ -1,0 +1,14 @@
+name = "AutoRegLib"
+filename = "AutoRegLib-1.3-32.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2746/11/AutoRegLib-1.3-32.jar"
+hash-format = "murmur2"
+hash = "69589181"
+
+[update]
+[update.curseforge]
+file-id = 2746011
+project-id = 250363
+release-channel = "beta"

@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.bbworld.title}",
+	x: -1.25d,
+	y: -7.75d,
+	description: "{ftbuniversity.bbworld.subtitle}",
+	text: [
+		"{ftbuniversity.bbworld.desc1}",
+		"",
+		"{ftbuniversity.bbworld.desc2}",
+		"",
+		"{ftbuniversity.otgwarning}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4647eca4"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "63abff2b",
+		type: "dimension",
+		dim: 1001
+	}]
+}

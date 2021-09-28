@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.whatispressure.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/aspects/aer.png"
+		}
+	},
+	x: 0.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.whatispressure.subtitle}",
+	text: [
+		"{ftbuniversity.whatispressure.desc1}",
+		"",
+		"{ftbuniversity.whatispressure.desc2}",
+		"",
+		"{ftbuniversity.whatispressure.desc3}",
+		"",
+		"{ftbuniversity.whatispressure.desc4}",
+		"",
+		"{ftbuniversity.whatispressure.desc5}",
+		"",
+		"{ftbuniversity.whatispressure.desc6}"
+	],
+	dependencies: [
+		"f1f02eb4"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "53bd7c05",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6a764323",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

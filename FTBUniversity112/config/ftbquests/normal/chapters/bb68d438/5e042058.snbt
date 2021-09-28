@@ -1,0 +1,41 @@
+{
+	icon: "appliedenergistics2:part 1 340",
+	x: 12.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.mepattern.subtitle}",
+	text: [
+		"{ftbuniversity.mepattern.desc1}",
+		"",
+		"{ftbuniversity.mepattern.desc2}",
+		"",
+		"{ftbuniversity.mepattern.desc3}",
+		"",
+		"{ftbuniversity.mepattern.desc4}",
+		"",
+		"{ftbuniversity.mepattern.desc5}"
+	],
+	dependencies: [
+		"7e5ed345"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "38649b8c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	},
+	{
+		uid: "1e0b3f2b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "cb086039",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 63
+	}]
+}

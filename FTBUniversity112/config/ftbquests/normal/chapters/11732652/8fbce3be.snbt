@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.chemoxid.subtitle}",
+	text: [
+		"{ftbuniversity.chemoxid.desc1}",
+		"",
+		"{ftbuniversity.chemoxid.desc2}"
+	],
+	dependencies: [
+		"09fecf03"
+	],
+	tasks: [{
+		uid: "4e54fd1c",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

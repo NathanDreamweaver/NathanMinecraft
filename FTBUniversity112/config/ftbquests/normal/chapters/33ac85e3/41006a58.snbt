@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.sargasso.title}",
+	x: -0.75d,
+	y: -8.25d,
+	description: "{ftbuniversity.sargasso.subtitle}",
+	text: [
+		"{ftbuniversity.sargasso.desc1}",
+		"",
+		"{ftbuniversity.sargasso.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4647eca4"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "64602486",
+		type: "dimension",
+		dim: 32
+	}],
+	rewards: [{
+		uid: "e224655e",
+		type: "loot",
+		table: 20
+	}]
+}

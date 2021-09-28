@@ -1,0 +1,14 @@
+name = "Just Enough Petroleum"
+filename = "JustEnoughPetroleum-0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2549/332/JustEnoughPetroleum-0.1.jar"
+hash-format = "murmur2"
+hash = "4082129566"
+
+[update]
+[update.curseforge]
+file-id = 2549332
+project-id = 291727
+release-channel = "beta"

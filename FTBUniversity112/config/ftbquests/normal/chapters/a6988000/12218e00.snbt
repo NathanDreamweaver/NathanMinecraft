@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.essentiasmelting3.title}",
+	x: 0.7969387755102275d,
+	y: -3.5653061224489946d,
+	description: "{ftbuniversity.essentiasmelting3.subtitle}",
+	text: [
+		"{ftbuniversity.essentiasmelting3.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e7d25c5c",
+		"718e4ae9"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "c1172a37",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_void"
+		}]
+	}]
+}

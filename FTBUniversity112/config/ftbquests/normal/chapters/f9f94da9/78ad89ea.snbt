@@ -1,0 +1,48 @@
+{
+	icon: "rats:rat_upgrade_replanter",
+	x: 0.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.ratharvest.subtitle}",
+	text: [
+		"{ftbuniversity.ratharvest.desc}",
+		"",
+		"{ftbuniversity.ratuptips}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "e97e17ba",
+		type: "item",
+		title: "{ftbuniversity.ratharvest.title}",
+		items: [{
+			item: "rats:rat_upgrade_replanter"
+		},
+		{
+			item: "rats:rat_upgrade_lumberjack"
+		},
+		{
+			id: "rats:rat_upgrade_miner",
+			tag: {}
+		},
+		{
+			item: "rats:rat_upgrade_farmer"
+		},
+		{
+			item: "rats:rat_upgrade_breeder"
+		},
+		{
+			item: "rats:rat_upgrade_milker"
+		},
+		{
+			item: "rats:rat_upgrade_shears"
+		},
+		{
+			item: "rats:rat_upgrade_placer"
+		},
+		{
+			item: "rats:rat_upgrade_fisherman"
+		}]
+	}]
+}

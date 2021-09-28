@@ -1,0 +1,13 @@
+{
+	title: "{ftbuniversity.alchemicmetal.rewards}",
+	loot_size: 5,
+	rewards: [{
+		item: "thaumcraft:ingot 1 2",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "thaumcraft:ingot",
+		count: 2
+	}]
+}

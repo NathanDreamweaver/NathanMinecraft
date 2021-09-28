@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.ibconn.title}",
+	x: 2.25d,
+	y: 3.25d,
+	shape: "square",
+	description: "{ftbuniversity.ibconn.subtitle}",
+	text: [
+		"{ftbuniversity.ibconn.desc1}",
+		"",
+		"{ftbuniversity.ibconn.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4ea94e32"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "6eaa9fef",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel_connector"
+		}]
+	}]
+}

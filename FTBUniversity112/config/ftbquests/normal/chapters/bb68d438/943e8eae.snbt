@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.pau.subtitle}",
+	text: [
+		"{ftbuniversity.pau.desc1}",
+		"",
+		"{ftbuniversity.pau.desc2}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"42af8532",
+		"766a6e75"
+	],
+	tasks: [{
+		uid: "678e4cbc",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 3"
+		}]
+	}]
+}

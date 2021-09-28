@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.ic2compressor.title}",
+	x: 6.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.ic2compressor.subtitle}",
+	text: [
+		"{ftbuniversity.ic2compressor.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "8cfcd50c",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	}],
+	rewards: [{
+		uid: "21cdfe4c",
+		type: "item",
+		item: "ic2:crafting 1 18"
+	}]
+}

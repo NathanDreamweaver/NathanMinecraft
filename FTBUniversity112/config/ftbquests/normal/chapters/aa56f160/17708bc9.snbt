@@ -1,0 +1,86 @@
+{
+	title: "{ftbuniversity.capitems.title}",
+	icon: "enderio:item_basic_capacitor",
+	x: -0.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.capitems.subtitle}",
+	text: [
+		"{ftbuniversity.capitems.desc1}",
+		"",
+		"{ftbuniversity.capitems.desc2}",
+		"",
+		"{ftbuniversity.capitems.desc3}",
+		"",
+		"{ftbuniversity.capitems.desc4}",
+		"",
+		"{ftbuniversity.capitems.desc5}",
+		"",
+		"{ftbuniversity.capitems.desc6}"
+	],
+	dependencies: [
+		"05074deb"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "bccc74f1",
+		type: "item",
+		title: "{ftbuniversity.capitems.task}",
+		items: [{
+			item: "enderio:item_capacitor_grainy"
+		},
+		{
+			item: "enderio:item_basic_capacitor"
+		},
+		{
+			item: "enderio:item_capacitor_silver"
+		},
+		{
+			item: "enderio:item_basic_capacitor 1 1"
+		},
+		{
+			item: "enderio:item_capacitor_energetic_silver"
+		},
+		{
+			item: "enderio:item_basic_capacitor 1 2"
+		},
+		{
+			item: "enderio:item_capacitor_vivid"
+		},
+		{
+			item: "enderio:item_capacitor_crystalline"
+		},
+		{
+			item: "enderio:item_capacitor_melodic"
+		},
+		{
+			item: "enderio:item_capacitor_stellar"
+		},
+		{
+			item: "enderio:item_capacitor_totemic"
+		},
+		{
+			id: "enderio:item_basic_capacitor",
+			tag: {
+				eiocap: {
+					level: 3.4105842f,
+					"enderio:block_painter/use": 3.2290733f
+				},
+				"enderio:capname": "Enhanced Hiding Wonder Capacitor",
+				display: {
+					Name: "Don't turn it on, take it apart!"
+				},
+				"enderio:capno": 3,
+				"enderio:glinted": 1
+			},
+			Damage: 3s
+		},
+		{
+			item: "avaritiaio:infinitecapacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "f9217640",
+		type: "item",
+		item: "enderio:block_holy_fog"
+	}]
+}

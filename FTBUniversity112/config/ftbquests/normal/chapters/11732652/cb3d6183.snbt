@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.mekturbine2.title}",
+	icon: "mekanismgenerators:turbineblade",
+	x: 16.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.mekturbine2.subtitle}",
+	text: [
+		"{ftbuniversity.mekturbine2.desc1}",
+		"",
+		"{ftbuniversity.mekturbine2.desc2}",
+		"",
+		"{ftbuniversity.mekturbine2.desc3}",
+		"",
+		"{ftbuniversity.mekturbine2.desc4}",
+		"",
+		"{ftbuniversity.mekturbine2.desc5}",
+		"",
+		"{ftbuniversity.mekturbine2.desc6}"
+	],
+	dependencies: [
+		"9466ff8f"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "7dfa6441",
+		type: "checkmark"
+	}]
+}

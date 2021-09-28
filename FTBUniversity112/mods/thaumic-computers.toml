@@ -1,0 +1,14 @@
+name = "Thaumic Computers"
+filename = "ThaumicComputers-MC1.12.2-0.5.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2777/74/ThaumicComputers-MC1.12.2-0.5.1.jar"
+hash-format = "murmur2"
+hash = "2666097873"
+
+[update]
+[update.curseforge]
+file-id = 2777074
+project-id = 293768
+release-channel = "beta"

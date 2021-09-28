@@ -1,0 +1,14 @@
+name = "KubeJS (Forge)"
+filename = "KubeJS-forge-1.12.2-1.1.0.65.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3052/392/KubeJS-forge-1.12.2-1.1.0.65.jar"
+hash-format = "murmur2"
+hash = "1371883057"
+
+[update]
+[update.curseforge]
+file-id = 3052392
+project-id = 238086
+release-channel = "beta"

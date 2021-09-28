@@ -1,0 +1,14 @@
+name = "ME Capability Adapter"
+filename = "capabilityadapter-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2812/866/capabilityadapter-1.1.0.jar"
+hash-format = "murmur2"
+hash = "4225257201"
+
+[update]
+[update.curseforge]
+file-id = 2812866
+project-id = 281657
+release-channel = "beta"

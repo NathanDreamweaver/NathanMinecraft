@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.liquiddeath.title}",
+	x: -0.20850340136053802d,
+	y: -3.110204081632645d,
+	description: "{ftbuniversity.liquiddeath.subtitle}",
+	text: [
+		"{ftbuniversity.liquiddeath.desc1}",
+		"",
+		"{ftbuniversity.liquiddeath.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c5c018e2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "55570700",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

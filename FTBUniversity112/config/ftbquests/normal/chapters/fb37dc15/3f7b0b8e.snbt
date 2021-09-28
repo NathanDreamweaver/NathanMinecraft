@@ -1,0 +1,63 @@
+{
+	title: "{ftbuniversity.terrasteel.title}",
+	icon: "botania:terraplate",
+	x: 4.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.terrasteel.subtitle}",
+	text: [
+		"{ftbuniversity.terrasteel.desc1}",
+		"",
+		"{ftbuniversity.terrasteel.desc2}"
+	],
+	dependencies: [
+		"47aeeec3"
+	],
+	tasks: [{
+		uid: "2e3d6d98",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "e6fca876",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7adda253",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 5L
+	},
+	{
+		uid: "5f973dc2",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}],
+		count: 2L
+	},
+	{
+		uid: "14347571",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "78ddede5",
+		type: "item",
+		item: {
+			id: "botania:manamirror",
+			tag: {
+				mana: 0
+			}
+		}
+	}]
+}

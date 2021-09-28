@@ -1,0 +1,41 @@
+{
+	icon: "extrautils2:goldenlasso",
+	x: 0.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.exu2lasso.subtitle}",
+	text: [
+		"{ftbuniversity.exu2lasso.desc1}",
+		"",
+		"{ftbuniversity.exu2lasso.desc2}",
+		"",
+		"{ftbuniversity.exu2lasso.desc3}"
+	],
+	tasks: [{
+		uid: "21294a6f",
+		type: "item",
+		items: [{
+			item: "extrautils2:goldenlasso"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bcd7dab4",
+		type: "item",
+		items: [{
+			item: "extrautils2:goldenlasso 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d79f386",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:ghast"
+				}
+			}
+		}
+	}]
+}

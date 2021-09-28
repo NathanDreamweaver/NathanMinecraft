@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.arcanebore.title}",
+	x: -5.081632653061227d,
+	y: -2.8163265306122476d,
+	description: "{ftbuniversity.arcanebore.subtitle}",
+	text: [
+		"{ftbuniversity.arcanebore.desc1}",
+		"",
+		"{ftbuniversity.arcanebore.desc2}",
+		"",
+		"{ftbuniversity.arcanebore.desc3}",
+		"",
+		"{ftbuniversity.arcanebore.desc4}",
+		"",
+		"{ftbuniversity.arcanebore.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2cce1ae6",
+		"3e076ab2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "8486b04b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret 1 2"
+		}]
+	}]
+}

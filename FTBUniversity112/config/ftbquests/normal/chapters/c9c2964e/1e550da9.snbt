@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.iepipe.title}",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.iepipe.subtitle}",
+	text: [
+		"{ftbuniversity.iepipe.desc1}",
+		"",
+		"{ftbuniversity.iepipe.desc2}",
+		"",
+		"{ftbuniversity.iepipe.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bf66b31c"
+	],
+	tasks: [{
+		uid: "9afc6a90",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "6dae16f2",
+		type: "item",
+		item: "immersiveengineering:metal_device1 1 6",
+		count: 32
+	}]
+}

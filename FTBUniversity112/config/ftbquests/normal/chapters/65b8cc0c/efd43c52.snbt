@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.yabtier.title}",
+	icon: "yabba:upgrade_blank",
+	x: 1.75d,
+	y: 2.75d,
+	shape: "square",
+	description: "{ftbuniversity.yabtier.subtitle}",
+	text: [
+		"{ftbuniversity.yabtier.desc1}",
+		"",
+		"{ftbuniversity.yabtier.desc2}",
+		"{ftbuniversity.yabtier.desc3}",
+		"{ftbuniversity.yabtier.desc4}",
+		"{ftbuniversity.yabtier.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4ea94e32"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "00d8c143",
+		type: "item",
+		title: "{ftbuniversity.yabtier.task}",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_iron_tier"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_gold_tier"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_diamond_tier"
+		},
+		{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_star_tier"
+		}]
+	}]
+}

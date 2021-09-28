@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.corpinter.title}",
+	x: 6.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.corpinter.subtitle}",
+	text: [
+		"{ftbuniversity.corpinter.desc1}",
+		"",
+		"{ftbuniversity.corpinter.desc2}",
+		"",
+		"{ftbuniversity.corpinter.desc3}",
+		"",
+		"{ftbuniversity.corpinter.desc4}"
+	],
+	dependencies: [
+		"1598e270",
+		"86ae0bd9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0fe0f3df",
+		type: "item",
+		items: [{
+			item: "botania:corporeainterceptor"
+		}]
+	}]
+}

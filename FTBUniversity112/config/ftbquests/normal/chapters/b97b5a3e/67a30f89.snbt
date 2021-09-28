@@ -1,0 +1,34 @@
+{
+	icon: "rftools:spawner",
+	x: -1.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.rftspawner.subtitle}",
+	text: [
+		"{ftbuniversity.rftspawner.desc1}",
+		"",
+		"{ftbuniversity.rftspawner.desc2}",
+		"",
+		"{ftbuniversity.rftspawner.desc3}",
+		"",
+		"{ftbuniversity.rftspawner.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "4fb10612",
+		type: "item",
+		items: [{
+			item: "rftools:spawner"
+		}]
+	},
+	{
+		uid: "58c720dc",
+		type: "item",
+		items: [{
+			item: "rftools:matter_beamer"
+		}],
+		count: 3L
+	}]
+}

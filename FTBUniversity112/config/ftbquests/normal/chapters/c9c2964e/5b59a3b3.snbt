@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.ietank.title}",
+	icon: "immersiveengineering:metal_multiblock 1 2",
+	x: 7.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.ietank.subtitle}",
+	text: [
+		"{ftbuniversity.ietank.desc1}",
+		"",
+		"{ftbuniversity.ietank.desc2}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5c4af523"
+	],
+	tasks: [{
+		uid: "0d058781",
+		type: "observation",
+		title: "{ftbuniversity.ietank.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:sheetmetaltank",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.gaia1.title}",
+	icon: "botania:gaiahead",
+	x: 6.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.gaia1.subtitle}",
+	text: [
+		"{ftbuniversity.gaia1.desc1}",
+		"",
+		"{ftbuniversity.gaia1.desc2}"
+	],
+	dependencies: [
+		"640124ad"
+	],
+	tasks: [{
+		uid: "14ac43b7",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ff33558c",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "96117054",
+		type: "choice",
+		table: 1
+	}]
+}

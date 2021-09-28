@@ -1,0 +1,12 @@
+{
+	title: "{ftbuniversity.automationchap.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/OHeyLookItsABuildCraftGoldenPipe.png"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,14 @@
+name = "Flat Colored Blocks"
+filename = "flatcoloredblocks-mc1.12-6.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2715/827/flatcoloredblocks-mc1.12-6.8.jar"
+hash-format = "murmur2"
+hash = "2044644304"
+
+[update]
+[update.curseforge]
+file-id = 2715827
+project-id = 238590
+release-channel = "beta"

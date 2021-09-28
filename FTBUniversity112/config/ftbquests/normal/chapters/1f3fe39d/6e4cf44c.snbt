@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.progintro.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.progintro.subtitle}",
+	text: [
+		"{ftbuniversity.progintro.desc1}",
+		"",
+		"{ftbuniversity.progintro.desc2}",
+		"",
+		"{ftbuniversity.progintro.desc3}",
+		"",
+		"{ftbuniversity.progintro.desc4}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "48cd67b7",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8e0b4cfc",
+		type: "item",
+		item: "akashictome:tome"
+	}]
+}

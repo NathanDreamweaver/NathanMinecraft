@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.exu2enchanter.subtitle}",
+	text: [
+		"{ftbuniversity.exu2enchanter.desc1}",
+		"",
+		"{ftbuniversity.exu2enchanter.desc2}",
+		"",
+		"{ftbuniversity.exu2enchanter.desc3}"
+	],
+	tasks: [{
+		uid: "35603985",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:enchanter"
+			}
+		}]
+	}]
+}

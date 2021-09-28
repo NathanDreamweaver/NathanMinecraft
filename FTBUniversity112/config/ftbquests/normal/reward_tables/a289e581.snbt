@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.purecrystals.task1}",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1000
+			},
+			Damage: 600s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 400
+			}
+		},
+		count: 24
+	},
+	{
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1600
+			},
+			Damage: 1200s
+		},
+		count: 16
+	}]
+}

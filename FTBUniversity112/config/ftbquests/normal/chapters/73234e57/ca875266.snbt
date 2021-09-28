@@ -1,0 +1,74 @@
+{
+	title: "{ftbuniversity.passemblyline.title}",
+	icon: "pneumaticcraft:assembly_controller",
+	x: 6.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.passemblyline.subtitle}",
+	text: [
+		"{ftbuniversity.passemblyline.desc1}",
+		"",
+		"{ftbuniversity.passemblyline.desc2}",
+		"",
+		"{ftbuniversity.passemblyline.desc3}",
+		"",
+		"{ftbuniversity.passemblyline.desc4}",
+		"",
+		"{ftbuniversity.passemblyline.desc5}",
+		"",
+		"{ftbuniversity.passemblyline.desc6}"
+	],
+	dependencies: [
+		"2bf2d4fd"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ddd475a8",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:assembly_controller"
+		}]
+	},
+	{
+		uid: "73aab7bb",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:assembly_platform"
+		}]
+	},
+	{
+		uid: "494d2c35",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:assembly_io_unit"
+		}],
+		count: 2L
+	},
+	{
+		uid: "af107eb4",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:assembly_drill"
+		}]
+	},
+	{
+		uid: "b110cca3",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:assembly_laser"
+		}]
+	},
+	{
+		uid: "2e524047",
+		type: "item",
+		title: "{ftbuniversity.passemblyline.task}",
+		items: [{
+			item: "pneumaticcraft:assembly_program"
+		},
+		{
+			item: "pneumaticcraft:assembly_program 1 1"
+		},
+		{
+			item: "pneumaticcraft:assembly_program 1 2"
+		}]
+	}]
+}

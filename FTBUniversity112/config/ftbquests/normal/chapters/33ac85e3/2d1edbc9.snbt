@@ -1,0 +1,82 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/cutting_machine.png"
+		}
+	},
+	x: 1.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.cutmach.subtitle}",
+	text: [
+		"{ftbuniversity.cutmach.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e37b324"
+	],
+	tasks: [{
+		uid: "a7de3a6d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	},
+	{
+		uid: "d136ec48",
+		type: "item",
+		title: "{ftbuniversity.motors}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "0a7a2e30",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:sawblade"
+		}]
+	},
+	{
+		uid: "8e5b8178",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "6cfcb1eb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "911de499",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "06b0f05a",
+		type: "item",
+		item: "advancedrocketry:thermite",
+		count: 64
+	}]
+}

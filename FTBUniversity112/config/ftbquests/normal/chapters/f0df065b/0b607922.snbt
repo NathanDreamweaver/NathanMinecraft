@@ -1,0 +1,18 @@
+{
+	title: "{ftbuniversity.exu2muffler.title}",
+	x: 1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.exu2muffler.subtitle}",
+	text: [
+		"{ftbuniversity.exu2muffler.desc1}",
+		"",
+		"{ftbuniversity.exu2muffler.desc2}"
+	],
+	tasks: [{
+		uid: "205b8702",
+		type: "item",
+		items: [{
+			item: "extrautils2:soundmuffler"
+		}]
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "{ftbuniversity.ascension.title}",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+				MAHOUTSUKAI_CASTER_NAME: "",
+				MAHOUTSUKAI_CASTER_UUIDMost: 0L
+			}
+		},
+		id: "mahoutsukai:scroll_ascension",
+		tag: {
+			MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+			MAHOUTSUKAI_CASTER_NAME: "",
+			MAHOUTSUKAI_CASTER_UUIDMost: 0L
+		}
+	},
+	x: 0.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.ascension.subtitle}",
+	text: [
+		"{ftbuniversity.ascension.desc1}",
+		"",
+		"{ftbuniversity.ascension.desc2}",
+		"",
+		"{ftbuniversity.ascension.desc3}",
+		"",
+		"{ftbuniversity.ascension.desc4}"
+	],
+	dependencies: [
+		"1259d914"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "f116a4a3",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+					MAHOUTSUKAI_CASTER_NAME: "",
+					MAHOUTSUKAI_CASTER_UUIDMost: 0L
+				}
+			},
+			id: "mahoutsukai:scroll_ascension"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b63b07e0",
+		type: "observation",
+		title: "{ftbuniversity.ascension.task}",
+		disable_toast: true,
+		match_type: "block_id",
+		match: "mahoutsukai:mahoujin_ascension",
+		timer: 0L
+	}]
+}

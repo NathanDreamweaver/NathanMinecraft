@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.iecokeoven.title}",
+	x: 2.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.iecokeoven.subtitle}",
+	text: [
+		"{ftbuniversity.iecokeoven.desc1}",
+		"",
+		"{ftbuniversity.iecokeoven.desc2}"
+	],
+	dependencies: [
+		"741b36bc"
+	],
+	tasks: [{
+		uid: "4e9a5db6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

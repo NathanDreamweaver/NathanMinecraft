@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.exu2enderlily.title}",
+	x: 0.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.exu2enderlily.subtitle}",
+	text: [
+		"{ftbuniversity.exu2enderlily.desc1}",
+		"",
+		"{ftbuniversity.exu2enderlily.desc2}"
+	],
+	tasks: [{
+		uid: "d4c71630",
+		type: "item",
+		items: [{
+			item: "extrautils2:enderlilly"
+		}]
+	}],
+	rewards: [{
+		uid: "823d7aaa",
+		type: "item",
+		item: "extrautils2:redorchid"
+	}]
+}

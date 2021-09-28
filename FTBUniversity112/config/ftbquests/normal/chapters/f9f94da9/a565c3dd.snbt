@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.rattrap.title}",
+	x: -4.0d,
+	y: -5.5d,
+	description: "{ftbuniversity.rattrap.subtitle}",
+	text: [
+		"{ftbuniversity.rattrap.desc1}",
+		"",
+		"{ftbuniversity.rattrap.desc2}"
+	],
+	dependencies: [
+		"266f0663",
+		"3f8695d8"
+	],
+	tasks: [{
+		uid: "9eed737d",
+		type: "item",
+		items: [{
+			item: "rats:rattrap"
+		}]
+	}],
+	rewards: [{
+		uid: "32d568a7",
+		type: "item",
+		item: "rats:cheese",
+		count: 8
+	}]
+}

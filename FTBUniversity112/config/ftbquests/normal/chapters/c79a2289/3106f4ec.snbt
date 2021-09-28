@@ -1,0 +1,59 @@
+{
+	title: "{ftbuniversity.ic2nuclear3.2.title}",
+	icon: {
+		id: "ic2:heat_exchanger",
+		tag: {
+			advDmg: 0
+		}
+	},
+	x: 5.25d,
+	y: -3.75d,
+	description: "{ftbuniversity.ic2nuclear3.2.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear3.2.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear3.2.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear3.2.desc3}",
+		"",
+		"{ftbuniversity.ic2nuclear3.2.desc4}",
+		"",
+		"{ftbuniversity.ic2nuclear3.2.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5be0253"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "35202cca",
+		type: "item",
+		title: "{ftbuniversity.ic2nuclear3.2.task}",
+		items: [{
+			id: "ic2:heat_exchanger",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:advanced_heat_exchanger",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:reactor_heat_exchanger",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:component_heat_exchanger",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

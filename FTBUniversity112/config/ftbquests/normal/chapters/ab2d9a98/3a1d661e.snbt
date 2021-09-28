@@ -1,0 +1,23 @@
+{
+	x: 1.25d,
+	y: -2.75d,
+	description: "{ftbuniversity.genoverclock.subtitle}",
+	text: [
+		"{ftbuniversity.genoverclock.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"681fceaf"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "830e62f4",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:overclocker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

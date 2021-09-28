@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.ic2nuclear3.title}",
+	x: 5.0d,
+	y: -4.5d,
+	description: "{ftbuniversity.ic2nuclear3.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear3.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear3.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear3.desc3}",
+		"",
+		"{ftbuniversity.ic2nuclear3.desc4}"
+	],
+	dependencies: [
+		"24b8e5ab"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "4cca0bc5",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 22"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.ic2scanner.title}",
+	icon: "ic2:te 1 64",
+	x: 14.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.ic2scanner.subtitle}",
+	text: [
+		"{ftbuniversity.ic2scanner.desc1}",
+		"",
+		"{ftbuniversity.ic2scanner.desc2}",
+		"",
+		"{ftbuniversity.ic2scanner.desc3}",
+		"",
+		"{ftbuniversity.ic2scanner.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cce98914"
+	],
+	tasks: [{
+		uid: "b3947ecb",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "0d77392a",
+		type: "item",
+		title: "{ftbuniversity.ic2scanner.task}",
+		items: [{
+			item: "ic2:te 1 62"
+		},
+		{
+			id: "ic2:crystal_memory",
+			tag: {}
+		}]
+	}]
+}

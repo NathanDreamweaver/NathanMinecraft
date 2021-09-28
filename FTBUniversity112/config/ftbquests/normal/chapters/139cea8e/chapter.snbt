@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.trophychap.title}",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 205,
+			TrophyVariant: "neon",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "botania:cosmetic",
+				Count: 1b,
+				Damage: 31s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Quests",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596485891L
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

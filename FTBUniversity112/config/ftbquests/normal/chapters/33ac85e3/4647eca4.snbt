@@ -1,0 +1,82 @@
+{
+	title: "{ftbuniversity.warpcore.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/warp_core.png"
+		}
+	},
+	x: 0.0d,
+	y: -8.0d,
+	description: "{ftbuniversity.warpcore.subtitle}",
+	text: [
+		"{ftbuniversity.warpcore.desc1}",
+		"",
+		"{ftbuniversity.warpcore.desc2}",
+		"",
+		"{ftbuniversity.warpcore.desc3}",
+		"",
+		"{ftbuniversity.warpcore.desc4}",
+		"",
+		"{ftbuniversity.warpcore.desc5}"
+	],
+	dependencies: [
+		"7adea7b7"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2a8fe1b6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "c1c048da",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:metal0 1 7"
+		}],
+		count: 15L
+	},
+	{
+		uid: "533c44e4",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 4L
+	},
+	{
+		uid: "905cb018",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a4c71b86",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "a14836e2",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	}],
+	rewards: [{
+		uid: "aca1e182",
+		type: "item",
+		item: "libvulpes:productgem",
+		count: 64
+	}]
+}

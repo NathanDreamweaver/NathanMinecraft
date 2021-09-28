@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.advmutatron.title}",
+	x: 7.35d,
+	y: 5.0d,
+	description: "{ftbuniversity.advmutatron.subtitle}",
+	text: [
+		"{ftbuniversity.advmutatron.desc}"
+	],
+	dependencies: [
+		"fc4abc9d"
+	],
+	hide: true,
+	size: 0.75d,
+	optional: true,
+	tasks: [{
+		uid: "1ab43ef3",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron_advanced"
+		}],
+		ignore_nbt: 1b
+	}]
+}

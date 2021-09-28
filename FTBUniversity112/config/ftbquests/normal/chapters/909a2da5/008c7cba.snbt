@@ -1,0 +1,19 @@
+{
+	title: "{ftbuniversity.routedpipes.title}",
+	icon: "botania:cosmetic 1 31",
+	x: -4.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.routedpipes.subtitle}",
+	text: [
+		"{ftbuniversity.routedpipes.desc1}",
+		"",
+		"{ftbuniversity.routedpipes.desc2}"
+	],
+	dependencies: [
+		"da208635"
+	],
+	tasks: [{
+		uid: "ce1fef5e",
+		type: "checkmark"
+	}]
+}

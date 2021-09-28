@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.simplechassis.subtitle}",
+	text: [
+		"{ftbuniversity.simplechassis.desc1}",
+		"",
+		"{ftbuniversity.simplechassis.desc2}",
+		"",
+		"{ftbuniversity.simplechassis.desc3}"
+	],
+	dependencies: [
+		"05074deb"
+	],
+	tasks: [{
+		uid: "9d1e9c4f",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}],
+	rewards: [{
+		uid: "41bf3d40",
+		type: "item",
+		item: "enderio:item_material",
+		count: 2
+	}]
+}

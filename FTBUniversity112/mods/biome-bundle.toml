@@ -1,0 +1,14 @@
+name = "Biome Bundle"
+filename = "Biome_Bundle-1.12.2-v6.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2505/277/Biome_Bundle-1.12.2-v6.1.jar"
+hash-format = "murmur2"
+hash = "2161977903"
+
+[update]
+[update.curseforge]
+file-id = 2505277
+project-id = 241542
+release-channel = "beta"

@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.fayessence.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "mahoutsukai:textures/block/mahoujin_changeable_fae.png"
+		}
+	},
+	x: 0.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.fayessence.subtitle}",
+	text: [
+		"{ftbuniversity.fayessence.desc1}",
+		"",
+		"{ftbuniversity.fayessence.desc2}",
+		"",
+		"{ftbuniversity.fayessence.desc3}"
+	],
+	dependencies: [
+		"ebbbc0f7"
+	],
+	tasks: [{
+		uid: "ef556bfb",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:fae_essence"
+		}]
+	}]
+}

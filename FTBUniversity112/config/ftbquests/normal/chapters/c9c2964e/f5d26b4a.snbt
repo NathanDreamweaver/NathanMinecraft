@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.iegardencloche.title}",
+	x: 6.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.iegardencloche.subtitle}",
+	text: [
+		"{ftbuniversity.iegardencloche.desc1}",
+		"",
+		"{ftbuniversity.iegardencloche.desc2}",
+		"",
+		"{ftbuniversity.iegardencloche.desc3}",
+		"",
+		"{ftbuniversity.iegardencloche.desc4}",
+		"",
+		"{ftbuniversity.iegardencloche.desc5}",
+		"",
+		"{ftbuniversity.iegardencloche.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b",
+		"61aadde9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "12cbe023",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		}]
+	}]
+}

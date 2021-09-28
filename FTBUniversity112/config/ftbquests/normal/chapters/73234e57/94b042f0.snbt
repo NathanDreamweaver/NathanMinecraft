@@ -1,0 +1,22 @@
+{
+	x: 1.75d,
+	y: -0.75d,
+	description: "{ftbuniversity.pressuregaugemod.subtitle}",
+	text: [
+		"{ftbuniversity.pressuregaugemod.desc1}",
+		"",
+		"{ftbuniversity.pressuregaugemod.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b9774f8d"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "646989a3",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_gauge_module"
+		}]
+	}]
+}

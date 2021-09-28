@@ -1,0 +1,24 @@
+{
+	x: 8.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.chemdiss.subtitle}",
+	text: [
+		"{ftbuniversity.chemdiss.desc}"
+	],
+	dependencies: [
+		"8fbce3be",
+		"e3944fb7"
+	],
+	tasks: [{
+		uid: "a57e53e2",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

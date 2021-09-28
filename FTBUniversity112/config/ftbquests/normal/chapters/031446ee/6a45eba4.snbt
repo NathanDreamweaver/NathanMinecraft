@@ -1,0 +1,47 @@
+{
+	icon: "bloodmagic:sigil_air",
+	x: 5.25d,
+	y: -3.75d,
+	description: "{ftbuniversity.sigils2.subtitle}",
+	text: [
+		"{ftbuniversity.sigils2.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"458be84a",
+		"68867424"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "ec0082a3",
+		type: "item",
+		title: "{ftbuniversity.sigils2.title}",
+		items: [{
+			item: "bloodmagic:sigil_air"
+		},
+		{
+			item: "bloodmagic:sigil_void"
+		},
+		{
+			id: "bloodmagic:sigil_green_grove",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sigil_bounce",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sigil_frost",
+			tag: {}
+		},
+		{
+			item: "bloodmagic:sigil_seer"
+		},
+		{
+			id: "bloodmagic:sigil_fast_miner",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

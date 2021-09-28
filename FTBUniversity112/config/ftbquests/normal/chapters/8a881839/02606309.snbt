@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.dryingbasin.subtitle}",
+	text: [
+		"{ftbuniversity.dryingbasin.desc1}",
+		"",
+		"{ftbuniversity.dryingbasin.desc2}"
+	],
+	dependencies: [
+		"5ac83711"
+	],
+	tasks: [{
+		uid: "fcaab4a1",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:drying_basin"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.rftanalog.title}",
+	x: -3.75d,
+	y: 5.25d,
+	description: "{ftbuniversity.rftanalog.subtitle}",
+	text: [
+		"{ftbuniversity.rftanalog.desc1}",
+		"",
+		"{ftbuniversity.rftanalog.desc2}",
+		"",
+		"{ftbuniversity.rftanalog.desc3}",
+		"",
+		"{ftbuniversity.rftanalog.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "0539b352",
+		type: "item",
+		items: [{
+			item: "rftools:analog_block"
+		}],
+		ignore_nbt: 1b
+	}]
+}

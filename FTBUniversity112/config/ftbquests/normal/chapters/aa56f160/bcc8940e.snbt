@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.redstoneconduit.subtitle}",
+	text: [
+		"{ftbuniversity.redstoneconduit.desc1}",
+		"",
+		"{ftbuniversity.redstoneconduit.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "494259c1",
+		type: "item",
+		items: [{
+			item: "enderio:item_redstone_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "138e0134",
+		type: "item",
+		item: "enderio:item_redstone_conduit",
+		count: 32
+	}]
+}

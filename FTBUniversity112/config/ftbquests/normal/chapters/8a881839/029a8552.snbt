@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.menrilchunk.title}",
+	icon: "integrateddynamics:menril_sapling",
+	x: 1.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.menrilchunk.subtitle}",
+	text: [
+		"{ftbuniversity.menrilchunk.desc1}",
+		"",
+		"{ftbuniversity.menrilchunk.desc2}"
+	],
+	tasks: [{
+		uid: "e0bbea28",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:menril_log"
+		}]
+	},
+	{
+		uid: "bdaa64ae",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:menril_berries"
+		}]
+	},
+	{
+		uid: "0a4faa9f",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_menril_chunk"
+		}]
+	}],
+	rewards: [{
+		uid: "db5a22bc",
+		type: "item",
+		item: "integrateddynamics:menril_sapling",
+		count: 8
+	}]
+}

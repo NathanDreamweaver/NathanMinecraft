@@ -1,0 +1,62 @@
+{
+	title: "{ftbuniversity.cfpowder.title}",
+	icon: "ic2:foam_sprayer",
+	x: 4.5d,
+	y: 8.5d,
+	description: "{ftbuniversity.cfpowder.subtitle}",
+	text: [
+		"{ftbuniversity.cfpowder.desc1}",
+		"",
+		"{ftbuniversity.cfpowder.desc2}",
+		"",
+		"{ftbuniversity.cfpowder.desc3}",
+		"",
+		"{ftbuniversity.cfpowder.desc4}",
+		"",
+		"{ftbuniversity.cfpowder.desc5}",
+		"",
+		"{ftbuniversity.cfpowder.desc6}",
+		"",
+		"{ftbuniversity.cfpowder.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4f74c9d8"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "eb116d9f",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 25"
+		}]
+	},
+	{
+		uid: "6c1e7b66",
+		type: "item",
+		items: [{
+			item: "ic2:foam_sprayer"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "55f79786",
+		type: "item",
+		items: [{
+			item: "ic2:cf_pack 1 27"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2105323",
+		type: "item",
+		item: "ic2:crafting 1 25",
+		count: 64
+	},
+	{
+		uid: "8307ca31",
+		type: "item",
+		item: "ic2:reinforced_door"
+	}]
+}

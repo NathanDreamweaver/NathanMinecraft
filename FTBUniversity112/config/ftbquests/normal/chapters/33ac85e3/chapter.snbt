@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.advrockchap.title}",
+	icon: "advancedrocketry:spacehelmet",
+	always_invisible: false,
+	group: 2109457760,
+	default_quest_shape: "rsquare"
+}

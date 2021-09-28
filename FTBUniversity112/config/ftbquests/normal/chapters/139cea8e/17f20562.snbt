@@ -1,0 +1,47 @@
+{
+	title: "NuclearCraft: Overhauled",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "nuclearcraft:nuclear_furnace",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Nuclear Physicist",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487459L
+		}
+	},
+	x: -0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.ncotrophy.subtitle}",
+	dependencies: [
+		"4ac82c17"
+	],
+	rewards: [{
+		uid: "07562d4b",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "nuclearcraft:nuclear_furnace",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Nuclear Physicist",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

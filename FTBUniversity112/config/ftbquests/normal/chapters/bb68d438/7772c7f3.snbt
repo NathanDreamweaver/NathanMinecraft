@@ -1,0 +1,269 @@
+{
+	title: "{ftbuniversity.ae2colorcables.title}",
+	icon: "appliedenergistics2:part 1 34",
+	x: 6.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.ae2colorcables.subtitle}",
+	text: [
+		"{ftbuniversity.ae2colorcables.desc1}",
+		"",
+		"{ftbuniversity.ae2colorcables.desc2}",
+		"",
+		"{ftbuniversity.ae2colorcables.desc3}",
+		"",
+		"{ftbuniversity.ae2colorcables.desc4}"
+	],
+	dependencies: [
+		"bc228c29"
+	],
+	tasks: [{
+		uid: "4d3bdc98",
+		type: "item",
+		title: "{ftbuniversity.ae2colorcables.task}",
+		items: [{
+			item: "appliedenergistics2:part"
+		},
+		{
+			item: "appliedenergistics2:part 1 1"
+		},
+		{
+			item: "appliedenergistics2:part 1 2"
+		},
+		{
+			item: "appliedenergistics2:part 1 3"
+		},
+		{
+			item: "appliedenergistics2:part 1 4"
+		},
+		{
+			item: "appliedenergistics2:part 1 5"
+		},
+		{
+			item: "appliedenergistics2:part 1 6"
+		},
+		{
+			item: "appliedenergistics2:part 1 7"
+		},
+		{
+			item: "appliedenergistics2:part 1 8"
+		},
+		{
+			item: "appliedenergistics2:part 1 9"
+		},
+		{
+			item: "appliedenergistics2:part 1 10"
+		},
+		{
+			item: "appliedenergistics2:part 1 11"
+		},
+		{
+			item: "appliedenergistics2:part 1 12"
+		},
+		{
+			item: "appliedenergistics2:part 1 13"
+		},
+		{
+			item: "appliedenergistics2:part 1 14"
+		},
+		{
+			item: "appliedenergistics2:part 1 15"
+		},
+		{
+			item: "appliedenergistics2:part 1 20"
+		},
+		{
+			item: "appliedenergistics2:part 1 21"
+		},
+		{
+			item: "appliedenergistics2:part 1 22"
+		},
+		{
+			item: "appliedenergistics2:part 1 23"
+		},
+		{
+			item: "appliedenergistics2:part 1 24"
+		},
+		{
+			item: "appliedenergistics2:part 1 25"
+		},
+		{
+			item: "appliedenergistics2:part 1 26"
+		},
+		{
+			item: "appliedenergistics2:part 1 27"
+		},
+		{
+			item: "appliedenergistics2:part 1 28"
+		},
+		{
+			item: "appliedenergistics2:part 1 29"
+		},
+		{
+			item: "appliedenergistics2:part 1 30"
+		},
+		{
+			item: "appliedenergistics2:part 1 31"
+		},
+		{
+			item: "appliedenergistics2:part 1 32"
+		},
+		{
+			item: "appliedenergistics2:part 1 33"
+		},
+		{
+			item: "appliedenergistics2:part 1 34"
+		},
+		{
+			item: "appliedenergistics2:part 1 35"
+		},
+		{
+			item: "appliedenergistics2:part 1 500"
+		},
+		{
+			item: "appliedenergistics2:part 1 501"
+		},
+		{
+			item: "appliedenergistics2:part 1 502"
+		},
+		{
+			item: "appliedenergistics2:part 1 503"
+		},
+		{
+			item: "appliedenergistics2:part 1 504"
+		},
+		{
+			item: "appliedenergistics2:part 1 505"
+		},
+		{
+			item: "appliedenergistics2:part 1 506"
+		},
+		{
+			item: "appliedenergistics2:part 1 507"
+		},
+		{
+			item: "appliedenergistics2:part 1 508"
+		},
+		{
+			item: "appliedenergistics2:part 1 509"
+		},
+		{
+			item: "appliedenergistics2:part 1 510"
+		},
+		{
+			item: "appliedenergistics2:part 1 511"
+		},
+		{
+			item: "appliedenergistics2:part 1 512"
+		},
+		{
+			item: "appliedenergistics2:part 1 513"
+		},
+		{
+			item: "appliedenergistics2:part 1 514"
+		},
+		{
+			item: "appliedenergistics2:part 1 515"
+		},
+		{
+			item: "appliedenergistics2:part 1 60"
+		},
+		{
+			item: "appliedenergistics2:part 1 61"
+		},
+		{
+			item: "appliedenergistics2:part 1 62"
+		},
+		{
+			item: "appliedenergistics2:part 1 63"
+		},
+		{
+			item: "appliedenergistics2:part 1 64"
+		},
+		{
+			item: "appliedenergistics2:part 1 65"
+		},
+		{
+			item: "appliedenergistics2:part 1 66"
+		},
+		{
+			item: "appliedenergistics2:part 1 67"
+		},
+		{
+			item: "appliedenergistics2:part 1 68"
+		},
+		{
+			item: "appliedenergistics2:part 1 69"
+		},
+		{
+			item: "appliedenergistics2:part 1 70"
+		},
+		{
+			item: "appliedenergistics2:part 1 71"
+		},
+		{
+			item: "appliedenergistics2:part 1 72"
+		},
+		{
+			item: "appliedenergistics2:part 1 73"
+		},
+		{
+			item: "appliedenergistics2:part 1 74"
+		},
+		{
+			item: "appliedenergistics2:part 1 75"
+		},
+		{
+			item: "appliedenergistics2:part 1 40"
+		},
+		{
+			item: "appliedenergistics2:part 1 41"
+		},
+		{
+			item: "appliedenergistics2:part 1 42"
+		},
+		{
+			item: "appliedenergistics2:part 1 43"
+		},
+		{
+			item: "appliedenergistics2:part 1 44"
+		},
+		{
+			item: "appliedenergistics2:part 1 45"
+		},
+		{
+			item: "appliedenergistics2:part 1 46"
+		},
+		{
+			item: "appliedenergistics2:part 1 47"
+		},
+		{
+			item: "appliedenergistics2:part 1 48"
+		},
+		{
+			item: "appliedenergistics2:part 1 49"
+		},
+		{
+			item: "appliedenergistics2:part 1 50"
+		},
+		{
+			item: "appliedenergistics2:part 1 51"
+		},
+		{
+			item: "appliedenergistics2:part 1 52"
+		},
+		{
+			item: "appliedenergistics2:part 1 53"
+		},
+		{
+			item: "appliedenergistics2:part 1 54"
+		},
+		{
+			item: "appliedenergistics2:part 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "bfa52426",
+		type: "loot",
+		table: 12
+	}]
+}

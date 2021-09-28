@@ -1,0 +1,61 @@
+{
+	title: "{ftbuniversity.eiofilters.title}",
+	icon: "enderio:item_basic_item_filter",
+	x: -2.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.eiofilters.subtitle}",
+	text: [
+		"{ftbuniversity.eiofilters.desc1}",
+		"",
+		"{ftbuniversity.eiofilters.desc2}",
+		"",
+		"{ftbuniversity.eiofilters.desc3}"
+	],
+	dependencies: [
+		"b2966574"
+	],
+	tasks: [{
+		uid: "a3b40320",
+		type: "item",
+		title: "{ftbuniversity.eiofilters.task}",
+		items: [{
+			item: "enderio:item_basic_item_filter"
+		},
+		{
+			item: "enderio:item_advanced_item_filter"
+		},
+		{
+			item: "enderio:item_limited_item_filter"
+		},
+		{
+			item: "enderio:item_big_item_filter"
+		},
+		{
+			item: "enderio:item_big_advanced_item_filter"
+		},
+		{
+			item: "enderio:item_existing_item_filter"
+		},
+		{
+			item: "enderio:item_mod_item_filter"
+		},
+		{
+			item: "enderio:item_power_item_filter"
+		},
+		{
+			item: "enderio:item_soul_filter_normal"
+		},
+		{
+			item: "enderio:item_soul_filter_big"
+		},
+		{
+			item: "enderio:item_enchantment_filter_normal"
+		},
+		{
+			item: "enderio:item_enchantment_filter_big"
+		},
+		{
+			item: "enderio:item_species_item_filter"
+		}]
+	}]
+}

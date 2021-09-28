@@ -1,0 +1,32 @@
+{
+	x: 3.25d,
+	y: -1.0d,
+	description: "{ftbuniversity.holoplansel.subtitle}",
+	text: [
+		"{ftbuniversity.holoplansel.desc1}",
+		"",
+		"{ftbuniversity.holoplansel.desc2}",
+		"",
+		"{ftbuniversity.holoplansel.desc3}",
+		"",
+		"{ftbuniversity.holoplansel.desc4}",
+		"",
+		"{ftbuniversity.holoplansel.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e07320",
+		"2d1edbc9"
+	],
+	hide: true,
+	size: 0.5d,
+	optional: true,
+	min_width: 275,
+	tasks: [{
+		uid: "0e07a12d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetholoselector"
+		}]
+	}]
+}

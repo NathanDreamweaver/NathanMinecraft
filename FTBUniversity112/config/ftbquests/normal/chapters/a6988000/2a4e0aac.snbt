@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.thaumaddon.title}",
+	icon: "thaumicaugmentation:material 1 2",
+	x: -0.7581632653061234d,
+	y: 0.6795918367346943d,
+	description: "{ftbuniversity.thaumaddon.subtitle}",
+	text: [
+		"{ftbuniversity.thaumaddon.desc1}",
+		"",
+		"{ftbuniversity.thaumaddon.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"850c4167"
+	],
+	hide: true,
+	size: 0.325d,
+	tasks: [{
+		uid: "aff75086",
+		type: "checkmark"
+	}]
+}

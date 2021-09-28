@@ -1,0 +1,19 @@
+{
+	title: "{ftbuniversity.sargasso.rewards}",
+	loot_size: 16,
+	rewards: [{
+		item: "contenttweaker:dungeon_loot"
+	},
+	{
+		item: "contenttweaker:mineshaft_loot"
+	},
+	{
+		item: "contenttweaker:desert_loot"
+	},
+	{
+		item: "contenttweaker:jungle_loot"
+	},
+	{
+		item: "contenttweaker:nether_loot"
+	}]
+}

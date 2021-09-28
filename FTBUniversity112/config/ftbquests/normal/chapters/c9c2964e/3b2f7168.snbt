@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.ierefinery.title}",
+	icon: "immersiveengineering:metal_multiblock 1 9",
+	x: 9.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.ierefinery.subtitle}",
+	text: [
+		"{ftbuniversity.ierefinery.desc}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "76c3c3a5",
+		type: "observation",
+		title: "{ftbuniversity.ierefinery.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:refinery",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "daaaa26f",
+		type: "item",
+		item: {
+			id: "forestry:refractory",
+			tag: {
+				Fluid: {
+					FluidName: "biodiesel",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 6
+	}]
+}

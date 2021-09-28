@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.formass.title}",
+	icon: {
+		id: "mekanism:machineblock3",
+		tag: {
+			mekData: {}
+		},
+		Damage: 5s
+	},
+	x: 5.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.formass.subtitle}",
+	text: [
+		"{ftbuniversity.formass.desc1}",
+		"",
+		"{ftbuniversity.formass.desc2}",
+		"",
+		"{ftbuniversity.formass.desc3}",
+		"",
+		"{ftbuniversity.formass.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "5ee92fa5",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock3",
+			tag: {
+				mekData: {}
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d5b022d",
+		type: "item",
+		items: [{
+			id: "mekanism:craftingformula",
+			tag: {
+				mekData: {
+					invalid: 0
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

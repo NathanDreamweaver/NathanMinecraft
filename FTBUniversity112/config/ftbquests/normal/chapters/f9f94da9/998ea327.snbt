@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.plaguedoctor.title}",
+	icon: "rats:plague_doctor_mask",
+	x: -4.5d,
+	y: -6.5d,
+	description: "{ftbuniversity.plaguedoctor.subtitle}",
+	text: [
+		"{ftbuniversity.plaguedoctor.desc1}",
+		"",
+		"{ftbuniversity.plaguedoctor.desc2}",
+		"",
+		"{ftbuniversity.plaguedoctor.desc3}"
+	],
+	tasks: [{
+		uid: "c9a66fdc",
+		type: "observation",
+		title: "{ftbuniversity.plaguedoctor.subtitle}",
+		match_type: "entity_id",
+		match: "rats:plague_doctor",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "22c05dce",
+		type: "item",
+		item: "rats:plague_doctor_mask"
+	}]
+}

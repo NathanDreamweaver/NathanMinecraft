@@ -1,0 +1,50 @@
+{
+	title: "{ftbuniversity.mekportal.title}",
+	icon: "mekanism:machineblock 1 11",
+	x: 8.5d,
+	y: -0.5d,
+	description: "{ftbuniversity.mekportal.subtitle}",
+	text: [
+		"{ftbuniversity.mekportal.desc1}",
+		"",
+		"{ftbuniversity.mekportal.desc2}",
+		"",
+		"{ftbuniversity.mekportal.desc3}",
+		"",
+		"{ftbuniversity.mekportal.desc4}",
+		"",
+		"{ftbuniversity.mekportal.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"be3ed0f6"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "6d0fc23e",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 11"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3f74508",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 7"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "7747730c",
+		type: "item",
+		item: "mekanism:machineblock 1 11"
+	},
+	{
+		uid: "4c243b53",
+		type: "item",
+		item: "mekanism:basicblock 1 7",
+		count: 9
+	}]
+}

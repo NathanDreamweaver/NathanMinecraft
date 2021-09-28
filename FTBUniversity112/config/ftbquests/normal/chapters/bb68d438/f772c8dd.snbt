@@ -1,0 +1,19 @@
+{
+	x: 7.75d,
+	y: 4.25d,
+	description: "{ftbuniversity.infinitybooster.subtitle}",
+	text: [
+		"{ftbuniversity.infinitybooster.desc}"
+	],
+	dependencies: [
+		"18514cd0"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "1da894bc",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}]
+}

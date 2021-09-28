@@ -1,0 +1,73 @@
+{
+	title: "{ftbuniversity.thermoconduct.title}",
+	icon: {
+		id: "mekanism:transmitter",
+		tag: {
+			tier: 0
+		},
+		Damage: 6s
+	},
+	x: 9.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.thermoconduct.subtitle}",
+	text: [
+		"{ftbuniversity.thermoconduct.desc1}",
+		"",
+		"{ftbuniversity.thermoconduct.desc2}",
+		"",
+		"{ftbuniversity.thermoconduct.desc3}",
+		"",
+		"{ftbuniversity.thermoconduct.desc4}",
+		"",
+		"{ftbuniversity.thermoconduct.desc5}"
+	],
+	dependencies: [
+		"60216f1b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ff85f54e",
+		type: "item",
+		title: "{ftbuniversity.thermoconduct.task}",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 6s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 6s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "2cd5f7bb",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		},
+		count: 16
+	}]
+}

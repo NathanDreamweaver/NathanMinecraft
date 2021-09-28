@@ -1,0 +1,78 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/lathe.png"
+		}
+	},
+	x: 2.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.lathe.subtitle}",
+	text: [
+		"{ftbuniversity.lathe.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e37b324"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1661ef84",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:lathe"
+		}]
+	},
+	{
+		uid: "7a02beb9",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 2L
+	},
+	{
+		uid: "20c7c714",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "6527618b",
+		type: "item",
+		title: "{ftbuniversity.motors}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "ebd5cb24",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "d1698166",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	}]
+}

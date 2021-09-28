@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -1.55d,
+	description: "{ftbuniversity.thermalcompressor.subtitle}",
+	text: [
+		"{ftbuniversity.thermalcompressor.desc1}",
+		"",
+		"{ftbuniversity.thermalcompressor.desc2}",
+		"",
+		"{ftbuniversity.thermalcompressor.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"caf98c6b"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "e7db9932",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:thermal_compressor"
+		}]
+	}]
+}

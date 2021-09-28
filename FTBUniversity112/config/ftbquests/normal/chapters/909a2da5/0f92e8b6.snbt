@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 8.5d,
+	description: "{ftbuniversity.loginvsyscon.subtitle}",
+	text: [
+		"{ftbuniversity.loginvsyscon.desc1}",
+		"",
+		"{ftbuniversity.loginvsyscon.desc2}",
+		"",
+		"{ftbuniversity.loginvsyscon.desc3}",
+		"",
+		"{ftbuniversity.loginvsyscon.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "b40b933b",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_inventory_system_connector"
+		}]
+	}]
+}

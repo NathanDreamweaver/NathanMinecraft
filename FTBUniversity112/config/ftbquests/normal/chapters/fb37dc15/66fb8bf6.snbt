@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.rannuncarpus.subtitle}",
+	text: [
+		"{ftbuniversity.rannuncarpus.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	tasks: [{
+		uid: "818da8c7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "rannuncarpus"
+			}
+		}]
+	}]
+}

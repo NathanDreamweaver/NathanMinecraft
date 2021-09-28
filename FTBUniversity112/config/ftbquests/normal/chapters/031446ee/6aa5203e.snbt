@@ -1,0 +1,46 @@
+{
+	icon: {
+		id: "bloodmagic:sigil_holding",
+		tag: {
+			currentSigil: 5
+		}
+	},
+	x: 6.5d,
+	y: -3.75d,
+	description: "{ftbuniversity.sigils3.subtitle}",
+	text: [
+		"{ftbuniversity.sigils3.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"458be84a",
+		"f06672df"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "d8dd6b9c",
+		type: "item",
+		title: "{ftbuniversity.sigils3.title}",
+		items: [{
+			id: "bloodmagic:sigil_blood_light",
+			tag: {}
+		},
+		{
+			item: "bloodmagic:sigil_holding"
+		},
+		{
+			id: "bloodmagic:sigil_magnetism",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sigil_elemental_affinity",
+			tag: {}
+		},
+		{
+			id: "bloodmagic:sigil_claw",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

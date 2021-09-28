@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.prc.title}",
+	x: 3.5d,
+	y: 5.5d,
+	description: "{ftbuniversity.prc.subtitle}",
+	text: [
+		"{ftbuniversity.prc.desc1}",
+		"",
+		"{ftbuniversity.prc.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9cbe6cdb"
+	],
+	tasks: [{
+		uid: "866a252e",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 10"
+		}],
+		ignore_nbt: 1b
+	}]
+}

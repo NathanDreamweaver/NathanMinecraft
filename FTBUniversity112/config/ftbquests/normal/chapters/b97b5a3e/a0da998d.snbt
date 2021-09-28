@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.rftbuilder.title}",
+	x: -1.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.rftbuilder.subtitle}",
+	text: [
+		"{ftbuniversity.rftbuilder.desc1}",
+		"",
+		"{ftbuniversity.rftbuilder.desc2}",
+		"",
+		"{ftbuniversity.rftbuilder.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"812e999e"
+	],
+	tasks: [{
+		uid: "0fe65a69",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}],
+		ignore_nbt: 1b
+	}]
+}

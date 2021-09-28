@@ -1,0 +1,48 @@
+{
+	icon: "bloodmagic:teleposer",
+	x: 8.0d,
+	y: -2.25d,
+	description: "{ftbuniversity.teleposer.subtitle}",
+	text: [
+		"{ftbuniversity.teleposer.desc1}",
+		"",
+		"{ftbuniversity.teleposer.desc2}",
+		"",
+		"{ftbuniversity.teleposer.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a8c43d6"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "aa00c195",
+		type: "item",
+		items: [{
+			item: "bloodmagic:teleposer"
+		}]
+	},
+	{
+		uid: "bf449aa7",
+		type: "item",
+		title: "{ftbuniversity.teleposer.task}",
+		items: [{
+			item: "bloodmagic:teleposition_focus"
+		},
+		{
+			item: "bloodmagic:teleposition_focus 1 1"
+		},
+		{
+			item: "bloodmagic:teleposition_focus 1 2"
+		},
+		{
+			item: "bloodmagic:teleposition_focus 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "94862de1",
+		type: "item",
+		item: "bloodmagic:teleposer"
+	}]
+}

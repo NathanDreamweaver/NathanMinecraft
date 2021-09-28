@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.holoprojector.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.holoprojector.subtitle}",
+	text: [
+		"{ftbuniversity.holoprojector.desc1}",
+		"",
+		"{ftbuniversity.holoprojector.desc2}",
+		"",
+		"{ftbuniversity.holoprojector.desc3}",
+		"",
+		"{ftbuniversity.holoprojector.desc4}",
+		"",
+		"{ftbuniversity.holoprojector.desc5}",
+		"",
+		"{ftbuniversity.holoprojector.desc6}"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "743c7ea4",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	}]
+}

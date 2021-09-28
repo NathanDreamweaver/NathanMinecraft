@@ -1,0 +1,31 @@
+{
+	x: -3.0204081632653086d,
+	y: 1.3877551020408205d,
+	description: "{ftbuniversity.voidmetal.subtitle}",
+	text: [
+		"{ftbuniversity.voidmetal.desc1}",
+		"",
+		"{ftbuniversity.voidmetal.desc2}",
+		"",
+		"{ftbuniversity.voidmetal.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b666f132"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "89bd4def",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f6883c6e",
+		type: "item",
+		item: "thaumcraft:void_seed",
+		count: 8
+	}]
+}

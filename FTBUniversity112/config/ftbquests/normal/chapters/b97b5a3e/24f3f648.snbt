@@ -1,0 +1,52 @@
+{
+	icon: "rftools:endergenic",
+	x: -2.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.endergenic.subtitle}",
+	text: [
+		"{ftbuniversity.endergenic.desc1}",
+		"",
+		"{ftbuniversity.endergenic.desc2}",
+		"",
+		"{ftbuniversity.endergenic.desc3}",
+		"",
+		"{ftbuniversity.endergenic.desc4}",
+		"",
+		"{ftbuniversity.endergenic.desc5}",
+		"",
+		"{ftbuniversity.endergenic.desc6}",
+		"",
+		"{ftbuniversity.endergenic.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	min_width: 325,
+	tasks: [{
+		uid: "d00a313c",
+		type: "item",
+		items: [{
+			item: "rftools:endergenic"
+		}]
+	},
+	{
+		uid: "422f7a7b",
+		type: "item",
+		items: [{
+			item: "rftools:pearl_injector"
+		}]
+	},
+	{
+		uid: "4d3b7ff3",
+		type: "item",
+		items: [{
+			item: "rftools:ender_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "921dee29",
+		type: "item",
+		item: "rftools:endergenic"
+	}]
+}

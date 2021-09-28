@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.packexc.title}",
+	icon: "packagedexcrafting:elite_crafter",
+	x: 13.0d,
+	y: -6.5d,
+	description: "{ftbuniversity.packexc.subtitle}",
+	text: [
+		"{ftbuniversity.packexc.desc1}",
+		"",
+		"{ftbuniversity.packexc.desc2}",
+		"",
+		"{ftbuniversity.packexc.desc3}",
+		"",
+		"{ftbuniversity.packexc.desc4}"
+	],
+	dependencies: [
+		"07a1a87c"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "d0a78e9b",
+		type: "item",
+		title: "{ftbuniversity.packexc.task}",
+		items: [{
+			item: "packagedexcrafting:advanced_crafter"
+		},
+		{
+			item: "packagedexcrafting:elite_crafter"
+		},
+		{
+			item: "packagedexcrafting:ultimate_crafter"
+		},
+		{
+			item: "packagedexcrafting:combination_crafter"
+		},
+		{
+			item: "packagedexcrafting:marked_pedestal"
+		}]
+	}]
+}

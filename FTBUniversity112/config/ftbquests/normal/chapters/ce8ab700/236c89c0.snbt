@@ -1,0 +1,40 @@
+{
+	icon: "rf-capability-adapter:aecapabilityadapter",
+	x: 3.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.mecapab.subtitle}",
+	text: [
+		"{ftbuniversity.mecapab.desc1}",
+		"",
+		"{ftbuniversity.mecapab.desc2}",
+		"",
+		"{ftbuniversity.mecapab.desc3}",
+		"",
+		"{ftbuniversity.mecapab.desc4}",
+		"",
+		"{ftbuniversity.mecapab.desc5}"
+	],
+	dependencies: [
+		"377e2ee5",
+		"0944ebeb"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "98d37b4f",
+		type: "item",
+		title: "{ftbuniversity.mecapab.task}",
+		items: [{
+			item: "rf-capability-adapter:aecapabilityadapter"
+		},
+		{
+			item: "rf-capability-adapter:aecapabilityadapter_part"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea4da861",
+		type: "item",
+		item: "rf-capability-adapter:aecapabilityadapter"
+	}]
+}

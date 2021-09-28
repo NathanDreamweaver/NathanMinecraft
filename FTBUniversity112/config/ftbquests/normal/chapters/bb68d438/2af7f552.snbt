@@ -1,0 +1,48 @@
+{
+	icon: "appliedenergistics2:chest",
+	x: 4.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.mechest.subtitle}",
+	text: [
+		"{ftbuniversity.mechest.desc1}",
+		"",
+		"{ftbuniversity.mechest.desc2}",
+		"",
+		"{ftbuniversity.mechest.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4bf7fd2f",
+		"21ef680e"
+	],
+	tasks: [{
+		uid: "f347b263",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:chest"
+		}]
+	},
+	{
+		uid: "003c3e5f",
+		type: "item",
+		title: "{ftbuniversity.medrive.task}",
+		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

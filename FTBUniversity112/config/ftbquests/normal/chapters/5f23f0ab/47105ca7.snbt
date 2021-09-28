@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.biogasengine.subtitle}",
+	text: [
+		"{ftbuniversity.biogasengine.desc1}",
+		"",
+		"{ftbuniversity.biogasengine.desc2}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "bf873212",
+		type: "item",
+		items: [{
+			item: "forestry:engine_biogas"
+		}]
+	}],
+	rewards: [{
+		uid: "6bb766c8",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "biomass",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.rftoolsdimbok.subtitle}",
+	text: [
+		"{ftbuniversity.rftoolsdimbok.desc1}",
+		"",
+		"{ftbuniversity.rftoolsdimbok.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "8d304940",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:rftoolsdim_manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

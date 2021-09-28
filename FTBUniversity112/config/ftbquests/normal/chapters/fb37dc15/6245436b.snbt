@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.puredaisy.title}",
+	x: 1.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.puredaisy.subtitle}",
+	text: [
+		"{ftbuniversity.puredaisy.desc}"
+	],
+	dependencies: [
+		"8581f5f7"
+	],
+	tasks: [{
+		uid: "869cb168",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ac0c77af",
+		type: "item",
+		item: "botania:blazeblock",
+		count: 8
+	}]
+}

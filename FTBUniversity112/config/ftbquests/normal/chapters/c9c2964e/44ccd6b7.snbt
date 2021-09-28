@@ -1,0 +1,22 @@
+{
+	x: 9.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.ipportagen.subtitle}",
+	text: [
+		"{ftbuniversity.ipportagen.desc1}",
+		"",
+		"{ftbuniversity.ipportagen.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f79e4a10"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b3a71625",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:metal_device 1 1"
+		}]
+	}]
+}

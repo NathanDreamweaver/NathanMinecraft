@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.rftquarry.title}",
+	x: -2.25d,
+	y: 8.75d,
+	description: "{ftbuniversity.rftquarry.subtitle}",
+	text: [
+		"{ftbuniversity.rftquarry.desc1}",
+		"",
+		"{ftbuniversity.rftquarry.desc2}",
+		"",
+		"{ftbuniversity.rftquarry.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a0da998d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "94c42247",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

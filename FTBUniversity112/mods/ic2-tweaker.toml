@@ -1,0 +1,14 @@
+name = "IC2 Tweaker"
+filename = "ic2-tweaker-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2666/979/ic2-tweaker-0.2.0.jar"
+hash-format = "murmur2"
+hash = "4251383577"
+
+[update]
+[update.curseforge]
+file-id = 2666979
+project-id = 311846
+release-channel = "beta"

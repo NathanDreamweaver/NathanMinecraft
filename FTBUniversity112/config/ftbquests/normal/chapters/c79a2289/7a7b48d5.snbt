@@ -1,0 +1,18 @@
+{
+	x: 9.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.liquidfuelfire.subtitle}",
+	text: [
+		"{ftbuniversity.liquidfuelfire.desc}"
+	],
+	dependencies: [
+		"ac778fab"
+	],
+	tasks: [{
+		uid: "63a4a5cb",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 13"
+		}]
+	}]
+}

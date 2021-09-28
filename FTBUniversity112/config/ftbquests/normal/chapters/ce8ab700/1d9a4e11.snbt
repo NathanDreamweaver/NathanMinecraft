@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.annoyingsounds.title}",
+	icon: "minecraft:red_flower",
+	x: 3.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.annoyingsounds.subtitle}",
+	text: [
+		"{ftbuniversity.annoyingsounds.desc1}",
+		"",
+		"{ftbuniversity.annoyingsounds.desc2}",
+		"",
+		"{ftbuniversity.annoyingsounds.desc3}",
+		"",
+		"{ftbuniversity.annoyingsounds.desc4}",
+		"",
+		"{ftbuniversity.annoyingsounds.desc5}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "5b0ecc84",
+		type: "checkmark"
+	}]
+}

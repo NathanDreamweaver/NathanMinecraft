@@ -1,0 +1,14 @@
+name = "SwingThroughGrass"
+filename = "stg-1.12.2-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2508/268/stg-1.12.2-1.2.3.jar"
+hash-format = "murmur2"
+hash = "201836877"
+
+[update]
+[update.curseforge]
+file-id = 2508268
+project-id = 264353
+release-channel = "beta"

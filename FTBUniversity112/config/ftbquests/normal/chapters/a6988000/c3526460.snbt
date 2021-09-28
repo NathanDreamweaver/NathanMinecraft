@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.focalmanip.title}",
+	icon: "thaumcraft:wand_workbench",
+	x: -1.17d,
+	y: -2.11d,
+	description: "{ftbuniversity.focalmanip.subtitle}",
+	text: [
+		"{ftbuniversity.focalmanip.desc1}",
+		"",
+		"{ftbuniversity.focalmanip.desc2}",
+		"",
+		"{ftbuniversity.focalmanip.desc3}",
+		"",
+		"{ftbuniversity.focalmanip.desc4}",
+		"",
+		"{ftbuniversity.focalmanip.desc5}",
+		"",
+		"{ftbuniversity.focalmanip.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"63a500b0"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "889d9869",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	},
+	{
+		uid: "01c0c484",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

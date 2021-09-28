@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.forestryfermenter.title}",
+	x: -1.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.forestryfermenter.subtitle}",
+	text: [
+		"{ftbuniversity.forestryfermenter.desc1}",
+		"",
+		"{ftbuniversity.forestryfermenter.desc2}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "82007bed",
+		type: "item",
+		items: [{
+			item: "forestry:fermenter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

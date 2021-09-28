@@ -1,0 +1,21 @@
+{
+	x: 0.9d,
+	y: -0.25d,
+	description: "{ftbuniversity.exu2transferpipefilter.subtitle}",
+	text: [
+		"{ftbuniversity.exu2transferpipefilter.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2a51a1a"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "ce6f5aea",
+		type: "item",
+		items: [{
+			item: "extrautils2:grocket 1 5"
+		}]
+	}]
+}

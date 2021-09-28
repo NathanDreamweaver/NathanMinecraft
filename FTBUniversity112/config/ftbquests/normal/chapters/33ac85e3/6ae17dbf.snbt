@@ -1,0 +1,80 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/astrobody_data_processor.png"
+		}
+	},
+	x: -3.25d,
+	y: -5.0d,
+	description: "{ftbuniversity.adp.subtitle}",
+	text: [
+		"{ftbuniversity.adp.desc1}",
+		"",
+		"{ftbuniversity.adp.desc2}",
+		"",
+		"{ftbuniversity.adp.desc3}",
+		"",
+		"{ftbuniversity.adp.desc4}",
+		"",
+		"{ftbuniversity.adp.desc5}"
+	],
+	dependencies: [
+		"cfb93d1d"
+	],
+	size: 0.5d,
+	min_width: 275,
+	tasks: [{
+		uid: "fe8cc8f8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetanalyser"
+		}]
+	},
+	{
+		uid: "f872b154",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:stone_slab"
+		}],
+		count: 5L
+	},
+	{
+		uid: "26eb3e94",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:loader"
+		}],
+		count: 3L
+	},
+	{
+		uid: "223acd4a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "ffa21db2",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "ae03023b",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	icon: "advancedrocketry:oxygenvent",
+	x: -1.0d,
+	y: -7.0d,
+	description: "{ftbuniversity.oxygenvent.subtitle}",
+	text: [
+		"{ftbuniversity.oxygenvent.desc1}",
+		"",
+		"{ftbuniversity.oxygenvent.desc2}",
+		"",
+		"{ftbuniversity.oxygenvent.desc3}",
+		"",
+		"{ftbuniversity.oxygenvent.desc4}"
+	],
+	dependencies: [
+		"7adea7b7"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "3a01d322",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygenvent"
+		}]
+	},
+	{
+		uid: "8873b43d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygenscrubber"
+		}],
+		count: 2L
+	},
+	{
+		uid: "9a285dd2",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:carbonscrubbercartridge"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "153947dc",
+		type: "item",
+		item: "advancedrocketry:smallairlockdoor"
+	}]
+}

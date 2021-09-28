@@ -1,0 +1,60 @@
+{
+	title: "{ftbuniversity.ic2nuclear3.3.title}",
+	icon: {
+		id: "ic2:heat_storage",
+		tag: {
+			advDmg: 0
+		}
+	},
+	x: 4.75d,
+	y: -3.25d,
+	description: "{ftbuniversity.ic2nuclear3.3.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear3.3.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear3.3.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear3.3.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5be0253"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "c53494d8",
+		type: "item",
+		title: "{ftbuniversity.ic2nuclear3.3.task}",
+		items: [{
+			id: "ic2:heat_storage",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:tri_heat_storage",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:hex_heat_storage",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:rsh_condensator",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:lzh_condensator",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

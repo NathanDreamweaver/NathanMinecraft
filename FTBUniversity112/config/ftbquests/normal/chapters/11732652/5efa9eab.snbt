@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.quantumentangle.title}",
+	x: 7.5d,
+	y: -0.5d,
+	description: "{ftbuniversity.quantumentangle.subtitle}",
+	text: [
+		"{ftbuniversity.quantumentangle.desc1}",
+		"",
+		"{ftbuniversity.quantumentangle.desc2}"
+	],
+	dependencies: [
+		"be3ed0f6"
+	],
+	tasks: [{
+		uid: "96175216",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock3",
+			tag: {
+				mekData: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "067b97ce",
+		type: "item",
+		item: "mekanism:machineblock3"
+	}]
+}

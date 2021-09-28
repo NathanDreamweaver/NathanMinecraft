@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.mowtal.subtitle}",
+	text: [
+		"{ftbuniversity.mowtal.desc1}",
+		"",
+		"{ftbuniversity.mowtal.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4951289a",
+		type: "item",
+		items: [{
+			item: "mowziesmobs:earth_talisman"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

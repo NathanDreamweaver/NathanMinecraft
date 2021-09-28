@@ -1,0 +1,37 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.itemconduit.subtitle}",
+	text: [
+		"{ftbuniversity.itemconduit.desc1}",
+		"",
+		"{ftbuniversity.itemconduit.desc2}",
+		"",
+		"{ftbuniversity.itemconduit.desc3}",
+		"",
+		"{ftbuniversity.itemconduit.desc4}",
+		"",
+		"{ftbuniversity.itemconduit.desc5}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "49dca947",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "a1f4eef6",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 48
+	}]
+}

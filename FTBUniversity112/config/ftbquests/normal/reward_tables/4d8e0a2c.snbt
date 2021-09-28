@@ -1,0 +1,80 @@
+{
+	title: "{ftbuniversity.neato.reward_divining}",
+	loot_size: 1,
+	rewards: [{
+		item: "randomthings:diviningrod",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 1",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 2",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 3",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 4",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 5",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 6",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 7"
+	},
+	{
+		item: "randomthings:diviningrod 1 8",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 9",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 10",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 11",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 12",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 13",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 14",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 15",
+		weight: 3
+	},
+	{
+		item: "randomthings:diviningrod 1 21",
+		weight: 3
+	}],
+	loot_crate: {
+		string_id: "ftbuniversity_neato_reward_divining",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

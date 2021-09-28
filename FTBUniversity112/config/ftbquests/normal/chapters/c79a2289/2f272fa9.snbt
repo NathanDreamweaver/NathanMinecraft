@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.ic2nuclear3.6.title}",
+	x: 5.0d,
+	y: -2.75d,
+	description: "{ftbuniversity.ic2nuclear3.6.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear3.6.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5be0253"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "7d3b955c",
+		type: "item",
+		items: [{
+			id: "ic2:mox_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

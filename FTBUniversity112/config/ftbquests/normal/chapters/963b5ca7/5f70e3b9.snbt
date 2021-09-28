@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.ectables.title}",
+	icon: "extendedcrafting:table_ultimate",
+	x: -1.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.ectables.subtitle}",
+	text: [
+		"{ftbuniversity.ectables.desc1}",
+		"",
+		"{ftbuniversity.ectables.desc2}"
+	],
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "eef804a1",
+		type: "item",
+		title: "{ftbuniversity.ectables.task}",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		},
+		{
+			item: "extendedcrafting:table_advanced"
+		},
+		{
+			item: "extendedcrafting:table_elite"
+		},
+		{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}]
+}

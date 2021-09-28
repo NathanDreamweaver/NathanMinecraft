@@ -1,0 +1,33 @@
+{
+	icon: "supersoundmuffler:sound_muffler",
+	x: 2.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.supersoundmuffler.subtitle}",
+	text: [
+		"{ftbuniversity.supersoundmuffler.desc1}",
+		"",
+		"{ftbuniversity.supersoundmuffler.desc2}",
+		"",
+		"{ftbuniversity.supersoundmuffler.desc3}",
+		"",
+		"{ftbuniversity.supersoundmuffler.desc4}",
+		"",
+		"{ftbuniversity.supersoundmuffler.desc5}",
+		"",
+		"{ftbuniversity.supersoundmuffler.desc6}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "513ec98e",
+		type: "item",
+		title: "{ftbuniversity.supersoundmuffler.title}",
+		items: [{
+			item: "supersoundmuffler:sound_muffler"
+		},
+		{
+			item: "supersoundmuffler:sound_muffler_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

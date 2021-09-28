@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.ae2channels.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 4.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.ae2channels.subtitle}",
+	text: [
+		"{ftbuniversity.ae2channels.desc1}",
+		"",
+		"{ftbuniversity.ae2channels.desc2}",
+		"",
+		"{ftbuniversity.ae2channels.desc3}",
+		"",
+		"{ftbuniversity.ae2channels.desc4}",
+		"",
+		"{ftbuniversity.ae2channels.desc5}",
+		"",
+		"{ftbuniversity.ae2channels.desc6}"
+	],
+	dependencies: [
+		"f276b26c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "81645843",
+		type: "checkmark"
+	}]
+}

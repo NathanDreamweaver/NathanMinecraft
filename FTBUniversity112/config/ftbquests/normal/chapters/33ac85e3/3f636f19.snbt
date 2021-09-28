@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.lostcities.title}",
+	x: 0.75d,
+	y: -8.25d,
+	description: "{ftbuniversity.lostcities.subtitle}",
+	text: [
+		"{ftbuniversity.lostcities.desc1}",
+		"",
+		"{ftbuniversity.lostcities.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4647eca4"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "2aa0f8a6",
+		type: "dimension",
+		dim: 111
+	}]
+}

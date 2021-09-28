@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.sentarmor.title}",
+	icon: {
+		id: "bloodmagic:sentient_armour_helmet",
+		tag: {
+			costModifier: 0.5d,
+			demonWillType: "default",
+			armour: {
+				id: "minecraft:air",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: 0.5d,
+	y: 1.25d,
+	description: "{ftbuniversity.sentarmor.subtitle}",
+	text: [
+		"{ftbuniversity.sentarmor.desc1}",
+		"",
+		"{ftbuniversity.sentarmor.desc2}",
+		"",
+		"{ftbuniversity.sentarmor.desc3}",
+		"",
+		"{ftbuniversity.sentarmor.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640097ed",
+		"a4a4692e"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "a65e6795",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sentient_armour_gem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

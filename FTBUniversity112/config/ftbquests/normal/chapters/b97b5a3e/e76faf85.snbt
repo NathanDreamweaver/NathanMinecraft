@@ -1,0 +1,22 @@
+{
+	x: -1.25d,
+	y: 9.75d,
+	description: "{ftbuniversity.rftplacingfluids.subtitle}",
+	text: [
+		"{ftbuniversity.rftplacingfluids.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a0da998d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "e0b7611f",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 10"
+		}],
+		ignore_nbt: 1b
+	}]
+}

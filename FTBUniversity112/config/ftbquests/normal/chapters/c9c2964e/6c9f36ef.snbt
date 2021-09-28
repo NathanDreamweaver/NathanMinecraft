@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.ippumpjack.title}",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "oil",
+			Amount: 1000
+		}
+	},
+	x: 12.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.ippumpjack.subtitle}",
+	text: [
+		"{ftbuniversity.ippumpjack.desc1}",
+		"",
+		"{ftbuniversity.ippumpjack.desc2}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}",
+		"",
+		"{ftbuniversity.ippumpjack.desc3}"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "76ae3826",
+		type: "observation",
+		title: "{ftbuniversity.ippumpjack.task}",
+		match_type: "block_entity_id",
+		match: "immersivepetroleum:pumpjack",
+		timer: 0L
+	},
+	{
+		uid: "94a82b17",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

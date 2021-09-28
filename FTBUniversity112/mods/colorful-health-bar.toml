@@ -1,0 +1,14 @@
+name = "Colorful Health bar"
+filename = "colorfulhealthbar-0.0.4a.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2801/0/colorfulhealthbar-0.0.4a.jar"
+hash-format = "murmur2"
+hash = "329326276"
+
+[update]
+[update.curseforge]
+file-id = 2801000
+project-id = 317397
+release-channel = "beta"

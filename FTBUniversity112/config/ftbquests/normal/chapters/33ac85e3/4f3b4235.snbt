@@ -1,0 +1,24 @@
+{
+	x: -1.25d,
+	y: -2.0d,
+	description: "{ftbuniversity.gascharge.subtitle}",
+	text: [
+		"{ftbuniversity.gascharge.desc1}",
+		"",
+		"{ftbuniversity.gascharge.desc2}",
+		"",
+		"{ftbuniversity.gascharge.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"540ec581"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "479e86f2",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}]
+}

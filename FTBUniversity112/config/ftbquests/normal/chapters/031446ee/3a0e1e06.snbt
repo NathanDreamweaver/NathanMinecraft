@@ -1,0 +1,22 @@
+{
+	x: 9.5d,
+	y: -4.25d,
+	description: "{ftbuniversity.angelus.subtitle}",
+	text: [
+		"{ftbuniversity.angelus.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6363d737",
+		"6c9d5cd1",
+		"f517f86f"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "b4bbc9e5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:points_upgrade"
+		}]
+	}]
+}

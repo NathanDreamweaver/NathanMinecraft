@@ -1,0 +1,18 @@
+{
+	title: "{ftbuniversity.ae2channellink.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "biomesoplenty:textures/items/earth.png"
+		}
+	},
+	x: 4.5d,
+	y: -2.325d,
+	description: "{ftbuniversity.ae2channellink.subtitle}",
+	custom_click: "https://ae-mod.info/Channels/",
+	dependencies: [
+		"3809171e"
+	],
+	size: 0.75d,
+	optional: true
+}

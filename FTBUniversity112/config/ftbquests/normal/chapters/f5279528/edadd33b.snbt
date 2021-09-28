@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.xnfacade.subtitle}",
+	text: [
+		"{ftbuniversity.xnfacade.desc}"
+	],
+	dependencies: [
+		"055df0ac"
+	],
+	tasks: [{
+		uid: "4aad76dd",
+		type: "item",
+		items: [{
+			item: "xnet:facade"
+		}],
+		ignore_nbt: 1b
+	}]
+}

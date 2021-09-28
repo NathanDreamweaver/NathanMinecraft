@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.logiccable.subtitle}",
+	text: [
+		"{ftbuniversity.logiccable.desc}"
+	],
+	dependencies: [
+		"02606309"
+	],
+	tasks: [{
+		uid: "a17f76ef",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:cable"
+		}]
+	}]
+}

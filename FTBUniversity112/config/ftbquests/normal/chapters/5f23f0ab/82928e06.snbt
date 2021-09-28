@@ -1,0 +1,44 @@
+{
+	icon: "gendustry:sampler",
+	x: 4.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.geneticsampler.subtitle}",
+	text: [
+		"{ftbuniversity.geneticsampler.desc1}",
+		"",
+		"{ftbuniversity.geneticsampler.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f455a4ff"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a8c4d1f0",
+		type: "item",
+		items: [{
+			item: "gendustry:sampler"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bfd44481",
+		type: "item",
+		items: [{
+			item: "gendustry:gene_sample_blank"
+		}]
+	},
+	{
+		uid: "d0cfba70",
+		type: "item",
+		items: [{
+			item: "gendustry:labware"
+		}]
+	}],
+	rewards: [{
+		uid: "0116a031",
+		type: "item",
+		item: "gendustry:gene_sample_blank",
+		count: 16
+	}]
+}

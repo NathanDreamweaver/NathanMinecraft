@@ -1,0 +1,19 @@
+{
+	title: "Steel from any source",
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "0dc185d7",
+		type: "item",
+		title: "Any ingotSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

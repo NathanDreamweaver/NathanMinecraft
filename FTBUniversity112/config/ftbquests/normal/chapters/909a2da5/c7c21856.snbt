@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.logpowerjunction.subtitle}",
+	text: [
+		"{ftbuniversity.logpowerjunction.desc1}",
+		"",
+		"{ftbuniversity.logpowerjunction.desc2}"
+	],
+	dependencies: [
+		"ba9953a3"
+	],
+	tasks: [{
+		uid: "cdb10525",
+		type: "item",
+		items: [{
+			item: "logisticspipes:power_junction"
+		}]
+	}]
+}

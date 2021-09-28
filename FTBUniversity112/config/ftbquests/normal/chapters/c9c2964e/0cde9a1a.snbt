@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.iemetalpress.title}",
+	icon: "immersiveengineering:metal_multiblock",
+	x: 7.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.iemetalpress.subtitle}",
+	text: [
+		"{ftbuniversity.iemetalpress.desc1}",
+		"",
+		"{ftbuniversity.iemetalpress.desc2}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "387312fa",
+		type: "observation",
+		title: "{ftbuniversity.iemetalpress.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:metalpress",
+		timer: 0L
+	}]
+}

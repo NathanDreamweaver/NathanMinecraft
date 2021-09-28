@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.mekscuba.title}",
+	icon: "mekanism:gasmask",
+	x: 13.0d,
+	y: -3.5d,
+	description: "{ftbuniversity.mekscuba.subtitle}",
+	text: [
+		"{ftbuniversity.mekscuba.desc1}",
+		"",
+		"{ftbuniversity.mekscuba.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "15c9c187",
+		type: "item",
+		items: [{
+			item: "mekanism:gasmask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6e0ce42",
+		type: "item",
+		items: [{
+			item: "mekanism:scubatank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

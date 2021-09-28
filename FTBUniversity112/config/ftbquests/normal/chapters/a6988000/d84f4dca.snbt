@@ -1,0 +1,21 @@
+{
+	x: 1.958503401360609d,
+	y: -2.412244897959191d,
+	description: "{ftbuniversity.auxvent.subtitle}",
+	text: [
+		"{ftbuniversity.auxvent.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9b296ed6"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "bd9abbf1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		}]
+	}]
+}

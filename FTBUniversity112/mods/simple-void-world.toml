@@ -1,0 +1,14 @@
+name = "Simple Void World"
+filename = "Simple-Void-World-1.12-1.2.0.9-universal.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2498/115/Simple-Void-World-1.12-1.2.0.9-universal.jar"
+hash-format = "murmur2"
+hash = "2144003688"
+
+[update]
+[update.curseforge]
+file-id = 2498115
+project-id = 254466
+release-channel = "beta"

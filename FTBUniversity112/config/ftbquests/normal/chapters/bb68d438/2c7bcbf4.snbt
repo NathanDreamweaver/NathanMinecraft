@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.storagemonitor.subtitle}",
+	text: [
+		"{ftbuniversity.storagemonitor.desc1}",
+		"",
+		"{ftbuniversity.storagemonitor.desc2}",
+		"",
+		"{ftbuniversity.storagemonitor.desc3}",
+		"",
+		"{ftbuniversity.storagemonitor.desc4}"
+	],
+	dependencies: [
+		"ae1a3288"
+	],
+	tasks: [{
+		uid: "7d96ce0a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 400"
+		}]
+	}]
+}

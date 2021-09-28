@@ -1,0 +1,14 @@
+name = "Magic Bees"
+filename = "MagicBees-1.12.2-3.1.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2566/282/MagicBees-1.12.2-3.1.10.jar"
+hash-format = "murmur2"
+hash = "3030765590"
+
+[update]
+[update.curseforge]
+file-id = 2566282
+project-id = 65764
+release-channel = "beta"

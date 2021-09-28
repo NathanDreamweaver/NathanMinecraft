@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.demcryst.subtitle}",
+	text: [
+		"{ftbuniversity.demcryst.desc1}",
+		"",
+		"{ftbuniversity.demcryst.desc2}"
+	],
+	dependencies: [
+		"2f0e98aa"
+	],
+	tasks: [{
+		uid: "58a57829",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}]
+}

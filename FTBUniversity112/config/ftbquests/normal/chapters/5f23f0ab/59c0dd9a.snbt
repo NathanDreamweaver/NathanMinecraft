@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.forestrysqueezer.title}",
+	x: -2.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.forestrysqueezer.subtitle}",
+	text: [
+		"{ftbuniversity.forestrysqueezer.desc}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "e024383b",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8151d098",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "juice",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 8
+	}]
+}

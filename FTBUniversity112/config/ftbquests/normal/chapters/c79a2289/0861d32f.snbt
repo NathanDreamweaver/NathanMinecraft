@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.solidcanning.title}",
+	x: 4.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.solidcanning.subtitle}",
+	text: [
+		"{ftbuniversity.solidcanning.desc1}",
+		"",
+		"{ftbuniversity.solidcanning.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "461daea3",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 49"
+		}]
+	}],
+	rewards: [{
+		uid: "49f4f008",
+		type: "item",
+		item: "ic2:filled_tin_can",
+		count: 64
+	}]
+}

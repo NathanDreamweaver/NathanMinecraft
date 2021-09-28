@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.wirelessterminal.subtitle}",
+	text: [
+		"{ftbuniversity.wirelessterminal.desc1}",
+		"",
+		"{ftbuniversity.wirelessterminal.desc2}",
+		"",
+		"{ftbuniversity.wirelessterminal.desc3}"
+	],
+	dependencies: [
+		"b5c582fd"
+	],
+	tasks: [{
+		uid: "fc3ea18a",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

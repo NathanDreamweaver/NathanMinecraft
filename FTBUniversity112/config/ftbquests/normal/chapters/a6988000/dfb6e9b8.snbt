@@ -1,0 +1,23 @@
+{
+	x: -1.297108843537437d,
+	y: -2.500340136054419d,
+	description: "{ftbuniversity.focuspouch.subtitle}",
+	text: [
+		"{ftbuniversity.focuspouch.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c3526460"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "b7e343e2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

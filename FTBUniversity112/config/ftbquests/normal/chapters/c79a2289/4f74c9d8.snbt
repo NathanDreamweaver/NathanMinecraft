@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.orewashingplant.title}",
+	x: 5.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.orewashingplant.subtitle}",
+	text: [
+		"{ftbuniversity.orewashingplant.desc1}",
+		"",
+		"{ftbuniversity.orewashingplant.desc2}"
+	],
+	dependencies: [
+		"58587b95"
+	],
+	tasks: [{
+		uid: "f3e92e95",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "348cd34d",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	}]
+}

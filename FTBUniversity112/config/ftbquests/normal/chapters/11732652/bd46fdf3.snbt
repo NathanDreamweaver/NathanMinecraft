@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.meksteam.title}",
+	x: 15.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.meksteam.subtitle}",
+	text: [
+		"{ftbuniversity.meksteam.desc1}",
+		"",
+		"{ftbuniversity.meksteam.desc2}"
+	],
+	dependencies: [
+		"5e095d38"
+	],
+	tasks: [{
+		uid: "bce8c8bd",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "steam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

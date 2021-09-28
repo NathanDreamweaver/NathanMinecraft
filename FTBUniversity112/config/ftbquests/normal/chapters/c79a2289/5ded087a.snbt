@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.ic2tesla.title}",
+	x: 9.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.ic2tesla.subtitle}",
+	text: [
+		"{ftbuniversity.ic2tesla.desc1}",
+		"",
+		"{ftbuniversity.ic2tesla.desc2}",
+		"",
+		"{ftbuniversity.ic2tesla.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d465b6e"
+	],
+	tasks: [{
+		uid: "10971b08",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 41"
+		}]
+	}]
+}

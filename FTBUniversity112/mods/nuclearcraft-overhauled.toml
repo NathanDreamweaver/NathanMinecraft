@@ -1,0 +1,14 @@
+name = "NuclearCraft: Overhauled"
+filename = "NuclearCraft-2o.4.7-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3072/330/NuclearCraft-2o.4.7-1.12.2.jar"
+hash-format = "murmur2"
+hash = "2032199559"
+
+[update]
+[update.curseforge]
+file-id = 3072330
+project-id = 336895
+release-channel = "beta"

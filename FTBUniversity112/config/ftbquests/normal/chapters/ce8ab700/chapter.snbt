@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.miscmisc.title}",
+	icon: "minecraft:stick",
+	always_invisible: false,
+	group: -1158736179,
+	default_quest_shape: ""
+}

@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 11.0d,
+	description: "{ftbuniversity.itmextupg.subtitle}",
+	text: [
+		"{ftbuniversity.itmextupg.desc1}",
+		"",
+		"{ftbuniversity.itmextupg.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "25160fbd",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_item_extraction"
+		}]
+	}]
+}

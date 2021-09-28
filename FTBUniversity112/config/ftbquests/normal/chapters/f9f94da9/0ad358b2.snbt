@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.juryrig.subtitle}",
+	text: [
+		"{ftbuniversity.juryrig.desc1}",
+		"",
+		"{ftbuniversity.juryrig.desc2}",
+		"",
+		"{ftbuniversity.juryrig.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "abde4b76",
+		type: "item",
+		items: [{
+			id: "rats:rat_upgrade_jury_rigged",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

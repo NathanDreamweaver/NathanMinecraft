@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.etlight3.subtitle}",
+	text: [
+		"{ftbuniversity.etlight3.desc}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	dependencies: [
+		"88d325a4",
+		"7747cbec"
+	],
+	tasks: [{
+		uid: "163d474f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_cont_3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

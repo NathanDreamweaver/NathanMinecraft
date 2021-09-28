@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.soulbinder.subtitle}",
+	text: [
+		"{ftbuniversity.soulbinder.desc}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	tasks: [{
+		uid: "6504af95",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9135f337",
+		type: "command",
+		title: "Surprise Enderman!",
+		auto: "invisible",
+		command: "/summon enderman @x @y @z"
+	}]
+}

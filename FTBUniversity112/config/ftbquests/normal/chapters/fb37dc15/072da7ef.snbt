@@ -1,0 +1,26 @@
+{
+	x: 3.6d,
+	y: 6.5d,
+	description: "{ftbuniversity.togglelumin.subtitle}",
+	text: [
+		"{ftbuniversity.togglelumin.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e76b6ad2"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "795f0fa4",
+		type: "item",
+		items: [{
+			item: "botania:lightrelay 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "6e03e0ba",
+		type: "item",
+		item: "botania:endereyeblock"
+	}]
+}

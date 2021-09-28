@@ -1,0 +1,23 @@
+{
+	x: -4.3877551020408205d,
+	y: 2.265306122448983d,
+	description: "{ftbuniversity.voidseer.subtitle}",
+	text: [
+		"{ftbuniversity.voidseer.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0084898"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "b2d08cf7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:voidseer_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

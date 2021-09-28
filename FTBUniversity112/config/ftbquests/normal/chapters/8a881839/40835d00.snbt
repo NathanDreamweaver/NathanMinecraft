@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.omnicon.subtitle}",
+	text: [
+		"{ftbuniversity.omnicon.desc1}",
+		"",
+		"{ftbuniversity.omnicon.desc2}"
+	],
+	dependencies: [
+		"86eec87b"
+	],
+	tasks: [{
+		uid: "6e6f1c6d",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_connector_omni_directional_item"
+		}],
+		ignore_nbt: 1b
+	}]
+}

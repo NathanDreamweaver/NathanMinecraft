@@ -1,0 +1,28 @@
+{
+	icon: "extrautils2:powerbattery",
+	x: 1.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.wirelessrfbattery.subtitle}",
+	text: [
+		"{ftbuniversity.wirelessrfbattery.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "7e1cbf9e",
+		type: "item",
+		items: [{
+			item: "extrautils2:powerbattery"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e0389368",
+		type: "item",
+		items: [{
+			item: "extrautils2:powertransmitter"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.shardwand.subtitle}",
+	text: [
+		"{ftbuniversity.shardwand.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "d86f3f53",
+		type: "item",
+		items: [{
+			item: "rftools:shard_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

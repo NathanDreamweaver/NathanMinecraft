@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.mechanicalsqueezer.subtitle}",
+	text: [
+		"{ftbuniversity.mechanicalsqueezer.desc1}",
+		"",
+		"{ftbuniversity.mechanicalsqueezer.desc2}"
+	],
+	dependencies: [
+		"896ca234",
+		"5ac83711"
+	],
+	tasks: [{
+		uid: "65f952a1",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:mechanical_squeezer"
+		}],
+		ignore_nbt: 1b
+	}]
+}

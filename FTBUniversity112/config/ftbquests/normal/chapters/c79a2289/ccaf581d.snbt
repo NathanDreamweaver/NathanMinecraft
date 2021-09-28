@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.ic2stirling.subtitle}",
+	text: [
+		"{ftbuniversity.ic2stirling.desc}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"4efbabaf",
+		"fe6f4482",
+		"7a7b48d5"
+	],
+	tasks: [{
+		uid: "77d86e72",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 9"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	description: "{ftbuniversity.genetictransposer.subtitle}",
+	text: [
+		"{ftbuniversity.genetictransposer.desc1}",
+		"",
+		"{ftbuniversity.genetictransposer.desc2}"
+	],
+	dependencies: [
+		"82928e06"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ec5da760",
+		type: "item",
+		items: [{
+			item: "gendustry:transposer"
+		}],
+		ignore_nbt: 1b
+	}]
+}

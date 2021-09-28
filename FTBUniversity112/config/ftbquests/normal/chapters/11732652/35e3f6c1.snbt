@@ -1,0 +1,45 @@
+{
+	title: "{ftbuniversity.thermevap.title}",
+	icon: "mekanism:basicblock 1 14",
+	x: 6.5d,
+	y: 3.5d,
+	description: "{ftbuniversity.thermevap.subtitle}",
+	text: [
+		"{ftbuniversity.thermevap.desc1}",
+		"",
+		"{ftbuniversity.thermevap.desc2}",
+		"",
+		"{ftbuniversity.thermevap.desc3}",
+		"",
+		"{ftbuniversity.thermevap.desc4}",
+		"",
+		"{ftbuniversity.thermevap.desc5}"
+	],
+	dependencies: [
+		"d38f5027"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "3ceec498",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	},
+	{
+		uid: "2da1adb0",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}],
+		count: 2L
+	},
+	{
+		uid: "52a99f75",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2"
+		}],
+		count: 37L
+	}]
+}

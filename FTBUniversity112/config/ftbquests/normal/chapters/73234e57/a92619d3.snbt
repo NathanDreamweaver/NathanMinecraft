@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.vortextube.title}",
+	x: 2.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.vortextube.subtitle}",
+	text: [
+		"{ftbuniversity.vortextube.desc1}",
+		"",
+		"{ftbuniversity.vortextube.desc2}"
+	],
+	dependencies: [
+		"b9774f8d"
+	],
+	tasks: [{
+		uid: "94c1ada6",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:vortex_tube"
+		}]
+	}],
+	rewards: [{
+		uid: "d0008aa7",
+		type: "item",
+		item: "pneumaticcraft:heat_sink"
+	}]
+}

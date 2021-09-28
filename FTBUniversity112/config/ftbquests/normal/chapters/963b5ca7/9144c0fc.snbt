@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.creativespike.subtitle}",
+	text: [
+		"{ftbuniversity.creativespike.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "2c627fdb",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_creative"
+		}]
+	}]
+}

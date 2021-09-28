@@ -1,0 +1,177 @@
+{
+	x: 9.25d,
+	y: -2.25d,
+	description: "{ftbuniversity.uptomes.subtitle}",
+	text: [
+		"{ftbuniversity.uptomes.desc1}",
+		"",
+		"{ftbuniversity.uptomes.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f517f86f",
+		"be53bf43",
+		"6363d737"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "a6baba06",
+		type: "item",
+		title: "{ftbuniversity.uptomes.title}",
+		items: [{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.health"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 0,
+				key: "bloodmagic.upgrade.stepAssist"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 0,
+				key: "bloodmagic.upgrade.elytra"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.arrowShot"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.selfSacrifice"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.fireResist"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.sprintAttack"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.physicalProtect"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.solarPowered"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.movement"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.knockback"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 0,
+				key: "bloodmagic.upgrade.repair"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.jump"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.experienced"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.nightSight"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.fallProtect"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.meleeDamage"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.criticalStrike"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.digging"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.poisonResist"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.grimReaper"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.graveDigger"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

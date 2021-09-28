@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.spawners.rewards}",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ftbuniversity_spawners_rewards1"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ftbuniversity_spawners_rewards2"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ftbuniversity_spawners_rewards3"
+			}
+		}
+	}]
+}

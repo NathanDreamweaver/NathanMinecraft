@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.enrichcenter.title}",
+	x: 3.5d,
+	y: 3.5d,
+	description: "{ftbuniversity.enrichcenter.subtitle}",
+	text: [
+		"{ftbuniversity.enrichcenter.desc1}",
+		"",
+		"{ftbuniversity.enrichcenter.desc2}"
+	],
+	dependencies: [
+		"835935b5"
+	],
+	tasks: [{
+		uid: "5d8398a3",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

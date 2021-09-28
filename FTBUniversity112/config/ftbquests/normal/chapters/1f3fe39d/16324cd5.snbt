@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.progae2.title}",
+	icon: "chisel:futura 1 2",
+	x: -1.5d,
+	y: 2.5d,
+	description: "{ftbuniversity.progae2.subtitle}",
+	text: [
+		"{ftbuniversity.progae2.desc1}",
+		"",
+		"{ftbuniversity.progae2.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "684c2ea5",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c6037934",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 0
+			}
+		},
+		count: 64
+	}]
+}

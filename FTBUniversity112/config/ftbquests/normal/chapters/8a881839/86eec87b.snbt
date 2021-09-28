@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.monoconn.subtitle}",
+	text: [
+		"{ftbuniversity.monoconn.desc1}",
+		"",
+		"{ftbuniversity.monoconn.desc2}"
+	],
+	dependencies: [
+		"95a14575"
+	],
+	tasks: [{
+		uid: "c4001efd",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_connector_mono_directional_item"
+		}]
+	}]
+}

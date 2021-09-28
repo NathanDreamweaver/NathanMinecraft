@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.creativecompress.subtitle}",
+	text: [
+		"{ftbuniversity.creativecompress.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "a0711d7e",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:creative_compressor"
+		}]
+	}]
+}

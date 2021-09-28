@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.rockass.title}",
+	icon: "advancedrocketry:rocketbuilder",
+	x: 0.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.rockass.subtitle}",
+	text: [
+		"{ftbuniversity.rockass.desc1}",
+		"",
+		"{ftbuniversity.rockass.desc2}",
+		"",
+		"{ftbuniversity.rockass.desc3}",
+		"",
+		"{ftbuniversity.rockass.desc4}"
+	],
+	dependencies: [
+		"25e32b27",
+		"540ec581"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "920b6567",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "58126ee1",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 9L
+	},
+	{
+		uid: "8f6cc2f5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 4L
+	}]
+}

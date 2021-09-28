@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 9.5d,
+	description: "{ftbuniversity.exu2death.subtitle}",
+	text: [
+		"{ftbuniversity.exu2death.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "5b1461db",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_death"
+			}
+		}]
+	}]
+}

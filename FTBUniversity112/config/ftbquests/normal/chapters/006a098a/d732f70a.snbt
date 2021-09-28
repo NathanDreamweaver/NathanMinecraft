@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.voidres1.title}",
+	x: 2.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.voidres1.subtitle}",
+	text: [
+		"{ftbuniversity.voidres1.desc1}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bcb8aee"
+	],
+	tasks: [{
+		uid: "810dc43b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

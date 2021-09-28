@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.staffoftraveling.title}",
+	x: 0.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.staffoftraveling.subtitle}",
+	text: [
+		"{ftbuniversity.staffoftraveling.desc1}",
+		"",
+		"{ftbuniversity.staffoftraveling.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"98d13214"
+	],
+	tasks: [{
+		uid: "25674756",
+		type: "item",
+		items: [{
+			id: "enderio:item_travel_staff",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 3,
+					energy: 1000000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

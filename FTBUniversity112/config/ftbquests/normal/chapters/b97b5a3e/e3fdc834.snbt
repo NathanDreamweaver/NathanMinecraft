@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.rftsyringe.title}",
+	x: 2.25d,
+	y: 5.0d,
+	description: "{ftbuniversity.rftsyringe.subtitle}",
+	text: [
+		"{ftbuniversity.rftsyringe.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "f9093ec9",
+		type: "item",
+		items: [{
+			item: "rftools:syringe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

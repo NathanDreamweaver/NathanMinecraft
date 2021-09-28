@@ -1,0 +1,14 @@
+name = "YNot"
+filename = "YNot-0.2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2708/30/YNot-0.2.4.jar"
+hash-format = "murmur2"
+hash = "447109612"
+
+[update]
+[update.curseforge]
+file-id = 2708030
+project-id = 283589
+release-channel = "beta"

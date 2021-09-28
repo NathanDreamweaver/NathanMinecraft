@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.worldenergy.title}",
+	icon: "integratedtunnels:part_exporter_world_energy_item",
+	x: 3.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.worldenergy.subtitle}",
+	text: [
+		"{ftbuniversity.worldenergy.desc}"
+	],
+	dependencies: [
+		"8d9f4c0e"
+	],
+	tasks: [{
+		uid: "099d6781",
+		type: "item",
+		title: "{ftbuniversity.worldenergy.task}",
+		items: [{
+			item: "integratedtunnels:part_importer_world_energy_item"
+		},
+		{
+			item: "integratedtunnels:part_exporter_world_energy_item"
+		}]
+	}]
+}

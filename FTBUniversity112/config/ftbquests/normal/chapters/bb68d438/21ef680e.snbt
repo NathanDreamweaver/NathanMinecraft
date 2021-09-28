@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.inscriber.subtitle}",
+	text: [
+		"{ftbuniversity.inscriber.desc1}",
+		"",
+		"{ftbuniversity.inscriber.desc2}",
+		"",
+		"{ftbuniversity.inscriber.desc3}"
+	],
+	dependencies: [
+		"4bf7fd2f"
+	],
+	tasks: [{
+		uid: "e49e7fca",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "bb71cc83",
+		type: "item",
+		item: "appliedenergistics2:inscriber",
+		count: 4
+	}]
+}

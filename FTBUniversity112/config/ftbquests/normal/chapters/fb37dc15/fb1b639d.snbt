@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.vinculotus.title}",
+	x: -1.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.vinculotus.subtitle}",
+	text: [
+		"{ftbuniversity.vinculotus.desc}"
+	],
+	dependencies: [
+		"290bd89d"
+	],
+	tasks: [{
+		uid: "ab73bdee",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "vinculotus"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.mechdrybas.subtitle}",
+	text: [
+		"{ftbuniversity.mechdrybas.desc}"
+	],
+	dependencies: [
+		"896ca234",
+		"02606309"
+	],
+	tasks: [{
+		uid: "bf9d2186",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:mechanical_drying_basin"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.mattercompressor.title}",
+	x: 11.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.mattercompressor.subtitle}",
+	text: [
+		"{ftbuniversity.mattercompressor.desc1}",
+		"",
+		"{ftbuniversity.mattercompressor.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fadf0198"
+	],
+	tasks: [{
+		uid: "d2ea24fe",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:condenser"
+		}]
+	}]
+}

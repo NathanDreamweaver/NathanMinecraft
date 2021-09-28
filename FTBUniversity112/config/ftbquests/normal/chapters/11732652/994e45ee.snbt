@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.energizedsmelter.subtitle}",
+	text: [
+		"{ftbuniversity.energizedsmelter.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "5c634f40",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.dmlchap.title}",
+	icon: "deepmoblearning:data_model_skeleton",
+	always_invisible: false,
+	group: -1158736179,
+	default_quest_shape: "rsquare"
+}

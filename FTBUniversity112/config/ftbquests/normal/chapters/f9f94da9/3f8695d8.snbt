@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.cheese.title}",
+	icon: "rats:block_of_cheese",
+	x: -3.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.cheese.subtitle}",
+	text: [
+		"{ftbuniversity.cheese.desc1}",
+		"",
+		"{ftbuniversity.cheese.desc2}"
+	],
+	tasks: [{
+		uid: "76fc0f72",
+		type: "item",
+		title: "{ftbuniversity.cheese.task}",
+		items: [{
+			item: "rats:block_of_cheese"
+		},
+		{
+			item: "rats:cheese"
+		}]
+	}]
+}

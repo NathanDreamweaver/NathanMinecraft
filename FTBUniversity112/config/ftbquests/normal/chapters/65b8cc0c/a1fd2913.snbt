@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.compactdrawer.title}",
+	icon: "storagedrawers:compdrawers",
+	x: -1.75d,
+	y: 3.25d,
+	shape: "square",
+	description: "{ftbuniversity.compactdrawer.subtitle}",
+	text: [
+		"{ftbuniversity.compactdrawer.desc1}",
+		"",
+		"{ftbuniversity.compactdrawer.desc2}",
+		"",
+		"{ftbuniversity.compactdrawer.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"54818575"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "d0a4ae11",
+		type: "item",
+		title: "{ftbuniversity.compactdrawer.task}",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		},
+		{
+			id: "compactdrawers:compact_drawer_2by1",
+			tag: {}
+		},
+		{
+			id: "compactdrawers:compact_drawer_half",
+			tag: {}
+		},
+		{
+			id: "compactdrawers:compact_drawer_2by1_half",
+			tag: {}
+		}]
+	}]
+}

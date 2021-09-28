@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.exu2flatnodes.title}",
+	icon: "extrautils2:flattransfernode",
+	x: -0.65d,
+	y: -0.5d,
+	description: "{ftbuniversity.exu2flatnodes.subtitle}",
+	text: [
+		"{ftbuniversity.exu2flatnodes.desc1}",
+		"",
+		"{ftbuniversity.exu2flatnodes.desc2}",
+		"",
+		"{ftbuniversity.exu2flatnodes.desc3}",
+		"",
+		"{ftbuniversity.exu2flatnodes.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8b7459c0"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "26b79d66",
+		type: "item",
+		title: "{ftbuniversity.exu2flatnodes.task}",
+		items: [{
+			item: "extrautils2:flattransfernode"
+		},
+		{
+			item: "extrautils2:flattransfernode 1 1"
+		}]
+	}]
+}

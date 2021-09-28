@@ -1,0 +1,65 @@
+{
+	icon: "rftoolsdim:feature_absorber",
+	x: 1.5d,
+	y: 11.0d,
+	description: "{ftbuniversity.rftabsorbers.subtitle}",
+	text: [
+		"{ftbuniversity.rftabsorbers.desc1}",
+		"",
+		"{ftbuniversity.rftabsorbers.desc2}",
+		"",
+		"{ftbuniversity.rftabsorbers.desc3}"
+	],
+	dependencies: [
+		"9b8c6846"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "3b96eca5",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:material_absorber"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b015b89",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:liquid_absorber"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5beae95d",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:biome_absorber"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31437757",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:terrain_absorber"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d0c952d5",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:feature_absorber"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3d437923",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:time_absorber"
+		}],
+		ignore_nbt: 1b
+	}]
+}

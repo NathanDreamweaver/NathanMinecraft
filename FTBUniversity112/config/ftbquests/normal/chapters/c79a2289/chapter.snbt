@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.ic2chap.title}",
+	icon: "ic2:te 1 3",
+	always_invisible: false,
+	group: 2109457760,
+	default_quest_shape: "square"
+}

@@ -1,0 +1,115 @@
+{
+	title: "{ftbuniversity.inductionmatrix.title}",
+	icon: {
+		id: "mekanism:basicblock2",
+		tag: {
+			tier: 1
+		},
+		Damage: 3s
+	},
+	x: 11.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.inductionmatrix.subtitle}",
+	text: [
+		"{ftbuniversity.inductionmatrix.desc1}",
+		"",
+		"{ftbuniversity.inductionmatrix.desc2}",
+		"",
+		"{ftbuniversity.inductionmatrix.desc3}",
+		"",
+		"{ftbuniversity.inductionmatrix.desc4}",
+		"",
+		"{ftbuniversity.inductionmatrix.desc5}",
+		"",
+		"{ftbuniversity.inductionmatrix.desc6}",
+		"",
+		"{ftbuniversity.inductionmatrix.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"50c347cd"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "5a39088f",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 1"
+		}]
+	},
+	{
+		uid: "77e591b2",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 2"
+		}]
+	},
+	{
+		uid: "54b7f372",
+		type: "item",
+		title: "{ftbuniversity.inductionmatrix.task1}",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 4s
+		},
+		{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 1
+			},
+			Damage: 4s
+		},
+		{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 2
+			},
+			Damage: 4s
+		},
+		{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87007173",
+		type: "item",
+		title: "{ftbuniversity.inductionmatrix.task2}",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 1
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 2
+			},
+			Damage: 3s
+		},
+		{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 2.25d,
+	y: 2.0d,
+	description: "{ftbuniversity.powercellcard.subtitle}",
+	text: [
+		"{ftbuniversity.powercellcard.desc1}",
+		"",
+		"{ftbuniversity.powercellcard.desc2}",
+		"",
+		"{ftbuniversity.powercellcard.desc3}"
+	],
+	dependencies: [
+		"eaccf166"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "fb24ec97",
+		type: "item",
+		items: [{
+			item: "rftools:powercell_card"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7eb0bed6",
+		type: "item",
+		item: "rftools:powercell_card"
+	}]
+}

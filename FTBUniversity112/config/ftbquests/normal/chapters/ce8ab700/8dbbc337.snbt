@@ -1,0 +1,53 @@
+{
+	title: "{ftbuniversity.nbits.title}",
+	icon: {
+		id: "chiselsandbits:chisel_stone",
+		tag: {}
+	},
+	x: -1.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.nbits.subtitle}",
+	text: [
+		"{ftbuniversity.nbits.desc1}",
+		"",
+		"{ftbuniversity.nbits.desc2}",
+		"",
+		"{ftbuniversity.nbits.desc3}",
+		"",
+		"{ftbuniversity.nbits.desc4}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "5db3cf51",
+		type: "item",
+		title: "{ftbuniversity.nbits.task}",
+		items: [{
+			id: "chiselsandbits:chisel_stone",
+			tag: {}
+		},
+		{
+			id: "chiselsandbits:chisel_iron",
+			tag: {}
+		},
+		{
+			id: "chiselsandbits:chisel_gold",
+			tag: {}
+		},
+		{
+			id: "chiselsandbits:chisel_diamond",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da5d6fa8",
+		type: "item",
+		item: "chiselsandbits:tape_measure"
+	},
+	{
+		uid: "63e83406",
+		type: "item",
+		item: "flatcoloredblocks:coloredcraftingitem"
+	}]
+}

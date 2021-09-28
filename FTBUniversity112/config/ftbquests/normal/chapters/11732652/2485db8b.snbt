@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -5.0d,
+	description: "{ftbuniversity.mekgas.subtitle}",
+	text: [
+		"{ftbuniversity.mekgas.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "4947dfd6",
+		type: "item",
+		items: [{
+			item: "mekanism:gasupgrade"
+		}]
+	}]
+}

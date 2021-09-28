@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.rftdigit.title}",
+	x: -4.25d,
+	y: 5.0d,
+	description: "{ftbuniversity.rftdigit.subtitle}",
+	text: [
+		"{ftbuniversity.rftdigit.desc1}",
+		"",
+		"{ftbuniversity.rftdigit.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "092bff78",
+		type: "item",
+		items: [{
+			item: "rftools:digit_block"
+		}],
+		ignore_nbt: 1b
+	}]
+}

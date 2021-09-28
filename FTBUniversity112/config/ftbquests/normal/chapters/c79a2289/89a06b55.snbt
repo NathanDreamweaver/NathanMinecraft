@@ -1,0 +1,56 @@
+{
+	title: "{ftbuniversity.ic2packs.title}",
+	icon: {
+		id: "ic2:energy_pack",
+		tag: {
+			charge: 2000000.0d
+		}
+	},
+	x: 4.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.ic2packs.subtitle}",
+	text: [
+		"{ftbuniversity.ic2packs.desc1}",
+		"",
+		"{ftbuniversity.ic2packs.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3aff2ff5"
+	],
+	tasks: [{
+		uid: "ca759eed",
+		type: "item",
+		title: "{ftbuniversity.ic2packs.task}",
+		items: [{
+			id: "ic2:batpack",
+			tag: {
+				charge: 60000.0d
+			}
+		},
+		{
+			id: "ic2:advanced_batpack",
+			tag: {
+				charge: 600000.0d
+			}
+		},
+		{
+			id: "ic2:energy_pack",
+			tag: {
+				charge: 2000000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21f0233e",
+		type: "item",
+		item: {
+			id: "ic2:advanced_re_battery",
+			tag: {
+				charge: 100000.0d
+			}
+		}
+	}]
+}

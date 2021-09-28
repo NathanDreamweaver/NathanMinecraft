@@ -1,0 +1,27 @@
+{
+	x: -4.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.inhibobel.subtitle}",
+	text: [
+		"{ftbuniversity.inhibobel.desc1}",
+		"",
+		"{ftbuniversity.inhibobel.desc2}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	tasks: [{
+		uid: "03606f3c",
+		type: "item",
+		items: [{
+			item: "enderio:block_inhibitor_obelisk"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b4a790d",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	}]
+}

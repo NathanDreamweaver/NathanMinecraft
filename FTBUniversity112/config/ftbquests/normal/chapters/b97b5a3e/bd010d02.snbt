@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.rftwirelessredstone.title}",
+	icon: "rftools:redstone_transmitter_block",
+	x: -2.25d,
+	y: 4.75d,
+	description: "{ftbuniversity.rftwirelessredstone.subtitle}",
+	text: [
+		"{ftbuniversity.rftwirelessredstone.desc1}",
+		"",
+		"{ftbuniversity.rftwirelessredstone.desc2}",
+		"",
+		"{ftbuniversity.rftwirelessredstone.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "e5f43393",
+		type: "item",
+		items: [{
+			item: "rftools:redstone_transmitter_block"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d5f7e8d",
+		type: "item",
+		items: [{
+			item: "rftools:redstone_receiver_block"
+		}],
+		ignore_nbt: 1b
+	}]
+}

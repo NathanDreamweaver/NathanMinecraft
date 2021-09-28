@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.p2p2.title}",
+	icon: "botania:cosmetic 1 31",
+	x: 14.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.p2p2.subtitle}",
+	text: [
+		"{ftbuniversity.p2p2.desc1}",
+		"",
+		"{ftbuniversity.p2p2.desc2}",
+		"",
+		"{ftbuniversity.p2p2.desc3}",
+		"",
+		"{ftbuniversity.p2p2.desc4}"
+	],
+	dependencies: [
+		"c3e5bd03"
+	],
+	size: 0.75d,
+	min_width: 300,
+	tasks: [{
+		uid: "10c29e07",
+		type: "checkmark"
+	}]
+}

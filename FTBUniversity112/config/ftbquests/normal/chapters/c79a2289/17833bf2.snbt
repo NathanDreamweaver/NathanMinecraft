@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.ic2energyup.title}",
+	x: 4.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.ic2energyup.subtitle}",
+	text: [
+		"{ftbuniversity.ic2energyup.desc1}",
+		"",
+		"{ftbuniversity.ic2energyup.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "ce3274dc",
+		type: "item",
+		items: [{
+			item: "ic2:upgrade 1 2"
+		}]
+	}]
+}

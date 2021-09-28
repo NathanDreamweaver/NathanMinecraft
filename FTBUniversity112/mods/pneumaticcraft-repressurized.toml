@@ -1,0 +1,14 @@
+name = "PneumaticCraft: Repressurized"
+filename = "pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2978/408/pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar"
+hash-format = "murmur2"
+hash = "40853236"
+
+[update]
+[update.curseforge]
+file-id = 2978408
+project-id = 281849
+release-channel = "beta"

@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.exu2stack.title}",
+	x: 2.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.exu2stack.subtitle}",
+	text: [
+		"{ftbuniversity.exu2stack.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "056b0453",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 7"
+		}]
+	}]
+}

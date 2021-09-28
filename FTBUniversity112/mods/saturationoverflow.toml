@@ -1,0 +1,14 @@
+name = "SaturationOverflow"
+filename = "zenny3d.saturationoverflow-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2664/856/zenny3d.saturationoverflow-1.1.1.jar"
+hash-format = "murmur2"
+hash = "854388361"
+
+[update]
+[update.curseforge]
+file-id = 2664856
+project-id = 311453
+release-channel = "beta"

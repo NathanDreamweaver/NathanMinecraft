@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.floatingflowers.title}",
+	x: 2.0d,
+	y: 0.75d,
+	description: "{ftbuniversity.floatingflowers.subtitle}",
+	text: [
+		"{ftbuniversity.floatingflowers.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0e4036fa"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "a3e95e53",
+		type: "item",
+		title: "{ftbuniversity.floatingflowers.task}",
+		items: [{
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.killerjoe.title}",
+	x: 2.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.killerjoe.subtitle}",
+	text: [
+		"{ftbuniversity.killerjoe.desc1}",
+		"",
+		"{ftbuniversity.killerjoe.desc2}",
+		"",
+		"{ftbuniversity.killerjoe.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"98d13214"
+	],
+	tasks: [{
+		uid: "c4a87b97",
+		type: "item",
+		items: [{
+			item: "enderio:block_killer_joe"
+		}]
+	}],
+	rewards: [{
+		uid: "6b1c9be9",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "nutrient_distillation",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 3
+	}]
+}

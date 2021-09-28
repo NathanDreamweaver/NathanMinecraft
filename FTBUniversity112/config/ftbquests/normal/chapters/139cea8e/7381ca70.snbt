@@ -1,0 +1,57 @@
+{
+	title: "Botania",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "botania:lexicon",
+				Count: 1b,
+				tag: {
+					knowledge.minecraft: 1b,
+					knowledge.alfheim: 1b,
+					knowledge.relic: 1b
+				},
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Botanist",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487571L
+		}
+	},
+	x: -0.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.bottrophy.subtitle}",
+	dependencies: [
+		"fb37dc15"
+	],
+	rewards: [{
+		uid: "7586de8f",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "botania:lexicon",
+					Count: 1b,
+					tag: {
+						knowledge.minecraft: 1b,
+						knowledge.alfheim: 1b,
+						knowledge.relic: 1b
+					},
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Botanist",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

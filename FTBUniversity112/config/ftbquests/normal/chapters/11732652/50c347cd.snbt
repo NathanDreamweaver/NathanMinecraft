@@ -1,0 +1,63 @@
+{
+	icon: {
+		id: "mekanism:energycube",
+		tag: {
+			tier: 0
+		}
+	},
+	x: 3.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.energycubes.subtitle}",
+	text: [
+		"{ftbuniversity.energycubes.desc1}",
+		"",
+		"{ftbuniversity.energycubes.desc2}",
+		"",
+		"{ftbuniversity.energycubes.desc3}"
+	],
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "58f730c0",
+		type: "item",
+		title: "{ftbuniversity.energycubes.task}",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		},
+		{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		},
+		{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 2
+			}
+		},
+		{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1b5efca",
+		type: "item",
+		item: {
+			id: "mekanism:energytablet",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}
+	}]
+}

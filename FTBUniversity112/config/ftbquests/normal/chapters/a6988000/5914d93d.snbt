@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.flux.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/r_fluxrift.png"
+		}
+	},
+	x: -0.2530612244898123d,
+	y: 1.082312925170065d,
+	description: "{ftbuniversity.flux.subtitle}",
+	text: [
+		"{ftbuniversity.flux.desc1}",
+		"",
+		"{ftbuniversity.flux.desc2}",
+		"",
+		"{ftbuniversity.flux.desc3}",
+		"",
+		"{ftbuniversity.flux.desc4}",
+		"",
+		"{ftbuniversity.flux.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"850c4167"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "7b4439e1",
+		type: "checkmark"
+	}]
+}

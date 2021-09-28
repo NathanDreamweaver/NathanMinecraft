@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.progrftd.title}",
+	icon: "rftoolsdim:dimlet_parcel",
+	x: 0.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.progrftd.subtitle}",
+	text: [
+		"{ftbuniversity.progrftd.desc1}",
+		"",
+		"{ftbuniversity.progrftd.desc2}",
+		"",
+		"{ftbuniversity.progrftd.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "0d409813",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5ca15372",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel",
+		count: 4
+	}]
+}

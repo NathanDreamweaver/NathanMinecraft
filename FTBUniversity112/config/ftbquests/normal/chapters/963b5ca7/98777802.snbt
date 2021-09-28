@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.combocraft.title}",
+	icon: "extendedcrafting:crafting_core",
+	x: 1.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.combocraft.subtitle}",
+	text: [
+		"{ftbuniversity.combocraft.desc1}",
+		"",
+		"{ftbuniversity.combocraft.desc2}"
+	],
+	dependencies: [
+		"c49f5e8b"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "70862113",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "76d0d806",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}]
+	}]
+}

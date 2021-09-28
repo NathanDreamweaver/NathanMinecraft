@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.idfacade.title}",
+	x: 3.0d,
+	y: -0.875d,
+	description: "{ftbuniversity.idfacade.subtitle}",
+	text: [
+		"{ftbuniversity.idfacade.desc1}",
+		"",
+		"{ftbuniversity.idfacade.desc2}"
+	],
+	dependencies: [
+		"02606309"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "6692a3d8",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:facade"
+		}]
+	}]
+}

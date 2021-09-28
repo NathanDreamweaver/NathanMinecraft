@@ -1,0 +1,26 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.graphpower.subtitle}",
+	text: [
+		"{ftbuniversity.graphpower.desc1}",
+		"",
+		"{ftbuniversity.graphpower.desc2}"
+	],
+	dependencies: [
+		"144f09d0"
+	],
+	tasks: [{
+		uid: "4cdfb336",
+		type: "item",
+		items: [{
+			item: "enderio:block_advanced_power_monitor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74bfa14c",
+		type: "item",
+		item: "enderio:block_buffer 1 1"
+	}]
+}

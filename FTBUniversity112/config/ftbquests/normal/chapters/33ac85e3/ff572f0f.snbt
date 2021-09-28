@@ -1,0 +1,30 @@
+{
+	x: 1.25d,
+	y: -3.5d,
+	shape: "circle",
+	description: "{ftbuniversity.docking.subtitle}",
+	text: [
+		"{ftbuniversity.docking.desc1}",
+		"",
+		"{ftbuniversity.docking.desc2}",
+		"",
+		"{ftbuniversity.docking.desc3}",
+		"",
+		"{ftbuniversity.docking.desc4}",
+		"",
+		"{ftbuniversity.docking.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7adea7b7"
+	],
+	size: 0.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "c5d5844a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:landingpad"
+		}]
+	}]
+}

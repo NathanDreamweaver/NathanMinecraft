@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.rocketload.title}",
+	icon: "advancedrocketry:loader 1 2",
+	x: 2.625d,
+	y: -3.75d,
+	shape: "circle",
+	description: "{ftbuniversity.rocketload.subtitle}",
+	text: [
+		"{ftbuniversity.rocketload.desc1}",
+		"",
+		"{ftbuniversity.rocketload.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bee53bfa"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "bba9f11f",
+		type: "item",
+		title: "{ftbuniversity.rocketload.task1}",
+		items: [{
+			item: "advancedrocketry:loader 1 2"
+		},
+		{
+			item: "advancedrocketry:loader 1 3"
+		}]
+	},
+	{
+		uid: "f64677be",
+		type: "item",
+		title: "{ftbuniversity.rocketload.task2}",
+		items: [{
+			item: "advancedrocketry:loader 1 4"
+		},
+		{
+			item: "advancedrocketry:loader 1 5"
+		}]
+	}]
+}

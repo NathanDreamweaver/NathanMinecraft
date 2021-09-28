@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.entropinnyum.title}",
+	x: 0.75d,
+	y: -1.25d,
+	description: "{ftbuniversity.entropinnyum.subtitle}",
+	text: [
+		"{ftbuniversity.entropinnyum.desc1}",
+		"",
+		"{ftbuniversity.entropinnyum.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "a1f0bd38",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "entropinnyum"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ed713b97",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 64
+	}]
+}

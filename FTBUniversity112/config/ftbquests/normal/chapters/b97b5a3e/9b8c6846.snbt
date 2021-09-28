@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 10.0d,
+	description: "{ftbuniversity.dimletworkbench.subtitle}",
+	text: [
+		"{ftbuniversity.dimletworkbench.desc1}",
+		"",
+		"{ftbuniversity.dimletworkbench.desc2}",
+		"",
+		"{ftbuniversity.dimletworkbench.desc3}"
+	],
+	dependencies: [
+		"c0a6b62c"
+	],
+	tasks: [{
+		uid: "a495ad51",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimlet_workbench"
+		}],
+		ignore_nbt: 1b
+	}]
+}

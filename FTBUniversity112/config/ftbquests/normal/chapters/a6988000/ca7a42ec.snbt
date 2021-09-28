@@ -1,0 +1,28 @@
+{
+	x: 1.2034013605442837d,
+	y: 0.11836734693876849d,
+	description: "{ftbuniversity.arcanework.subtitle}",
+	text: [
+		"{ftbuniversity.arcanework.desc1}",
+		"",
+		"{ftbuniversity.arcanework.desc2}",
+		"",
+		"{ftbuniversity.arcanework.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"520d0b25"
+	],
+	tasks: [{
+		uid: "3008f18c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "f7f02470",
+		type: "loot",
+		table: 0
+	}]
+}

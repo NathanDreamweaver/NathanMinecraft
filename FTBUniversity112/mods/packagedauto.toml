@@ -1,0 +1,14 @@
+name = "PackagedAuto"
+filename = "PackagedAuto-1.12.2-1.0.3.14.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2977/147/PackagedAuto-1.12.2-1.0.3.14.jar"
+hash-format = "murmur2"
+hash = "1403313312"
+
+[update]
+[update.curseforge]
+file-id = 2977147
+project-id = 308380
+release-channel = "beta"

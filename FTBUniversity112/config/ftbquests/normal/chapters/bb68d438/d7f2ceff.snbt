@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "appliedenergistics2:dense_energy_cell",
+		tag: {
+			internalMaxPower: 1600000.0d,
+			internalCurrentPower: 1600000.0d
+		}
+	},
+	x: 1.5d,
+	y: 2.5d,
+	description: "{ftbuniversity.ae2energycell.subtitle}",
+	text: [
+		"{ftbuniversity.ae2energycell.desc1}",
+		"",
+		"{ftbuniversity.ae2energycell.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"81d76c19",
+		"f276b26c"
+	],
+	hide: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "d6c869c9",
+		type: "item",
+		title: "{ftbuniversity.ae2energycell.task}",
+		items: [{
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6cef1d63",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {
+				internalMaxPower: 1600000.0d,
+				internalCurrentPower: 1600000.0d
+			}
+		}
+	}]
+}

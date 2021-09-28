@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.ieassembler.title}",
+	icon: "immersiveengineering:metal_multiblock 1 4",
+	x: 8.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.ieassembler.subtitle}",
+	text: [
+		"{ftbuniversity.ieassembler.desc1}",
+		"",
+		"{ftbuniversity.ieassembler.desc2}",
+		"",
+		"{ftbuniversity.ieassembler.desc3}",
+		"",
+		"{ftbuniversity.ieassembler.desc4}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "a386bfa2",
+		type: "observation",
+		title: "{ftbuniversity.ieassembler.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:assembler",
+		timer: 0L
+	}]
+}

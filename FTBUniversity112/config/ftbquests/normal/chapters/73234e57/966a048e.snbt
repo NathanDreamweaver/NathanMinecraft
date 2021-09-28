@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.whatisheat.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/aspects/ignis.png"
+		}
+	},
+	x: 0.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.whatisheat.subtitle}",
+	text: [
+		"{ftbuniversity.whatisheat.desc1}",
+		"",
+		"{ftbuniversity.whatisheat.desc2}",
+		"",
+		"{ftbuniversity.whatisheat.desc3}",
+		"",
+		"{ftbuniversity.whatisheat.desc4}",
+		"",
+		"{ftbuniversity.whatisheat.desc5}",
+		"",
+		"{ftbuniversity.whatisheat.desc6}"
+	],
+	dependencies: [
+		"f1f02eb4"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "c272c6c1",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.bloodaltar2.title}",
+	x: 5.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.bloodaltar2.subtitle}",
+	text: [
+		"{ftbuniversity.bloodaltar2.desc1}",
+		"",
+		"{ftbuniversity.bloodaltar2.desc2}"
+	],
+	dependencies: [
+		"f119ed62"
+	],
+	tasks: [{
+		uid: "6fa7f8c0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 8L
+	}]
+}

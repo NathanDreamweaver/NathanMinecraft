@@ -1,0 +1,67 @@
+{
+	title: "{ftbuniversity.compactmachines1.title}",
+	icon: "compactmachines3:psd",
+	x: 0.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.compactmachines1.subtitle}",
+	text: [
+		"{ftbuniversity.compactmachines1.desc1}",
+		"",
+		"{ftbuniversity.compactmachines1.desc2}",
+		"",
+		"{ftbuniversity.compactmachines1.desc3}",
+		"",
+		"{ftbuniversity.compactmachines1.desc4}",
+		"",
+		"{ftbuniversity.compactmachines1.desc5}",
+		"",
+		"{ftbuniversity.compactmachines1.desc6}"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "88654433",
+		type: "item",
+		items: [{
+			item: "compactmachines3:psd"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d2fc63d",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}],
+		count: 4L
+	},
+	{
+		uid: "907fc043",
+		type: "item",
+		title: "{ftbuniversity.compactmachines1.task}",
+		items: [{
+			item: "compactmachines3:machine"
+		},
+		{
+			item: "compactmachines3:machine 1 1"
+		},
+		{
+			item: "compactmachines3:machine 1 2"
+		},
+		{
+			item: "compactmachines3:machine 1 3"
+		},
+		{
+			item: "compactmachines3:machine 1 4"
+		},
+		{
+			item: "compactmachines3:machine 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "3ea5fa4b",
+		type: "item",
+		item: "compactmachines3:wallbreakable",
+		count: 64
+	}]
+}

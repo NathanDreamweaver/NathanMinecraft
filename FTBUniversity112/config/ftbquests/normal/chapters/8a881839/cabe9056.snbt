@@ -1,0 +1,26 @@
+{
+	x: 6.5d,
+	y: 3.5d,
+	description: "{ftbuniversity.intcrafting.subtitle}",
+	text: [
+		"{ftbuniversity.intcrafting.desc1}",
+		"",
+		"{ftbuniversity.intcrafting.desc2}",
+		"",
+		"{ftbuniversity.intcrafting.desc3}",
+		"",
+		"{ftbuniversity.intcrafting.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"81c41667"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c662c711",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_interface_crafting_item"
+		}]
+	}]
+}

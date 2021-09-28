@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.endoflame.title}",
+	x: 0.0d,
+	y: -1.25d,
+	description: "{ftbuniversity.endoflame.subtitle}",
+	text: [
+		"{ftbuniversity.endoflame.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8581f5f7"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "97b63fb5",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "19c8f0b5",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 4
+	}]
+}

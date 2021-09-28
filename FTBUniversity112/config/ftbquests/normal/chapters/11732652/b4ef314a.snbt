@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.robit.title}",
+	x: 8.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.robit.subtitle}",
+	text: [
+		"{ftbuniversity.robit.desc1}",
+		"",
+		"{ftbuniversity.robit.desc2}",
+		"",
+		"{ftbuniversity.robit.desc3}",
+		"",
+		"{ftbuniversity.robit.desc4}",
+		"",
+		"{ftbuniversity.robit.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"be3ed0f6"
+	],
+	tasks: [{
+		uid: "289c1e1f",
+		type: "item",
+		items: [{
+			item: "mekanism:robit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

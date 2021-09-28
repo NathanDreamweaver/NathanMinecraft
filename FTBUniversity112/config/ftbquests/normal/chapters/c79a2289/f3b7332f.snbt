@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.ic2miscpowered.title}",
+	icon: {
+		id: "ic2:electric_hoe",
+		tag: {
+			charge: 10000.0d
+		}
+	},
+	x: 5.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.ic2miscpowered.subtitle}",
+	text: [
+		"{ftbuniversity.ic2miscpowered.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3aff2ff5"
+	],
+	tasks: [{
+		uid: "45527ef5",
+		type: "item",
+		title: "{ftbuniversity.ic2miscpowered.task}",
+		items: [{
+			id: "ic2:electric_wrench",
+			tag: {
+				charge: 12000.0d
+			}
+		},
+		{
+			id: "ic2:electric_treetap",
+			tag: {
+				charge: 10000.0d
+			}
+		},
+		{
+			id: "ic2:electric_hoe",
+			tag: {
+				charge: 10000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.ieindusferment.title}",
+	icon: "immersiveengineering:metal_multiblock 1 8",
+	x: 9.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.ieindusferment.subtitle}",
+	text: [
+		"{ftbuniversity.ieindusferment.desc}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "566d1f24",
+		type: "observation",
+		title: "{ftbuniversity.ieindusferment.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:fermenter",
+		timer: 0L
+	}]
+}

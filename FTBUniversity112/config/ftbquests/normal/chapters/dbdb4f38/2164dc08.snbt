@@ -1,0 +1,53 @@
+{
+	title: "{ftbuniversity.dmlarmor.title}",
+	icon: "deepmoblearning:glitch_infused_helmet",
+	x: 4.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.dmlarmor.subtitle}",
+	text: [
+		"{ftbuniversity.dmlarmor.desc1}",
+		"",
+		"{ftbuniversity.dmlarmor.desc2}",
+		"",
+		"{ftbuniversity.dmlarmor.desc3}"
+	],
+	dependencies: [
+		"c95c02dc"
+	],
+	tasks: [{
+		uid: "4f76497f",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21e0fa70",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dbe8f21b",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25a6c249",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

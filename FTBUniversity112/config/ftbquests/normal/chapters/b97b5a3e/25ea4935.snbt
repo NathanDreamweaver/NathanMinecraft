@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.storagetablet.title}",
+	icon: "rftools:storage_module_tablet",
+	x: 3.25d,
+	y: 3.75d,
+	description: "{ftbuniversity.storagetablet.subtitle}",
+	text: [
+		"{ftbuniversity.storagetablet.desc1}",
+		"",
+		"{ftbuniversity.storagetablet.desc2}",
+		"",
+		"{ftbuniversity.storagetablet.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "eb0113b9",
+		type: "item",
+		items: [{
+			item: "rftools:storage_module_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2e31476b",
+		type: "item",
+		title: "{ftbuniversity.modularstorage.task}",
+		disable_toast: true,
+		items: [{
+			item: "rftools:storage_module"
+		},
+		{
+			item: "rftools:storage_module 1 1"
+		},
+		{
+			item: "rftools:storage_module 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

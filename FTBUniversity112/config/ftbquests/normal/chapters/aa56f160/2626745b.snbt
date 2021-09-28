@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.enderarmor.title}",
+	icon: "enderio:item_end_steel_chestplate",
+	x: 0.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.enderarmor.subtitle}",
+	text: [
+		"{ftbuniversity.enderarmor.desc1}",
+		"",
+		"{ftbuniversity.enderarmor.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5cca937b"
+	],
+	tasks: [{
+		uid: "72d35f08",
+		type: "item",
+		title: "{ftbuniversity.enderarmor.task}",
+		items: [{
+			item: "enderio:item_end_steel_helmet"
+		},
+		{
+			item: "enderio:item_end_steel_chestplate"
+		},
+		{
+			item: "enderio:item_end_steel_leggings"
+		},
+		{
+			item: "enderio:item_end_steel_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5cc40e9",
+		type: "command",
+		title: "{ftbuniversity.enderarmor.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team 8b54fc96"
+	}]
+}

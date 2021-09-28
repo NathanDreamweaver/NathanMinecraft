@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.ictips.title}",
+	x: 6.5d,
+	y: 2.75d,
+	description: "{ftbuniversity.ictips.subtitle}",
+	text: [
+		"{ftbuniversity.ictips.desc1}",
+		"",
+		"{ftbuniversity.ictips.desc2}",
+		"",
+		"{ftbuniversity.ictips.desc3}"
+	],
+	dependencies: [
+		"cabe9056"
+	],
+	size: 0.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "be58c5fa",
+		type: "checkmark"
+	}]
+}

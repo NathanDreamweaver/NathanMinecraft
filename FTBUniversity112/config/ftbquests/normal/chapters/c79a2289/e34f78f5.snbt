@@ -1,0 +1,71 @@
+{
+	title: "{ftbuniversity.quantumsuit.title}",
+	icon: {
+		id: "ic2:quantum_helmet",
+		tag: {
+			charge: 1.0E7d
+		}
+	},
+	x: 11.0d,
+	y: 7.0d,
+	description: "{ftbuniversity.quantumsuit.subtitle}",
+	text: [
+		"{ftbuniversity.quantumsuit.desc1}",
+		"",
+		"{ftbuniversity.quantumsuit.desc2}",
+		"{ftbuniversity.quantumsuit.desc3}",
+		"{ftbuniversity.quantumsuit.desc4}",
+		"{ftbuniversity.quantumsuit.desc5}"
+	],
+	dependencies: [
+		"ba99f801"
+	],
+	tasks: [{
+		uid: "ca769865",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_helmet",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "92848649",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_chestplate",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4972977d",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_leggings",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5f13ae5",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_boots",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

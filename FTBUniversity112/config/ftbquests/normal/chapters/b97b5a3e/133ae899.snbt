@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.rftdimensionbuilder.subtitle}",
+	text: [
+		"{ftbuniversity.rftdimensionbuilder.desc1}",
+		"",
+		"{ftbuniversity.rftdimensionbuilder.desc2}",
+		"",
+		"{ftbuniversity.rftdimensionbuilder.desc3}",
+		"",
+		"{ftbuniversity.rftdimensionbuilder.desc4}"
+	],
+	dependencies: [
+		"ab33fe01"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "0416d0c7",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}],
+		ignore_nbt: 1b
+	}]
+}

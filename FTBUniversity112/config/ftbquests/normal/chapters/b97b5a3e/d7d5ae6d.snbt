@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.rftcoalgen.title}",
+	x: -1.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.rftcoalgen.subtitle}",
+	text: [
+		"{ftbuniversity.rftcoalgen.desc1}",
+		"",
+		"{ftbuniversity.rftcoalgen.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "4a5c93fb",
+		type: "item",
+		items: [{
+			item: "rftools:coalgenerator"
+		}],
+		ignore_nbt: 1b
+	}]
+}

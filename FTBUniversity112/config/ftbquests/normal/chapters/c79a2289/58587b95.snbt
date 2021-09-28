@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.macerator.title}",
+	x: 4.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.macerator.subtitle}",
+	text: [
+		"{ftbuniversity.macerator.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "b1f2a812",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 47"
+		}]
+	}],
+	rewards: [{
+		uid: "c3b23076",
+		type: "loot",
+		table: 9
+	}]
+}

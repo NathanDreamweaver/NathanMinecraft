@@ -1,0 +1,64 @@
+{
+	title: "{ftbuniversity.dimletparts.title}",
+	icon: "rftoolsdim:dimlet_type_controller 1 14",
+	x: 1.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.dimletparts.subtitle}",
+	text: [
+		"{ftbuniversity.dimletparts.desc1}",
+		"",
+		"{ftbuniversity.dimletparts.desc2}"
+	],
+	dependencies: [
+		"38007ee1"
+	],
+	tasks: [{
+		uid: "ffc0632e",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimlet_base"
+		}]
+	},
+	{
+		uid: "81239d71",
+		type: "item",
+		title: "{ftbuniversity.dimletparts.task1}",
+		items: [{
+			item: "rftoolsdim:dimlet_control_circuit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d4957d8b",
+		type: "item",
+		title: "{ftbuniversity.dimletparts.task2}",
+		items: [{
+			item: "rftoolsdim:dimlet_energy_module"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30cc33d0",
+		type: "item",
+		title: "{ftbuniversity.dimletparts.task3}",
+		items: [{
+			item: "rftoolsdim:dimlet_memory_unit"
+		}]
+	},
+	{
+		uid: "20cc940d",
+		type: "item",
+		title: "{ftbuniversity.dimletparts.task4}",
+		items: [{
+			item: "rftoolsdim:dimlet_type_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "69a41daf",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel",
+		count: 8
+	}]
+}

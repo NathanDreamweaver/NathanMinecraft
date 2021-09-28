@@ -1,0 +1,23 @@
+{
+	x: 5.85d,
+	y: 3.0d,
+	description: "{ftbuniversity.pollenkit.subtitle}",
+	text: [
+		"{ftbuniversity.pollenkit.desc1}",
+		"",
+		"{ftbuniversity.pollenkit.desc2}"
+	],
+	dependencies: [
+		"f455a4ff"
+	],
+	hide: true,
+	size: 0.75d,
+	optional: true,
+	tasks: [{
+		uid: "71f99e48",
+		type: "item",
+		items: [{
+			item: "gendustry:pollen_kit"
+		}]
+	}]
+}

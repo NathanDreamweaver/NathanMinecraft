@@ -1,0 +1,47 @@
+{
+	icon: "enderio:block_painter",
+	x: -3.5d,
+	y: 9.0d,
+	description: "{ftbuniversity.paintingmachine.subtitle}",
+	text: [
+		"{ftbuniversity.paintingmachine.desc1}",
+		"",
+		"{ftbuniversity.paintingmachine.desc2}",
+		"",
+		"{ftbuniversity.paintingmachine.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "3b323129",
+		type: "item",
+		items: [{
+			item: "enderio:block_painter"
+		}]
+	},
+	{
+		uid: "efc97243",
+		type: "item",
+		title: "{ftbuniversity.paintingmachine.task}",
+		items: [{
+			item: "enderio:item_conduit_facade"
+		},
+		{
+			item: "enderio:item_conduit_facade 1 1"
+		},
+		{
+			item: "enderio:item_conduit_facade 1 2"
+		},
+		{
+			item: "enderio:item_conduit_facade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "827648f7",
+		type: "item",
+		item: "enderio:item_conduit_facade",
+		count: 64
+	}]
+}

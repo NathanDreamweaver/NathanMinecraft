@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.progie.title}",
+	icon: "immersiveengineering:metal_decoration2 1 4",
+	x: -2.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.progie.subtitle}",
+	text: [
+		"{ftbuniversity.progie.desc1}",
+		"",
+		"{ftbuniversity.progie.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "b54ad64b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2c65717b",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	}]
+}

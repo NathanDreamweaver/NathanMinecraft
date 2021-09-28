@@ -1,0 +1,35 @@
+{
+	x: -1.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.soulvial.subtitle}",
+	text: [
+		"{ftbuniversity.soulvial.desc1}",
+		"",
+		"{ftbuniversity.soulvial.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "be3efcdb",
+		type: "item",
+		items: [{
+			item: "enderio:item_soul_vial"
+		}]
+	}],
+	rewards: [{
+		uid: "56dec719",
+		type: "item",
+		item: {
+			id: "enderio:item_soul_vial",
+			tag: {
+				entityId: "minecraft:giant"
+			},
+			Damage: 1s
+		}
+	}]
+}

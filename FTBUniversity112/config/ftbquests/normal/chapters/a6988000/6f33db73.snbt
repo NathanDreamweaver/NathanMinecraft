@@ -1,0 +1,23 @@
+{
+	x: -0.7869047619047862d,
+	y: -2.367687074829931d,
+	description: "{ftbuniversity.thaumfocus3.subtitle}",
+	text: [
+		"{ftbuniversity.thaumfocus3.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f820234a",
+		"e7d25c5c"
+	],
+	size: 0.25d,
+	tasks: [{
+		uid: "2e60d9e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.tartaric.title}",
+	x: 0.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.tartaric.subtitle}",
+	text: [
+		"{ftbuniversity.tartaric.desc1}",
+		"",
+		"{ftbuniversity.tartaric.desc2}"
+	],
+	dependencies: [
+		"4e07ee91"
+	],
+	hide: true,
+	tasks: [{
+		uid: "779f75bf",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

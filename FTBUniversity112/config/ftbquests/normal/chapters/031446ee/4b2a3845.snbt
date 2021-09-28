@@ -1,0 +1,26 @@
+{
+	x: 1.25d,
+	y: -3.25d,
+	description: "{ftbuniversity.altarguide.subtitle}",
+	text: [
+		"{ftbuniversity.altarguide.desc1}",
+		"",
+		"{ftbuniversity.altarguide.desc2}",
+		"",
+		"{ftbuniversity.altarguide.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"27168eb1"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "eb03d153",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sanguine_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

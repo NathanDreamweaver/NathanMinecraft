@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.basicdrawers.title}",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: -1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.basicdrawers.subtitle}",
+	text: [
+		"{ftbuniversity.basicdrawers.desc1}",
+		"",
+		"{ftbuniversity.basicdrawers.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d76e3e7"
+	],
+	tasks: [{
+		uid: "8e6040bb",
+		type: "item",
+		title: "{ftbuniversity.basicdrawers.task}",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "drawerBasic",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "3a9f311d",
+		type: "item",
+		item: "nuclearcraft:cobblestone_generator_compact"
+	}]
+}

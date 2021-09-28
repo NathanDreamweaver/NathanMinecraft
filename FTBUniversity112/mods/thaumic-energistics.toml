@@ -1,0 +1,14 @@
+name = "Thaumic Energistics"
+filename = "thaumicenergistics-2.2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2915/506/thaumicenergistics-2.2.4.jar"
+hash-format = "murmur2"
+hash = "3052545616"
+
+[update]
+[update.curseforge]
+file-id = 2915506
+project-id = 223666
+release-channel = "beta"

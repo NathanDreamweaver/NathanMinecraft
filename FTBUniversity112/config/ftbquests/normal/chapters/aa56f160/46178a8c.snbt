@@ -1,0 +1,41 @@
+{
+	x: 2.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.eiofarmer.subtitle}",
+	text: [
+		"{ftbuniversity.eiofarmer.desc1}",
+		"",
+		"{ftbuniversity.eiofarmer.desc2}",
+		"",
+		"{ftbuniversity.eiofarmer.desc3}",
+		"",
+		"{ftbuniversity.eiofarmer.desc4}",
+		"",
+		"{ftbuniversity.eiofarmer.desc5}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "e2d52f98",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57e737f2",
+		type: "item",
+		item: {
+			id: "minecraft:iron_hoe",
+			tag: {
+				ench: [{
+					lvl: 4,
+					id: 34
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+name = "LootTableTweaker"
+filename = "LootTableTweaker-1.12.2-1.1.14.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2541/554/LootTableTweaker-1.12.2-1.1.14.jar"
+hash-format = "murmur2"
+hash = "2368967896"
+
+[update]
+[update.curseforge]
+file-id = 2541554
+project-id = 261339
+release-channel = "beta"

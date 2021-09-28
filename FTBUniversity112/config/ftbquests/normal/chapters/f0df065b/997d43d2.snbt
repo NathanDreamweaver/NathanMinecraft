@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: 8.5d,
+	description: "{ftbuniversity.exu2slime.subtitle}",
+	text: [
+		"{ftbuniversity.exu2slime.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "bff660ea",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		}]
+	}]
+}

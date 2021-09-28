@@ -1,0 +1,38 @@
+{
+	x: 3.5d,
+	y: -3.75d,
+	description: "{ftbuniversity.sigils1.subtitle}",
+	text: [
+		"{ftbuniversity.sigils1.desc1}",
+		"",
+		"{ftbuniversity.sigils1.desc2}",
+		"",
+		"{ftbuniversity.sigils1.desc3}",
+		"",
+		"{ftbuniversity.sigils1.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"458be84a",
+		"f119ed62"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "e7ffa60a",
+		type: "item",
+		title: "{ftbuniversity.sigils1.title}",
+		icon: "bloodmagic:sigil_divination",
+		items: [{
+			item: "bloodmagic:sigil_divination"
+		},
+		{
+			item: "bloodmagic:sigil_water"
+		},
+		{
+			item: "bloodmagic:sigil_lava"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.xnetbook.subtitle}",
+	text: [
+		"{ftbuniversity.xnetbook.desc}"
+	],
+	tasks: [{
+		uid: "7e3b2e7c",
+		type: "item",
+		items: [{
+			item: "xnet:xnet_manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,190 @@
+{
+	title: "{ftbuniversity.arelevator.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/space_elevator.png"
+		}
+	},
+	x: -2.0d,
+	y: -3.5d,
+	shape: "circle",
+	description: "{ftbuniversity.arelevator.subtitle}",
+	text: [
+		"{ftbuniversity.arelevator.desc1}",
+		"",
+		"{ftbuniversity.arelevator.desc2}",
+		"",
+		"{ftbuniversity.arelevator.desc3}",
+		"",
+		"{ftbuniversity.arelevator.desc4}",
+		"",
+		"{ftbuniversity.arelevator.desc5}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"879b496a",
+		"01ce4990"
+	],
+	size: 0.75d,
+	min_width: 275,
+	tasks: [{
+		uid: "8e2e538a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spaceelevatorcontroller"
+		}]
+	},
+	{
+		uid: "2802c872",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:stone"
+		},
+		{
+			item: "minecraft:sandstone"
+		},
+		{
+			item: "minecraft:iron_block"
+		},
+		{
+			item: "libvulpes:structuremachine"
+		},
+		{
+			item: "libvulpes:advstructuremachine"
+		}],
+		count: 118L
+	},
+	{
+		uid: "d4fe8cb5",
+		type: "item",
+		title: "Any blockCoil",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 12L
+	},
+	{
+		uid: "a46b7ca3",
+		type: "item",
+		title: "Any blockMotor",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 6L
+	},
+	{
+		uid: "4c2769aa",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:redstone_lamp"
+		}],
+		count: 4L
+	},
+	{
+		uid: "51b9c263",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}],
+		count: 3L
+	},
+	{
+		uid: "84875517",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:elevatorchip"
+		}]
+	}],
+	rewards: [{
+		uid: "781bd7ee",
+		type: "item",
+		item: {
+			id: "minecraft:chest",
+			tag: {
+				RepairCost: 0,
+				BlockEntityTag: {
+					ForgeCaps: {
+						"nuclearcraft:capability_default_radiation_resistance": {
+							shieldingRadResistance: 0.0d,
+							radiationResistance: 0.0d
+						}
+					},
+					Items: [{
+						Slot: 0b,
+						id: "advancedrocketry:spaceelevatorcontroller",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "minecraft:stone",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "minecraft:stone",
+						Count: 54b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "libvulpes:coil0",
+						Count: 12b,
+						Damage: 4s
+					},
+					{
+						Slot: 4b,
+						id: "libvulpes:motor",
+						Count: 6b,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "minecraft:redstone_lamp",
+						Count: 4b,
+						Damage: 0s
+					},
+					{
+						Slot: 6b,
+						id: "libvulpes:forgepowerinput",
+						Count: 3b,
+						Damage: 0s
+					}],
+					id: "minecraft:chest",
+					Lock: ""
+				},
+				display: {
+					LocName: "ftbuniversity.arelevator.reward"
+				}
+			}
+		}
+	},
+	{
+		uid: "48b7fe7c",
+		type: "item",
+		item: "advancedrocketry:elevatorchip"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.auramancy.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/cat_auromancy.png"
+		}
+	},
+	x: -0.995578231292491d,
+	y: -1.5074829931972715d,
+	description: "{ftbuniversity.auramancy.subtitle}",
+	text: [
+		"{ftbuniversity.auramancy.desc1}",
+		"",
+		"{ftbuniversity.auramancy.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e21dcaa9"
+	],
+	tasks: [{
+		uid: "73aebc8e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

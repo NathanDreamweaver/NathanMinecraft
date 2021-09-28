@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.runicaltar.subtitle}",
+	text: [
+		"{ftbuniversity.runicaltar.desc1}",
+		"",
+		"{ftbuniversity.runicaltar.desc2}"
+	],
+	dependencies: [
+		"0e4036fa"
+	],
+	tasks: [{
+		uid: "4de01071",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "79a7bf24",
+		type: "item",
+		item: "botania:livingrock",
+		count: 16
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "{ftbuniversity.craftcalc2.title}",
+	icon: {
+		id: "jecalculation:item_calculator",
+		tag: {
+			jecalculation: {
+				craft: {
+					amount: "",
+					recents: [{
+						type: "itemStack",
+						content: {
+							amount: 1L,
+							item: "minecraft:bookshelf"
+						}
+					}],
+					inventory: 0b
+				}
+			}
+		}
+	},
+	x: -3.125d,
+	y: 1.5d,
+	description: "{ftbuniversity.craftcalc2.subtitle}",
+	text: [
+		"{ftbuniversity.craftcalc2.desc1}",
+		"",
+		"{ftbuniversity.craftcalc2.desc2}",
+		"",
+		"{ftbuniversity.craftcalc2.desc3}",
+		"",
+		"{ftbuniversity.craftcalc2.desc4}",
+		"",
+		"{ftbuniversity.craftcalc2.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"66438d4c"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "c6b1ced3",
+		type: "checkmark"
+	}]
+}

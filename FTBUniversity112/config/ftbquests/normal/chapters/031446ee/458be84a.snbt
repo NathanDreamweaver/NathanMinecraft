@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.arcaneash.title}",
+	x: 2.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.arcaneash.subtitle}",
+	text: [
+		"{ftbuniversity.arcaneash.desc1}",
+		"",
+		"{ftbuniversity.arcaneash.desc2}",
+		"",
+		"{ftbuniversity.arcaneash.desc3}",
+		"",
+		"{ftbuniversity.arcaneash.desc4}",
+		"",
+		"{ftbuniversity.arcaneash.desc5}"
+	],
+	dependencies: [
+		"4e07ee91"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "12bf0a85",
+		type: "item",
+		items: [{
+			item: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

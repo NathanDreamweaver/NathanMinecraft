@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	description: "{ftbuniversity.meinfusion.subtitle}",
+	text: [
+		"{ftbuniversity.meinfusion.desc}"
+	],
+	dependencies: [
+		"97ccc078",
+		"2cce1ae6"
+	],
+	tasks: [{
+		uid: "a40dc4a6",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:infusion_provider"
+		}]
+	}]
+}

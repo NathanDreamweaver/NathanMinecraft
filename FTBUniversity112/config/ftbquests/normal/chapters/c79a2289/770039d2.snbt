@@ -1,0 +1,26 @@
+{
+	x: 11.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.ic2kineticgen.subtitle}",
+	text: [
+		"{ftbuniversity.ic2kineticgen.desc1}",
+		"",
+		"{ftbuniversity.ic2kineticgen.desc2}"
+	],
+	dependencies: [
+		"cef23ec3"
+	],
+	tasks: [{
+		uid: "51999af1",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "c0f17464",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "ec_unlocked"
+	}]
+}

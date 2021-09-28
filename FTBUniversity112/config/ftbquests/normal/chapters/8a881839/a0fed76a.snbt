@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.materializer.title}",
+	x: 9.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.materializer.subtitle}",
+	text: [
+		"{ftbuniversity.materializer.desc1}",
+		"",
+		"{ftbuniversity.materializer.desc2}",
+		"",
+		"{ftbuniversity.materializer.desc3}",
+		"",
+		"{ftbuniversity.materializer.desc4}",
+		"",
+		"{ftbuniversity.materializer.desc5}",
+		"",
+		"{ftbuniversity.materializer.desc6}"
+	],
+	dependencies: [
+		"81c41667"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "9bf73c17",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:materializer"
+		}]
+	}]
+}

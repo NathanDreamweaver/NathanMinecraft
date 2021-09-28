@@ -1,0 +1,84 @@
+{
+	title: "{ftbuniversity.100percent.title}",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 205,
+			TrophyVariant: "neon",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "contenttweaker:university_logo",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Completionist",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1599487070L
+		}
+	},
+	x: 1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.100percent.subtitle}",
+	dependencies: [
+		"f0df065b",
+		"b97b5a3e",
+		"5f23f0ab",
+		"ce8ab700",
+		"c9c2964e",
+		"9a756f39",
+		"33ac85e3",
+		"f5279528",
+		"bb68d438",
+		"f9f94da9",
+		"c79a2289",
+		"a6988000",
+		"be85925f",
+		"963b5ca7",
+		"4ac82c17",
+		"006a098a",
+		"11732652",
+		"fb37dc15",
+		"1f3fe39d",
+		"dbdb4f38",
+		"65b8cc0c",
+		"73234e57",
+		"aa56f160",
+		"031446ee",
+		"909a2da5"
+	],
+	size: 2.0d,
+	rewards: [{
+		uid: "36ed635f",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 205,
+				TrophyVariant: "neon",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "contenttweaker:university_logo",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Completionist",
+				TrophyColorRed: 65
+			}
+		}
+	},
+	{
+		uid: "65ef1a4c",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "Crippling Student Debt"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.exu2mechanicals.title}",
+	icon: "extrautils2:user",
+	x: -1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.exu2mechanicals.subtitle}",
+	text: [
+		"{ftbuniversity.exu2mechanicals.desc1}",
+		"",
+		"{ftbuniversity.exu2mechanicals.desc2}",
+		"",
+		"{ftbuniversity.exu2mechanicals.desc3}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "cc279509",
+		type: "item",
+		items: [{
+			item: "extrautils2:crafter"
+		}]
+	},
+	{
+		uid: "1915f68a",
+		type: "item",
+		items: [{
+			item: "extrautils2:miner"
+		}]
+	},
+	{
+		uid: "75e7cd18",
+		type: "item",
+		items: [{
+			item: "extrautils2:user"
+		}]
+	}]
+}

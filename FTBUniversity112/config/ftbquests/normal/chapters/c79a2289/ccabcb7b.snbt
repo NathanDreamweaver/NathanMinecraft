@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.ic2iv.title}",
+	x: 16.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.ic2iv.subtitle}",
+	text: [
+		"{ftbuniversity.ic2iv.desc1}",
+		"",
+		"{ftbuniversity.ic2iv.desc2}",
+		"",
+		"{ftbuniversity.ic2iv.desc3}",
+		"",
+		"{ftbuniversity.ic2iv.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ec69e562"
+	],
+	tasks: [{
+		uid: "0bafdf11",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "9ab46899",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		},
+		count: 32
+	}]
+}

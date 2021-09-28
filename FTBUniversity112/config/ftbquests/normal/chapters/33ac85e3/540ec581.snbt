@@ -1,0 +1,78 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/electrolyser.png"
+		}
+	},
+	x: -0.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.electrolyser.subtitle}",
+	text: [
+		"{ftbuniversity.electrolyser.desc}"
+	],
+	dependencies: [
+		"20e07320",
+		"2d1edbc9"
+	],
+	tasks: [{
+		uid: "f94a4b93",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:electrolyser"
+		}]
+	},
+	{
+		uid: "35560cdd",
+		type: "item",
+		title: "{ftbuniversity.coils}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "79abc5c8",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "207a9b93",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 2"
+		}]
+	},
+	{
+		uid: "cc0ce07d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 3"
+		}],
+		count: 2L
+	},
+	{
+		uid: "6193b178",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 2L
+	}]
+}

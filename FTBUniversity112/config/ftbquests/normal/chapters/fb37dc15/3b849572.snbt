@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.shulkmenot.title}",
+	x: 5.25d,
+	y: -1.25d,
+	description: "{ftbuniversity.shulkmenot.subtitle}",
+	text: [
+		"{ftbuniversity.shulkmenot.desc1}",
+		"",
+		"{ftbuniversity.shulkmenot.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "982760be",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "shulk_me_not"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "db6810e4",
+		type: "item",
+		item: "minecraft:purple_shulker_box"
+	}]
+}

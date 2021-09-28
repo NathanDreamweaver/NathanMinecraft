@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.ratenergy.title}",
+	icon: "rats:rat_upgrade_basic_energy",
+	x: 0.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.ratenergy.subtitle}",
+	text: [
+		"{ftbuniversity.ratenergy.desc1}",
+		"",
+		"{ftbuniversity.ratenergy.desc2}",
+		"",
+		"{ftbuniversity.ratenergy.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "4a166b1a",
+		type: "item",
+		title: "{ftbuniversity.ratenergy.task}",
+		items: [{
+			item: "rats:rat_upgrade_basic_energy"
+		},
+		{
+			item: "rats:rat_upgrade_advanced_energy"
+		},
+		{
+			item: "rats:rat_upgrade_elite_energy"
+		},
+		{
+			item: "rats:rat_upgrade_extreme_energy"
+		}]
+	}]
+}

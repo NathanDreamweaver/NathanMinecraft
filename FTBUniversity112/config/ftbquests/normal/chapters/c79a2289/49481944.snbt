@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.pumpattach.title}",
+	icon: "ic2:cover",
+	x: 6.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.pumpattach.subtitle}",
+	text: [
+		"{ftbuniversity.pumpattach.desc1}",
+		"",
+		"{ftbuniversity.pumpattach.desc2}",
+		"",
+		"{ftbuniversity.pumpattach.desc3}",
+		"",
+		"{ftbuniversity.pumpattach.desc4}"
+	],
+	dependencies: [
+		"62252268"
+	],
+	tasks: [{
+		uid: "d8a923f2",
+		type: "item",
+		title: "{ftbuniversity.pumpattach.task}",
+		items: [{
+			item: "ic2:cover"
+		},
+		{
+			item: "ic2:cover 1 1"
+		}]
+	},
+	{
+		uid: "d714e20b",
+		type: "item",
+		items: [{
+			item: "ic2:crowbar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.mysticcode.title}",
+	x: -0.75d,
+	y: -0.5d,
+	description: "{ftbuniversity.mysticcode.subtitle}",
+	text: [
+		"{ftbuniversity.mysticcode.desc1}",
+		"",
+		"{ftbuniversity.mysticcode.desc2}"
+	],
+	dependencies: [
+		"6057c1cd"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "94390048",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "mahoutsukai:mystic_code"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

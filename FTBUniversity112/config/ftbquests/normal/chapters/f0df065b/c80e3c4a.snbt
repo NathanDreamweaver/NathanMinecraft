@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.exu2speed.title}",
+	icon: "extrautils2:ingredients 1 6",
+	x: 2.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.exu2speed.subtitle}",
+	text: [
+		"{ftbuniversity.exu2speed.desc1}",
+		"",
+		"{ftbuniversity.exu2speed.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "147f8e07",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 6"
+		}]
+	},
+	{
+		uid: "5afe6c6b",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 15"
+		}]
+	},
+	{
+		uid: "d2a9bb78",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "b99b4b0c",
+		type: "item",
+		item: "extrautils2:ingredients 1 15",
+		count: 16
+	}]
+}

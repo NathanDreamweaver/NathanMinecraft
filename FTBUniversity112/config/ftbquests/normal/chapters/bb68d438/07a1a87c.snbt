@@ -1,0 +1,56 @@
+{
+	title: "{ftbuniversity.packauto.title}",
+	icon: "packagedauto:packager",
+	x: 12.0d,
+	y: -6.5d,
+	description: "{ftbuniversity.packauto.subtitle}",
+	text: [
+		"{ftbuniversity.packauto.desc1}",
+		"",
+		"{ftbuniversity.packauto.desc2}",
+		"",
+		"{ftbuniversity.packauto.desc3}",
+		"",
+		"{ftbuniversity.packauto.desc4}",
+		"",
+		"{ftbuniversity.packauto.desc5}",
+		"",
+		"{ftbuniversity.packauto.desc6}",
+		"",
+		"{ftbuniversity.packauto.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"766a6e75"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "5236d1bb",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "ed9f7bde",
+		type: "item",
+		items: [{
+			item: "packagedauto:recipe_holder"
+		}],
+		count: 2L
+	},
+	{
+		uid: "61212610",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "3b3e2a22",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	}]
+}

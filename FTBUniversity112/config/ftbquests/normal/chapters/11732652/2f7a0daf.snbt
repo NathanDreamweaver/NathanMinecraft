@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.gasburn.subtitle}",
+	text: [
+		"{ftbuniversity.gasburn.desc1}",
+		"",
+		"{ftbuniversity.gasburn.desc2}"
+	],
+	dependencies: [
+		"96d92990"
+	],
+	tasks: [{
+		uid: "0ac2568c",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

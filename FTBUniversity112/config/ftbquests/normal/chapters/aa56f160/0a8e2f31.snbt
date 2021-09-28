@@ -1,0 +1,28 @@
+{
+	x: -3.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.attrobel.subtitle}",
+	text: [
+		"{ftbuniversity.attrobel.desc1}",
+		"",
+		"{ftbuniversity.attrobel.desc2}",
+		"",
+		"{ftbuniversity.attrobel.desc3}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	tasks: [{
+		uid: "ff2c75a8",
+		type: "item",
+		items: [{
+			item: "enderio:block_attractor_obelisk"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd785532",
+		type: "item",
+		item: "chisel:valentines 1 9"
+	}]
+}

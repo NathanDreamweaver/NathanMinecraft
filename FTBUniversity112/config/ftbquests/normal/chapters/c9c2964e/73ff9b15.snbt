@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.iesilo.title}",
+	icon: "immersiveengineering:metal_multiblock 1 3",
+	x: 7.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.iesilo.subtitle}",
+	text: [
+		"{ftbuniversity.iesilo.desc1}",
+		"",
+		"{ftbuniversity.iesilo.desc2}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5c4af523"
+	],
+	tasks: [{
+		uid: "c2f25260",
+		type: "observation",
+		title: "{ftbuniversity.iesilo.task}",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:silo",
+		timer: 0L
+	}]
+}

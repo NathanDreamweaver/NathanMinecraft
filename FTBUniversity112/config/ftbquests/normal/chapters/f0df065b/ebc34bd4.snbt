@@ -1,0 +1,35 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	description: "{ftbuniversity.exu2magmatic.subtitle}",
+	text: [
+		"{ftbuniversity.exu2magmatic.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "26e81bf7",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "993e57f8",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 16
+	}]
+}

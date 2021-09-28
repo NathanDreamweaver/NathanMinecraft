@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.beemutation.title}",
+	icon: "minecraft:mycelium",
+	x: 3.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.beemutation.subtitle}",
+	text: [
+		"{ftbuniversity.beemutation.desc1}",
+		"",
+		"{ftbuniversity.beemutation.desc2}",
+		"",
+		"{ftbuniversity.beemutation.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5308ae57"
+	],
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "e7413582",
+		type: "checkmark"
+	}]
+}

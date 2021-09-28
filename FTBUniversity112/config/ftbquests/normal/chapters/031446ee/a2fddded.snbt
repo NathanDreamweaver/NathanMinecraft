@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.bmbook.subtitle}",
+	text: [
+		"{ftbuniversity.bmbook.desc1}",
+		"",
+		"{ftbuniversity.bmbook.desc2}",
+		"",
+		"{ftbuniversity.bmbook.desc3}"
+	],
+	tasks: [{
+		uid: "26a072e8",
+		type: "item",
+		items: [{
+			id: "guideapi:bloodmagic-guide",
+			tag: {
+				G-API_Category_Page: 0,
+				G-API_Entry_Page: 0,
+				G-API_Page: 2
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

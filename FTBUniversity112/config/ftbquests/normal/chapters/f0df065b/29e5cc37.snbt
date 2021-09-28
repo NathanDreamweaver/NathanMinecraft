@@ -1,0 +1,36 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.exu2rainbow.subtitle}",
+	text: [
+		"{ftbuniversity.exu2rainbow.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b89bf47b",
+		"bc005740",
+		"c026ef06",
+		"57e0ef24",
+		"244641e2",
+		"2eaffea7",
+		"0a6ab460",
+		"ea121d19",
+		"edcda6c3",
+		"997d43d2",
+		"4da97d19",
+		"100e8d1a",
+		"ebc34bd4",
+		"dcd271a5",
+		"1fe6995e",
+		"27a4f33a"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "9a632e16",
+		type: "item",
+		title: "{ftbuniversity.exu2rainbow.task}",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}]
+}

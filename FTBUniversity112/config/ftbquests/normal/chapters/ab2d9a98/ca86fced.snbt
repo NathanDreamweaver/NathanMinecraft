@@ -1,0 +1,15 @@
+{
+	title: "{ftbuniversity.genelink.title}",
+	icon: "geneticsreborn:dnahelix",
+	x: 3.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.genelink.subtitle}",
+	text: [
+		""
+	],
+	custom_click: "https://github.com/TheUnderTaker11/GeneticsReborn/wiki/Genes-List",
+	dependencies: [
+		"e4bb8d39"
+	],
+	optional: true
+}

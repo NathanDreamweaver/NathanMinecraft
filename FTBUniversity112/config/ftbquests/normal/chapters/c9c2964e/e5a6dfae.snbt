@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.ieexcavator.title}",
+	icon: "immersiveengineering:metal_multiblock 1 11",
+	x: 12.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.ieexcavator.subtitle}",
+	text: [
+		"{ftbuniversity.ieexcavator.desc1}",
+		"",
+		"{ftbuniversity.ieexcavator.desc2}",
+		"",
+		"{ftbuniversity.iereadthefrickenbook.desc}"
+	],
+	dependencies: [
+		"41ad7a32"
+	],
+	tasks: [{
+		uid: "dd7c260c",
+		type: "observation",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:excavator",
+		timer: 0L
+	}]
+}

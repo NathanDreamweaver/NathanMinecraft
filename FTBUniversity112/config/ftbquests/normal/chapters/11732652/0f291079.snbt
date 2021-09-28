@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.mekspecialtransporters.title}",
+	icon: {
+		id: "mekanism:transmitter",
+		tag: {
+			tier: 0
+		},
+		Damage: 5s
+	},
+	x: 9.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.mekspecialtransporters.subtitle}",
+	text: [
+		"{ftbuniversity.mekspecialtransporters.desc1}",
+		"",
+		"{ftbuniversity.mekspecialtransporters.desc2}"
+	],
+	dependencies: [
+		"0348cbc4"
+	],
+	tasks: [{
+		uid: "24c0e3af",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "99e40acb",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 5s
+		}]
+	}]
+}

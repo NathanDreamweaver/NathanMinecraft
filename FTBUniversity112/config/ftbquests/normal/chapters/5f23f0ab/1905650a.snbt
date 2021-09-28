@@ -1,0 +1,35 @@
+{
+	x: 5.0d,
+	y: 6.0d,
+	description: "{ftbuniversity.genetictemplate.subtitle}",
+	text: [
+		"{ftbuniversity.genetictemplate.desc1}",
+		"",
+		"{ftbuniversity.genetictemplate.desc2}"
+	],
+	dependencies: [
+		"82928e06"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d0c68fa5",
+		type: "item",
+		items: [{
+			item: "gendustry:gene_template"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3794fc8",
+		type: "item",
+		item: {
+			id: "gendustry:gene_sample",
+			tag: {
+				species: "rootBees",
+				chromosome: 1,
+				allele: "forestry.speedNormal"
+			}
+		}
+	}]
+}

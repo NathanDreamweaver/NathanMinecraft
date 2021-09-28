@@ -1,0 +1,40 @@
+{
+	title: "{ftbuniversity.ic2teleporter.title}",
+	x: 7.5d,
+	y: 5.5d,
+	description: "{ftbuniversity.ic2teleporter.subtitle}",
+	text: [
+		"{ftbuniversity.ic2teleporter.desc1}",
+		"",
+		"{ftbuniversity.ic2teleporter.desc2}",
+		"",
+		"{ftbuniversity.ic2teleporter.desc3}",
+		"",
+		"{ftbuniversity.ic2teleporter.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6da612f",
+		"31a34ec1"
+	],
+	tasks: [{
+		uid: "e55911e3",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 39"
+		}]
+	}],
+	rewards: [{
+		uid: "29a92362",
+		type: "item",
+		item: "ic2:te 1 39"
+	},
+	{
+		uid: "7444ffdd",
+		type: "item",
+		item: {
+			id: "ic2:frequency_transmitter",
+			tag: {}
+		}
+	}]
+}

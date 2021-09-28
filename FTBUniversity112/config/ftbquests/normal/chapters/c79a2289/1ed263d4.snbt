@@ -1,0 +1,23 @@
+{
+	x: 13.5d,
+	y: -0.5d,
+	description: "{ftbuniversity.eudetect.subtitle}",
+	text: [
+		"{ftbuniversity.eudetect.desc}"
+	],
+	dependencies: [
+		"cce98914"
+	],
+	tasks: [{
+		uid: "9a1543b4",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 5b,
+				insulation: 0b
+			},
+			Damage: 5s
+		}]
+	}]
+}

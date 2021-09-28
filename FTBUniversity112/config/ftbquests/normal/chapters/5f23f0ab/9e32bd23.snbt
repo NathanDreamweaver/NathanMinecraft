@@ -1,0 +1,36 @@
+{
+	x: 5.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.mutaprod.subtitle}",
+	text: [
+		"{ftbuniversity.mutaprod.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f455a4ff"
+	],
+	optional: true,
+	tasks: [{
+		uid: "43bd6e8f",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "150fd408",
+		type: "item",
+		item: {
+			id: "forestry:refractory",
+			tag: {
+				Fluid: {
+					FluidName: "mutagen",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

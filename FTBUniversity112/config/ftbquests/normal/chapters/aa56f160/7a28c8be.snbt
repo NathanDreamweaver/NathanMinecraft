@@ -1,0 +1,20 @@
+{
+	icon: "enderio:block_wireless_charger",
+	x: -2.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.eiowirelesscharger.subtitle}",
+	text: [
+		"{ftbuniversity.eiowirelesscharger.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5cca937b"
+	],
+	tasks: [{
+		uid: "904a55e9",
+		type: "item",
+		items: [{
+			item: "enderio:block_wireless_charger"
+		}]
+	}]
+}

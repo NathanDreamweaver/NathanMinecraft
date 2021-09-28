@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.exu2furnacegen.subtitle}",
+	text: [
+		"{ftbuniversity.exu2furnacegen.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "a8abb15f",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a619fa9c",
+		type: "item",
+		item: "immersiveengineering:material 1 6",
+		count: 8
+	}]
+}

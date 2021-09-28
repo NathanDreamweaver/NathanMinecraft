@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.vacuumchest.subtitle}",
+	text: [
+		"{ftbuniversity.vacuumchest.desc1}",
+		"",
+		"{ftbuniversity.vacuumchest.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "ecded430",
+		type: "item",
+		items: [{
+			item: "enderio:block_vacuum_chest"
+		}]
+	}]
+}

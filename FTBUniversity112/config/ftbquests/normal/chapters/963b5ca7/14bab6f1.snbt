@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.creativepaste.subtitle}",
+	text: [
+		"{ftbuniversity.creativepaste.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "4a9b8851",
+		type: "item",
+		items: [{
+			item: "buildinggadgets:constructionpastecontainercreative"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

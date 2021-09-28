@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.breakerswitch.title}",
+	tags: [
+		"ding"
+	],
+	x: 4.25d,
+	y: 0.625d,
+	description: "{ftbuniversity.breakerswitch.subtitle}",
+	text: [
+		"{ftbuniversity.breakerswitch.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ee314aed"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "d94441cf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 9"
+		}]
+	}]
+}

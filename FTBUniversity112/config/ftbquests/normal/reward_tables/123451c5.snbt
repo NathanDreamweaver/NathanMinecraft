@@ -1,0 +1,16 @@
+{
+	title: "{ftbuniversity.iecables.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: "immersiveengineering:wirecoil",
+		count: 32
+	},
+	{
+		item: "immersiveengineering:wirecoil 1 1",
+		count: 24
+	},
+	{
+		item: "immersiveengineering:wirecoil 1 2",
+		count: 16
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.ieblastfurnace.title}",
+	x: 3.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.ieblastfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.ieblastfurnace.desc1}",
+		"",
+		"{ftbuniversity.ieblastfurnace.desc2}",
+		"",
+		"{ftbuniversity.ieblastfurnace.desc3}"
+	],
+	dependencies: [
+		"5c4af523"
+	],
+	tasks: [{
+		uid: "951b9e45",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}]
+}

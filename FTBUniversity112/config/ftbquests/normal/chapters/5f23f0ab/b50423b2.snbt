@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.electricalengine.subtitle}",
+	text: [
+		"{ftbuniversity.electricalengine.desc1}",
+		"",
+		"{ftbuniversity.electricalengine.desc2}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "7136ad6f",
+		type: "item",
+		items: [{
+			item: "forestry:engine_electrical"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+name = "PackagedExCrafting"
+filename = "PackagedExCrafting-1.12.2-1.0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2899/874/PackagedExCrafting-1.12.2-1.0.1.2.jar"
+hash-format = "murmur2"
+hash = "4157721733"
+
+[update]
+[update.curseforge]
+file-id = 2899874
+project-id = 322861
+release-channel = "beta"

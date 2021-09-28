@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.matfab.title}",
+	x: 12.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.matfab.subtitle}",
+	text: [
+		"{ftbuniversity.matfab.desc1}",
+		"",
+		"{ftbuniversity.matfab.desc2}",
+		"",
+		"{ftbuniversity.matfab.desc3}",
+		"",
+		"{ftbuniversity.matfab.desc4}",
+		"",
+		"{ftbuniversity.matfab.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"75232f96"
+	],
+	tasks: [{
+		uid: "9cb6f809",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 61"
+		}]
+	}],
+	rewards: [{
+		uid: "d2e9c502",
+		type: "item",
+		item: "ic2:crafting 1 24",
+		count: 64
+	}]
+}

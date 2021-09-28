@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.logprogcomp.title}",
+	icon: "logisticspipes:program_compiler",
+	x: 0.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.logprogcomp.subtitle}",
+	text: [
+		"{ftbuniversity.logprogcomp.desc1}",
+		"",
+		"{ftbuniversity.logprogcomp.desc2}",
+		"",
+		"{ftbuniversity.logprogcomp.desc3}",
+		"",
+		"{ftbuniversity.logprogcomp.desc4}"
+	],
+	dependencies: [
+		"ba9953a3"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "bdf8476a",
+		type: "item",
+		items: [{
+			item: "logisticspipes:program_compiler"
+		}]
+	},
+	{
+		uid: "bb3d0132",
+		type: "item",
+		items: [{
+			item: "logisticspipes:disk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e02b0ef1",
+		type: "item",
+		items: [{
+			item: "logisticspipes:logistics_programmer"
+		}]
+	}]
+}

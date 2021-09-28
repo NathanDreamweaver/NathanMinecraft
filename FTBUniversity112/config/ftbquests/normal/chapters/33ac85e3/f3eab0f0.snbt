@@ -1,0 +1,56 @@
+{
+	title: "{ftbuniversity.microrece.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/microwave_receiver.png"
+		}
+	},
+	x: -2.5d,
+	y: -8.25d,
+	shape: "circle",
+	description: "{ftbuniversity.microrece.subtitle}",
+	text: [
+		"{ftbuniversity.microrece.desc1}",
+		"",
+		"{ftbuniversity.microrece.desc2}",
+		"",
+		"{ftbuniversity.microrece.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"57648650"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "a51a275c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:microwavereciever"
+		}]
+	},
+	{
+		uid: "7cbfa8e1",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:solarpanel"
+		}]
+	},
+	{
+		uid: "07a157ef",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepoweroutput"
+		}]
+	},
+	{
+		uid: "5878bca3",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	}]
+}

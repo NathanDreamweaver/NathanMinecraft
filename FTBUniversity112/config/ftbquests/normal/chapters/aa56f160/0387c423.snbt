@@ -1,0 +1,40 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.enhancedcombustion.subtitle}",
+	text: [
+		"{ftbuniversity.enhancedcombustion.desc}"
+	],
+	dependencies: [
+		"67c37e8b"
+	],
+	tasks: [{
+		uid: "f1dc90c8",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_combustion_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d4a0530",
+		type: "command",
+		title: "{ftbuniversity.enhancedcombustion.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team 34e1cedd"
+	},
+	{
+		uid: "0f7847c1",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "rocket_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

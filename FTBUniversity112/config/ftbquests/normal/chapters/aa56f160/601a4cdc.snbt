@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.conduitprobe.subtitle}",
+	text: [
+		"{ftbuniversity.conduitprobe.desc1}",
+		"",
+		"{ftbuniversity.conduitprobe.desc2}",
+		"",
+		"{ftbuniversity.conduitprobe.desc3}"
+	],
+	dependencies: [
+		"51bf537c"
+	],
+	tasks: [{
+		uid: "06898134",
+		type: "item",
+		items: [{
+			item: "enderio:item_conduit_probe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "580fc041",
+		type: "item",
+		item: {
+			id: "botania:cosmetic",
+			tag: {},
+			Damage: 25s
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "{ftbuniversity.pollinated.title}",
+	icon: "forestry:naturalist_helmet",
+	x: 3.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.pollinated.subtitle}",
+	text: [
+		"{ftbuniversity.pollinated.desc1}",
+		"",
+		"{ftbuniversity.pollinated.desc2}"
+	],
+	dependencies: [
+		"aeef5836"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fba97643",
+		type: "item",
+		title: "{ftbuniversity.pollinated.task1}",
+		items: [{
+			item: "forestry:naturalist_helmet"
+		},
+		{
+			item: "forestry:apiarist_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "089a3176",
+		type: "item",
+		title: "{ftbuniversity.pollinated.task2}",
+		items: [{
+			item: "forestry:grafter"
+		},
+		{
+			item: "forestry:grafter_proven"
+		},
+		{
+			item: "magicbees:manasteelgrafter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

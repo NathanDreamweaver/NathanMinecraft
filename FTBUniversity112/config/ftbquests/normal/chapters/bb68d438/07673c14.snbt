@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.quartzfiber.title}",
+	x: 6.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.quartzfiber.subtitle}",
+	text: [
+		"{ftbuniversity.quartzfiber.desc1}"
+	],
+	dependencies: [
+		"7772c7f3"
+	],
+	tasks: [{
+		uid: "4cbde2a9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 140"
+		}]
+	}],
+	rewards: [{
+		uid: "26a11f6f",
+		type: "item",
+		item: "appliedenergistics2:quartz_fixture",
+		count: 32
+	}]
+}

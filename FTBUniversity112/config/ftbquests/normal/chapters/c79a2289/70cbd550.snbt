@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.mfe.title}",
+	x: 12.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.mfe.subtitle}",
+	text: [
+		"{ftbuniversity.mfe.desc1}",
+		"",
+		"{ftbuniversity.mfe.desc2}"
+	],
+	dependencies: [
+		"75232f96"
+	],
+	tasks: [{
+		uid: "6e6ae1a4",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {
+				energy: 4000000.0d
+			},
+			Damage: 74s
+		}],
+		ignore_nbt: 1b
+	}]
+}

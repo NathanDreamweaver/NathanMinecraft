@@ -1,0 +1,37 @@
+{
+	title: "{ftbuniversity.avasword1.title}",
+	x: -1.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.avasword1.subtitle}",
+	text: [
+		"{ftbuniversity.avasword1.desc1}",
+		"",
+		"{ftbuniversity.avasword1.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "57737962",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3acf100",
+		type: "item",
+		item: {
+			id: "minecraft:wooden_sword",
+			tag: {
+				ench: [{
+					lvl: 9001s,
+					id: 16s
+				}]
+			}
+		}
+	}]
+}

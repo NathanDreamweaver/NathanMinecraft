@@ -1,0 +1,47 @@
+{
+	title: "Applied Energistics 2",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "chisel:futura",
+				Count: 1b,
+				Damage: 2s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Applied Energician",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487299L
+		}
+	},
+	x: 3.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.ae2trophy.subtitle}",
+	dependencies: [
+		"bb68d438"
+	],
+	rewards: [{
+		uid: "be3b90e3",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "chisel:futura",
+					Count: 1b,
+					Damage: 2s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Applied Energician",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

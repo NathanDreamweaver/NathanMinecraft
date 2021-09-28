@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.cesu.title}",
+	x: 9.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.cesu.subtitle}",
+	text: [
+		"{ftbuniversity.cesu.desc1}",
+		"",
+		"{ftbuniversity.cesu.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d465b6e"
+	],
+	tasks: [{
+		uid: "6d80e136",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 73s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d286ff19",
+		type: "item",
+		item: {
+			id: "ic2:advanced_re_battery",
+			tag: {
+				charge: 100000.0d
+			}
+		}
+	}]
+}

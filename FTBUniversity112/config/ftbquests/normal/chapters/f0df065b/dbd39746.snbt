@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.exu2bow.title}",
+	x: 0.25d,
+	y: 4.5d,
+	description: "{ftbuniversity.exu2bow.subtitle}",
+	text: [
+		"{ftbuniversity.exu2bow.desc1}",
+		"",
+		"{ftbuniversity.exu2bow.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e",
+		"a0e5d287"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "3f2cefa0",
+		type: "item",
+		items: [{
+			item: "extrautils2:compoundbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f2576d4",
+		type: "item",
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cofhcore:healing4"
+			}
+		},
+		count: 64
+	},
+	{
+		uid: "66772738",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				RepairCost: 1,
+				StoredEnchantments: [{
+					lvl: 2,
+					id: 51
+				}]
+			}
+		}
+	}]
+}

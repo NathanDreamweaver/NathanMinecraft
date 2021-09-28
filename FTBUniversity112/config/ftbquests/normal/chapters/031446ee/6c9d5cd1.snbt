@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.alchemytable.title}",
+	x: 3.5d,
+	y: -4.5d,
+	description: "{ftbuniversity.alchemytable.subtitle}",
+	text: [
+		"{ftbuniversity.alchemytable.desc1}",
+		"",
+		"{ftbuniversity.alchemytable.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f119ed62"
+	],
+	tasks: [{
+		uid: "a08c50ae",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "f51ee5b8",
+		type: "item",
+		item: {
+			id: "bloodmagic:cutting_fluid",
+			tag: {}
+		}
+	}]
+}

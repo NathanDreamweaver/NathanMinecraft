@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.unroutedpipes.subtitle}",
+	text: [
+		"{ftbuniversity.unroutedpipes.desc1}",
+		"",
+		"{ftbuniversity.unroutedpipes.desc2}",
+		"",
+		"{ftbuniversity.unroutedpipes.desc3}",
+		"",
+		"{ftbuniversity.unroutedpipes.desc4}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "1b98ae9f",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_transport_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "9a6f7c24",
+		type: "item",
+		item: "logisticspipes:pipe_transport_basic",
+		count: 56
+	}]
+}

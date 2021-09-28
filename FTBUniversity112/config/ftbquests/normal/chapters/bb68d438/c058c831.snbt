@@ -1,0 +1,36 @@
+{
+	x: 9.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.fuzzycard.subtitle}",
+	text: [
+		"{ftbuniversity.fuzzycard.desc1}",
+		"",
+		"{ftbuniversity.fuzzycard.desc2}",
+		"",
+		"{ftbuniversity.fuzzycard.desc3}",
+		"",
+		"{ftbuniversity.fuzzycard.desc4}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"772c89ae",
+		"ae1a3288",
+		"524e6b64",
+		"c7224ee7",
+		"5184e09a"
+	],
+	tasks: [{
+		uid: "e53e865d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 29"
+		}]
+	}],
+	rewards: [{
+		uid: "ef1b2b8d",
+		type: "item",
+		item: "appliedenergistics2:material 1 29",
+		count: 4
+	}]
+}

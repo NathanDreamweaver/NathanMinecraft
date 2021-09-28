@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.exu2resonator.subtitle}",
+	text: [
+		"{ftbuniversity.exu2resonator.desc1}",
+		"",
+		"{ftbuniversity.exu2resonator.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"0f64ae40",
+		"90a558f0",
+		"d26be113",
+		"66da5590",
+		"30b1c4da",
+		"88fd7641",
+		"900fea82",
+		"4f1398ec"
+	],
+	tasks: [{
+		uid: "2e69f1cb",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	}]
+}

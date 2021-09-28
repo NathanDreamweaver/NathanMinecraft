@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.ae2acceleration.subtitle}",
+	text: [
+		"{ftbuniversity.ae2acceleration.desc1}",
+		"",
+		"{ftbuniversity.ae2acceleration.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"21ef680e"
+	],
+	tasks: [{
+		uid: "8d9b2eb8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "be1fbd44",
+		type: "item",
+		item: "appliedenergistics2:material 1 30",
+		count: 8
+	}]
+}

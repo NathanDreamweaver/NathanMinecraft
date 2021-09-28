@@ -1,0 +1,40 @@
+{
+	icon: "rftoolsdim:dimension_enscriber",
+	x: 2.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.rftenscriber.subtitle}",
+	text: [
+		"{ftbuniversity.rftenscriber.desc1}",
+		"",
+		"{ftbuniversity.rftenscriber.desc2}",
+		"",
+		"{ftbuniversity.rftenscriber.desc3}",
+		"",
+		"{ftbuniversity.rftenscriber.desc4}",
+		"",
+		"{ftbuniversity.rftenscriber.desc5}",
+		"",
+		"{ftbuniversity.rftenscriber.desc6}",
+		"",
+		"{ftbuniversity.rftenscriber.desc7}"
+	],
+	dependencies: [
+		"38007ee1"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c5a5feb9",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_enscriber"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "784b0327",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:empty_dimension_tab"
+		}]
+	}]
+}

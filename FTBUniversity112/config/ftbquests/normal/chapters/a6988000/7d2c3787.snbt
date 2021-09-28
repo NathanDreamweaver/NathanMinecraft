@@ -1,0 +1,52 @@
+{
+	title: "{ftbuniversity.thaumatorium.title}",
+	icon: {
+		id: "thaumcraft:thaumatorium",
+		tag: {
+			BlockEntityTag: {
+				recipes: [I;],
+				maxrec: 1,
+				Aspects: [],
+				ForgeCaps: {
+					"nuclearcraft:capability_default_radiation_resistance": {
+						radiationResistance: 0.0d
+					}
+				},
+				Items: [],
+				id: "thaumcraft:tilethaumatorium",
+				OutputPlayer: []
+			},
+			display: {
+				Lore: [
+					"(+NBT)"
+				]
+			}
+		}
+	},
+	x: 2.4697278911564737d,
+	y: -3.1850340136054456d,
+	description: "{ftbuniversity.thaumatorium.subtitle}",
+	text: [
+		"{ftbuniversity.thaumatorium.desc1}",
+		"",
+		"{ftbuniversity.thaumatorium.desc2}",
+		"",
+		"{ftbuniversity.thaumatorium.desc3}",
+		"",
+		"{ftbuniversity.thaumatorium.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b7e3c6b7"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "ab9f6e99",
+		type: "observation",
+		title: "{ftbuniversity.thaumatorium.task}",
+		match_type: "block_id",
+		match: "thaumcraft:thaumatorium",
+		timer: 0L
+	}]
+}

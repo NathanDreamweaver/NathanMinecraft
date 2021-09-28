@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.viewcell.title}",
+	x: 3.0d,
+	y: 3.825d,
+	description: "{ftbuniversity.viewcell.subtitle}",
+	text: [
+		"{ftbuniversity.viewcell.desc}"
+	],
+	dependencies: [
+		"7c1495b5"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "aed9db62",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:view_cell"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

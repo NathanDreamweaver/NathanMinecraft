@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.incense3.title}",
+	icon: "bloodmagic:path 1 2",
+	x: 2.0d,
+	y: -5.75d,
+	description: "{ftbuniversity.incense3.subtitle}",
+	text: [
+		"{ftbuniversity.incense3.desc1}",
+		"",
+		"{ftbuniversity.incense3.desc2}",
+		"",
+		"{ftbuniversity.incense3.desc3}",
+		"",
+		"{ftbuniversity.incense3.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bd4984e9",
+		"15245966"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "b8041f8b",
+		type: "item",
+		title: "{ftbuniversity.incense3.task}",
+		items: [{
+			item: "bloodmagic:path 1 2"
+		},
+		{
+			item: "bloodmagic:path 1 3"
+		}],
+		count: 24L
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "{ftbuniversity.ic2rtg.title}",
+	icon: "ic2:nuclear 1 10",
+	x: 5.825d,
+	y: -4.5d,
+	description: "{ftbuniversity.ic2rtg.subtitle}",
+	text: [
+		"{ftbuniversity.ic2rtg.desc1}",
+		"",
+		"{ftbuniversity.ic2rtg.desc2}",
+		"",
+		"{ftbuniversity.ic2rtg.desc3}"
+	],
+	dependencies: [
+		"e5be0253"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "e8604902",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 6"
+		},
+		{
+			item: "ic2:te 1 14"
+		}]
+	},
+	{
+		uid: "530a1b73",
+		type: "item",
+		items: [{
+			item: "ic2:nuclear 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "3ccf6704",
+		type: "item",
+		item: "ic2:nuclear 1 10",
+		count: 2
+	}]
+}

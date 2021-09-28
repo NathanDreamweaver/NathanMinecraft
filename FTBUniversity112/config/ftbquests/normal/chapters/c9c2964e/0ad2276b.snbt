@@ -1,0 +1,20 @@
+{
+	x: 14.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.iplubecan.subtitle}",
+	text: [
+		"{ftbuniversity.iplubecan.desc}"
+	],
+	dependencies: [
+		"f79e4a10"
+	],
+	tasks: [{
+		uid: "9f532f4f",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:oil_can"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

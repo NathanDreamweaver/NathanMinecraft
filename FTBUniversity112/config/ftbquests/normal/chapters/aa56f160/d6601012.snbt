@@ -1,0 +1,44 @@
+{
+	title: "{ftbuniversity.eiosolar.title}",
+	icon: "enderio:block_solar_panel 1 3",
+	x: -5.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.eiosolar.subtitle}",
+	text: [
+		"{ftbuniversity.eiosolar.desc1}",
+		"",
+		"{ftbuniversity.eiosolar.desc2}",
+		"",
+		"{ftbuniversity.eiosolar.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "df760780",
+		type: "item",
+		title: "{ftbuniversity.eiosolar.task}",
+		items: [{
+			item: "enderio:block_solar_panel"
+		},
+		{
+			item: "enderio:block_solar_panel 1 1"
+		},
+		{
+			item: "enderio:block_solar_panel 1 2"
+		},
+		{
+			item: "enderio:block_solar_panel 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "e0dfd775",
+		type: "item",
+		item: "enderio:item_material 1 3",
+		count: 30
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.eiospeed.subtitle}",
+	text: [
+		"{ftbuniversity.eiospeed.desc}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"7581a4dc",
+		"b2966574"
+	],
+	tasks: [{
+		uid: "3bf5aa47",
+		type: "item",
+		items: [{
+			item: "enderio:item_extract_speed_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "225d0bc6",
+		type: "item",
+		item: "enderio:item_extract_speed_downgrade"
+	}]
+}

@@ -1,0 +1,86 @@
+{
+	title: "{ftbuniversity.eioglass.title}",
+	icon: "enderio:block_pasture_fused_glass",
+	x: -3.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.eioglass.subtitle}",
+	text: [
+		"{ftbuniversity.eioglass.desc1}",
+		"",
+		"{ftbuniversity.eioglass.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"98d13214",
+		"613919e4"
+	],
+	tasks: [{
+		uid: "b8ee1b67",
+		type: "item",
+		title: "{ftbuniversity.eioglass.task1}",
+		items: [{
+			item: "enderio:block_holy_fused_glass"
+		},
+		{
+			item: "enderio:block_holy_enlightened_fused_glass"
+		},
+		{
+			item: "enderio:block_holy_dark_fused_glass"
+		},
+		{
+			item: "enderio:block_not_holy_fused_glass"
+		},
+		{
+			item: "enderio:block_not_holy_enlightened_fused_glass"
+		},
+		{
+			item: "enderio:block_not_holy_dark_fused_glass"
+		}]
+	},
+	{
+		uid: "fe7d7bc9",
+		type: "item",
+		title: "{ftbuniversity.eioglass.task2}",
+		items: [{
+			item: "enderio:block_unholy_fused_glass"
+		},
+		{
+			item: "enderio:block_unholy_enlightened_fused_glass"
+		},
+		{
+			item: "enderio:block_unholy_dark_fused_glass"
+		},
+		{
+			item: "enderio:block_not_unholy_fused_glass"
+		},
+		{
+			item: "enderio:block_not_unholy_enlightened_fused_glass"
+		},
+		{
+			item: "enderio:block_not_unholy_dark_fused_glass"
+		}]
+	},
+	{
+		uid: "c9808277",
+		type: "item",
+		title: "{ftbuniversity.eioglass.task3}",
+		items: [{
+			item: "enderio:block_pasture_fused_glass"
+		},
+		{
+			item: "enderio:block_pasture_enlightened_fused_glass"
+		},
+		{
+			item: "enderio:block_pasture_dark_fused_glass"
+		},
+		{
+			item: "enderio:block_not_pasture_fused_glass"
+		},
+		{
+			item: "enderio:block_not_pasture_enlightened_fused_glass"
+		},
+		{
+			item: "enderio:block_not_pasture_dark_fused_glass"
+		}]
+	}]
+}

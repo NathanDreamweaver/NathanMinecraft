@@ -1,0 +1,460 @@
+{
+	title: "{ftbuniversity.beeexplanation1.title}",
+	icon: {
+		id: "forestry:bee_princess_ge",
+		tag: {
+			MaxH: 20,
+			Mate: {
+				Chromosomes: [{
+					UID1: "forestry.speciesForest",
+					UID0: "forestry.speciesForest",
+					Slot: 0
+				},
+				{
+					UID1: "forestry.speedSlowest",
+					UID0: "forestry.speedSlowest",
+					Slot: 1
+				},
+				{
+					UID1: "forestry.lifespanShorter",
+					UID0: "forestry.lifespanShorter",
+					Slot: 2
+				},
+				{
+					UID1: "forestry.fertilityHigh",
+					UID0: "forestry.fertilityHigh",
+					Slot: 3
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 4
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 5
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 6
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 7
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 8
+				},
+				{
+					UID1: "forestry.flowersVanilla",
+					UID0: "forestry.flowersVanilla",
+					Slot: 9
+				},
+				{
+					UID1: "forestry.floweringSlower",
+					UID0: "forestry.floweringSlower",
+					Slot: 10
+				},
+				{
+					UID1: "forestry.territoryAverage",
+					UID0: "forestry.territoryAverage",
+					Slot: 11
+				},
+				{
+					UID1: "forestry.effectNone",
+					UID0: "forestry.effectNone",
+					Slot: 12
+				}]
+			},
+			Health: 20,
+			IsAnalyzed: 0,
+			Genome: {
+				Chromosomes: [{
+					UID1: "forestry.speciesForest",
+					UID0: "forestry.speciesForest",
+					Slot: 0
+				},
+				{
+					UID1: "forestry.speedSlowest",
+					UID0: "forestry.speedSlowest",
+					Slot: 1
+				},
+				{
+					UID1: "forestry.lifespanShorter",
+					UID0: "forestry.lifespanShorter",
+					Slot: 2
+				},
+				{
+					UID1: "forestry.fertilityHigh",
+					UID0: "forestry.fertilityHigh",
+					Slot: 3
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 4
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 5
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 6
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 7
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 8
+				},
+				{
+					UID1: "forestry.flowersVanilla",
+					UID0: "forestry.flowersVanilla",
+					Slot: 9
+				},
+				{
+					UID1: "forestry.floweringSlower",
+					UID0: "forestry.floweringSlower",
+					Slot: 10
+				},
+				{
+					UID1: "forestry.territoryAverage",
+					UID0: "forestry.territoryAverage",
+					Slot: 11
+				},
+				{
+					UID1: "forestry.effectNone",
+					UID0: "forestry.effectNone",
+					Slot: 12
+				}]
+			}
+		}
+	},
+	x: 2.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.beeexplanation1.subtitle}",
+	text: [
+		"{ftbuniversity.beeexplanation1.desc1}",
+		"",
+		"{ftbuniversity.beeexplanation1.desc2}",
+		"",
+		"{ftbuniversity.beeexplanation1.desc3}",
+		"",
+		"{ftbuniversity.beeexplanation1.desc4}"
+	],
+	dependencies: [
+		"2657f32c"
+	],
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "ac6f15fe",
+		type: "item",
+		title: "{ftbuniversity.beeexplanation1.task1}",
+		items: [{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 20,
+				Mate: {
+					Chromosomes: [{
+						UID1: "forestry.speciesForest",
+						UID0: "forestry.speciesForest",
+						Slot: 0
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9
+					},
+					{
+						UID1: "forestry.floweringSlower",
+						UID0: "forestry.floweringSlower",
+						Slot: 10
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12
+					}]
+				},
+				Health: 20,
+				IsAnalyzed: 0,
+				Genome: {
+					Chromosomes: [{
+						UID1: "forestry.speciesForest",
+						UID0: "forestry.speciesForest",
+						Slot: 0
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9
+					},
+					{
+						UID1: "forestry.floweringSlower",
+						UID0: "forestry.floweringSlower",
+						Slot: 10
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7827327b",
+		type: "item",
+		title: "{ftbuniversity.beeexplanation1.task2}",
+		items: [{
+			id: "forestry:bee_drone_ge",
+			tag: {
+				MaxH: 20,
+				Mate: {
+					Chromosomes: [{
+						UID1: "forestry.speciesForest",
+						UID0: "forestry.speciesForest",
+						Slot: 0
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9
+					},
+					{
+						UID1: "forestry.floweringSlower",
+						UID0: "forestry.floweringSlower",
+						Slot: 10
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12
+					}]
+				},
+				Health: 20,
+				IsAnalyzed: 0,
+				Genome: {
+					Chromosomes: [{
+						UID1: "forestry.speciesForest",
+						UID0: "forestry.speciesForest",
+						Slot: 0
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9
+					},
+					{
+						UID1: "forestry.floweringSlower",
+						UID0: "forestry.floweringSlower",
+						Slot: 10
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

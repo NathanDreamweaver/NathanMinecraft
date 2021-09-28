@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.unlockartifice.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "thaumcraft:textures/research/cat_artifice.png"
+		}
+	},
+	x: -2.1884353741496057d,
+	y: -0.36734693877551905d,
+	description: "{ftbuniversity.unlockartifice.subtitle}",
+	text: [
+		"{ftbuniversity.unlockartifice.desc1}",
+		"",
+		"{ftbuniversity.unlockartifice.desc2}",
+		"",
+		"{ftbuniversity.unlockartifice.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e21dcaa9"
+	],
+	tasks: [{
+		uid: "22ee0cf3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

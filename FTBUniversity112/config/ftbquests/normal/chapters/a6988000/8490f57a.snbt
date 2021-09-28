@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.visbattery.title}",
+	x: -2.1950680272109153d,
+	y: -3.541156462585029d,
+	description: "{ftbuniversity.visbattery.subtitle}",
+	text: [
+		"{ftbuniversity.visbattery.desc1}",
+		"",
+		"{ftbuniversity.visbattery.desc2}",
+		"",
+		"{ftbuniversity.visbattery.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"65905474"
+	],
+	hide: true,
+	size: 0.375d,
+	tasks: [{
+		uid: "b8c49385",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_battery"
+		}]
+	}],
+	rewards: [{
+		uid: "7f0c6220",
+		type: "item",
+		item: "thaumcraft:vis_battery",
+		count: 8
+	}]
+}

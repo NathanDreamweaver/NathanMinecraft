@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.exu2fireaxe.title}",
+	x: -0.25d,
+	y: 4.5d,
+	description: "{ftbuniversity.exu2fireaxe.subtitle}",
+	text: [
+		"{ftbuniversity.exu2fireaxe.desc1}",
+		"",
+		"{ftbuniversity.exu2fireaxe.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e",
+		"a0e5d287"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "8b7f6de5",
+		type: "item",
+		items: [{
+			item: "extrautils2:fireaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

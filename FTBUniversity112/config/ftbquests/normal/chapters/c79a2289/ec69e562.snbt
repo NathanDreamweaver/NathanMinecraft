@@ -1,0 +1,56 @@
+{
+	title: "{ftbuniversity.tincables.title}",
+	icon: {
+		id: "ic2:cable",
+		tag: {
+			type: 4,
+			insulation: 1
+		},
+		Damage: 4s
+	},
+	x: 3.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.tincables.subtitle}",
+	text: [
+		"{ftbuniversity.tincables.desc1}",
+		"",
+		"{ftbuniversity.tincables.desc2}"
+	],
+	dependencies: [
+		"67a60dd5"
+	],
+	tasks: [{
+		uid: "b88ecef0",
+		type: "item",
+		title: "{ftbuniversity.tincables.task}",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 0b
+			},
+			Damage: 4s
+		},
+		{
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 1b
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "09da27a8",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 0b
+			},
+			Damage: 4s
+		},
+		count: 32
+	}]
+}

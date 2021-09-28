@@ -1,0 +1,73 @@
+{
+	title: "{ftbuniversity.basicrocket.title}",
+	icon: "advancedrocketry:advrocketmotor",
+	x: 0.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.basicrocket.subtitle}",
+	text: [
+		"{ftbuniversity.basicrocket.desc1}",
+		"",
+		"{ftbuniversity.basicrocket.desc2}",
+		"{ftbuniversity.basicrocket.desc3}",
+		"{ftbuniversity.basicrocket.desc4}",
+		"{ftbuniversity.basicrocket.desc5}",
+		"{ftbuniversity.basicrocket.desc6}",
+		"",
+		"{ftbuniversity.basicrocket.desc7}",
+		"",
+		"{ftbuniversity.basicrocket.desc8}",
+		"",
+		"{ftbuniversity.basicrocket.desc9}",
+		"",
+		"{ftbuniversity.basicrocket.desc10}"
+	],
+	dependencies: [
+		"f31ffa3e"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "de0de0a8",
+		type: "item",
+		title: "{ftbuniversity.basicrocket.task}",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		},
+		{
+			item: "advancedrocketry:advrocketmotor"
+		}]
+	},
+	{
+		uid: "8da61337",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}]
+	},
+	{
+		uid: "42b0311f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	},
+	{
+		uid: "bf85363f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "16ce0be2",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	}],
+	rewards: [{
+		uid: "132609d1",
+		type: "item",
+		item: "advancedrocketry:fueltank",
+		count: 4
+	}]
+}

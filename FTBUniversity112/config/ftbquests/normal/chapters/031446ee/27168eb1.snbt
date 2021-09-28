@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.bloodaltar.title}",
+	icon: "bloodmagic:altar",
+	x: 2.0d,
+	y: -3.0d,
+	description: "{ftbuniversity.bloodaltar.subtitle}",
+	text: [
+		"{ftbuniversity.bloodaltar.desc1}",
+		"",
+		"{ftbuniversity.bloodaltar.desc2}",
+		"",
+		"{ftbuniversity.bloodaltar.desc3}",
+		"",
+		"{ftbuniversity.bloodaltar.desc4}",
+		"",
+		"{ftbuniversity.bloodaltar.desc5}",
+		"",
+		"{ftbuniversity.bloodaltar.desc6}"
+	],
+	dependencies: [
+		"c6c47625"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "bc843cb2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "5ef5a5f9",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.familiar1.title}",
+	x: 1.0d,
+	y: 2.5d,
+	description: "{ftbuniversity.familiar1.subtitle}",
+	text: [
+		"{ftbuniversity.familiar1.desc1}",
+		"",
+		"{ftbuniversity.familiar1.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "e2c52390",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+					MAHOUTSUKAI_CASTER_NAME: "",
+					MAHOUTSUKAI_CASTER_UUIDMost: 0L
+				}
+			},
+			id: "mahoutsukai:scroll_summon_familiar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

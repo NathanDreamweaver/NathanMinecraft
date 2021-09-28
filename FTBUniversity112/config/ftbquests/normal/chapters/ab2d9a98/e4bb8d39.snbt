@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.plasinjec.subtitle}",
+	text: [
+		"{ftbuniversity.plasinjec.desc1}",
+		"",
+		"{ftbuniversity.plasinjec.desc2}"
+	],
+	dependencies: [
+		"d3b7cc46"
+	],
+	tasks: [{
+		uid: "d0e889ff",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:plasmidinjector"
+		}]
+	}]
+}

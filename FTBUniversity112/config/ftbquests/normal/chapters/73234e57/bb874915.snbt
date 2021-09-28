@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.chargemod.subtitle}",
+	text: [
+		"{ftbuniversity.chargemod.desc}"
+	],
+	dependencies: [
+		"a2251250"
+	],
+	tasks: [{
+		uid: "34659ddb",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:charging_module"
+		}]
+	}]
+}

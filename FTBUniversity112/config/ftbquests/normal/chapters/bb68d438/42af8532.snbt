@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	description: "{ftbuniversity.fluixagg.subtitle}",
+	text: [
+		"{ftbuniversity.fluixagg.desc}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc1}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"21ef680e"
+	],
+	tasks: [{
+		uid: "e2f0eac6",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.displaypanel.subtitle}",
+	text: [
+		"{ftbuniversity.displaypanel.desc1}",
+		"",
+		"{ftbuniversity.displaypanel.desc2}"
+	],
+	dependencies: [
+		"e3098252"
+	],
+	tasks: [{
+		uid: "21bb5910",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_display_panel_item"
+		}]
+	}]
+}

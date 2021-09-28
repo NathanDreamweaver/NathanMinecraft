@@ -1,0 +1,26 @@
+{
+	x: -7.25d,
+	y: 7.5d,
+	shape: "square",
+	description: "{ftbuniversity.satlog.subtitle}",
+	text: [
+		"{ftbuniversity.satlog.desc1}",
+		"",
+		"{ftbuniversity.satlog.desc2}",
+		"",
+		"{ftbuniversity.satlog.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"59e8425d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "ab55bf48",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_satellite"
+		}]
+	}]
+}

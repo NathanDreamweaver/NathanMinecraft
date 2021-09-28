@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.astmining.title}",
+	x: -3.75d,
+	y: -5.0d,
+	description: "{ftbuniversity.astmining.subtitle}",
+	text: [
+		"{ftbuniversity.astmining.desc1}",
+		"",
+		"{ftbuniversity.astmining.desc2}",
+		"",
+		"{ftbuniversity.astmining.desc3}"
+	],
+	dependencies: [
+		"6ae17dbf"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "6258dfe0",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:drill"
+		}]
+	}]
+}

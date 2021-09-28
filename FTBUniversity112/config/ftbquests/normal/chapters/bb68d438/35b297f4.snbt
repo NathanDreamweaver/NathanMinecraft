@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.essentiabus.title}",
+	icon: "thaumicenergistics:essentia_storage",
+	x: 5.0d,
+	y: -6.0d,
+	description: "{ftbuniversity.essentiabus.subtitle}",
+	text: [
+		"{ftbuniversity.essentiabus.desc}"
+	],
+	dependencies: [
+		"97ccc078",
+		"877e4761"
+	],
+	tasks: [{
+		uid: "378207d5",
+		type: "item",
+		title: "{ftbuniversity.essentiabus.task}",
+		items: [{
+			item: "thaumicenergistics:essentia_import"
+		},
+		{
+			item: "thaumicenergistics:essentia_export"
+		},
+		{
+			item: "thaumicenergistics:essentia_storage"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.dmlbook.title}",
+	x: -0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.dmlbook.subtitle}",
+	text: [
+		"{ftbuniversity.dmlbook.desc1}",
+		"",
+		"{ftbuniversity.dmlbook.desc2}",
+		"",
+		"{ftbuniversity.dmlbook.desc3}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "6d3ab7fc",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "deepmoblearning:book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

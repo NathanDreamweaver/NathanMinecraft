@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.ae2energyacceptor.title}",
+	x: 1.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.ae2energyacceptor.subtitle}",
+	text: [
+		"{ftbuniversity.ae2energyacceptor.desc1}",
+		"",
+		"{ftbuniversity.ae2energyacceptor.desc2}",
+		"",
+		"{ftbuniversity.ae2energyacceptor.desc3}",
+		"",
+		"{ftbuniversity.ae2energyacceptor.desc4}"
+	],
+	dependencies: [
+		"4bf7fd2f"
+	],
+	tasks: [{
+		uid: "cf2691de",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}]
+}

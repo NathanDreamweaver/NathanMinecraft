@@ -1,0 +1,14 @@
+name = "WrapUp"
+filename = "WrapUp-1.12-1.1.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2486/198/WrapUp-1.12-1.1.3.jar"
+hash-format = "murmur2"
+hash = "1072171054"
+
+[update]
+[update.curseforge]
+file-id = 2486198
+project-id = 275153
+release-channel = "beta"

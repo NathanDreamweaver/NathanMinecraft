@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	description: "{ftbuniversity.cheesestaff.subtitle}",
+	text: [
+		"{ftbuniversity.cheesestaff.desc1}",
+		"",
+		"{ftbuniversity.cheesestaff.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ad68b4cc"
+	],
+	tasks: [{
+		uid: "b6808836",
+		type: "item",
+		items: [{
+			id: "rats:cheese_stick",
+			tag: {}
+		}]
+	}]
+}

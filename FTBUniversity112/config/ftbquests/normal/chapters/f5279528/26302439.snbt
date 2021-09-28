@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.xnet3.title}",
+	x: 4.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.xnet3.subtitle}",
+	text: [
+		"{ftbuniversity.xnet3.desc1}",
+		"",
+		"{ftbuniversity.xnet3.desc2}",
+		"",
+		"{ftbuniversity.xnet3.desc3}"
+	],
+	dependencies: [
+		"d9c01312"
+	],
+	tasks: [{
+		uid: "c1884439",
+		type: "checkmark"
+	}]
+}

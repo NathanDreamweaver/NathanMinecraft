@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.xnet2.title}",
+	x: 4.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.xnet2.subtitle}",
+	text: [
+		"{ftbuniversity.xnet2.desc1}",
+		"",
+		"{ftbuniversity.xnet2.desc2}",
+		"",
+		"{ftbuniversity.xnet2.desc3}",
+		"",
+		"{ftbuniversity.xnet2.desc4}",
+		"",
+		"{ftbuniversity.xnet2.desc5}",
+		"",
+		"{ftbuniversity.xnet2.desc6}"
+	],
+	dependencies: [
+		"d9c01312"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "97b80adf",
+		type: "checkmark"
+	}]
+}

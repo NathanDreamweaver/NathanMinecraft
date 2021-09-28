@@ -1,0 +1,34 @@
+{
+	icon: "thaumcraft:void_robe_helm",
+	x: -3.775510204081634d,
+	y: 1.7142857142857153d,
+	description: "{ftbuniversity.voidrobe.subtitle}",
+	text: [
+		"{ftbuniversity.voidrobe.desc1}",
+		"",
+		"{ftbuniversity.voidrobe.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0084898"
+	],
+	hide: true,
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "0bb19833",
+		type: "item",
+		title: "{ftbuniversity.voidrobe.task}",
+		items: [{
+			item: "thaumcraft:void_robe_helm"
+		},
+		{
+			item: "thaumcraft:void_robe_chest"
+		},
+		{
+			item: "thaumcraft:void_robe_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: -0.75d,
+	description: "{ftbuniversity.pylon.subtitle}",
+	text: [
+		"{ftbuniversity.pylon.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ce02c662",
+		"3a8c43d6"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "8f99b4a8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_pylon"
+		}]
+	}]
+}

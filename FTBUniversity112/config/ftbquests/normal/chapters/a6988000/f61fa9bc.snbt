@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.alumentum.title}",
+	x: 0.28605442176871065d,
+	y: -2.1034013605442254d,
+	description: "{ftbuniversity.alumentum.subtitle}",
+	text: [
+		"{ftbuniversity.alumentum.desc1}",
+		"",
+		"{ftbuniversity.alumentum.desc2}",
+		"",
+		"{ftbuniversity.alumentum.desc3}",
+		"",
+		"{ftbuniversity.alumentum.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e21dcaa9"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "4299ec1d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}]
+}

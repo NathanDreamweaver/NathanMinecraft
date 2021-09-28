@@ -1,0 +1,26 @@
+{
+	x: -3.25d,
+	y: -1.0d,
+	description: "{ftbuniversity.hovercraft.subtitle}",
+	text: [
+		"{ftbuniversity.hovercraft.desc1}",
+		"",
+		"{ftbuniversity.hovercraft.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"50f85d78"
+	],
+	hide: true,
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "d0ce00d7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:hovercraft"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

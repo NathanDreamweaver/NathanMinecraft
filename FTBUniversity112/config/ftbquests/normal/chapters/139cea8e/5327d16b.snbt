@@ -1,0 +1,47 @@
+{
+	title: "Industrial Craft 2",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "ic2:crafting",
+				Count: 1b,
+				Damage: 1s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Technician",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487388L
+		}
+	},
+	x: 0.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.ic2trophy.subtitle}",
+	dependencies: [
+		"c79a2289"
+	],
+	rewards: [{
+		uid: "c5f93350",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "ic2:crafting",
+					Count: 1b,
+					Damage: 1s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Technician",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

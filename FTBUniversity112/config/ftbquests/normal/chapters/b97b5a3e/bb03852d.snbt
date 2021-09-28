@@ -1,0 +1,20 @@
+{
+	x: 2.25d,
+	y: 3.25d,
+	description: "{ftbuniversity.rftcrafter3.subtitle}",
+	text: [
+		"{ftbuniversity.rftcrafter3.desc}"
+	],
+	dependencies: [
+		"b5f3d39f"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "586084dc",
+		type: "item",
+		items: [{
+			item: "rftools:crafter3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

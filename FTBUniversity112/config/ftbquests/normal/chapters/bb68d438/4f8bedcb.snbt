@@ -1,0 +1,32 @@
+{
+	x: 12.5d,
+	y: -4.0d,
+	description: "{ftbuniversity.molecularassemblar.subtitle}",
+	text: [
+		"{ftbuniversity.molecularassemblar.desc1}",
+		"",
+		"{ftbuniversity.molecularassemblar.desc2}",
+		"",
+		"{ftbuniversity.molecularassemblar.desc3}",
+		"",
+		"{ftbuniversity.molecularassemblar.desc4}",
+		"",
+		"{ftbuniversity.molecularassemblar.desc5}"
+	],
+	dependencies: [
+		"766a6e75"
+	],
+	tasks: [{
+		uid: "a18384e5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "204ef81a",
+		type: "item",
+		item: "appliedenergistics2:molecular_assembler",
+		count: 4
+	}]
+}

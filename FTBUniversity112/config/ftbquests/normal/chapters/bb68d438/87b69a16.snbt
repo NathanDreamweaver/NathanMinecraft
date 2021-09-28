@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.pulsecent.subtitle}",
+	text: [
+		"{ftbuniversity.pulsecent.desc}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc1}",
+		"",
+		"{ftbuniversity.lazyae2gen.desc2}"
+	],
+	dependencies: [
+		"42af8532"
+	],
+	tasks: [{
+		uid: "72b5106b",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 1"
+		}]
+	}]
+}

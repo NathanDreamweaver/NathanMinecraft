@@ -1,0 +1,95 @@
+{
+	title: "{ftbuniversity.railgun.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/railgun.png"
+		}
+	},
+	x: 2.5d,
+	y: -2.25d,
+	shape: "circle",
+	description: "{ftbuniversity.railgun.subtitle}",
+	text: [
+		"{ftbuniversity.railgun.desc1}",
+		"",
+		"{ftbuniversity.railgun.desc2}",
+		"",
+		"{ftbuniversity.railgun.desc3}",
+		"",
+		"{ftbuniversity.railgun.desc4}",
+		"",
+		"{ftbuniversity.railgun.desc5}",
+		"",
+		"{ftbuniversity.railgun.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e07320"
+	],
+	size: 0.5d,
+	optional: true,
+	min_width: 300,
+	tasks: [{
+		uid: "482daa38",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:railgun"
+		}]
+	},
+	{
+		uid: "ef04ccd4",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:coil0 1 4"
+		}],
+		count: 29L
+	},
+	{
+		uid: "262fa626",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:metal0 1 7"
+		}],
+		count: 18L
+	},
+	{
+		uid: "2cabbe13",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:advstructuremachine"
+		}],
+		count: 27L
+	},
+	{
+		uid: "58ca1182",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "6f3ee38a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "fbdf977c",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	}]
+}

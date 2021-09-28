@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: 8.0d,
+	description: "{ftbuniversity.advextractmod.subtitle}",
+	text: [
+		"{ftbuniversity.advextractmod.desc1}",
+		"",
+		"{ftbuniversity.advextractmod.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "bbb1f1e5",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_extractor_advanced"
+		}]
+	}]
+}

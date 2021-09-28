@@ -1,0 +1,51 @@
+{
+	title: "{ftbuniversity.capacitorbanks.title}",
+	icon: {
+		id: "enderio:block_cap_bank",
+		tag: {
+			"enderio:energy": 25000000
+		},
+		Damage: 3s
+	},
+	x: -1.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.capacitorbanks.subtitle}",
+	text: [
+		"{ftbuniversity.capacitorbanks.desc1}",
+		"",
+		"{ftbuniversity.capacitorbanks.desc2}",
+		"",
+		"{ftbuniversity.capacitorbanks.desc3}",
+		"",
+		"{ftbuniversity.capacitorbanks.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"17708bc9"
+	],
+	tasks: [{
+		uid: "ee152170",
+		type: "item",
+		title: "{ftbuniversity.capacitorbanks.task}",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		},
+		{
+			item: "enderio:block_cap_bank 1 2"
+		},
+		{
+			item: "enderio:block_cap_bank 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "097df90e",
+		type: "item",
+		item: {
+			id: "enderio:block_cap_bank",
+			tag: {
+				"enderio:energy": 1000000
+			},
+			Damage: 1s
+		}
+	}]
+}

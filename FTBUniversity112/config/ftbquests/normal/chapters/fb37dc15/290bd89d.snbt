@@ -1,0 +1,18 @@
+{
+	title: "{ftbuniversity.botmobfarm.title}",
+	icon: "minecraft:skull 1 2",
+	x: 0.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.botmobfarm.subtitle}",
+	text: [
+		"{ftbuniversity.botmobfarm.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a6896bc7"
+	],
+	tasks: [{
+		uid: "f4e1f530",
+		type: "checkmark"
+	}]
+}

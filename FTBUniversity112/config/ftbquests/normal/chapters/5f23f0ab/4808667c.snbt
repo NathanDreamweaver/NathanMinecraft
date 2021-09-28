@@ -1,0 +1,448 @@
+{
+	title: "{ftbuniversity.multifarms.title}",
+	icon: {
+		id: "forestry:ffarm",
+		tag: {
+			FarmBlock: 4
+		}
+	},
+	x: -2.5d,
+	y: 6.0d,
+	description: "{ftbuniversity.multifarms.subtitle}",
+	text: [
+		"{ftbuniversity.multifarms.desc1}",
+		"",
+		"{ftbuniversity.multifarms.desc2}",
+		"",
+		"{ftbuniversity.multifarms.desc3}",
+		"",
+		"{ftbuniversity.multifarms.desc4}",
+		"{ftbuniversity.multifarms.desc5}",
+		"{ftbuniversity.multifarms.desc6}",
+		"{ftbuniversity.multifarms.desc7}",
+		"{ftbuniversity.multifarms.desc8}",
+		"{ftbuniversity.multifarms.desc9}",
+		"",
+		"{ftbuniversity.multifarms.desc10}",
+		"",
+		"{ftbuniversity.multifarms.desc11}"
+	],
+	hide_dependency_lines: true,
+	size: 1.25d,
+	min_width: 350,
+	tasks: [{
+		uid: "85a3c125",
+		type: "item",
+		title: "{ftbuniversity.multifarms.task1}",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 1
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 2
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 3
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 4
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 5
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 6
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 7
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 8
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 9
+			}
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 10
+			}
+		}],
+		count: 32L
+	},
+	{
+		uid: "dc2dfaa7",
+		type: "item",
+		title: "{ftbuniversity.multifarms.task2}",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 1
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 2
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 3
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 4
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 5
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 6
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 7
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 8
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 9
+			},
+			Damage: 2s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 10
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "f5b9ab08",
+		type: "item",
+		title: "{ftbuniversity.multifarms.task3}",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 1
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 2
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 3
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 4
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 5
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 6
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 7
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 8
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 9
+			},
+			Damage: 3s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 10
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "3ec1ed4f",
+		type: "item",
+		title: "{ftbuniversity.multifarms.task4}",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 1
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 2
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 3
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 4
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 5
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 6
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 7
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 8
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 9
+			},
+			Damage: 4s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 10
+			},
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "abe97bb1",
+		type: "item",
+		title: "{ftbuniversity.multifarms.task5}",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 1
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 2
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 3
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 4
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 5
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 6
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 7
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 8
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 9
+			},
+			Damage: 5s
+		},
+		{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 10
+			},
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "7beb1b6a",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 64
+	}]
+}

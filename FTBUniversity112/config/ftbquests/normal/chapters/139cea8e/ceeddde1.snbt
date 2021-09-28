@@ -1,0 +1,47 @@
+{
+	title: "Mekanism",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "mekanism:robit",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Mechanic",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487459L
+		}
+	},
+	x: -1.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.mektrophy.subtitle}",
+	dependencies: [
+		"11732652"
+	],
+	rewards: [{
+		uid: "5de6c684",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "mekanism:robit",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Mechanic",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

@@ -1,0 +1,98 @@
+{
+	disable_toast: true,
+	x: 2.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.killers.subtitle}",
+	text: [
+		"{ftbuniversity.killers.desc}"
+	],
+	tasks: [{
+		uid: "d4690406",
+		type: "item",
+		title: "{ftbuniversity.killers.title}",
+		disable_toast: true,
+		items: [{
+			item: "immersiveengineering:metal_device1 1 11"
+		},
+		{
+			item: "immersiveengineering:metal_device1 1 10"
+		},
+		{
+			item: "immersiveengineering:metal_device1 1 8"
+		},
+		{
+			item: "pneumaticcraft:sentry_turret"
+		},
+		{
+			item: "darkutils:trap_tile"
+		},
+		{
+			item: "darkutils:trap_tile 1 2"
+		},
+		{
+			item: "darkutils:trap_tile 1 4"
+		},
+		{
+			item: "darkutils:trap_tile 1 5"
+		},
+		{
+			item: "darkutils:trap_tile 1 6"
+		},
+		{
+			item: "darkutils:trap_tile 1 7"
+		},
+		{
+			item: "extrautils2:spike_wood"
+		},
+		{
+			item: "extrautils2:spike_stone"
+		},
+		{
+			item: "extrautils2:spike_iron"
+		},
+		{
+			item: "extrautils2:spike_gold"
+		},
+		{
+			item: "extrautils2:spike_diamond"
+		},
+		{
+			item: "extrautils2:spike_creative"
+		},
+		{
+			item: "extrautils2:user"
+		},
+		{
+			item: "integratedtunnels:part_player_simulator_item"
+		},
+		{
+			id: "pneumaticcraft:drone",
+			tag: {
+				volume: 12000.0f,
+				currentAir: 0.0f
+			}
+		},
+		{
+			id: "thaumcraft:golem",
+			tag: {
+				props: 0L
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		},
+		{
+			item: "enderio:block_killer_joe"
+		}]
+	}],
+	rewards: [{
+		uid: "cae69ce0",
+		type: "random",
+		title: "{ftbuniversity.killers.rewards}",
+		table: 25
+	}]
+}

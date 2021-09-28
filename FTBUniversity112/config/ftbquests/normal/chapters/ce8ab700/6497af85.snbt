@@ -1,0 +1,33 @@
+{
+	icon: "buildinggadgets:constructionpastecontainer",
+	x: 2.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.pastecont.subtitle}",
+	text: [
+		"{ftbuniversity.pastecont.desc1}",
+		"",
+		"{ftbuniversity.pastecont.desc2}"
+	],
+	dependencies: [
+		"996e1664"
+	],
+	tasks: [{
+		uid: "63898a2c",
+		type: "item",
+		title: "{ftbuniversity.pastecont.title}",
+		items: [{
+			item: "buildinggadgets:constructionpastecontainer"
+		},
+		{
+			item: "buildinggadgets:constructionpastecontainert2"
+		},
+		{
+			item: "buildinggadgets:constructionpastecontainert3"
+		},
+		{
+			item: "buildinggadgets:constructionpastecontainercreative"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

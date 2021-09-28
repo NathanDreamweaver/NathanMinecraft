@@ -1,0 +1,64 @@
+{
+	title: "{ftbuniversity.spectreenergy.title}",
+	icon: "randomthings:spectreenergyinjector",
+	x: -1.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.spectreenergy.subtitle}",
+	text: [
+		"{ftbuniversity.spectreenergy.desc1}",
+		"",
+		"{ftbuniversity.spectreenergy.desc2}"
+	],
+	tasks: [{
+		uid: "30117df7",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreenergyinjector"
+		}]
+	},
+	{
+		uid: "933d7de5",
+		type: "item",
+		title: "{ftbuniversity.spectreenergy.task1}",
+		items: [{
+			id: "randomthings:spectrecharger",
+			tag: {
+				options: {}
+			}
+		},
+		{
+			id: "randomthings:spectrecharger",
+			tag: {
+				options: {}
+			},
+			Damage: 1s
+		},
+		{
+			id: "randomthings:spectrecharger",
+			tag: {
+				options: {}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "92cd40c4",
+		type: "item",
+		title: "{ftbuniversity.spectreenergy.task2}",
+		items: [{
+			item: "randomthings:spectrecoil_normal"
+		},
+		{
+			item: "randomthings:spectrecoil_redstone"
+		},
+		{
+			item: "randomthings:spectrecoil_ender"
+		}]
+	}],
+	rewards: [{
+		uid: "f190ddca",
+		type: "item",
+		item: "randomthings:spectreilluminator"
+	}]
+}

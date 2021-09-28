@@ -1,0 +1,70 @@
+{
+	title: "{ftbuniversity.bmrouting.title}",
+	icon: "bloodmagic:master_routing_node",
+	x: 6.5d,
+	y: -4.5d,
+	description: "{ftbuniversity.bmrouting.subtitle}",
+	text: [
+		"{ftbuniversity.bmrouting.desc1}",
+		"",
+		"{ftbuniversity.bmrouting.desc2}",
+		"",
+		"{ftbuniversity.bmrouting.desc3}",
+		"",
+		"{ftbuniversity.bmrouting.desc4}",
+		"",
+		"{ftbuniversity.bmrouting.desc5}",
+		"",
+		"{ftbuniversity.bmrouting.desc6}"
+	],
+	dependencies: [
+		"f06672df"
+	],
+	min_width: 325,
+	tasks: [{
+		uid: "de1054b9",
+		type: "item",
+		title: "{ftbuniversity.bmrouting.task1}",
+		items: [{
+			item: "bloodmagic:master_routing_node"
+		},
+		{
+			item: "bloodmagic:input_routing_node"
+		},
+		{
+			item: "bloodmagic:output_routing_node"
+		},
+		{
+			item: "bloodmagic:item_routing_node"
+		}]
+	},
+	{
+		uid: "2f3c7c47",
+		type: "item",
+		items: [{
+			item: "bloodmagic:node_router"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2991768a",
+		type: "item",
+		title: "{ftbuniversity.bmrouting.task2}",
+		items: [{
+			item: "bloodmagic:base_item_filter"
+		},
+		{
+			item: "bloodmagic:base_item_filter 1 1"
+		},
+		{
+			item: "bloodmagic:base_item_filter 1 2"
+		},
+		{
+			item: "bloodmagic:base_item_filter 1 3"
+		},
+		{
+			item: "bloodmagic:base_fluid_filter"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 1.25d,
+	y: -0.75d,
+	description: "{ftbuniversity.spawneragitator.subtitle}",
+	text: [
+		"{ftbuniversity.spawneragitator.desc1}",
+		"",
+		"{ftbuniversity.spawneragitator.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f494bdc3"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "42881560",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:spawner_agitator"
+		}]
+	}]
+}

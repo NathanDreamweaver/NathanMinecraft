@@ -1,0 +1,105 @@
+{
+	title: "{ftbuniversity.exu2compressed.title}",
+	icon: "extrautils2:compressedcobblestone 1 2",
+	x: 0.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.exu2compressed.subtitle}",
+	text: [
+		"{ftbuniversity.exu2compressed.desc1}",
+		"",
+		"{ftbuniversity.exu2compressed.desc2}"
+	],
+	tasks: [{
+		uid: "5bf572fe",
+		type: "item",
+		title: "{ftbuniversity.exu2compressed.task1}",
+		items: [{
+			item: "extrautils2:compressedcobblestone"
+		},
+		{
+			item: "extrautils2:compressedcobblestone 1 1"
+		},
+		{
+			item: "extrautils2:compressedcobblestone 1 2"
+		},
+		{
+			item: "extrautils2:compressedcobblestone 1 3"
+		},
+		{
+			item: "extrautils2:compressedcobblestone 1 4"
+		},
+		{
+			item: "extrautils2:compressedcobblestone 1 5"
+		},
+		{
+			item: "extrautils2:compressedcobblestone 1 6"
+		},
+		{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}]
+	},
+	{
+		uid: "5ca5eb65",
+		type: "item",
+		title: "{ftbuniversity.exu2compressed.task2}",
+		items: [{
+			item: "extrautils2:compresseddirt"
+		},
+		{
+			item: "extrautils2:compresseddirt 1 1"
+		},
+		{
+			item: "extrautils2:compresseddirt 1 2"
+		},
+		{
+			item: "extrautils2:compresseddirt 1 3"
+		}]
+	},
+	{
+		uid: "2acf8ac3",
+		type: "item",
+		title: "{ftbuniversity.exu2compressed.task3}",
+		items: [{
+			item: "extrautils2:compressedsand"
+		},
+		{
+			item: "extrautils2:compressedsand 1 1"
+		}]
+	},
+	{
+		uid: "7a6a8508",
+		type: "item",
+		title: "{ftbuniversity.exu2compressed.task4}",
+		items: [{
+			item: "extrautils2:compressedgravel"
+		},
+		{
+			item: "extrautils2:compressedgravel 1 1"
+		}]
+	},
+	{
+		uid: "58f24bf5",
+		type: "item",
+		title: "{ftbuniversity.exu2compressed.task5}",
+		items: [{
+			item: "extrautils2:compressednetherrack"
+		},
+		{
+			item: "extrautils2:compressednetherrack 1 1"
+		},
+		{
+			item: "extrautils2:compressednetherrack 1 2"
+		},
+		{
+			item: "extrautils2:compressednetherrack 1 3"
+		},
+		{
+			item: "extrautils2:compressednetherrack 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "a0bd3bd6",
+		type: "item",
+		item: "contenttweaker:octuplecompressedoctuplecompressedcobblestone"
+	}]
+}

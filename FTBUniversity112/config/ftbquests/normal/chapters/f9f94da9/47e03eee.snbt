@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.ratcraft.title}",
+	icon: "rats:rat_upgrade_crafting",
+	x: 0.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.ratcraft.subtitle}",
+	text: [
+		"{ftbuniversity.ratcraft.desc1}",
+		"",
+		"{ftbuniversity.ratcraft.desc2}",
+		"",
+		"{ftbuniversity.ratcraft.desc3}",
+		"",
+		"{ftbuniversity.ratcraft.desc4}"
+	],
+	dependencies: [
+		"7be6570e"
+	],
+	tasks: [{
+		uid: "9dfd1151",
+		type: "item",
+		items: [{
+			item: "rats:rat_crafting_table"
+		}]
+	},
+	{
+		uid: "e1933928",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_crafting"
+		}]
+	}]
+}

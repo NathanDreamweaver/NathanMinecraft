@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.redstoneio.title}",
+	icon: "integrateddynamics:part_redstone_reader_item",
+	x: 6.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.redstoneio.subtitle}",
+	text: [
+		"{ftbuniversity.redstoneio.desc1}",
+		"",
+		"{ftbuniversity.redstoneio.desc2}",
+		"",
+		"{ftbuniversity.redstoneio.desc3}",
+		"",
+		"{ftbuniversity.redstoneio.desc4}",
+		"",
+		"{ftbuniversity.redstoneio.desc5}"
+	],
+	dependencies: [
+		"e3098252"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2ecc4a2c",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_redstone_reader_item"
+		}]
+	},
+	{
+		uid: "6c8a2f7c",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:part_redstone_writer_item"
+		}]
+	}]
+}

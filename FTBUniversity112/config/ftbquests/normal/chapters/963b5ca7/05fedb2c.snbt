@@ -1,0 +1,58 @@
+{
+	title: "{ftbuniversity.avaarmor.title}",
+	icon: "avaritia:infinity_helmet",
+	x: 0.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.avaarmor.subtitle}",
+	text: [
+		"{ftbuniversity.avaarmor.desc1}",
+		"",
+		"{ftbuniversity.avaarmor.desc2}",
+		"",
+		"{ftbuniversity.avaarmor.desc3}",
+		"",
+		"{ftbuniversity.avaarmor.desc4}",
+		"",
+		"{ftbuniversity.avaarmor.desc5}"
+	],
+	dependencies: [
+		"c49f5e8b"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "3eb0a265",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "489fffa9",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2213238c",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7f66dee",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

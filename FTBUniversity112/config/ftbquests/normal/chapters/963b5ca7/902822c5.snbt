@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.avahoe.title}",
+	x: 2.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.avahoe.subtitle}",
+	text: [
+		"{ftbuniversity.avahoe.desc1}",
+		"",
+		"{ftbuniversity.avahoe.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "bf59eed4",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

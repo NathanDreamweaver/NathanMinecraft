@@ -1,0 +1,93 @@
+{
+	title: "{ftbuniversity.elementaltools.title}",
+	icon: {
+		id: "thaumcraft:elemental_axe",
+		tag: {
+			infench: [{
+				lvl: 1s,
+				id: 2s
+			},
+			{
+				lvl: 1s,
+				id: 0s
+			}]
+		}
+	},
+	x: -2.612670068027171d,
+	y: -2.7649085034013616d,
+	description: "{ftbuniversity.elementaltools.subtitle}",
+	text: [
+		"{ftbuniversity.elementaltools.desc1}",
+		"",
+		"{ftbuniversity.elementaltools.desc2}",
+		"",
+		"{ftbuniversity.elementaltools.desc3}",
+		"",
+		"{ftbuniversity.elementaltools.desc4}",
+		"",
+		"{ftbuniversity.elementaltools.desc5}",
+		"",
+		"{ftbuniversity.elementaltools.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1912b4c0"
+	],
+	hide: true,
+	size: 0.375d,
+	min_width: 300,
+	tasks: [{
+		uid: "ad460abe",
+		type: "item",
+		title: "{ftbuniversity.elementaltools.task}",
+		items: [{
+			id: "thaumcraft:elemental_axe",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 2s
+				},
+				{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:elemental_sword",
+			tag: {
+				infench: [{
+					lvl: 2s,
+					id: 5s
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:elemental_shovel",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		},
+		{
+			item: "thaumcraft:elemental_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

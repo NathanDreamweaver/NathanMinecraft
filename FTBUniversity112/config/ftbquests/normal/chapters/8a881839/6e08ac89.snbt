@@ -1,0 +1,27 @@
+{
+	x: 6.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.storageterminal.subtitle}",
+	text: [
+		"{ftbuniversity.storageterminal.desc1}",
+		"",
+		"{ftbuniversity.storageterminal.desc2}",
+		"",
+		"{ftbuniversity.storageterminal.desc3}",
+		"",
+		"{ftbuniversity.storageterminal.desc4}",
+		"",
+		"{ftbuniversity.storageterminal.desc5}"
+	],
+	dependencies: [
+		"73342d2c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "dc0aee8d",
+		type: "item",
+		items: [{
+			item: "integratedterminals:part_terminal_storage_item"
+		}]
+	}]
+}

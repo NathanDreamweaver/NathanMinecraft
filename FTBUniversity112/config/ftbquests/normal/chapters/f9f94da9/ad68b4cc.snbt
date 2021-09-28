@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.tamerat.title}",
+	x: -2.0d,
+	y: -5.5d,
+	description: "{ftbuniversity.tamerat.subtitle}",
+	text: [
+		"{ftbuniversity.tamerat.desc1}",
+		"",
+		"{ftbuniversity.tamerat.desc2}",
+		"",
+		"{ftbuniversity.tamerat.desc3}",
+		"",
+		"{ftbuniversity.tamerat.desc4}",
+		"{ftbuniversity.tamerat.desc5}"
+	],
+	dependencies: [
+		"266f0663",
+		"3f8695d8"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "9ab6b7bd",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "536c71cd",
+		type: "item",
+		item: "rats:rat_lantern"
+	},
+	{
+		uid: "da642784",
+		type: "item",
+		item: "minecraft:name_tag",
+		count: 8
+	}]
+}

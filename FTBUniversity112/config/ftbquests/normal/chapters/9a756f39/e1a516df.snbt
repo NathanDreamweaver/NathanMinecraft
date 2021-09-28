@@ -1,0 +1,49 @@
+{
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_GEM_STORED_MANA: 101
+			}
+		},
+		id: "mahoutsukai:attuned_diamond",
+		tag: {
+			MAHOUTSUKAI_GEM_STORED_MANA: 101
+		}
+	},
+	x: 1.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.attunedgem.subtitle}",
+	text: [
+		"{ftbuniversity.attunedgem.desc1}",
+		"",
+		"{ftbuniversity.attunedgem.desc2}",
+		"",
+		"{ftbuniversity.attunedgem.desc3}"
+	],
+	dependencies: [
+		"737601c1"
+	],
+	tasks: [{
+		uid: "60aea072",
+		type: "item",
+		title: "{ftbuniversity.attunedgem.task}",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_GEM_STORED_MANA: 0
+				}
+			},
+			id: "mahoutsukai:attuned_diamond"
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_GEM_STORED_MANA: 0
+				}
+			},
+			id: "mahoutsukai:attuned_emerald"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

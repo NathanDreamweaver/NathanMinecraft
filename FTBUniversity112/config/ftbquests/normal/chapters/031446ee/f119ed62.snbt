@@ -1,0 +1,42 @@
+{
+	title: "{ftbuniversity.orb1.title}",
+	x: 3.5d,
+	y: -3.0d,
+	description: "{ftbuniversity.orb1.subtitle}",
+	text: [
+		"{ftbuniversity.orb1.desc1}",
+		"",
+		"{ftbuniversity.orb1.desc2}",
+		"",
+		"{ftbuniversity.orb1.desc3}",
+		"",
+		"{ftbuniversity.orb1.desc4}",
+		"",
+		"{ftbuniversity.orb1.desc5}"
+	],
+	dependencies: [
+		"27168eb1"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "ccb18561",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "1fb6b379",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cofhcore:regeneration4"
+			}
+		}
+	}]
+}

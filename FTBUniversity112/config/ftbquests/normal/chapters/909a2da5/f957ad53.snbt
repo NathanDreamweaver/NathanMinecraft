@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 11.0d,
+	description: "{ftbuniversity.actspedupg.subtitle}",
+	text: [
+		"{ftbuniversity.actspedupg.desc1}",
+		"",
+		"{ftbuniversity.actspedupg.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "cfaa3f5c",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_action_speed"
+		}]
+	}]
+}

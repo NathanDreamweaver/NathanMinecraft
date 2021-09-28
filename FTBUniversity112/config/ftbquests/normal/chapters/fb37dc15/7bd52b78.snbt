@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.agricarnation.title}",
+	x: 3.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.agricarnation.subtitle}",
+	text: [
+		"{ftbuniversity.agricarnation.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	tasks: [{
+		uid: "57a64117",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "agricarnation"
+			}
+		}]
+	}]
+}

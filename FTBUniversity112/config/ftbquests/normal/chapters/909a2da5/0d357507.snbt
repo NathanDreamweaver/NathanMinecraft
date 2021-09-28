@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.provmod.subtitle}",
+	text: [
+		"{ftbuniversity.provmod.desc1}",
+		"",
+		"{ftbuniversity.provmod.desc2}",
+		"",
+		"{ftbuniversity.provmod.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "27ee6f0c",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_provider"
+		}]
+	}]
+}

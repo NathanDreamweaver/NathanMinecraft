@@ -1,0 +1,40 @@
+{
+	x: 3.0d,
+	y: -7.5d,
+	description: "{ftbuniversity.ratflame.subtitle}",
+	text: [
+		"{ftbuniversity.ratflame.desc1}",
+		"",
+		"{ftbuniversity.ratflame.desc2}",
+		"",
+		"{ftbuniversity.ratflame.desc3}"
+	],
+	dependencies: [
+		"68317c6f"
+	],
+	tasks: [{
+		uid: "b10109bc",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "rats:ratlantean_spirit"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b43bcbfc",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "rats:ratlantean_spirit"
+				}
+			}
+		},
+		count: 4
+	}]
+}

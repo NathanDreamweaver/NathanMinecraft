@@ -1,0 +1,96 @@
+{
+	icon: {
+		id: "mekanism:machineblock",
+		tag: {
+			recipeType: 2
+		},
+		Damage: 7s
+	},
+	x: 5.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.elitefactories.subtitle}",
+	text: [
+		"{ftbuniversity.elitefactories.desc}"
+	],
+	dependencies: [
+		"57d44d81"
+	],
+	tasks: [{
+		uid: "789734d2",
+		type: "item",
+		title: "{ftbuniversity.elitefactories.task}",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 1,
+				mekData: {}
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 2,
+				mekData: {}
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 3,
+				mekData: {}
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 4,
+				mekData: {}
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 5
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 6
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 7
+			},
+			Damage: 7s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 8
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "166fa068",
+		type: "item",
+		item: "mekanism:tierinstaller 1 2"
+	}]
+}

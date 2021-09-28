@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.exu2learngp.title}",
+	icon: "extrautils2:ingredients 1 2",
+	x: -3.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.exu2learngp.subtitle}",
+	text: [
+		"{ftbuniversity.exu2learngp.desc1}",
+		"",
+		"{ftbuniversity.exu2learngp.desc2}",
+		"",
+		"{ftbuniversity.exu2learngp.desc3}",
+		"",
+		"{ftbuniversity.exu2learngp.desc4}",
+		"",
+		"{ftbuniversity.exu2learngp.desc5}",
+		"",
+		"{ftbuniversity.exu2learngp.desc6}"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "6ed68f24",
+		type: "checkmark"
+	}]
+}

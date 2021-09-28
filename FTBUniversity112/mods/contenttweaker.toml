@@ -1,0 +1,14 @@
+name = "ContentTweaker"
+filename = "ContentTweaker-1.12.2-4.9.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2652/853/ContentTweaker-1.12.2-4.9.1.jar"
+hash-format = "murmur2"
+hash = "4180990591"
+
+[update]
+[update.curseforge]
+file-id = 2652853
+project-id = 237065
+release-channel = "beta"

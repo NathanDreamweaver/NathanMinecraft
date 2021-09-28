@@ -1,0 +1,58 @@
+{
+	title: "{ftbuniversity.xnrouter2.title}",
+	icon: {
+		id: "xnet:netcable",
+		tag: {
+			display: {
+				LocName: "tile.xnet.netcable_routing.name"
+			}
+		},
+		Damage: 4s
+	},
+	x: 6.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.xnrouter2.subtitle}",
+	text: [
+		"{ftbuniversity.xnrouter2.desc1}",
+		"",
+		"{ftbuniversity.xnrouter2.desc2}",
+		"",
+		"{ftbuniversity.xnrouter2.desc3}",
+		"",
+		"{ftbuniversity.xnrouter2.desc4}",
+		"",
+		"{ftbuniversity.xnrouter2.desc5}"
+	],
+	dependencies: [
+		"2eeb6942"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "45ecdbaf",
+		type: "item",
+		items: [{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_routing.name"
+				}
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0bc8acbe",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_routing.name"
+				}
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

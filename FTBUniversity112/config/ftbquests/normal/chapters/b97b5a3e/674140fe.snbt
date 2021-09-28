@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.rftpump.title}",
+	x: -1.75d,
+	y: 9.75d,
+	description: "{ftbuniversity.rftpump.subtitle}",
+	text: [
+		"{ftbuniversity.rftpump.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a0da998d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "7c9bdc27",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+name = "LibrarianLib"
+filename = "librarianlib-1.12.2-4.22.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3041/340/librarianlib-1.12.2-4.22.jar"
+hash-format = "murmur2"
+hash = "3593065027"
+
+[update]
+[update.curseforge]
+file-id = 3041340
+project-id = 252910
+release-channel = "beta"

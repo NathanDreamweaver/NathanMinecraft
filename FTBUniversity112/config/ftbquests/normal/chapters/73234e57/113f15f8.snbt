@@ -1,0 +1,22 @@
+{
+	x: 1.75d,
+	y: -1.25d,
+	description: "{ftbuniversity.safetytubemod.subtitle}",
+	text: [
+		"{ftbuniversity.safetytubemod.desc1}",
+		"",
+		"{ftbuniversity.safetytubemod.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b9774f8d"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "db478fb6",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:safety_tube_module"
+		}]
+	}]
+}

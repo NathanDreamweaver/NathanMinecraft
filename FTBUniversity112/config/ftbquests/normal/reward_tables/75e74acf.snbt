@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.ic2tools.rewards}",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ic2:forge_hammer",
+			tag: {
+				ench: [{
+					lvl: 2,
+					id: 34
+				}],
+				RepairCost: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "ic2:cutter",
+			tag: {
+				ench: [{
+					lvl: 2,
+					id: 34
+				}],
+				RepairCost: 1
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.pressuretube.title}",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.pressuretube.subtitle}",
+	text: [
+		"{ftbuniversity.pressuretube.desc1}",
+		"",
+		"{ftbuniversity.pressuretube.desc2}"
+	],
+	dependencies: [
+		"f494bdc3"
+	],
+	tasks: [{
+		uid: "64281b35",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_tube"
+		}]
+	}]
+}

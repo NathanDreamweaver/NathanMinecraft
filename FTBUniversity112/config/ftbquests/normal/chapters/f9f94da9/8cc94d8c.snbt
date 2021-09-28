@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: -7.5d,
+	description: "{ftbuniversity.radiusstaff.subtitle}",
+	text: [
+		"{ftbuniversity.radiusstaff.desc}"
+	],
+	dependencies: [
+		"7602591a",
+		"7a1bfafa"
+	],
+	tasks: [{
+		uid: "882cf9ac",
+		type: "item",
+		items: [{
+			id: "rats:radius_stick",
+			tag: {}
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.ic2wrench.title}",
+	icon: "ic2:wrench",
+	x: 1.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.ic2wrench.subtitle}",
+	text: [
+		"{ftbuniversity.ic2wrench.desc1}",
+		"",
+		"{ftbuniversity.ic2wrench.desc2}",
+		"",
+		"{ftbuniversity.ic2wrench.desc3}"
+	],
+	tasks: [{
+		uid: "ab4d6030",
+		type: "item",
+		title: "{ftbuniversity.ic2wrench.task}",
+		items: [{
+			item: "ic2:wrench"
+		},
+		{
+			item: "ic2:wrench_new"
+		},
+		{
+			id: "ic2:electric_wrench",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

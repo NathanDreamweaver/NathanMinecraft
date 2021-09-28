@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.geneticreplicator.title}",
+	x: 5.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.geneticreplicator.subtitle}",
+	text: [
+		"{ftbuniversity.geneticreplicator.desc}"
+	],
+	dependencies: [
+		"1a5aa656",
+		"1905650a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e24b0859",
+		type: "item",
+		items: [{
+			item: "gendustry:replicator"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.pneubook.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.pneubook.subtitle}",
+	text: [
+		"{ftbuniversity.pneubook.desc1}",
+		"",
+		"{ftbuniversity.pneubook.desc2}",
+		"",
+		"{ftbuniversity.pneubook.desc3}"
+	],
+	tasks: [{
+		uid: "4ee2b749",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "pneumaticcraft:book"
+			}
+		}]
+	}]
+}

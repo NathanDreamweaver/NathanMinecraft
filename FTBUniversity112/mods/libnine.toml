@@ -1,0 +1,14 @@
+name = "LibNine"
+filename = "libnine-1.12.2-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3073/839/libnine-1.12.2-1.2.0.jar"
+hash-format = "murmur2"
+hash = "3665289799"
+
+[update]
+[update.curseforge]
+file-id = 3073839
+project-id = 322344
+release-channel = "beta"

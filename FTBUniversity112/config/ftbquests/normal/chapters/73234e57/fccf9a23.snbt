@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.harvestdrone.subtitle}",
+	text: [
+		"{ftbuniversity.harvestdrone.desc1}",
+		"",
+		"{ftbuniversity.harvestdrone.desc2}",
+		"",
+		"{ftbuniversity.harvestdrone.desc3}",
+		"",
+		"{ftbuniversity.harvestdrone.desc4}"
+	],
+	dependencies: [
+		"089b57d0"
+	],
+	tasks: [{
+		uid: "7cef8695",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:harvesting_drone",
+			tag: {
+				volume: 12000.0f,
+				currentAir: 0.0f
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

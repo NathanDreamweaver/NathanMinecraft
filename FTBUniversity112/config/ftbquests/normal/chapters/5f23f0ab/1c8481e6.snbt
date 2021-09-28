@@ -1,0 +1,21 @@
+{
+	title: "{ftbuniversity.ignoblebee.title}",
+	icon: "minecraft:golden_helmet",
+	x: 1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.ignoblebee.subtitle}",
+	text: [
+		"{ftbuniversity.ignoblebee.desc1}",
+		"",
+		"{ftbuniversity.ignoblebee.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5308ae57"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3c441318",
+		type: "checkmark"
+	}]
+}

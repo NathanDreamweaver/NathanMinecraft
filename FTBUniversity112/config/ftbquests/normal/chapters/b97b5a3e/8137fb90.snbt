@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.rftscreens.title}",
+	icon: "rftools:screen",
+	x: -1.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.rftscreens.subtitle}",
+	text: [
+		"{ftbuniversity.rftscreens.desc1}",
+		"",
+		"{ftbuniversity.rftscreens.desc2}",
+		"",
+		"{ftbuniversity.rftscreens.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "14757d95",
+		type: "item",
+		items: [{
+			item: "rftools:screen_controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e2bf19f0",
+		type: "item",
+		items: [{
+			item: "rftools:screen"
+		}],
+		ignore_nbt: 1b
+	}]
+}

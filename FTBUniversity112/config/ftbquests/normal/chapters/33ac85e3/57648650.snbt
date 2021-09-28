@@ -1,0 +1,182 @@
+{
+	title: "{ftbuniversity.satellites.title}",
+	icon: "advancedrocketry:satellite",
+	x: -1.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.satellites.subtitle}",
+	text: [
+		"{ftbuniversity.satellites.desc1}",
+		"",
+		"{ftbuniversity.satellites.desc2}",
+		"",
+		"{ftbuniversity.satellites.desc3}",
+		"",
+		"{ftbuniversity.satellites.desc4}",
+		"",
+		"{ftbuniversity.satellites.desc5}",
+		"",
+		"{ftbuniversity.satellites.desc6}"
+	],
+	dependencies: [
+		"bee53bfa"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "d26984db",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellitebuilder"
+		}]
+	},
+	{
+		uid: "279f6f6c",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "7c0bd8e7",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satellite"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "98ab4ec0",
+		type: "item",
+		title: "{ftbuniversity.satellites.task1}",
+		items: [{
+			id: "advancedrocketry:satelliteprimaryfunction",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.optics"
+				}
+			}
+		},
+		{
+			id: "advancedrocketry:satelliteprimaryfunction",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.comp"
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "advancedrocketry:satelliteprimaryfunction",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.mass"
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "advancedrocketry:satelliteprimaryfunction",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.micro"
+				}
+			},
+			Damage: 3s
+		},
+		{
+			id: "advancedrocketry:satelliteprimaryfunction",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.ore"
+				}
+			},
+			Damage: 4s
+		},
+		{
+			id: "advancedrocketry:satelliteprimaryfunction",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.biome"
+				}
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eafacbe6",
+		type: "item",
+		title: "{ftbuniversity.satellites.task2}",
+		items: [{
+			id: "advancedrocketry:satellitepowersource",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.solar1"
+				}
+			}
+		},
+		{
+			id: "advancedrocketry:satellitepowersource",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.solar2"
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "457d24e2",
+		type: "item",
+		title: "{ftbuniversity.satellites.task3}",
+		disable_toast: true,
+		items: [{
+			id: "libvulpes:battery",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.bat1"
+				}
+			}
+		},
+		{
+			id: "libvulpes:battery",
+			tag: {
+				RepairCost: 0,
+				display: {
+					LocName: "ftbuniversity.satellites.bat2"
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d4f781a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:dataunit"
+		}]
+	},
+	{
+		uid: "68c4ece4",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:satelliteidchip"
+		}]
+	}]
+}

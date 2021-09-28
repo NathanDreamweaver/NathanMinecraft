@@ -1,0 +1,39 @@
+{
+	icon: "thaumcraft:stabilizer",
+	x: -3.1812925170068027d,
+	y: -2.3880377551020437d,
+	description: "{ftbuniversity.infusionstabilizer.subtitle}",
+	text: [
+		"{ftbuniversity.infusionstabilizer.desc1}",
+		"",
+		"{ftbuniversity.infusionstabilizer.desc2}",
+		"",
+		"{ftbuniversity.infusionstabilizer.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2cce1ae6"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "f7ee9fe6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	},
+	{
+		uid: "305acfcf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:inlay"
+		}]
+	}],
+	rewards: [{
+		uid: "414b08f2",
+		type: "item",
+		item: "thaumcraft:inlay",
+		count: 16
+	}]
+}

@@ -1,0 +1,111 @@
+{
+	title: "{ftbuniversity.basicfactories.title}",
+	icon: {
+		id: "mekanism:machineblock",
+		tag: {
+			recipeType: 2
+		},
+		Damage: 5s
+	},
+	x: 3.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.basicfactories.subtitle}",
+	text: [
+		"{ftbuniversity.basicfactories.desc1}",
+		"",
+		"{ftbuniversity.basicfactories.desc2}",
+		"",
+		"{ftbuniversity.basicfactories.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"994e45ee",
+		"e8c8845b",
+		"9cbe6cdb",
+		"2d47fe91",
+		"be3ed0f6",
+		"04e9e710",
+		"5f51dbcb",
+		"03d00d0d",
+		"a6e29b2c"
+	],
+	tasks: [{
+		uid: "3347cc52",
+		type: "item",
+		title: "{ftbuniversity.basicfactories.task}",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 1,
+				mekData: {}
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 2,
+				mekData: {}
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 3
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 4
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 5
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 6
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 7,
+				mekData: {}
+			},
+			Damage: 5s
+		},
+		{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 8,
+				mekData: {}
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "780f8e43",
+		type: "item",
+		item: "mekanism:tierinstaller"
+	}]
+}

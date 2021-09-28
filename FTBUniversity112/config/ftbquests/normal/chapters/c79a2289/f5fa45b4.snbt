@@ -1,0 +1,35 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.ic2geotherm.subtitle}",
+	text: [
+		"{ftbuniversity.ic2geotherm.desc1}",
+		"",
+		"{ftbuniversity.ic2geotherm.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"90efc992"
+	],
+	tasks: [{
+		uid: "f18458ca",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "534b3876",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	}]
+}

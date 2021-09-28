@@ -1,0 +1,58 @@
+{
+	title: "{ftbuniversity.iecapacitors.title}",
+	icon: "immersiveengineering:metal_device0 1 2",
+	x: 4.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.iecapacitors.subtitle}",
+	text: [
+		"{ftbuniversity.iecapacitors.desc1}",
+		"",
+		"{ftbuniversity.iecapacitors.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"bf66b31c"
+	],
+	tasks: [{
+		uid: "d823e367",
+		type: "item",
+		title: "{ftbuniversity.iecapacitors.task}",
+		items: [{
+			id: "immersiveengineering:metal_device0",
+			tag: {
+				sideConfig_0: 0,
+				sideConfig_1: 1,
+				sideConfig_2: 0,
+				sideConfig_3: 0,
+				sideConfig_4: 0,
+				sideConfig_5: 0
+			}
+		},
+		{
+			id: "immersiveengineering:metal_device0",
+			tag: {
+				sideConfig_0: 0,
+				sideConfig_1: 1,
+				sideConfig_2: 0,
+				sideConfig_3: 0,
+				sideConfig_4: 0,
+				sideConfig_5: 0
+			},
+			Damage: 1s
+		},
+		{
+			id: "immersiveengineering:metal_device0",
+			tag: {
+				sideConfig_0: 0,
+				sideConfig_1: 1,
+				sideConfig_2: 0,
+				sideConfig_3: 0,
+				sideConfig_4: 0,
+				sideConfig_5: 0
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

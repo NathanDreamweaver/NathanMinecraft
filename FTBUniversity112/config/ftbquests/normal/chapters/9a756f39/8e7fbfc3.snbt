@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.bowweapon.title}",
+	x: -1.0d,
+	y: 0.5d,
+	description: "{ftbuniversity.bowweapon.subtitle}",
+	text: [
+		"{ftbuniversity.bowweapon.desc1}",
+		"",
+		"{ftbuniversity.bowweapon.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	tasks: [{
+		uid: "05128787",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:weapon_projectile_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

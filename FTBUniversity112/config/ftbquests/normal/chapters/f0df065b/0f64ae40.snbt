@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.exu2windmill.title}",
+	x: -3.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.exu2windmill.subtitle}",
+	text: [
+		"{ftbuniversity.exu2windmill.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"44add260"
+	],
+	tasks: [{
+		uid: "e63c3aa3",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 4"
+		}]
+	}]
+}

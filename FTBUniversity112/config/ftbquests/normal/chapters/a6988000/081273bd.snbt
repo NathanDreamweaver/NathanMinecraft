@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.optimaltube.title}",
+	x: 1.5612244897959329d,
+	y: -3.5272108843537495d,
+	description: "{ftbuniversity.optimaltube.subtitle}",
+	text: [
+		"{ftbuniversity.optimaltube.desc1}",
+		"",
+		"{ftbuniversity.optimaltube.desc2}",
+		"",
+		"{ftbuniversity.optimaltube.desc3}",
+		"",
+		"{ftbuniversity.optimaltube.desc4}",
+		"",
+		"{ftbuniversity.optimaltube.desc5}",
+		"",
+		"{ftbuniversity.optimaltube.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1b433e4d"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 275,
+	tasks: [{
+		uid: "61c691b0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_buffer"
+		}]
+	}],
+	rewards: [{
+		uid: "60ddbca3",
+		type: "item",
+		item: "thaumcraft:tube_buffer",
+		count: 10
+	}]
+}

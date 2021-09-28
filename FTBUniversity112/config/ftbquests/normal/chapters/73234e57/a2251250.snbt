@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.pcharstat.subtitle}",
+	text: [
+		"{ftbuniversity.pcharstat.desc1}",
+		"",
+		"{ftbuniversity.pcharstat.desc2}"
+	],
+	dependencies: [
+		"f494bdc3"
+	],
+	tasks: [{
+		uid: "724924e9",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:charging_station"
+		}]
+	}]
+}

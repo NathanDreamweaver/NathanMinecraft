@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.bleeding.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "mahoutsukai:textures/effects/bleeding.png"
+		}
+	},
+	x: 0.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.bleeding.subtitle}",
+	text: [
+		"{ftbuniversity.bleeding.desc1}",
+		"",
+		"{ftbuniversity.bleeding.desc2}",
+		"",
+		"{ftbuniversity.bleeding.desc3}",
+		"",
+		"{ftbuniversity.bleeding.desc4}",
+		"",
+		"{ftbuniversity.bleeding.desc5}"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "4e6c2da4",
+		type: "stat",
+		title: "{ftbuniversity.bleeding.subtitle}",
+		stat: "stat.damageTaken",
+		value: 1
+	}],
+	rewards: [{
+		uid: "e3468dad",
+		type: "item",
+		item: "minecraft:golden_apple 1 1"
+	}]
+}

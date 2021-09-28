@@ -1,0 +1,47 @@
+{
+	title: "PneumaticCraft: Repressurized",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "pneumaticcraft:drone",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Airhead",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487389L
+		}
+	},
+	x: 2.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.pnrtrophy.subtitle}",
+	dependencies: [
+		"73234e57"
+	],
+	rewards: [{
+		uid: "cf7beb02",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "pneumaticcraft:drone",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Airhead",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

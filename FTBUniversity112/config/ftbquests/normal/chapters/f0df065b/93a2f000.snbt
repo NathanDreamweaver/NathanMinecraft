@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.playerchest.title}",
+	x: 1.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.playerchest.subtitle}",
+	text: [
+		"{ftbuniversity.playerchest.desc1}",
+		"",
+		"{ftbuniversity.playerchest.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "178a72fb",
+		type: "item",
+		items: [{
+			item: "extrautils2:playerchest"
+		}]
+	}]
+}

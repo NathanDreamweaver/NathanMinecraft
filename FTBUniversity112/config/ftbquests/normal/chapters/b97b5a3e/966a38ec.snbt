@@ -1,0 +1,92 @@
+{
+	title: "{ftbuniversity.rftenviro.title}",
+	icon: "rftools:environmental_controller",
+	x: 1.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.rftenviro.subtitle}",
+	text: [
+		"{ftbuniversity.rftenviro.desc1}",
+		"",
+		"{ftbuniversity.rftenviro.desc2}",
+		"",
+		"{ftbuniversity.rftenviro.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	tasks: [{
+		uid: "02243317",
+		type: "item",
+		items: [{
+			item: "rftools:environmental_controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d808d8f5",
+		type: "item",
+		title: "{ftbuniversity.rftenviro.task}",
+		items: [{
+			item: "rftools:regeneration_module"
+		},
+		{
+			item: "rftools:regenerationplus_module"
+		},
+		{
+			item: "rftools:speed_module"
+		},
+		{
+			item: "rftools:speedplus_module"
+		},
+		{
+			item: "rftools:haste_module"
+		},
+		{
+			item: "rftools:hasteplus_module"
+		},
+		{
+			item: "rftools:saturation_module"
+		},
+		{
+			item: "rftools:saturationplus_module"
+		},
+		{
+			item: "rftools:featherfalling_module"
+		},
+		{
+			item: "rftools:featherfallingplus_module"
+		},
+		{
+			item: "rftools:flight_module"
+		},
+		{
+			item: "rftools:peaceful_module"
+		},
+		{
+			item: "rftools:waterbreathing_module"
+		},
+		{
+			item: "rftools:nightvision_module"
+		},
+		{
+			item: "rftools:glowing_module"
+		},
+		{
+			item: "rftools:luck_module"
+		},
+		{
+			item: "rftools:blindness_module"
+		},
+		{
+			item: "rftools:weakness_module"
+		},
+		{
+			item: "rftools:poison_module"
+		},
+		{
+			item: "rftools:slowness_module"
+		}],
+		ignore_nbt: 1b
+	}]
+}

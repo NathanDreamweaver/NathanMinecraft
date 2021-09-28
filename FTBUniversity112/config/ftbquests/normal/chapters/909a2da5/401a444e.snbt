@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: 4.5d,
+	description: "{ftbuniversity.logchass4.subtitle}",
+	text: [
+		"{ftbuniversity.logchass4.desc}"
+	],
+	dependencies: [
+		"121ad729"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "a4b5f6d0",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_chassis_mk4"
+		}]
+	}]
+}

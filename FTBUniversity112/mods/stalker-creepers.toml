@@ -1,0 +1,14 @@
+name = "Stalker Creepers"
+filename = "StalkerCreepers-1.12.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2468/186/StalkerCreepers-1.12.1.jar"
+hash-format = "murmur2"
+hash = "2985620868"
+
+[update]
+[update.curseforge]
+file-id = 2468186
+project-id = 227886
+release-channel = "beta"

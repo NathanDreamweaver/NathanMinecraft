@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.ic2creative.subtitle}",
+	text: [
+		"{ftbuniversity.ic2creative.desc1}",
+		"",
+		"{ftbuniversity.ic2creative.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "0c9a0cf8",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 86"
+		}]
+	}]
+}

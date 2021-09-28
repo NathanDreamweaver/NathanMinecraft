@@ -1,0 +1,107 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/rolling_machine.png"
+		}
+	},
+	x: 0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.rollingmachine.subtitle}",
+	text: [
+		"{ftbuniversity.rollingmachine.desc1}",
+		"",
+		"{ftbuniversity.rollingmachine.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e37b324"
+	],
+	tasks: [{
+		uid: "8d8a85ee",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rollingmachine"
+		}]
+	},
+	{
+		uid: "0fb02d23",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 6L
+	},
+	{
+		uid: "70472acd",
+		type: "item",
+		title: "{ftbuniversity.motors}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:motor"
+		},
+		{
+			item: "libvulpes:advancedmotor"
+		},
+		{
+			item: "libvulpes:enhancedmotor"
+		},
+		{
+			item: "libvulpes:elitemotor"
+		}]
+	},
+	{
+		uid: "ef128b89",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "4bfae167",
+		type: "item",
+		title: "{ftbuniversity.coils}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "463e3cee",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b9b3561e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "305b7de6",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 2"
+		}]
+	}]
+}

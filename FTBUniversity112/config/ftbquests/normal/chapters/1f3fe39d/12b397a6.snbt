@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.prognucc.title}",
+	icon: "nuclearcraft:nuclear_furnace",
+	x: 2.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.prognucc.subtitle}",
+	text: [
+		"{ftbuniversity.prognucc.desc1}",
+		"",
+		"{ftbuniversity.prognucc.desc2}",
+		"",
+		"{ftbuniversity.prognucc.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "786fb1dc",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "21304e1e",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "nuclearcraft:guide"
+			}
+		}
+	},
+	{
+		uid: "c9c73f59",
+		type: "item",
+		item: "nuclearcraft:smore",
+		count: 2
+	}]
+}

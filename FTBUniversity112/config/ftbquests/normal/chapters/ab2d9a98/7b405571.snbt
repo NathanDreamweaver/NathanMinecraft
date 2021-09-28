@@ -1,0 +1,33 @@
+{
+	title: "{ftbuniversity.plasmid.title}",
+	icon: "geneticsreborn:plasmidinfuser",
+	x: 3.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.plasmid.subtitle}",
+	text: [
+		"{ftbuniversity.plasmid.desc1}",
+		"",
+		"{ftbuniversity.plasmid.desc2}",
+		"",
+		"{ftbuniversity.plasmid.desc3}"
+	],
+	dependencies: [
+		"86afe99c"
+	],
+	tasks: [{
+		uid: "af09da44",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:plasmidinfuser"
+		}]
+	},
+	{
+		uid: "1eb01838",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:plasmid"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

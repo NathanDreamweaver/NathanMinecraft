@@ -1,0 +1,47 @@
+{
+	icon: "advancedrocketry:deployablerocketbuilder",
+	x: 2.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.unmanass.subtitle}",
+	text: [
+		"{ftbuniversity.unmanass.desc1}",
+		"",
+		"{ftbuniversity.unmanass.desc2}",
+		"",
+		"{ftbuniversity.unmanass.desc3}",
+		"",
+		"{ftbuniversity.unmanass.desc4}",
+		"",
+		"{ftbuniversity.unmanass.desc5}",
+		"",
+		"{ftbuniversity.unmanass.desc6}",
+		"",
+		"{ftbuniversity.unmanass.desc7}",
+		"",
+		"{ftbuniversity.unmanass.desc8}"
+	],
+	dependencies: [
+		"69abbb7e"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "216acd0e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:deployablerocketbuilder"
+		}]
+	},
+	{
+		uid: "d57813f3",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:liquidtank"
+		}]
+	}],
+	rewards: [{
+		uid: "88705ea8",
+		type: "item",
+		item: "advancedrocketry:structuretower",
+		count: 32
+	}]
+}

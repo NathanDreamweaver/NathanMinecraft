@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: 8.0d,
+	description: "{ftbuniversity.actsup.subtitle}",
+	text: [
+		"{ftbuniversity.actsup.desc1}",
+		"",
+		"{ftbuniversity.actsup.desc2}",
+		"",
+		"{ftbuniversity.actsup.desc3}",
+		"{ftbuniversity.actsup.desc4}",
+		"{ftbuniversity.actsup.desc5}",
+		"{ftbuniversity.actsup.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "57cdd463",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_active_supplier"
+		}]
+	}]
+}

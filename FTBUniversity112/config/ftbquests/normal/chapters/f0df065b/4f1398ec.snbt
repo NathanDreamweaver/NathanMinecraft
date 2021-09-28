@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.exu2lunarpanel.title}",
+	x: -1.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.exu2lunarpanel.subtitle}",
+	text: [
+		"{ftbuniversity.exu2lunarpanel.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"44add260"
+	],
+	tasks: [{
+		uid: "195ef53d",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "258ad7b2",
+		type: "item",
+		item: "extrautils2:passivegenerator 1 1",
+		count: 3
+	}]
+}

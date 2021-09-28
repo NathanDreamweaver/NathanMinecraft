@@ -1,0 +1,17 @@
+{
+	title: "{ftbuniversity.ic2nuclearlink.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "biomesoplenty:textures/items/earth.png"
+		}
+	},
+	x: 5.0d,
+	y: -6.5d,
+	description: "{ftbuniversity.ic2nuclearlink.subtitle}",
+	custom_click: "https://forum.industrial-craft.net/thread/8966-official-new-reactors-design-thread/",
+	dependencies: [
+		"e5be0253"
+	],
+	optional: true
+}

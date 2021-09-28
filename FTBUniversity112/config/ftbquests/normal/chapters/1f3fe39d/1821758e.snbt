@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.progadvr.title}",
+	icon: "advancedrocketry:spacehelmet",
+	x: -0.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.progadvr.subtitle}",
+	text: [
+		"{ftbuniversity.progadvr.desc1}",
+		"",
+		"{ftbuniversity.progadvr.desc2}",
+		"",
+		"{ftbuniversity.progadvr.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "27be8135",
+		type: "checkmark"
+	}]
+}

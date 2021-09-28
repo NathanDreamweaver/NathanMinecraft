@@ -1,0 +1,91 @@
+{
+	x: 9.75d,
+	y: -2.25d,
+	description: "{ftbuniversity.downtomes.subtitle}",
+	text: [
+		"{ftbuniversity.downtomes.desc1}",
+		"",
+		"{ftbuniversity.downtomes.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f517f86f"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "4e2d8642",
+		type: "item",
+		title: "{ftbuniversity.downtomes.title}",
+		items: [{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.stormTrooper"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 0,
+				key: "bloodmagic.upgrade.crippledArm"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 0,
+				key: "bloodmagic.upgrade.quenched"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.slowness"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.slowHeal"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.digSlowdown"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 0,
+				key: "bloodmagic.upgrade.slippery"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 4,
+				key: "bloodmagic.upgrade.battleHunger"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.meleeDecrease"
+			}
+		},
+		{
+			id: "bloodmagic:upgrade_tome",
+			tag: {
+				level: 9,
+				key: "bloodmagic.upgrade.disoriented"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

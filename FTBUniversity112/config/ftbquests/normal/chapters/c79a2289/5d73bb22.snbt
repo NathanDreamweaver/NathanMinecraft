@@ -1,0 +1,41 @@
+{
+	x: 8.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.ic2jetpack.subtitle}",
+	text: [
+		"{ftbuniversity.ic2jetpack.desc1}",
+		"",
+		"{ftbuniversity.ic2jetpack.desc2}",
+		"",
+		"{ftbuniversity.ic2jetpack.desc3}",
+		"",
+		"{ftbuniversity.ic2jetpackmodes}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"53b3211e"
+	],
+	tasks: [{
+		uid: "80bbce0b",
+		type: "item",
+		items: [{
+			item: "ic2:jetpack 1 27"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af3d7083",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2biogas",
+					Amount: 1000
+				}
+			}
+		},
+		count: 3
+	}]
+}

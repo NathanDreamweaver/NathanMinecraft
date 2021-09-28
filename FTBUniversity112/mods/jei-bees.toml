@@ -1,0 +1,14 @@
+name = "JEI Bees"
+filename = "jeibees-0.9.0.5-mc1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2490/58/jeibees-0.9.0.5-mc1.12.2.jar"
+hash-format = "murmur2"
+hash = "12823422"
+
+[update]
+[update.curseforge]
+file-id = 2490058
+project-id = 248370
+release-channel = "beta"

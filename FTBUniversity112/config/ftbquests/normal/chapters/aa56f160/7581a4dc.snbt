@@ -1,0 +1,43 @@
+{
+	title: "{ftbuniversity.fluidconduit.title}",
+	icon: "enderio:item_liquid_conduit 1 1",
+	x: 0.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.fluidconduit.subtitle}",
+	text: [
+		"{ftbuniversity.fluidconduit.desc1}",
+		"",
+		"{ftbuniversity.fluidconduit.desc2}",
+		"",
+		"{ftbuniversity.fluidconduit.desc3}",
+		"",
+		"{ftbuniversity.fluidconduit.desc4}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "d9090cfa",
+		type: "item",
+		title: "{ftbuniversity.fluidconduit.task}",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		},
+		{
+			item: "enderio:item_liquid_conduit 1 1"
+		},
+		{
+			item: "enderio:item_liquid_conduit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f66557c8",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 32
+	}]
+}

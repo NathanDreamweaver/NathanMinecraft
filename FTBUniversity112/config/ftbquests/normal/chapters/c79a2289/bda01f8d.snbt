@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.ic2paint.title}",
+	x: 3.75d,
+	y: 8.25d,
+	description: "{ftbuniversity.ic2paint.subtitle}",
+	text: [
+		"{ftbuniversity.ic2paint.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9b9618c3"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "bc72db15",
+		type: "item",
+		items: [{
+			item: "ic2:painter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

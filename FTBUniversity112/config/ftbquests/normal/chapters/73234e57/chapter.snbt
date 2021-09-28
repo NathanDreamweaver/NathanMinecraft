@@ -1,0 +1,7 @@
+{
+	title: "{ftbuniversity.pneuchap.title}",
+	icon: "pneumaticcraft:air_compressor",
+	always_invisible: false,
+	group: 2109457760,
+	default_quest_shape: "square"
+}

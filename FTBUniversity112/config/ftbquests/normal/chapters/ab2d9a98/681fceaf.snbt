@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.cellan.title}",
+	x: 0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.cellan.subtitle}",
+	text: [
+		"{ftbuniversity.cellan.desc}"
+	],
+	dependencies: [
+		"29ef3651",
+		"ad649cae"
+	],
+	tasks: [{
+		uid: "3ebdedf1",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:cellanalyser"
+		}]
+	}]
+}

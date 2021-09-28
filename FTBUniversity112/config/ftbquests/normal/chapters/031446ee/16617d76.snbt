@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.dismantler.title}",
+	x: 6.75d,
+	y: -6.25d,
+	description: "{ftbuniversity.dismantler.subtitle}",
+	text: [
+		"{ftbuniversity.dismantler.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a8c43d6",
+		"8b2f6b79"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "db180a75",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_dismantler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

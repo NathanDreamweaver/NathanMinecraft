@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	description: "{ftbuniversity.proxies.subtitle}",
+	text: [
+		"{ftbuniversity.proxies.desc1}",
+		"",
+		"{ftbuniversity.proxies.desc2}",
+		"",
+		"{ftbuniversity.proxies.desc3}"
+	],
+	dependencies: [
+		"81c41667"
+	],
+	tasks: [{
+		uid: "8d51bae8",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:proxy"
+		}]
+	}]
+}

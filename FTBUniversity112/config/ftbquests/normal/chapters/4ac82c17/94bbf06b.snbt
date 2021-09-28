@@ -1,0 +1,34 @@
+{
+	title: "&cGet out if you like living&r",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/nuclear.png"
+		}
+	},
+	x: -1.5d,
+	y: 1.5d,
+	description: "Enter (and then get the heck out of) a Nuclear Wasteland biome",
+	text: [
+		"change this to use lang keys"
+	],
+	tasks: [{
+		uid: "bc6a624b",
+		type: "biome",
+		icon: "minecraft:deadbush",
+		biome: "nuclearcraft:nuclear_wasteland"
+	}],
+	rewards: [{
+		uid: "e54ce5e4",
+		type: "item",
+		auto: "enabled",
+		item: "nuclearcraft:radaway",
+		count: 3
+	},
+	{
+		uid: "4f0cca4b",
+		type: "item",
+		auto: "enabled",
+		item: "nuclearcraft:rad_x"
+	}]
+}

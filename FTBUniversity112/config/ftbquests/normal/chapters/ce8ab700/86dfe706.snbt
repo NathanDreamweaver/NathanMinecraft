@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	description: "{ftbuniversity.timeinabottle.subtitle}",
+	text: [
+		"{ftbuniversity.timeinabottle.desc1}",
+		"",
+		"{ftbuniversity.timeinabottle.desc2}",
+		"",
+		"{ftbuniversity.timeinabottle.desc3}",
+		"",
+		"{ftbuniversity.timeinabottle.desc4}"
+	],
+	tasks: [{
+		uid: "05351234",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

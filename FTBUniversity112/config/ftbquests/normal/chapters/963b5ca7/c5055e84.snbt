@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.creativemill.subtitle}",
+	text: [
+		"{ftbuniversity.creativemill.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "8cb480c2",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 6"
+		}]
+	}]
+}

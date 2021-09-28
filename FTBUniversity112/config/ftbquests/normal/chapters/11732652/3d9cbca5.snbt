@@ -1,0 +1,34 @@
+{
+	title: "{ftbuniversity.configurator.title}",
+	x: 2.0d,
+	y: 1.5d,
+	description: "{ftbuniversity.configurator.subtitle}",
+	text: [
+		"{ftbuniversity.configurator.desc1}",
+		"",
+		"{ftbuniversity.configurator.desc2}",
+		"",
+		"{ftbuniversity.configurator.desc3}",
+		"",
+		"{ftbuniversity.configurator.desc4}",
+		"",
+		"{ftbuniversity.configurator.desc5}",
+		"",
+		"{ftbuniversity.configurator.desc6}",
+		"",
+		"{ftbuniversity.configurator.desc7}"
+	],
+	dependencies: [
+		"466ead72"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "d7284121",
+		type: "item",
+		items: [{
+			item: "mekanism:configurator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

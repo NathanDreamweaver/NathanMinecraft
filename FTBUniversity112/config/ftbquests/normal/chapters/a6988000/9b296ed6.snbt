@@ -1,0 +1,23 @@
+{
+	x: 1.6727891156463244d,
+	y: -2.718367346938784d,
+	description: "{ftbuniversity.auxslurry.subtitle}",
+	text: [
+		"{ftbuniversity.auxslurry.desc1}",
+		"",
+		"{ftbuniversity.auxslurry.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1b433e4d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "3d662777",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_aux"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.peatfiredengine.subtitle}",
+	text: [
+		"{ftbuniversity.peatfiredengine.desc1}",
+		"",
+		"{ftbuniversity.peatfiredengine.desc2}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "91d33c12",
+		type: "item",
+		items: [{
+			item: "forestry:engine_peat"
+		}]
+	}],
+	rewards: [{
+		uid: "3170ef87",
+		type: "item",
+		item: "forestry:bog_earth",
+		count: 8
+	}]
+}

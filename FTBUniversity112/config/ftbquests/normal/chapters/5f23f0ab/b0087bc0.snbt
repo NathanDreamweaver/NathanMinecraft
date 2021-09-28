@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.forestrybook.subtitle}",
+	text: [
+		"{ftbuniversity.forestrybook.desc1}",
+		"",
+		"{ftbuniversity.forestrybook.desc2}"
+	],
+	tasks: [{
+		uid: "41f013d0",
+		type: "item",
+		items: [{
+			item: "forestry:book_forester"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "434becf6",
+		type: "item",
+		item: "forestry:kit_shovel",
+		count: 2
+	}]
+}

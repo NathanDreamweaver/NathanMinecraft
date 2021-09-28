@@ -1,0 +1,54 @@
+{
+	icon: "ic2:te 1 40",
+	x: 14.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.ic2terraformer.subtitle}",
+	text: [
+		"{ftbuniversity.ic2terraformer.desc1}",
+		"",
+		"{ftbuniversity.ic2terraformer.desc2}",
+		"",
+		"{ftbuniversity.ic2terraformer.desc3}",
+		"{ftbuniversity.ic2terraformer.desc4}",
+		"{ftbuniversity.ic2terraformer.desc5}",
+		"{ftbuniversity.ic2terraformer.desc6}",
+		"{ftbuniversity.ic2terraformer.desc7}",
+		"{ftbuniversity.ic2terraformer.desc8}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cce98914"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "3f9a1572",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 40"
+		}]
+	},
+	{
+		uid: "b4d3e34f",
+		type: "item",
+		title: "{ftbuniversity.ic2terraformer.task}",
+		items: [{
+			item: "ic2:tfbp 1 1"
+		},
+		{
+			item: "ic2:tfbp 1 2"
+		},
+		{
+			item: "ic2:tfbp 1 3"
+		},
+		{
+			item: "ic2:tfbp 1 4"
+		},
+		{
+			item: "ic2:tfbp 1 5"
+		},
+		{
+			item: "ic2:tfbp 1 6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

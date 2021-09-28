@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 7.5d,
+	description: "{ftbuniversity.exu2culinary.subtitle}",
+	text: [
+		"{ftbuniversity.exu2culinary.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "18a91425",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_culinary"
+			}
+		}]
+	}]
+}

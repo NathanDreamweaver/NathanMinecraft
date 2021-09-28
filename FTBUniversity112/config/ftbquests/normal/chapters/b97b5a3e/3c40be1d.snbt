@@ -1,0 +1,23 @@
+{
+	x: -3.25d,
+	y: 4.75d,
+	description: "{ftbuniversity.rftinvcheck.subtitle}",
+	text: [
+		"{ftbuniversity.rftinvcheck.desc1}",
+		"",
+		"{ftbuniversity.rftinvcheck.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fe973229"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "f73f1041",
+		type: "item",
+		items: [{
+			item: "rftools:invchecker_block"
+		}],
+		ignore_nbt: 1b
+	}]
+}

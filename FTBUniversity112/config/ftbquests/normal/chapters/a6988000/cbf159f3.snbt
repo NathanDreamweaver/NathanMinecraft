@@ -1,0 +1,61 @@
+{
+	title: "{ftbuniversity.infernalfurnace.title}",
+	icon: {
+		id: "thaumcraft:infernal_furnace",
+		tag: {
+			BlockEntityTag: {
+				CookTime: 16s,
+				ForgeCaps: {
+					"nuclearcraft:capability_default_radiation_resistance": {
+						radiationResistance: 0.0d
+					}
+				},
+				Items: [{
+					Slot: 0b,
+					id: "minecraft:iron_ore",
+					Count: 61b,
+					Damage: 0s
+				}],
+				id: "thaumcraft:tileinfernalfurnace",
+				SpeedyTime: 13s
+			},
+			display: {
+				Lore: [
+					"(+NBT)"
+				]
+			}
+		}
+	},
+	x: -3.540476190476184d,
+	y: -0.8833333333333329d,
+	description: "{ftbuniversity.infernalfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.infernalfurnace.desc1}",
+		"",
+		"{ftbuniversity.infernalfurnace.desc2}",
+		"",
+		"{ftbuniversity.infernalfurnace.desc3}",
+		"",
+		"{ftbuniversity.infernalfurnace.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c31b9cbc"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "c87d2e0a",
+		type: "observation",
+		title: "{ftbuniversity.infernalfurnace.task}",
+		match_type: "block_id",
+		match: "thaumcraft:infernal_furnace",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "acb2a585",
+		type: "item",
+		item: "thaumcraft:triple_meat_treat",
+		count: 8
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.essentiacentrifuge.title}",
+	x: 2.041156462585036d,
+	y: -3.205442176870754d,
+	description: "{ftbuniversity.essentiacentrifuge.subtitle}",
+	text: [
+		"{ftbuniversity.essentiacentrifuge.desc1}",
+		"",
+		"{ftbuniversity.essentiacentrifuge.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1b433e4d"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "1da19b82",
+		type: "item",
+		items: [{
+			item: "thaumcraft:centrifuge"
+		}]
+	}]
+}

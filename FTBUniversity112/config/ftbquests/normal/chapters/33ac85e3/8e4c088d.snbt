@@ -1,0 +1,27 @@
+{
+	title: "{ftbuniversity.arartifacts.title}",
+	x: 0.0d,
+	y: -9.375d,
+	shape: "circle",
+	description: "{ftbuniversity.arartifacts.subtitle}",
+	text: [
+		"{ftbuniversity.arartifacts.desc1}",
+		"",
+		"{ftbuniversity.arartifacts.desc2}",
+		"",
+		"{ftbuniversity.arartifacts.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4647eca4"
+	],
+	size: 0.75d,
+	min_width: 275,
+	tasks: [{
+		uid: "c136aa41",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}]
+}

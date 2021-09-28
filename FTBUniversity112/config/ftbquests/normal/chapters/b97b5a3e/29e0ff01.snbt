@@ -1,0 +1,38 @@
+{
+	icon: "rftools:remote_storage",
+	x: 3.25d,
+	y: 4.25d,
+	description: "{ftbuniversity.remotestorage.subtitle}",
+	text: [
+		"{ftbuniversity.remotestorage.desc1}",
+		"",
+		"{ftbuniversity.remotestorage.desc2}",
+		"",
+		"{ftbuniversity.remotestorage.desc3}",
+		"",
+		"{ftbuniversity.remotestorage.desc4}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"2a062267",
+		"25ea4935"
+	],
+	size: 0.5d,
+	min_width: 275,
+	tasks: [{
+		uid: "99364b97",
+		type: "item",
+		items: [{
+			item: "rftools:remote_storage"
+		}]
+	},
+	{
+		uid: "fb2f9da8",
+		type: "item",
+		items: [{
+			item: "rftools:storage_module 1 6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

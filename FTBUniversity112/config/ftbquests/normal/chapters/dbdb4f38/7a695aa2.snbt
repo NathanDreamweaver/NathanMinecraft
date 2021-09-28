@@ -1,0 +1,39 @@
+{
+	icon: "deepmoblearning:simulation_chamber",
+	x: 2.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.simchamb.subtitle}",
+	text: [
+		"{ftbuniversity.simchamb.desc1}",
+		"",
+		"{ftbuniversity.simchamb.desc2}",
+		"",
+		"{ftbuniversity.simchamb.desc3}",
+		"",
+		"{ftbuniversity.simchamb.desc4}"
+	],
+	dependencies: [
+		"8f34b147"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2dc3d844",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	},
+	{
+		uid: "0392cc3e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}]
+	}],
+	rewards: [{
+		uid: "eaf9d4c2",
+		type: "item",
+		item: "deepmoblearning:polymer_clay",
+		count: 128
+	}]
+}

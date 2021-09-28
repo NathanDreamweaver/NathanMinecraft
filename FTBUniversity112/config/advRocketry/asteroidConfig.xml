@@ -1,0 +1,32 @@
+<Asteroids>
+	<asteroid name="Metallic" distance="10" mass="200" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.5">
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 0" chance="10" />
+		<ore itemStack="thermalfoundation:ore 1" chance="10" />
+		<ore itemStack="thermalfoundation:ore 2" chance="10" />
+		<ore itemStack="thermalfoundation:ore 3" chance="10" />
+		<ore itemStack="thermalfoundation:ore 4" chance="10" />
+		<ore itemStack="thermalfoundation:ore 5" chance="10" />
+	</asteroid>
+	<asteroid name="Iridium" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="3" richness="0.8" richnessVariability="0.3">
+		<ore itemStack="thermalfoundation:ore 7" chance="100" />
+	</asteroid>
+	<asteroid name="Carbonic" distance="50" mass="100" massVariability="0.1" minLevel="0" richness="0.9" richnessVariability="0.5" probability="10" timeMultiplier="0.5">	
+		<ore itemStack="minecraft:coal_ore" chance="30" />
+		<ore itemStack="minecraft:diamond_ore" chance="5" />
+	</asteroid>	
+	<asteroid name="Radioactive" distance="100" mass="125" massVariability="0.9" minLevel="0" richness="0.5" richnessVariability="0.3" probability="5" timeMultiplier="1.5">	
+		<ore itemStack="nuclearcraft:ore 4" chance="25" />
+	</asteroid>	
+	<asteroid name="Sparkling" distance="100" mass="100" massVariability="0.3" minLevel="0" richness="0.8" richnessVariability="0.1" probability="6" timeMultiplier="1.3">	
+		<ore itemStack="minecraft:quartz_ore" chance="4" />
+		<ore itemStack="appliedenergistics2:quartz_ore" chance="4" />
+		<ore itemStack="appliedenergistics2:charged_quartz_ore" chance="2" />
+	</asteroid>	
+	<asteroid name="RGB" distance="100" mass="125" massVariability="0.2" minLevel="0" richness="0.5" richnessVariability="0.2" probability="5" timeMultiplier="1.4">	
+		<ore itemStack="minecraft:redstone_ore" chance="30" />
+		<ore itemStack="minecraft:lapis_ore" chance="20" />
+		<ore itemStack="minecraft:emerald_ore" chance="5" />
+	</asteroid>
+</Asteroids>

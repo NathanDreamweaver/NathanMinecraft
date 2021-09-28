@@ -1,0 +1,93 @@
+{
+	title: "{ftbuniversity.gemtypes.title}",
+	icon: {
+		id: "bloodmagic:soul_gem",
+		tag: {
+			souls: 16384.0d,
+			demonWillType: "corrosive"
+		},
+		Damage: 4s
+	},
+	x: 9.5d,
+	y: 0.75d,
+	description: "{ftbuniversity.gemtypes.subtitle}",
+	text: [
+		"{ftbuniversity.gemtypes.desc1}",
+		"",
+		"{ftbuniversity.gemtypes.desc2}",
+		"{ftbuniversity.gemtypes.desc3}",
+		"{ftbuniversity.gemtypes.desc4}",
+		"{ftbuniversity.gemtypes.desc5}",
+		"{ftbuniversity.gemtypes.desc6}",
+		"",
+		"{ftbuniversity.gemtypes.desc7}",
+		"{ftbuniversity.gemtypes.desc8}",
+		"{ftbuniversity.gemtypes.desc9}",
+		"{ftbuniversity.gemtypes.desc10}",
+		"{ftbuniversity.gemtypes.desc11}",
+		"",
+		"{ftbuniversity.gemtypes.desc12}",
+		"{ftbuniversity.gemtypes.desc13}",
+		"{ftbuniversity.gemtypes.desc14}",
+		"{ftbuniversity.gemtypes.desc15}",
+		"{ftbuniversity.gemtypes.desc16}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1ee33ded"
+	],
+	size: 0.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "b5011746",
+		type: "item",
+		title: "{ftbuniversity.gemtypes.task1}",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				demonWillType: "corrosive"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "41efec3c",
+		type: "item",
+		title: "{ftbuniversity.gemtypes.task2}",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				demonWillType: "destructive"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "03ad0404",
+		type: "item",
+		title: "{ftbuniversity.gemtypes.task3}",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				demonWillType: "vengeful"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "15668cec",
+		type: "item",
+		title: "{ftbuniversity.gemtypes.task4}",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {
+				demonWillType: "steadfast"
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 2b
+	}]
+}

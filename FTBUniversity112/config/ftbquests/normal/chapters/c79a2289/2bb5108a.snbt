@@ -1,0 +1,27 @@
+{
+	x: 12.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.ic2advancedminer.subtitle}",
+	text: [
+		"{ftbuniversity.ic2advancedminer.desc1}",
+		"",
+		"{ftbuniversity.ic2advancedminer.desc2}",
+		"",
+		"{ftbuniversity.ic2advancedminer.desc3}",
+		"",
+		"{ftbuniversity.ic2advancedminer.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"156b2067",
+		"6505d949",
+		"70cbd550"
+	],
+	tasks: [{
+		uid: "c6effdf5",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 57"
+		}]
+	}]
+}

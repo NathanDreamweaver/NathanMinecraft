@@ -1,0 +1,14 @@
+name = "TombManyPlugins - Cosmetic Armor Reworked"
+filename = "tombmanypluginscosmeticarmorreworked-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2563/120/tombmanypluginscosmeticarmorreworked-1.0.0.jar"
+hash-format = "murmur2"
+hash = "969882247"
+
+[update]
+[update.curseforge]
+file-id = 2563120
+project-id = 294214
+release-channel = "beta"

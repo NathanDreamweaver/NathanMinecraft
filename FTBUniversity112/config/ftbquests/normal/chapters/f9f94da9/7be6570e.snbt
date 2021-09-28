@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.ratups.title}",
+	x: 0.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.ratups.subtitle}",
+	text: [
+		"{ftbuniversity.ratups.desc1}",
+		"",
+		"{ftbuniversity.ratups.desc2}",
+		"",
+		"{ftbuniversity.ratups.desc3}"
+	],
+	dependencies: [
+		"ad68b4cc"
+	],
+	size: 1.65d,
+	tasks: [{
+		uid: "ae491c34",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_basic"
+		}]
+	}]
+}

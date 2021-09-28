@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.meklaser.title}",
+	x: 11.5d,
+	y: 0.5d,
+	description: "{ftbuniversity.meklaser.subtitle}",
+	text: [
+		"{ftbuniversity.meklaser.desc1}",
+		"",
+		"{ftbuniversity.meklaser.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "37db3e1f",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {
+					energyStored: 2000000.0d
+				}
+			},
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,114 @@
+{
+	title: "{ftbuniversity.ic2pipes.title}",
+	icon: {
+		id: "ic2:pipe",
+		tag: {
+			size: 3,
+			type: 1
+		},
+		Damage: 1s
+	},
+	x: 5.0d,
+	y: 4.0d,
+	description: "{ftbuniversity.ic2pipes.subtitle}",
+	text: [
+		"{ftbuniversity.ic2pipes.desc1}",
+		"",
+		"{ftbuniversity.ic2pipes.desc2}",
+		"",
+		"{ftbuniversity.ic2pipes.desc3}",
+		"",
+		"{ftbuniversity.ic2pipes.desc4}"
+	],
+	dependencies: [
+		"74b2535a"
+	],
+	tasks: [{
+		uid: "7924d5a5",
+		type: "item",
+		title: "{ftbuniversity.ic2pipes.task}",
+		items: [{
+			id: "ic2:pipe",
+			tag: {
+				size: 0,
+				type: 0
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 1,
+				type: 0
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 2,
+				type: 0
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 3,
+				type: 0
+			}
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 0,
+				type: 1
+			},
+			Damage: 1s
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 1,
+				type: 1
+			},
+			Damage: 1s
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 2,
+				type: 1
+			},
+			Damage: 1s
+		},
+		{
+			id: "ic2:pipe",
+			tag: {
+				size: 3,
+				type: 1
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf5d47d2",
+		type: "item",
+		items: [{
+			item: "ic2:wrench_new"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "292c9a59",
+		type: "item",
+		item: {
+			id: "ic2:pipe",
+			tag: {
+				size: 3,
+				type: 1
+			},
+			Damage: 1s
+		},
+		count: 16
+	}]
+}

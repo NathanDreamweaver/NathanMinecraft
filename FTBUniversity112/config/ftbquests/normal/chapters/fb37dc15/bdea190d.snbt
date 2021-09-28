@@ -1,0 +1,47 @@
+{
+	icon: "botania:brewery",
+	x: 2.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.botbrewery.subtitle}",
+	text: [
+		"{ftbuniversity.botbrewery.desc1}",
+		"",
+		"{ftbuniversity.botbrewery.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aeeec3"
+	],
+	tasks: [{
+		uid: "bf3f0249",
+		type: "item",
+		items: [{
+			item: "botania:brewery"
+		}]
+	},
+	{
+		uid: "b811192b",
+		type: "item",
+		title: "{ftbuniversity.botbrewery.task}",
+		items: [{
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "speed"
+			}
+		},
+		{
+			id: "botania:incensestick",
+			tag: {
+				brewKey: "speed"
+			}
+		},
+		{
+			id: "botania:brewflask",
+			tag: {
+				brewKey: "speed"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

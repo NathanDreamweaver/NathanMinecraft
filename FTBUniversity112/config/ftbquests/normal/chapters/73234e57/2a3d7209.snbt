@@ -1,0 +1,29 @@
+{
+	x: 2.25d,
+	y: -0.75d,
+	description: "{ftbuniversity.redscreenmod.subtitle}",
+	text: [
+		"{ftbuniversity.redscreenmod.desc1}",
+		"",
+		"{ftbuniversity.redscreenmod.desc2}",
+		"",
+		"{ftbuniversity.redscreenmod.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b9774f8d"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "e08e75f9",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:redstone_module"
+		}]
+	}],
+	rewards: [{
+		uid: "e71f9b9c",
+		type: "item",
+		item: "pneumaticcraft:redstone_module"
+	}]
+}

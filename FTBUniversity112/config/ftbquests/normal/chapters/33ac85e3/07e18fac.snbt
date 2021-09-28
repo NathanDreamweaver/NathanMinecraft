@@ -1,0 +1,92 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/electric_arc_furnace.png"
+		}
+	},
+	x: -0.5d,
+	y: -1.0d,
+	description: "{ftbuniversity.ararcfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.ararcfurnace.desc1}",
+		"",
+		"{ftbuniversity.ararcfurnace.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e37b324"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "bf4f61b6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:arcfurnace"
+		}]
+	},
+	{
+		uid: "170e164e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:blastbrick"
+		}],
+		count: 81L
+	},
+	{
+		uid: "359358f8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "e87f692a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "30f40331",
+		type: "item",
+		title: "{ftbuniversity.coils}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:coil0 1 4"
+		},
+		{
+			item: "libvulpes:coil0 1 2"
+		},
+		{
+			item: "libvulpes:coil0 1 9"
+		},
+		{
+			item: "libvulpes:coil0 1 7"
+		},
+		{
+			item: "libvulpes:coil0 1 10"
+		}],
+		count: 3L
+	},
+	{
+		uid: "de19ab4a",
+		type: "item",
+		title: "{ftbuniversity.powerinput}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	}],
+	rewards: [{
+		uid: "9b783cd6",
+		type: "item",
+		item: "libvulpes:ore0 1 8",
+		count: 32
+	}]
+}

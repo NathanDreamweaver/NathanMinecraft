@@ -1,0 +1,65 @@
+{
+	title: "{ftbuniversity.ic2nuclear3.4.title}",
+	icon: {
+		id: "ic2:dual_uranium_fuel_rod",
+		tag: {
+			advDmg: 0
+		}
+	},
+	x: 5.25d,
+	y: -3.25d,
+	description: "{ftbuniversity.ic2nuclear3.4.subtitle}",
+	text: [
+		"{ftbuniversity.ic2nuclear3.4.desc1}",
+		"",
+		"{ftbuniversity.ic2nuclear3.4.desc2}",
+		"",
+		"{ftbuniversity.ic2nuclear3.4.desc3}",
+		"",
+		"{ftbuniversity.ic2nuclear3.4.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5be0253"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "e2c77166",
+		type: "item",
+		title: "{ftbuniversity.ic2nuclear3.4.task1}",
+		items: [{
+			id: "ic2:dual_uranium_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:quad_uranium_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b97572ad",
+		type: "item",
+		title: "{ftbuniversity.ic2nuclear3.4.task2}",
+		items: [{
+			id: "ic2:neutron_reflector",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			id: "ic2:thick_neutron_reflector",
+			tag: {
+				advDmg: 0
+			}
+		},
+		{
+			item: "ic2:iridium_reflector"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.autoint.subtitle}",
+	text: [
+		"{ftbuniversity.autoint.desc1}",
+		"",
+		"{ftbuniversity.autoint.desc2}",
+		"",
+		"{ftbuniversity.autoint.desc3}",
+		"",
+		"{ftbuniversity.autoint.desc4}"
+	],
+	dependencies: [
+		"c49f5e8b"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "d6703151",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:interface"
+		}]
+	}]
+}

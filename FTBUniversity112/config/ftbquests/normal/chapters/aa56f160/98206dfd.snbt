@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	description: "{ftbuniversity.enhancedvat.subtitle}",
+	text: [
+		"{ftbuniversity.enhancedvat.desc}"
+	],
+	dependencies: [
+		"67c37e8b"
+	],
+	tasks: [{
+		uid: "d0d2060d",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_vat"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e127868d",
+		type: "command",
+		title: "{ftbuniversity.enhancedvat.reward}",
+		auto: "no_toast",
+		command: "/ftbquests change_progress complete @team 9ae73dea"
+	},
+	{
+		uid: "c2b33f5a",
+		type: "item",
+		item: "enderio:block_reservoir",
+		count: 3
+	}]
+}

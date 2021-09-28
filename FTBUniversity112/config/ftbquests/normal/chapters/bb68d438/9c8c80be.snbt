@@ -1,0 +1,29 @@
+{
+	x: 10.0d,
+	y: -5.0d,
+	description: "{ftbuniversity.redstonecard.subtitle}",
+	text: [
+		"{ftbuniversity.redstonecard.desc1}",
+		"",
+		"{ftbuniversity.redstonecard.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c7224ee7",
+		"772c89ae"
+	],
+	tasks: [{
+		uid: "b44d6879",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 26"
+		}]
+	}],
+	rewards: [{
+		uid: "408fe9ea",
+		type: "item",
+		item: "appliedenergistics2:material 1 26",
+		count: 4
+	}]
+}

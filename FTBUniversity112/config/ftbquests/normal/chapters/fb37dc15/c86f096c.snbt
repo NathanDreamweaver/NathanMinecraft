@@ -1,0 +1,37 @@
+{
+	title: "{ftbuniversity.rafflowsia.title}",
+	x: 3.75d,
+	y: -1.25d,
+	description: "{ftbuniversity.rafflowsia.subtitle}",
+	text: [
+		"{ftbuniversity.rafflowsia.desc1}",
+		"",
+		"{ftbuniversity.rafflowsia.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"640124ad"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "65432b92",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "rafflowsia"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4ee7f183",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		},
+		count: 64
+	}]
+}

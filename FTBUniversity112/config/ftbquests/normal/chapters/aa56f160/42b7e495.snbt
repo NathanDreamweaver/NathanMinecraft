@@ -1,0 +1,59 @@
+{
+	title: "{ftbuniversity.eioredstonefilters.title}",
+	icon: "enderio:item_material 1 60",
+	x: 1.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.eioredstonefilters.subtitle}",
+	text: [
+		"{ftbuniversity.eioredstonefilters.desc1}",
+		"",
+		"{ftbuniversity.eioredstonefilters.desc2}"
+	],
+	dependencies: [
+		"bcc8940e"
+	],
+	tasks: [{
+		uid: "4d988f70",
+		type: "item",
+		title: "{ftbuniversity.eioredstonefilters.task}",
+		items: [{
+			item: "enderio:item_redstone_not_filter"
+		},
+		{
+			item: "enderio:item_redstone_or_filter"
+		},
+		{
+			item: "enderio:item_redstone_and_filter"
+		},
+		{
+			item: "enderio:item_redstone_nor_filter"
+		},
+		{
+			item: "enderio:item_redstone_nand_filter"
+		},
+		{
+			item: "enderio:item_redstone_xor_filter"
+		},
+		{
+			item: "enderio:item_redstone_xnor_filter"
+		},
+		{
+			item: "enderio:item_redstone_toggle_filter"
+		},
+		{
+			item: "enderio:item_redstone_counting_filter"
+		},
+		{
+			item: "enderio:item_redstone_sensor_filter"
+		},
+		{
+			item: "enderio:item_redstone_timer_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "5832ba51",
+		type: "item",
+		item: "projectred-transmission:wire",
+		count: 32
+	}]
+}

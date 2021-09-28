@@ -1,0 +1,19 @@
+{
+	title: "{ftbuniversity.autoshulk.link}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftblib:textures/icons/art.png"
+		}
+	},
+	x: 5.25d,
+	y: -2.5d,
+	description: "{ftbuniversity.autoshulk.link2}",
+	custom_click: "https://imgur.com/a/aTV8tfp",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3b849572"
+	],
+	size: 0.5d,
+	optional: true
+}

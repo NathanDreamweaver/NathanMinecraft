@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 6.5d,
+	description: "{ftbuniversity.ic2debug.subtitle}",
+	text: [
+		"{ftbuniversity.ic2debug.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c49f5e8b"
+	],
+	tasks: [{
+		uid: "4c84e187",
+		type: "item",
+		items: [{
+			item: "ic2:debug_item"
+		}]
+	}]
+}

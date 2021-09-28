@@ -1,0 +1,30 @@
+{
+	title: "{ftbuniversity.laggoggles.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/laggoggles.png"
+		}
+	},
+	x: 2.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.laggoggles.subtitle}",
+	text: [
+		"{ftbuniversity.laggoggles.desc1}",
+		"",
+		"{ftbuniversity.laggoggles.desc2}",
+		"",
+		"{ftbuniversity.laggoggles.desc3}",
+		"",
+		"{ftbuniversity.laggoggles.desc4}",
+		"",
+		"{ftbuniversity.laggoggles.desc5}",
+		"",
+		"{ftbuniversity.laggoggles.desc6}"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "49fd2750",
+		type: "checkmark"
+	}]
+}

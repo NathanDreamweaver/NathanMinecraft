@@ -1,0 +1,29 @@
+{
+	title: "{ftbuniversity.megumin.title}",
+	x: -0.5d,
+	y: 1.5d,
+	description: "{ftbuniversity.megumin.subtitle}",
+	text: [
+		"{ftbuniversity.megumin.desc1}",
+		"",
+		"{ftbuniversity.megumin.desc2}",
+		"",
+		"{ftbuniversity.megumin.desc3}",
+		"",
+		"{ftbuniversity.megumin.desc4}",
+		"",
+		"{ftbuniversity.megumin.desc5}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1259d914"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "d8d8a6eb",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:mystic_staff"
+		}]
+	}]
+}

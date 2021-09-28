@@ -1,0 +1,9 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "f7ceff53",
+		type: "checkmark",
+		title: "radiation is just spicy air"
+	}]
+}

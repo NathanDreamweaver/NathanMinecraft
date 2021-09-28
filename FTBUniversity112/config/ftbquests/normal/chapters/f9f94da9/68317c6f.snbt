@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: -6.5d,
+	description: "{ftbuniversity.ratarch.subtitle}",
+	text: [
+		"{ftbuniversity.ratarch.desc1}",
+		"",
+		"{ftbuniversity.ratarch.desc2}",
+		"",
+		"{ftbuniversity.ratarch.desc3}"
+	],
+	dependencies: [
+		"9696efd9"
+	],
+	size: 1.65d,
+	tasks: [{
+		uid: "3f5e41da",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_archeologist"
+		}]
+	}]
+}

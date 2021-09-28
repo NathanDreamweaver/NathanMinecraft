@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 8.0d,
+	description: "{ftbuniversity.rftprojector.subtitle}",
+	text: [
+		"{ftbuniversity.rftprojector.desc1}",
+		"",
+		"{ftbuniversity.rftprojector.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"812e999e"
+	],
+	tasks: [{
+		uid: "84c7a973",
+		type: "item",
+		items: [{
+			item: "rftools:projector"
+		}],
+		ignore_nbt: 1b
+	}]
+}

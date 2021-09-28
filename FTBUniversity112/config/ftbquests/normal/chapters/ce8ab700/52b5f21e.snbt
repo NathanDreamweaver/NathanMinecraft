@@ -1,0 +1,18 @@
+{
+	title: "{ftbuniversity.handheldcrafting.title}",
+	x: 1.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.handheldcrafting.subtitle}",
+	text: [
+		"{ftbuniversity.handheldcrafting.desc}"
+	],
+	tasks: [{
+		uid: "cf0202d5",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:handheld_table"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

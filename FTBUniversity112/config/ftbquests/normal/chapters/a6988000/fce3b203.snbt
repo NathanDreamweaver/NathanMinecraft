@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.headbandcuriosity.title}",
+	x: -3.35960884353738d,
+	y: -3.5445003401360644d,
+	description: "{ftbuniversity.headbandcuriosity.subtitle}",
+	text: [
+		"{ftbuniversity.headbandcuriosity.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fa8540c9"
+	],
+	hide: true,
+	size: 0.375d,
+	tasks: [{
+		uid: "36b9960b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

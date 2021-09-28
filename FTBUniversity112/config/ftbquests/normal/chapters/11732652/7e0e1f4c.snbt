@@ -1,0 +1,23 @@
+{
+	title: "{ftbuniversity.osmium.title}",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.osmium.subtitle}",
+	text: [
+		"{ftbuniversity.osmium.desc1}",
+		"",
+		"{ftbuniversity.osmium.desc2}"
+	],
+	tasks: [{
+		uid: "8e866254",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}]
+	}],
+	rewards: [{
+		uid: "1c2ef73d",
+		type: "item",
+		item: "mekanismtools:osmiumpaxel"
+	}]
+}

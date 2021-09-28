@@ -1,0 +1,74 @@
+{
+	title: "{ftbuniversity.mekreactor.title}",
+	icon: "mekanismgenerators:reactor",
+	x: 12.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.mekreactor.subtitle}",
+	text: [
+		"{ftbuniversity.mekreactor.desc1}",
+		"",
+		"{ftbuniversity.mekreactor.desc2}",
+		"",
+		"{ftbuniversity.mekreactor.desc3}",
+		"",
+		"{ftbuniversity.mekreactor.desc4}",
+		"",
+		"{ftbuniversity.mekreactor.desc5}",
+		"",
+		"{ftbuniversity.mekreactor.desc6}",
+		"",
+		"{ftbuniversity.mekreactor.desc7}"
+	],
+	dependencies: [
+		"2e9c7790",
+		"eaf5b52a"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ff80f561",
+		type: "item",
+		title: "{ftbuniversity.mekreactor.task}",
+		items: [{
+			item: "mekanismgenerators:reactor 1 1"
+		}]
+	},
+	{
+		uid: "36012f13",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}],
+		count: 3L
+	},
+	{
+		uid: "47699526",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass 1 1"
+		}]
+	},
+	{
+		uid: "7ecc3e88",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "003c39d3",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/mekanism_reactor",
+				display: {
+					color: 3949738
+				},
+				label: "Mekanism Reactor"
+			},
+			Damage: 3s
+		}
+	}]
+}

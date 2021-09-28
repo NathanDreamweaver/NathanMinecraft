@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	description: "{ftbuniversity.clockworkengine.subtitle}",
+	text: [
+		"{ftbuniversity.clockworkengine.desc1}",
+		"",
+		"{ftbuniversity.clockworkengine.desc2}"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "b412adf6",
+		type: "item",
+		items: [{
+			item: "forestry:engine_clockwork"
+		}]
+	}]
+}

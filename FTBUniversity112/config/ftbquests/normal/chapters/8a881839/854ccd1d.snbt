@@ -1,0 +1,21 @@
+{
+	x: 7.5d,
+	y: 4.5d,
+	description: "{ftbuniversity.craftjob.subtitle}",
+	text: [
+		"{ftbuniversity.craftjob.desc1}",
+		"",
+		"{ftbuniversity.craftjob.desc2}"
+	],
+	dependencies: [
+		"cabe9056",
+		"73342d2c"
+	],
+	tasks: [{
+		uid: "fde35674",
+		type: "item",
+		items: [{
+			item: "integratedterminals:part_terminal_crafting_job_item"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+name = "Champions"
+filename = "champions-1.12.2-1.0.11.9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3010/381/champions-1.12.2-1.0.11.9.jar"
+hash-format = "murmur2"
+hash = "3130387994"
+
+[update]
+[update.curseforge]
+file-id = 3010381
+project-id = 307152
+release-channel = "beta"

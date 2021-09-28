@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.simplecharger.title}",
+	x: 5.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.simplecharger.subtitle}",
+	text: [
+		"{ftbuniversity.simplecharger.desc}"
+	],
+	dependencies: [
+		"4b9e4c96"
+	],
+	tasks: [{
+		uid: "85fb96b6",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}]
+}

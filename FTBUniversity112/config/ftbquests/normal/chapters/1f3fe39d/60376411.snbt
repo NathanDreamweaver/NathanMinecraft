@@ -1,0 +1,36 @@
+{
+	title: "{ftbuniversity.progbot.title}",
+	icon: {
+		id: "botania:lexicon",
+		tag: {}
+	},
+	x: 1.5d,
+	y: -2.75d,
+	description: "{ftbuniversity.progbot.subtitle}",
+	text: [
+		"{ftbuniversity.progbot.desc1}",
+		"",
+		"{ftbuniversity.progbot.desc2}",
+		"",
+		"{ftbuniversity.progbot.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "2a7e6285",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8fad0ee6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "botania:flowerbag"
+		}
+	}]
+}

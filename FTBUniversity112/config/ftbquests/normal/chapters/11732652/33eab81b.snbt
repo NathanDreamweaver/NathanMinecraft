@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.logsorter.title}",
+	x: 5.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.logsorter.subtitle}",
+	text: [
+		"{ftbuniversity.logsorter.desc1}",
+		"",
+		"{ftbuniversity.logsorter.desc2}",
+		"{ftbuniversity.logsorter.desc3}",
+		"{ftbuniversity.logsorter.desc4}",
+		"{ftbuniversity.logsorter.desc5}",
+		"{ftbuniversity.logsorter.desc6}",
+		"",
+		"{ftbuniversity.logsorter.desc7}",
+		"",
+		"{ftbuniversity.logsorter.desc8}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8d4fcbca",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 15"
+		}],
+		ignore_nbt: 1b
+	}]
+}

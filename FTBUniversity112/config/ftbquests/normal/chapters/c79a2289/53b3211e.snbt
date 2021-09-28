@@ -1,0 +1,25 @@
+{
+	title: "{ftbuniversity.fluidcanning.title}",
+	x: 5.5d,
+	y: 5.0d,
+	description: "{ftbuniversity.fluidcanning.subtitle}",
+	text: [
+		"{ftbuniversity.fluidcanning.desc1}",
+		"",
+		"{ftbuniversity.fluidcanning.desc2}",
+		"",
+		"{ftbuniversity.fluidcanning.desc3}",
+		"",
+		"{ftbuniversity.fluidcanning.desc4}"
+	],
+	dependencies: [
+		"0861d32f"
+	],
+	tasks: [{
+		uid: "82588f85",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 42"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 1.5d,
+	y: 3.125d,
+	description: "{ftbuniversity.mattercannon.subtitle}",
+	text: [
+		"{ftbuniversity.mattercannon.desc1}",
+		"",
+		"{ftbuniversity.mattercannon.desc2}",
+		"",
+		"{ftbuniversity.mattercannon.desc3}",
+		"",
+		"{ftbuniversity.mattercannon.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d7f2ceff",
+		"2af7f552",
+		"fadf0198"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "3b370679",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:matter_cannon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

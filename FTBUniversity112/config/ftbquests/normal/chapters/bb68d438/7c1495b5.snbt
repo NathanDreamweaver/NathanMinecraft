@@ -1,0 +1,28 @@
+{
+	title: "{ftbuniversity.cellworkbench.title}",
+	x: 3.0d,
+	y: 3.0d,
+	description: "{ftbuniversity.cellworkbench.subtitle}",
+	text: [
+		"{ftbuniversity.cellworkbench.desc1}",
+		"",
+		"{ftbuniversity.cellworkbench.desc2}",
+		"",
+		"{ftbuniversity.cellworkbench.desc3}",
+		"",
+		"{ftbuniversity.cellworkbench.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bb94141c",
+		"21ef680e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8d79a44",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:cell_workbench"
+		}]
+	}]
+}

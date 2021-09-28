@@ -1,0 +1,35 @@
+{
+	title: "{ftbuniversity.slicesplice.title}",
+	x: 0.5d,
+	y: 4.0d,
+	description: "{ftbuniversity.slicesplice.subtitle}",
+	text: [
+		"{ftbuniversity.slicesplice.desc1}",
+		"",
+		"{ftbuniversity.slicesplice.desc2}"
+	],
+	dependencies: [
+		"0afe3fc4"
+	],
+	tasks: [{
+		uid: "752f7a36",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e0a8b8a2",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2,
+					id: 42
+				}]
+			}
+		}
+	}]
+}

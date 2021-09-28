@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: -4.0d,
+	description: "{ftbuniversity.mekspeed.subtitle}",
+	text: [
+		"{ftbuniversity.mekspeed.desc1}",
+		"",
+		"{ftbuniversity.mekspeed.desc2}",
+		"",
+		"{ftbuniversity.mekspeed.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	tasks: [{
+		uid: "bc55e2b0",
+		type: "item",
+		items: [{
+			item: "mekanism:speedupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "4ce0d1a9",
+		type: "item",
+		item: "mekanism:speedupgrade",
+		count: 4
+	}]
+}

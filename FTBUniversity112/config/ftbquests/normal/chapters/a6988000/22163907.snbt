@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.arcanegrapple.title}",
+	x: -2.8023809523809504d,
+	y: -0.5023809523809533d,
+	description: "{ftbuniversity.arcanegrapple.subtitle}",
+	text: [
+		"{ftbuniversity.arcanegrapple.desc1}",
+		"",
+		"{ftbuniversity.arcanegrapple.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c31b9cbc"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "41c07118",
+		type: "item",
+		items: [{
+			item: "thaumcraft:grapple_gun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

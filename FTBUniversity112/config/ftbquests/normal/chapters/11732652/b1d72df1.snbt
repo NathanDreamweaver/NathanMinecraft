@@ -1,0 +1,64 @@
+{
+	title: "{ftbuniversity.universalcables.title}",
+	icon: {
+		id: "mekanism:transmitter",
+		tag: {
+			tier: 0
+		}
+	},
+	x: 7.5d,
+	y: -3.5d,
+	description: "{ftbuniversity.universalcables.subtitle}",
+	text: [
+		"{ftbuniversity.universalcables.desc1}",
+		"",
+		"{ftbuniversity.universalcables.desc2}",
+		"",
+		"{ftbuniversity.universalcables.desc3}",
+		"",
+		"{ftbuniversity.universalcables.desc4}"
+	],
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "ea846de1",
+		type: "item",
+		title: "{ftbuniversity.universalcables.task}",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6ea015d8",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		count: 16
+	}]
+}

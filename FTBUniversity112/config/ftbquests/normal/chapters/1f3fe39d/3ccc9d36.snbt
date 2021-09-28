@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.progintd.title}",
+	icon: "integrateddynamics:squeezer",
+	x: -1.75d,
+	y: -2.25d,
+	description: "{ftbuniversity.progintd.subtitle}",
+	text: [
+		"{ftbuniversity.progintd.desc1}",
+		"",
+		"{ftbuniversity.progintd.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "92803ec1",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "243d71bf",
+		type: "item",
+		item: "integrateddynamics:on_the_dynamics_of_integration"
+	},
+	{
+		uid: "acd57ede",
+		type: "item",
+		item: "integrateddynamics:menril_sapling",
+		count: 6
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: 2.25d,
+	y: 6.0d,
+	description: "{ftbuniversity.rftelevatorscreen.subtitle}",
+	text: [
+		"{ftbuniversity.rftelevatorscreen.desc1}",
+		"",
+		"{ftbuniversity.rftelevatorscreen.desc2}",
+		"",
+		"{ftbuniversity.rftelevatorscreen.desc3}",
+		"",
+		"{ftbuniversity.rftelevatorscreen.desc4}"
+	],
+	dependencies: [
+		"7592d239"
+	],
+	hide: true,
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "3c086d40",
+		type: "item",
+		items: [{
+			item: "rftools:elevator_button_module"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad58c0d7",
+		type: "item",
+		team_reward: true,
+		item: "rftools:elevator_button_module"
+	},
+	{
+		uid: "66e8a37b",
+		type: "item",
+		team_reward: true,
+		item: "rftools:screen",
+		count: 2
+	}]
+}

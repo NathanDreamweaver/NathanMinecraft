@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	description: "{ftbuniversity.gendna.subtitle}",
+	text: [
+		"{ftbuniversity.gendna.desc}"
+	],
+	dependencies: [
+		"681fceaf"
+	],
+	tasks: [{
+		uid: "32384d8f",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:dnaextractor"
+		}]
+	}]
+}

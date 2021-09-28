@@ -1,0 +1,24 @@
+{
+	x: 13.0d,
+	y: -2.5d,
+	description: "{ftbuniversity.mekelecbow.subtitle}",
+	text: [
+		"{ftbuniversity.mekelecbow.desc1}",
+		"",
+		"{ftbuniversity.mekelecbow.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"466ead72"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a21f656d",
+		type: "item",
+		items: [{
+			item: "mekanism:electricbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.iecoresample.title}",
+	x: 11.0d,
+	y: -0.5d,
+	description: "{ftbuniversity.iecoresample.subtitle}",
+	text: [
+		"{ftbuniversity.iecoresample.desc1}",
+		"",
+		"{ftbuniversity.iecoresample.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"60216f1b"
+	],
+	tasks: [{
+		uid: "36d2ab9b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	}]
+}

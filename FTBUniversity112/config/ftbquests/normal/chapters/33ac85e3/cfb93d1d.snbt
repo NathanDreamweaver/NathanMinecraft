@@ -1,0 +1,116 @@
+{
+	title: "{ftbuniversity.observatory.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/observatory.png"
+		}
+	},
+	x: -2.75d,
+	y: -5.0d,
+	description: "{ftbuniversity.observatory.subtitle}",
+	text: [
+		"{ftbuniversity.observatory.desc1}",
+		"",
+		"{ftbuniversity.observatory.desc2}",
+		"",
+		"{ftbuniversity.observatory.desc3}",
+		"",
+		"{ftbuniversity.observatory.desc4}",
+		"",
+		"{ftbuniversity.observatory.desc5}",
+		"",
+		"{ftbuniversity.observatory.desc6}",
+		"",
+		"{ftbuniversity.observatory.desc7}"
+	],
+	dependencies: [
+		"d123d137"
+	],
+	size: 0.5d,
+	min_width: 350,
+	tasks: [{
+		uid: "59c4a928",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:observatory"
+		}]
+	},
+	{
+		uid: "5ef1ef40",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 21L
+	},
+	{
+		uid: "feaf9aa8",
+		type: "item",
+		title: "Any stone",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 45L
+	},
+	{
+		uid: "59149a76",
+		type: "item",
+		title: "{ftbuniversity.motors}",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "79157f4f",
+		type: "item",
+		title: "{ftbuniversity.plugs}",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		},
+		{
+			item: "libvulpes:ic2plug"
+		}]
+	},
+	{
+		uid: "b6b47af9",
+		type: "item",
+		title: "{ftbuniversity.observatory.task}",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:glass"
+		},
+		{
+			item: "advancedrocketry:blocklens"
+		}],
+		count: 3L
+	},
+	{
+		uid: "c71d4446",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:asteroidchip"
+		}]
+	}],
+	rewards: [{
+		uid: "9f75a338",
+		type: "choice",
+		table: 21
+	}]
+}

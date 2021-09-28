@@ -1,0 +1,59 @@
+{
+	title: "{ftbuniversity.blhgen.title}",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftbuniversity:textures/black_hole_generator.png"
+		}
+	},
+	x: 1.75d,
+	y: -6.0d,
+	shape: "circle",
+	description: "{ftbuniversity.blhgen.subtitle}",
+	text: [
+		"{ftbuniversity.blhgen.desc1}",
+		"",
+		"{ftbuniversity.blhgen.desc2}",
+		"",
+		"{ftbuniversity.blhgen.desc3}",
+		"",
+		"{ftbuniversity.blhgen.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4647eca4"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "1b9724ed",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:blackholegenerator"
+		}]
+	},
+	{
+		uid: "80b1cd69",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:advstructuremachine"
+		}],
+		count: 7L
+	},
+	{
+		uid: "a4c8c0fa",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "fe8b3516",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:forgepoweroutput"
+		}]
+	}]
+}

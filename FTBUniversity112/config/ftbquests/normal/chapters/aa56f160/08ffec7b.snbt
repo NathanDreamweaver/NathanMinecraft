@@ -1,0 +1,49 @@
+{
+	title: "{ftbuniversity.darktools.title}",
+	icon: "enderio:item_dark_steel_sword",
+	x: 1.5d,
+	y: 7.0d,
+	description: "{ftbuniversity.darktools.subtitle}",
+	text: [
+		"{ftbuniversity.darktools.desc1}",
+		"",
+		"{ftbuniversity.darktools.desc2}",
+		"",
+		"{ftbuniversity.darktools.desc3}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"c0d58a95",
+		"c150f646",
+		"0564c50b"
+	],
+	tasks: [{
+		uid: "891ed67e",
+		type: "item",
+		title: "{ftbuniversity.darktools.task}",
+		items: [{
+			item: "enderio:item_dark_steel_sword"
+		},
+		{
+			item: "enderio:item_dark_steel_pickaxe"
+		},
+		{
+			item: "enderio:item_dark_steel_axe"
+		},
+		{
+			item: "enderio:item_dark_steel_bow"
+		},
+		{
+			item: "enderio:item_dark_steel_shears"
+		},
+		{
+			item: "enderio:item_dark_steel_crook"
+		},
+		{
+			item: "enderio:item_dark_steel_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	title: "{ftbuniversity.thaumresearch.title}",
+	icon: "thaumcraft:scribing_tools",
+	x: 1.1829931972789751d,
+	y: -0.7387755102040927d,
+	description: "{ftbuniversity.thaumresearch.subtitle}",
+	text: [
+		"{ftbuniversity.thaumresearch.desc1}",
+		"",
+		"{ftbuniversity.thaumresearch.desc2}",
+		"",
+		"{ftbuniversity.thaumresearch.desc3}",
+		"",
+		"{ftbuniversity.thaumresearch.desc4}",
+		"",
+		"{ftbuniversity.thaumresearch.desc5}",
+		"",
+		"{ftbuniversity.thaumresearch.desc6}",
+		"",
+		"{ftbuniversity.thaumresearch.desc7}",
+		"",
+		"{ftbuniversity.thaumresearch.desc8}",
+		"",
+		"{ftbuniversity.thaumresearch.desc9}",
+		"",
+		"{ftbuniversity.thaumresearch.desc10}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"520d0b25"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "955fee3d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	},
+	{
+		uid: "85c7fbf2",
+		type: "item",
+		title: "{ftbuniversity.thaumresearch.task}",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		},
+		{
+			id: "botania:manainkwell",
+			tag: {},
+			Damage: 150s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "489e1a07",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 6
+	},
+	{
+		uid: "0eacc2a6",
+		type: "item",
+		item: "minecraft:dye",
+		count: 6
+	}]
+}

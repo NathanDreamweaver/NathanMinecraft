@@ -1,0 +1,20 @@
+{
+	title: "{ftbuniversity.mmmmmmmmmmmm.title}",
+	x: -1.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.mmmmmmmmmmmm.subtitle}",
+	text: [
+		"{ftbuniversity.mmmmmmmmmmmm.desc1}",
+		"",
+		"{ftbuniversity.mmmmmmmmmmmm.desc2}",
+		"",
+		"{ftbuniversity.mmmmmmmmmmmm.desc3}"
+	],
+	tasks: [{
+		uid: "179d6555",
+		type: "item",
+		items: [{
+			item: "testdummy:dummy"
+		}]
+	}]
+}

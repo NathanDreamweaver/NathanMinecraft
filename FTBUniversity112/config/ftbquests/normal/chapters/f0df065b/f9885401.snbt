@@ -1,0 +1,46 @@
+{
+	title: "{ftbuniversity.exu2screen.title}",
+	x: 2.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.exu2screen.subtitle}",
+	text: [
+		"{ftbuniversity.exu2screen.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"79fadc0e"
+	],
+	tasks: [{
+		uid: "ca009fa2",
+		type: "item",
+		items: [{
+			item: "extrautils2:screen"
+		}]
+	}],
+	rewards: [{
+		uid: "32cbc379",
+		type: "item",
+		item: {
+			id: "extrautils2:screen",
+			tag: {
+				BlockEntityTag: {
+					Active: 1,
+					ForgeCaps: {
+						"nuclearcraft:capability_default_radiation_resistance": {
+							radiationResistance: 0.0d
+						}
+					},
+					Frequency: -1671716545,
+					id: "xu2:tilescreen",
+					image_id: "BCKlYFQ"
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					],
+					Name: "BCKlYFQ"
+				}
+			}
+		}
+	}]
+}

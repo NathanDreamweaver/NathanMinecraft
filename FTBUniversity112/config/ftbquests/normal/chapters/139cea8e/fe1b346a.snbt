@@ -1,0 +1,47 @@
+{
+	title: "Ender IO",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyVariant: "neon",
+			TrophyColorGreen: 205,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "enderio:item_yeta_wrench",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 52,
+			TrophyName: "Ender-IO-ian",
+			TrophyColorRed: 65,
+			TrophyEarnedAt: 1596487390L
+		}
+	},
+	x: 3.5d,
+	y: -2.0d,
+	description: "{ftbuniversity.eiotrophy.subtitle}",
+	dependencies: [
+		"aa56f160"
+	],
+	rewards: [{
+		uid: "1602f7c2",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "enderio:item_yeta_wrench",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 52,
+				TrophyName: "Ender",
+				TrophyColorRed: 65
+			}
+		}
+	}]
+}

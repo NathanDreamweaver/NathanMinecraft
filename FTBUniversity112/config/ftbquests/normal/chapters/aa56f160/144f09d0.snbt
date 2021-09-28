@@ -1,0 +1,28 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	description: "{ftbuniversity.powermonitor.subtitle}",
+	text: [
+		"{ftbuniversity.powermonitor.desc1}",
+		"",
+		"{ftbuniversity.powermonitor.desc2}",
+		"",
+		"{ftbuniversity.powermonitor.desc3}"
+	],
+	dependencies: [
+		"ae7bcf05"
+	],
+	tasks: [{
+		uid: "80c217b7",
+		type: "item",
+		items: [{
+			item: "enderio:block_power_monitor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9d872f5",
+		type: "item",
+		item: "enderio:block_gauge"
+	}]
+}

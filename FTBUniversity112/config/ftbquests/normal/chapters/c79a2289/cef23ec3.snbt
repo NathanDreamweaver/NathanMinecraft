@@ -1,0 +1,33 @@
+{
+	icon: "ic2:te 1 18",
+	x: 10.5d,
+	y: -5.5d,
+	description: "{ftbuniversity.ic2steamturbine.subtitle}",
+	text: [
+		"{ftbuniversity.ic2steamturbine.desc1}",
+		"",
+		"{ftbuniversity.ic2steamturbine.desc2}",
+		"",
+		"{ftbuniversity.ic2steamturbine.desc3}",
+		"",
+		"{ftbuniversity.ic2steamturbine.desc4}"
+	],
+	dependencies: [
+		"97fd3a91"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "3aa7a3ce",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 18"
+		}]
+	},
+	{
+		uid: "c40d2cf7",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 36"
+		}]
+	}]
+}

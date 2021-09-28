@@ -1,0 +1,31 @@
+{
+	title: "{ftbuniversity.mekcolors.title}",
+	icon: "minecraft:dye 1 5",
+	x: 1.25d,
+	y: 1.5d,
+	description: "{ftbuniversity.mekcolors.subtitle}",
+	text: [
+		"{ftbuniversity.mekcolors.desc1}",
+		"",
+		"{ftbuniversity.mekcolors.desc2}",
+		"",
+		"{ftbuniversity.mekcolors.desc3}",
+		"",
+		"{ftbuniversity.mekcolors.desc4}",
+		"",
+		"{ftbuniversity.mekcolors.desc5}",
+		"",
+		"{ftbuniversity.mekcolors.desc6}",
+		"",
+		"{ftbuniversity.mekcolors.desc7}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d9cbca5"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "d3b34555",
+		type: "checkmark"
+	}]
+}

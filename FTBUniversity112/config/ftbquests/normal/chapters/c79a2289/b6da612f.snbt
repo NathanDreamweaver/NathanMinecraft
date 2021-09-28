@@ -1,0 +1,38 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	description: "{ftbuniversity.ic2blastfurnace.subtitle}",
+	text: [
+		"{ftbuniversity.ic2blastfurnace.desc1}",
+		"",
+		"{ftbuniversity.ic2blastfurnace.desc2}"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 1,
+	dependencies: [
+		"4efbabaf",
+		"fe6f4482",
+		"7a7b48d5"
+	],
+	tasks: [{
+		uid: "0be33a25",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "9fef51cf",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2air",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	}]
+}

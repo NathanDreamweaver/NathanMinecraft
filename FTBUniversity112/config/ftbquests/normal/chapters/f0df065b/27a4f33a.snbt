@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	description: "{ftbuniversity.exu2survival.subtitle}",
+	text: [
+		"{ftbuniversity.exu2survival.desc}",
+		"",
+		"{ftbuniversity.exu2gensspeed.desc}"
+	],
+	tasks: [{
+		uid: "332baa43",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_survival"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "39134881",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	}]
+}

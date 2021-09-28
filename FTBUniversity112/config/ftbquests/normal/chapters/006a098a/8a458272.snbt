@@ -1,0 +1,32 @@
+{
+	title: "{ftbuniversity.etsolar1.title}",
+	icon: "environmentaltech:solar_cont_1",
+	x: 3.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.etsolar1.subtitle}",
+	text: [
+		"{ftbuniversity.etsolar1.desc1}",
+		"",
+		"{ftbuniversity.etsolar1.desc2}",
+		"",
+		"{ftbuniversity.etsolar1.desc3}",
+		"",
+		"{ftbuniversity.etsolar1.desc4}",
+		"",
+		"{ftbuniversity.etechmodifiers}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bcb8aee"
+	],
+	tasks: [{
+		uid: "b2e536ab",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

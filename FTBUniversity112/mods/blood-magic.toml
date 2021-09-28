@@ -1,0 +1,14 @@
+name = "Blood Magic "
+filename = "BloodMagic-1.12.2-2.4.3-105.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2822/288/BloodMagic-1.12.2-2.4.3-105.jar"
+hash-format = "murmur2"
+hash = "4036556600"
+
+[update]
+[update.curseforge]
+file-id = 2822288
+project-id = 224791
+release-channel = "beta"

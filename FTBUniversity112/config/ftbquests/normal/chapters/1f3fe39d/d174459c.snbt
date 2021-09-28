@@ -1,0 +1,62 @@
+{
+	title: "{ftbuniversity.progeio.title}",
+	icon: "enderio:block_stirling_generator",
+	x: 2.5d,
+	y: -1.5d,
+	description: "{ftbuniversity.progeio.subtitle}",
+	text: [
+		"{ftbuniversity.progeio.desc1}",
+		"",
+		"{ftbuniversity.progeio.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e4cf44c"
+	],
+	tasks: [{
+		uid: "4234d9e6",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0bcd033b",
+		type: "item",
+		item: {
+			id: "minecraft:flint_and_steel",
+			tag: {
+				ench: [{
+					lvl: 3,
+					id: 34
+				}],
+				RepairCost: 1
+			}
+		}
+	},
+	{
+		uid: "cdf95d83",
+		type: "item",
+		title: "{tile.bedrock.name}™",
+		icon: "minecraft:bedrock",
+		item: {
+			id: "enderio:block_painted_stone",
+			tag: {
+				"enderio:original": {
+					id: "minecraft:cobblestone",
+					Count: 1,
+					Damage: 0
+				},
+				RepairCost: 0,
+				display: {
+					Name: "No refunds"
+				},
+				"enderio:paint": {
+					Name: "minecraft:bedrock"
+				},
+				"enderio:paintsrc": {
+					id: "minecraft:bedrock",
+					Count: 1,
+					Damage: 0
+				}
+			}
+		}
+	}]
+}

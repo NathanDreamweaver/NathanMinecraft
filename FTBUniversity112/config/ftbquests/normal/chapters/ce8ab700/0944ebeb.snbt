@@ -1,0 +1,38 @@
+{
+	title: "{ftbuniversity.compactmachines3.title}",
+	icon: "compactmachines3:tunneltool",
+	x: 2.5d,
+	y: 0.0d,
+	description: "{ftbuniversity.compactmachines3.subtitle}",
+	text: [
+		"{ftbuniversity.compactmachines3.desc1}",
+		"",
+		"{ftbuniversity.compactmachines3.desc2}",
+		"",
+		"{ftbuniversity.compactmachines3.desc3}"
+	],
+	dependencies: [
+		"03be9f27"
+	],
+	tasks: [{
+		uid: "04549992",
+		type: "item",
+		title: "{ftbuniversity.compactmachines3.task}",
+		items: [{
+			item: "compactmachines3:tunneltool"
+		},
+		{
+			item: "compactmachines3:redstonetunneltool"
+		}]
+	}],
+	rewards: [{
+		uid: "8fa6d0d5",
+		type: "item",
+		item: "compactmachines3:redstonetunneltool"
+	},
+	{
+		uid: "66baadbb",
+		type: "item",
+		item: "compactmachines3:tunneltool"
+	}]
+}

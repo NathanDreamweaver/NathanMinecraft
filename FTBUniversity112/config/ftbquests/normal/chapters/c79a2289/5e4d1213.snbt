@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.ic2solar.title}",
+	x: 1.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.ic2solar.subtitle}",
+	text: [
+		"{ftbuniversity.ic2solar.desc1}",
+		"",
+		"{ftbuniversity.ic2solar.desc2}"
+	],
+	dependencies: [
+		"90efc992"
+	],
+	tasks: [{
+		uid: "c7c53abf",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "86d0563b",
+		type: "item",
+		item: "minecraft:double_plant"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{ftbuniversity.metoggle.title}",
+	icon: "appliedenergistics2:part 1 80",
+	x: 8.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.metoggle.subtitle}",
+	text: [
+		"{ftbuniversity.metoggle.desc1}",
+		"",
+		"{ftbuniversity.metoggle.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fadf0198"
+	],
+	tasks: [{
+		uid: "5f3b5cdd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 80"
+		},
+		{
+			item: "appliedenergistics2:part 1 100"
+		}]
+	}]
+}

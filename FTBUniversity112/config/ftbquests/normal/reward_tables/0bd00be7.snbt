@@ -1,0 +1,22 @@
+{
+	title: "{ftbuniversity.engineersworkbench.rewards}",
+	loot_size: 1,
+	rewards: [{
+		title: "{ftbuniversity.engineersworkbench.reward1}",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "specialBullet"
+			}
+		}
+	},
+	{
+		title: "{ftbuniversity.engineersworkbench.reward2}",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "electrode"
+			}
+		}
+	}]
+}

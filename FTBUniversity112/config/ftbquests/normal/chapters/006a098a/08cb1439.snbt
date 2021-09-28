@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	description: "{ftbuniversity.etsolar5.subtitle}",
+	text: [
+		"{ftbuniversity.etsolar5.desc}",
+		"",
+		"{ftbuniversity.etechmodifiers}",
+		"",
+		"{ftbuniversity.etechreadguide}"
+	],
+	dependencies: [
+		"37ac97d0",
+		"8d4ea1a3"
+	],
+	tasks: [{
+		uid: "d7846930",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

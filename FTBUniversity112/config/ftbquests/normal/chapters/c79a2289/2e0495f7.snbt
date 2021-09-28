@@ -1,0 +1,24 @@
+{
+	title: "{ftbuniversity.mfsu.title}",
+	x: 14.5d,
+	y: 1.0d,
+	description: "{ftbuniversity.mfsu.subtitle}",
+	text: [
+		"{ftbuniversity.mfsu.desc1}",
+		"",
+		"{ftbuniversity.mfsu.desc2}"
+	],
+	dependencies: [
+		"cce98914"
+	],
+	tasks: [{
+		uid: "714b0bfc",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 75s
+		}],
+		ignore_nbt: 1b
+	}]
+}

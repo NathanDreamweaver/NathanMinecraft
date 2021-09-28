@@ -1,0 +1,28 @@
+{
+	x: 7.75d,
+	y: 4.75d,
+	description: "{ftbuniversity.magnetcard.subtitle}",
+	text: [
+		"{ftbuniversity.magnetcard.desc1}",
+		"",
+		"{ftbuniversity.magnetcard.desc2}",
+		"",
+		"{ftbuniversity.magnetcard.desc3}"
+	],
+	dependencies: [
+		"18514cd0"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "69778cc2",
+		type: "item",
+		items: [{
+			id: "wct:magnet_card",
+			tag: {
+				MagnetMode: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

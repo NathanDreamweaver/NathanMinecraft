@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: -2.5d,
+	description: "{ftbuniversity.levelemitter.subtitle}",
+	text: [
+		"{ftbuniversity.levelemitter.desc1}",
+		"",
+		"{ftbuniversity.levelemitter.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fadf0198"
+	],
+	tasks: [{
+		uid: "b19d16fe",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 280"
+		}]
+	}]
+}

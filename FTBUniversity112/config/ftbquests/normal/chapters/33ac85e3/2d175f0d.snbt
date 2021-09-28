@@ -1,0 +1,39 @@
+{
+	title: "{ftbuniversity.sscontrollers.title}",
+	icon: "advancedrocketry:altitudecontroller",
+	x: 1.0d,
+	y: -7.0d,
+	description: "{ftbuniversity.sscontrollers.subtitle}",
+	text: [
+		"{ftbuniversity.sscontrollers.desc1}",
+		"",
+		"{ftbuniversity.sscontrollers.desc2}",
+		"",
+		"{ftbuniversity.sscontrollers.desc3}"
+	],
+	dependencies: [
+		"7adea7b7"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "08350a8b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:orientationcontroller"
+		}]
+	},
+	{
+		uid: "7f031e5e",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:gravitycontroller"
+		}]
+	},
+	{
+		uid: "d1f46e2b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:altitudecontroller"
+		}]
+	}]
+}

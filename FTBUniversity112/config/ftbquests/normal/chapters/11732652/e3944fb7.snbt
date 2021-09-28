@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: 3.5d,
+	description: "{ftbuniversity.rotarycondens.subtitle}",
+	text: [
+		"{ftbuniversity.rotarycondens.desc1}",
+		"",
+		"{ftbuniversity.rotarycondens.desc2}"
+	],
+	dependencies: [
+		"09fecf03"
+	],
+	tasks: [{
+		uid: "ed856365",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

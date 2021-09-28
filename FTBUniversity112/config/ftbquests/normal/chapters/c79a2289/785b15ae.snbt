@@ -1,0 +1,22 @@
+{
+	x: 10.5d,
+	y: -6.5d,
+	description: "{ftbuniversity.ic2condenser.subtitle}",
+	text: [
+		"{ftbuniversity.ic2condenser.desc1}",
+		"",
+		"{ftbuniversity.ic2condenser.desc2}",
+		"",
+		"{ftbuniversity.ic2condenser.desc3}"
+	],
+	dependencies: [
+		"cef23ec3"
+	],
+	tasks: [{
+		uid: "f53d185c",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 27"
+		}]
+	}]
+}
