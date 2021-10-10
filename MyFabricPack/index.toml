@@ -245,6 +245,11 @@ hash = "02fc700e08c9a2496f6a70c3c2eca206284c87f1d3b64ffa9c5a4cb74482d1b5"
 metafile = true
 
 [[files]]
+file = "mods/gotta-climb-fast.toml"
+hash = "e7103d17679c4b42a43d04ea2052ac920f1bf0f1d1f0c366385354233a0de2db"
+metafile = true
+
+[[files]]
 file = "mods/guardians-galore.toml"
 hash = "c4a8b15b6fc40ae21ce41d2020202f84ceca19ef4da6f3d1906973f4daa0ee88"
 metafile = true
