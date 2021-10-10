@@ -1,0 +1,14 @@
+name = "Mighty Mangoes"
+filename = "mighty_mangoes-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3349/937/mighty_mangoes-1.0.5.jar"
+hash-format = "murmur2"
+hash = "1311714899"
+
+[update]
+[update.curseforge]
+file-id = 3349937
+project-id = 397519
+release-channel = "beta"

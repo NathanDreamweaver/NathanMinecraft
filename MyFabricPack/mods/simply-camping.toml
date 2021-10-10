@@ -1,0 +1,14 @@
+name = "Simply Camping"
+filename = "camping-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3467/306/camping-1.0.1.jar"
+hash-format = "murmur2"
+hash = "3802854217"
+
+[update]
+[update.curseforge]
+file-id = 3467306
+project-id = 521545
+release-channel = "beta"

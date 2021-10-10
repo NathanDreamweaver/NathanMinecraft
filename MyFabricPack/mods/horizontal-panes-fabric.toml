@@ -1,0 +1,14 @@
+name = "Horizontal Panes [FABRIC]"
+filename = "1.17.1-horizontalpanes-fabric-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3449/107/1.17.1-horizontalpanes-fabric-1.1.5.jar"
+hash-format = "murmur2"
+hash = "78948192"
+
+[update]
+[update.curseforge]
+file-id = 3449107
+project-id = 428560
+release-channel = "beta"

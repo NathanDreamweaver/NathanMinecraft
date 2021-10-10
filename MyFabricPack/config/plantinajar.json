@@ -1,0 +1,8 @@
+{
+  "dropItems": true,
+  "growthTime": 30,
+  "perItemGrowthTimes": {
+    "the_aether:rose_wisteria_sapling": -1
+  },
+  "growthModifierRegexPatterns": {}
+}

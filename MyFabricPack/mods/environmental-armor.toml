@@ -1,0 +1,14 @@
+name = "Origins - Environmental Armor"
+filename = "EnvironmentalArmor-1.17.1-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3393/86/EnvironmentalArmor-1.17.1-1.4.0.jar"
+hash-format = "murmur2"
+hash = "2019864045"
+
+[update]
+[update.curseforge]
+file-id = 3393086
+project-id = 452468
+release-channel = "beta"

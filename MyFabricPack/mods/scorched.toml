@@ -1,0 +1,14 @@
+name = "Scorch (Fabric)"
+filename = "scorch-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3455/340/scorch-1.1.2.jar"
+hash-format = "murmur2"
+hash = "965809136"
+
+[update]
+[update.curseforge]
+file-id = 3455340
+project-id = 496387
+release-channel = "beta"

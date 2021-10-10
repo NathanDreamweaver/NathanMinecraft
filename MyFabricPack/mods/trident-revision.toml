@@ -1,0 +1,14 @@
+name = "Trident Revision"
+filename = "trident_revision-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3454/398/trident_revision-1.0.3.jar"
+hash-format = "murmur2"
+hash = "236209856"
+
+[update]
+[update.curseforge]
+file-id = 3454398
+project-id = 495014
+release-channel = "beta"

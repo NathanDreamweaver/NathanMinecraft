@@ -1,0 +1,14 @@
+name = "Mermod [FABRIC]"
+filename = "mermod-1.9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3482/703/mermod-1.9.jar"
+hash-format = "murmur2"
+hash = "2312263427"
+
+[update]
+[update.curseforge]
+file-id = 3482703
+project-id = 463248
+release-channel = "beta"

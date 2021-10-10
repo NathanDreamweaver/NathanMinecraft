@@ -1,0 +1,14 @@
+name = "Craft the Totem of Undying [FORGE & FABRIC]"
+filename = "CraftableTotemOfUndying-1.17.1-1.0.0-[FABRIC].jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3459/525/CraftableTotemOfUndying-1.17.1-1.0.0-[FABRIC].jar"
+hash-format = "murmur2"
+hash = "2261423443"
+
+[update]
+[update.curseforge]
+file-id = 3459525
+project-id = 451563
+release-channel = "beta"
