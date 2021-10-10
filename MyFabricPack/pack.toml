@@ -3,7 +3,7 @@ name = "MyFabricPack"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e2a2b796466f506e73207ae3c52c10f9b97ab60028625108e572d6a4441c3ad7"
+hash = "b96f8fdf3f8e32de673b373e8752f8135ae50833a0bd81ddf86e76132bff8cb5"
 
 [versions]
 fabric = "0.11.6"

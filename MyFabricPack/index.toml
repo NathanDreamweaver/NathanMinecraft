@@ -445,11 +445,6 @@ hash = "03c22ecdc673851445445837447f489e0126718b3c299c2542920ef847ec2e2d"
 metafile = true
 
 [[files]]
-file = "mods/simply-camping.toml"
-hash = "d50977571cac2c9e2694fc1ecdf086a687c1b6064a2089f53f3a81464864c144"
-metafile = true
-
-[[files]]
 file = "mods/skin-layers-3d.toml"
 hash = "d100d9d3b8e8a2f157e34910152ca3ae5cffccbd544a9deae6301dd44b640266"
 metafile = true
