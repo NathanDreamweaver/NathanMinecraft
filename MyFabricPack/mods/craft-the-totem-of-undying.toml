@@ -1,9 +1,9 @@
 name = "Craft the Totem of Undying [FORGE & FABRIC]"
-filename = "CraftableTotemOfUndying-1.17.1-1.0.0-[FABRIC].jar"
+filename = "CraftableTotemOfUndying-1.17.1-1.0.0-FABRIC.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3459/525/CraftableTotemOfUndying-1.17.1-1.0.0-[FABRIC].jar"
+url = "https://edge.forgecdn.net/files/3459/525/CraftableTotemOfUndying-1.17.1-1.0.0-%5BFABRIC%5D.jar"
 hash-format = "murmur2"
 hash = "2261423443"
 
