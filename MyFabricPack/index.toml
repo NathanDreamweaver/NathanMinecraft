@@ -145,16 +145,6 @@ hash = "bd9cbc86c3d4fd840140c536542dcd06d437e3aae5fddfb966a3d0de4d70e2ef"
 metafile = true
 
 [[files]]
-file = "mods/craft-saddles.toml"
-hash = "bff74e35453168eb003643d722de9cf41c391fa53381c14eef37b84de81620df"
-metafile = true
-
-[[files]]
-file = "mods/craft-the-totem-of-undying.toml"
-hash = "4393d5d02db84e597df197f3545e7f1d360867d0f1bd0f8378f8e005844079f1"
-metafile = true
-
-[[files]]
 file = "mods/croptopia-fabric.toml"
 hash = "444bf0f1bb1486795412066abe44b9766f1f360016aa36376be46dabf1245efd"
 metafile = true
